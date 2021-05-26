@@ -11,7 +11,7 @@ It is the simplest Chinese input method in existence.
 All strokes are classified into 5 types, entered via keypad:
 
 | \# | Stroke | Type | Comment |
-| - | - | - | - |
+| -: | :-: | - | - |
 | 1 | ㇐ | 橫 Horizontal | Includes rises (提) etc. |
 | 2 | ㇑ | 豎 Vertical | |
 | 3 | ㇒ | 撇 Throw | |
