@@ -24,3 +24,19 @@ All strokes are classified into 5 types, entered via keypad:
 
 [Stroke Input Method (筆畫輸入法)]: https://zh.wikipedia.org/wiki/筆畫輸入法
 [dumbphone]: dumbphone-stroke-input.jpg
+
+
+## Data licensing
+
+1. The data sets in this repository are licensed
+   under the Open Government Data License, version 1.0,
+   being sourced from:
+
+   國家發展委員會 (2015), CNS11643中文標準交換碼全字庫(簡稱全字庫) 2015-02-01. <br>
+   <<https://data.gov.tw/dataset/5961>>
+
+2. The "Open Data" is published under the Open Government Data License;
+   "Users" can make use of it when complying with its terms.
+
+3. The Open Government Data License can be viewed
+   at <<https://data.gov.tw/license>>.
