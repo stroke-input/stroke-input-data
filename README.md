@@ -2,6 +2,8 @@
 
 Data set for the [Stroke Input Method (筆畫輸入法)] in Chinese.
 
+(For when I get around to writing a Stroke Input Method app some day.)
+
 
 ## Stroke Input Method
 
