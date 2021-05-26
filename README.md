@@ -32,7 +32,7 @@ All strokes are classified into 5 types, entered via keypad:
    under the Open Government Data License, version 1.0,
    being sourced from:
 
-   國家發展委員會 (2015), CNS11643中文標準交換碼全字庫(簡稱全字庫) 2015-02-01. <br>
+   國家發展委員會 (2015), CNS11643中文標準交換碼全字庫(簡稱全字庫) 110年3月30日更新. <br>
    <<https://data.gov.tw/dataset/5961>>
 
 2. The "Open Data" is published under the Open Government Data License;
