@@ -26,6 +26,18 @@ All strokes are classified into 5 types, entered via keypad:
 [dumbphone]: dumbphone-stroke-input.jpg
 
 
+## Raw data sets
+
+The raw data sets were obtained by:
+
+1. Navigating to <<https://data.gov.tw/dataset/5961>>
+2. Downloading `Open_Data.zip` and extracting it
+3. Copying the following to `raw/`:
+   - `Properties/CNS_strokes_sequence.txt`: (CNS code, stroke sequence) pairs
+   - `MapingTables/Unicode/*` [sic]: (CNS code, unicode) pairs
+4. Fixing the missing newline at the end of each file
+
+
 ## Data licensing
 
 1. The data sets in this repository are licensed
