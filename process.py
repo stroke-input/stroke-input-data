@@ -6,8 +6,8 @@
 Process the raw files
 * `raw/CNS_strokes_sequence.txt`: (CNS code, stroke sequence) pairs
 * `raw/CNS2UNICODE_Unicode {2,15,BMP}.txt`: (CNS code, unicode) pairs
-to produce a file containing (character, stroke sequence) pairs,
-dumping the result into the file `stroke-data.txt`.
+to produce a dictionary of (character, stroke sequence) pairs,
+dumping the result into the files `stroke-data-{all,bmp}.txt`.
 
 Licensed under "MIT No Attribution" (MIT-0),
 see <https://spdx.org/licenses/MIT-0>.
@@ -66,5 +66,15 @@ if __name__ == '__main__':
     )
   )
   
+  # Create filtered dictionary containing only Basic Multilingual Plane (BMP)
+  BMP_START = '\u0000'
+  BMP_END = '\uFFFF'
+  sorted_sequence_from_character_bmp = {
+    character: sequence
+      for character, sequence in sorted_sequence_from_character.items()
+        if BMP_START <= character <= BMP_END
+  }
+  
   # Write dictionary to file
-  dict_to_file(sorted_sequence_from_character, 'stroke-data.txt')
+  dict_to_file(sorted_sequence_from_character, 'stroke-data-all.txt')
+  dict_to_file(sorted_sequence_from_character_bmp, 'stroke-data-bmp.txt')
