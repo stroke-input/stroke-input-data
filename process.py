@@ -39,7 +39,7 @@ def file_to_dict(file_name, dict_={}):
 
 if __name__ == '__main__':
   
-  # Read the raw data files and construct dictionaries.
+  # Read the raw data files and construct dictionaries
   sequence_from_cns = file_to_dict('raw/CNS_strokes_sequence.txt')
   unicode_from_cns = {}
   for unicode_plane in ['2', '15', 'BMP']:
