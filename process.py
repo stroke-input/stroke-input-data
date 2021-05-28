@@ -17,6 +17,16 @@ see <https://spdx.org/licenses/MIT-0>.
 import csv
 
 
+def dict_to_file(dict_, file_name):
+  """
+  Write a dictionary into a file (tab-separated).
+  """
+  
+  with open(file_name, 'w', encoding='utf-8') as text_file:
+    writer = csv.writer(text_file, delimiter='\t')
+    writer.writerows(dict_.items())
+
+
 def file_to_dict(file_name, dict_={}):
   """
   Read a file into a dictionary.
@@ -57,6 +67,4 @@ if __name__ == '__main__':
   )
   
   # Write dictionary to file
-  with open('stroke-data.txt', 'w', encoding='utf-8') as text_file:
-    writer = csv.writer(text_file, delimiter='\t')
-    writer.writerows(sorted_sequence_from_character.items())
+  dict_to_file(sorted_sequence_from_character, 'stroke-data.txt')
