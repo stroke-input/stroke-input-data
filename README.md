@@ -53,9 +53,9 @@ The raw data sets were obtained by:
 
 ## Data licensing
 
-1. The data sets in this repository are licensed
+1. The data sets (both raw and processed) in this repository are licensed
    under the Open Government Data License, version 1.0,
-   being sourced from:
+   with the raw data sets being sourced from:
 
    國家發展委員會 (2015), CNS11643中文標準交換碼全字庫(簡稱全字庫) 110年3月30日更新. <br>
    <<https://data.gov.tw/dataset/5961>>
