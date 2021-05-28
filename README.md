@@ -1,6 +1,6 @@
 # stroke-input-data
 
-Data set for the [Stroke Input Method (筆畫輸入法)] in Chinese.
+Data sets for the [Stroke Input Method (筆畫輸入法)] in Chinese.
 
 (For when I get around to writing a Stroke Input Method app some day.)
 
@@ -36,6 +36,19 @@ The raw data sets were obtained by:
    - `Properties/CNS_strokes_sequence.txt`: (CNS code, stroke sequence) pairs
    - `MapingTables/Unicode/*` [sic]: (CNS code, unicode) pairs
 4. Fixing the missing newline at the end of each file
+
+
+## Processed data sets
+
+The processed data sets are obtained from the raw ones
+by running the Python script `./process.py`.
+These are (character, stroke sequence) pairs (tab-separated):
+
+- [`stroke-data-all.txt`]: for all characters
+- [`stroke-data-bmp.txt`]: for the Basic Multilingual Plane (BMP)
+
+[`stroke-data-all.txt`]: stroke-data-all.txt
+[`stroke-data-bmp.txt`]: stroke-data-bmp.txt
 
 
 ## Data licensing
