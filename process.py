@@ -6,7 +6,7 @@
 Process the raw files
 * `raw/CNS_strokes_sequence.txt`: (CNS code, stroke sequence) pairs
 * `raw/CNS2UNICODE_Unicode {2,15,BMP}.txt`: (CNS code, unicode) pairs
-to produce a file containing (stroke sequence, character list) pairs,
+to produce a file containing (character, stroke sequence) pairs,
 dumping the result into the file `stroke-data.txt`.
 
 Licensed under "MIT No Attribution" (MIT-0),
@@ -45,3 +45,12 @@ if __name__ == '__main__':
   for unicode_plane in ['2', '15', 'BMP']:
     file_name = f'raw/CNS2UNICODE_Unicode {unicode_plane}.txt'
     file_to_dict(file_name, unicode_from_cns)
+  
+  # Process dictionaries into a single dictionary
+  sequence_from_character = {}
+  for cns in sequence_from_cns:
+    sequence = sequence_from_cns[cns]
+    unicode_hex = unicode_from_cns[cns]
+    unicode_int = int(unicode_hex, 16)
+    character = chr(unicode_int)
+    sequence_from_character[character] = sequence
