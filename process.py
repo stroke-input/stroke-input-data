@@ -37,7 +37,7 @@ def file_to_dict(file_name, dict_={}):
 ################################################################
 
 
-def read_raw_data():
+def read_raw_data_to_dicts():
   """
   Read the raw data files and construct dictionaries.
   """
@@ -53,4 +53,4 @@ def read_raw_data():
 
 
 if __name__ == '__main__':
-  read_raw_data()
+  read_raw_data_to_dicts()
