@@ -44,6 +44,11 @@ def read_raw_data():
   
   sequence_from_cns = file_to_dict('raw/CNS_strokes_sequence.txt')
   
+  unicode_from_cns = {}
+  for unicode_plane in ['2', '15', 'BMP']:
+    file_name = f'raw/CNS2UNICODE_Unicode {unicode_plane}.txt'
+    file_to_dict(file_name, unicode_from_cns)
+  
   return
 
 
