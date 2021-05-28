@@ -48,7 +48,15 @@ if __name__ == '__main__':
     character = chr(unicode_int)
     sequence_from_character[character] = sequence
   
+  # Sort dictionary by (strokes, stroke sequence, character)
+  sorted_sequence_from_character = dict(
+    sorted(
+      sequence_from_character.items(),
+      key=lambda x: (len(x[1]), x[1], x[0])
+    )
+  )
+  
   # Write dictionary to file
   with open('stroke-data.txt', 'w', encoding='utf-8') as text_file:
     writer = csv.writer(text_file, delimiter='\t')
-    writer.writerows(sequence_from_character.items())
+    writer.writerows(sorted_sequence_from_character.items())
