@@ -14,6 +14,9 @@ see <https://spdx.org/licenses/MIT-0>.
 """
 
 
+import csv
+
+
 def file_to_dict(file_name, dict_={}):
   """
   Read a file into a dictionary.
@@ -44,3 +47,8 @@ if __name__ == '__main__':
     unicode_int = int(unicode_hex, 16)
     character = chr(unicode_int)
     sequence_from_character[character] = sequence
+  
+  # Write dictionary to file
+  with open('stroke-data.txt', 'w', encoding='utf-8') as text_file:
+    writer = csv.writer(text_file, delimiter='\t')
+    writer.writerows(sequence_from_character.items())
