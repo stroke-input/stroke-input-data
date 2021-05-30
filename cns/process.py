@@ -15,6 +15,18 @@ see <https://spdx.org/licenses/MIT-0>.
 
 
 import csv
+import os
+
+
+SCRIPT_DIRECTORY = os.path.dirname(os.path.abspath(__file__))
+
+
+def absolute_file_name(file_name_relative_to_script):
+  """
+  Return absolute file name for a file name relative to this script.
+  """
+  
+  return os.path.join(SCRIPT_DIRECTORY, file_name_relative_to_script)
 
 
 def dict_to_file(dict_, file_name):
@@ -22,6 +34,7 @@ def dict_to_file(dict_, file_name):
   Write a dictionary into a file (tab-separated).
   """
   
+  file_name = absolute_file_name(file_name)
   with open(file_name, 'w', encoding='utf-8') as text_file:
     writer = csv.writer(text_file, delimiter='\t')
     writer.writerows(dict_.items())
@@ -32,6 +45,7 @@ def file_to_dict(file_name, dict_={}):
   Read a file into a dictionary.
   """
   
+  file_name = absolute_file_name(file_name)
   with open(file_name, 'r', encoding='utf-8') as text_file:
     for line in text_file:
       (key, value) = line.split()
