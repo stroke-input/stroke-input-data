@@ -91,7 +91,7 @@ if __name__ == '__main__':
         if BMP_START <= character <= BMP_END
   }
   
-  # Write dictionary to file
+  # Write dictionaries to files
   dict_to_file(sorted_sequence_from_character, 'stroke-data-all.txt')
   dict_to_file(sorted_sequence_from_character_bmp, 'stroke-data-bmp.txt')
   
