@@ -17,6 +17,7 @@ see <https://spdx.org/licenses/MIT-0>.
 
 
 import csv
+import itertools
 import os
 
 
@@ -95,13 +96,29 @@ if __name__ == '__main__':
   dict_to_file(sorted_sequence_from_character, 'stroke-data-all.txt')
   dict_to_file(sorted_sequence_from_character_bmp, 'stroke-data-bmp.txt')
   
-  # Write triplets sorted by character
+  # Write triplets sorted by CJK block
   TRIPLETS_FILE_NAME = absolute_file_name('stroke-data-triplets.txt')
+  CJK_INT_RANGE = itertools.chain(
+    # CJK Unified Ideographs
+    range(0x4E00, 0x9FFC + 1),
+    # CJK Unified Ideographs Extension A
+    range(0x3400, 0x4DBF + 1),
+    # CJK Unified Ideographs Extension B
+    range(0x20000, 0x2A6DD + 1),
+    # CJK Unified Ideographs Extension C
+    range(0x2A700, 0x2B734 + 1),
+    # CJK Unified Ideographs Extension D
+    range(0x2B740, 0x2B81D + 1),
+    # CJK Unified Ideographs Extension E
+    range(0x2B820, 0x2CEA1 + 1),
+    # CJK Unified Ideographs Extension F
+    range(0x2CEB0, 0x2EBE0 + 1),
+    # CJK Unified Ideographs Extension G
+    range(0x30000, 0x3134A + 1),
+  )
   with open(TRIPLETS_FILE_NAME, 'w', encoding='utf-8') as text_file:
-    CJK_INT_START = 0x4E00
-    CJK_INT_END = 0x9FFF
-    for cjk_int in range(CJK_INT_START, CJK_INT_END+1):
+    for cjk_int in CJK_INT_RANGE:
       code_point = f'U+{cjk_int:X}'
       character = chr(cjk_int)
-      sequence = sorted_sequence_from_character_bmp.get(character, '')
+      sequence = sequence_from_character.get(character, '')
       text_file.write(f'{code_point}\t{character}\t{sequence}\n')
