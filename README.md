@@ -41,12 +41,13 @@ sorted by stroke sequence:
 - [`cns/stroke-data-bmp.txt`]: for the Basic Multilingual Plane (BMP)
 
 Then we have (code point, character, stroke sequence) triplets (tab-separated),
-sorted by code point, even including characters missing in the raw data sets:
+even including characters missing in the raw data sets:
 
-- [`cns/stroke-data-triplets.txt`]: U+4E00 to U+9FFF
+- [`cns/stroke-data-triplets.txt`]
 
 [`cns/stroke-data-all.txt`]: cns/stroke-data-all.txt
 [`cns/stroke-data-bmp.txt`]: cns/stroke-data-bmp.txt
+[`cns/stroke-data-triplets.txt`]: cns/stroke-data-triplets.txt
 
 
 ### Raw data sets
