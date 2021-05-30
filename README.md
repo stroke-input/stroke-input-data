@@ -5,19 +5,6 @@ Data sets for the [Stroke Input Method (筆畫輸入法)] in Chinese.
 (For when I get around to writing a Stroke Input Method app some day.)
 
 
-## Processed data sets
-
-The processed data sets are obtained from the raw ones
-by running the Python script `./process.py`.
-These are (character, stroke sequence) pairs (tab-separated):
-
-- [`stroke-data-all.txt`]: for all characters
-- [`stroke-data-bmp.txt`]: for the Basic Multilingual Plane (BMP)
-
-[`stroke-data-all.txt`]: stroke-data-all.txt
-[`stroke-data-bmp.txt`]: stroke-data-bmp.txt
-
-
 ## Stroke Input Method
 
 The stroke input method is found on all dumbphones in HK and surrounds.
@@ -39,21 +26,37 @@ All strokes are classified into 5 types, entered via keypad:
 [dumbphone]: dumbphone-stroke-input.jpg
 
 
-## Raw data sets
+## Stuff in the `cns/` directory
+
+
+### Processed data sets
+
+The processed data sets are obtained from the raw ones
+by running the Python script `./cns/process.py`.
+These are (character, stroke sequence) pairs (tab-separated):
+
+- [`cns/stroke-data-all.txt`]: for all characters
+- [`cns/stroke-data-bmp.txt`]: for the Basic Multilingual Plane (BMP)
+
+[`cns/stroke-data-all.txt`]: cns/stroke-data-all.txt
+[`cns/stroke-data-bmp.txt`]: cns/stroke-data-bmp.txt
+
+
+### Raw data sets
 
 The raw data sets were obtained by:
 
 1. Navigating to <<https://data.gov.tw/dataset/5961>>
 2. Downloading `Open_Data.zip` and extracting it
-3. Copying the following to `raw/`:
+3. Copying the following to `cns/raw/`:
    - `Properties/CNS_strokes_sequence.txt`: (CNS code, stroke sequence) pairs
    - `MapingTables/Unicode/*` [sic]: (CNS code, unicode) pairs
 4. Fixing the missing newline at the end of each file
 
 
-## Data licensing
+### Data licensing
 
-1. The data sets (both raw and processed) in this repository are licensed
+1. The data sets (both raw and processed) in `cns/` are licensed
    under the Open Government Data License, version 1.0,
    with the raw data sets being sourced from:
 
