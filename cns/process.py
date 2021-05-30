@@ -8,6 +8,8 @@ Process the raw files
 * `raw/CNS2UNICODE_Unicode {2,15,BMP}.txt`: (CNS code, unicode) pairs
 to produce a dictionary of (character, stroke sequence) pairs,
 dumping the result into the files `stroke-data-{all,bmp}.txt`.
+Also dump (code point, character, stroke sequence) triplets
+into the file `stroke-data-triplets.txt`.
 
 Licensed under "MIT No Attribution" (MIT-0),
 see <https://spdx.org/licenses/MIT-0>.
@@ -92,3 +94,14 @@ if __name__ == '__main__':
   # Write dictionary to file
   dict_to_file(sorted_sequence_from_character, 'stroke-data-all.txt')
   dict_to_file(sorted_sequence_from_character_bmp, 'stroke-data-bmp.txt')
+  
+  # Write triplets sorted by character
+  TRIPLETS_FILE_NAME = absolute_file_name('stroke-data-triplets.txt')
+  with open(TRIPLETS_FILE_NAME, 'w', encoding='utf-8') as text_file:
+    CJK_INT_START = 0x4E00
+    CJK_INT_END = 0x9FFF
+    for cjk_int in range(CJK_INT_START, CJK_INT_END+1):
+      code_point = f'U+{cjk_int:X}'
+      character = chr(cjk_int)
+      sequence = sorted_sequence_from_character_bmp.get(character, '')
+      text_file.write(f'{code_point}\t{character}\t{sequence}\n')
