@@ -33,10 +33,17 @@ All strokes are classified into 5 types, entered via keypad:
 
 The processed data sets are obtained from the raw ones
 by running the Python script `./cns/process.py`.
-These are (character, stroke sequence) pairs (tab-separated):
+
+First we have (character, stroke sequence) pairs (tab-separated),
+sorted by stroke sequence:
 
 - [`cns/stroke-data-all.txt`]: for all characters
 - [`cns/stroke-data-bmp.txt`]: for the Basic Multilingual Plane (BMP)
+
+Then we have (code point, character, stroke sequence) triplets (tab-separated),
+sorted by code point, even including characters missing in the raw data sets:
+
+- [`cns/stroke-data-triplets.txt`]: U+4E00 to U+9FFF
 
 [`cns/stroke-data-all.txt`]: cns/stroke-data-all.txt
 [`cns/stroke-data-bmp.txt`]: cns/stroke-data-bmp.txt
