@@ -39,6 +39,21 @@ and released into the [Public Domain]:
   yawnoc/codepoint-character-sequence.txt
 
 
+### How are strokes classified?
+
+According to [康熙字典]. Notable examples:
+
+- `U+4E0E` 与 has 4 strokes (consistent with the upper-middle component of 與).
+- `U+4ECA` 今 has 3rd stroke horizontal.
+- `U+53CD` 反 has 1st stroke horizontal.
+- `U+58EC` 壬 has 1st stroke horizontal.
+
+Exceptions where lenient classification has been applied:
+
+- `U+4E30` 丰 has 1st stroke either horizontal or left-slash.
+- `U+4E31` 丱 has 2nd stroke either left-slash or vertical.
+
+
 ### What is a yawnoc-relevant character?
 
 Very poorly defined:
