@@ -54,6 +54,14 @@ Exceptions where lenient classification has been applied:
 - `U+4E31` 丱 has 2nd stroke either left-slash or vertical.
 
 
+### How are strokes ordered?
+
+Leniently. Notable examples:
+
+- `U+6208` 戈 can have dot either last or 2nd-last.
+- `U+65B9` 方 can have left-slash either 2nd-last or last.
+
+
 ### What is a yawnoc-relevant character?
 
 Very poorly defined:
