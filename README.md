@@ -29,10 +29,12 @@ All strokes are classified into 5 types, entered via keypad:
 ## Stuff in the `yawnoc/` directory
 
 A set of (code point, character, stroke sequence) triplets (tab-separated),
-manually compiled by @yawnoc with strokes according to his liking:
+manually compiled by @yawnoc with strokes according to his liking,
+and released into the [Public Domain]:
 
 - [`yawnoc/codepoint-character-sequence.txt`]: for yawnoc-relevant characters
 
+[Public Domain]: https://creativecommons.org/publicdomain/zero/1.0/
 [`yawnoc/codepoint-character-sequence.txt`]:
   yawnoc/codepoint-character-sequence.txt
 
