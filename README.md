@@ -26,6 +26,55 @@ All strokes are classified into 5 types, entered via keypad:
 [dumbphone]: dumbphone-stroke-input.jpg
 
 
+## Stuff in the `yawnoc/` directory
+
+A set of (code point, character, stroke sequence) triplets (tab-separated),
+manually compiled by @yawnoc with strokes according to his liking:
+
+- [`yawnoc/codepoint-character-sequence.txt`]: for yawnoc-relevant characters
+
+[`yawnoc/codepoint-character-sequence.txt`]:
+  yawnoc/codepoint-character-sequence.txt
+
+
+### What is a yawnoc-relevant character?
+
+Very poorly defined:
+
+1. Does the character belong to either
+   the [CJK Unified Ideographs block] (`U+4E00` to `U+9FFC`)
+   or the [CJK Unified Ideographs Extension A block] (`U+3400` to `U+4DBF`)?
+   - YES: go to 2.
+   - NO: the character is NOT a yawnoc-relevant character. ❎
+
+2. Does the character appear in [康熙字典]?
+   - YES: the character is a yawnoc-relevant character. ✔️
+   - NO: go to 3.
+
+3. Is the character a Japanese 国字 (kokuji), a Korean 國字 (gukja),
+   or a Vietnamese 字喃 (chữ Nôm) that has no usage in Chinese?
+   - YES: the character is NOT a yawnoc-relevant character. ❎
+   - NO: go to 4.
+
+4. Is the character a variant or ancient form of another character?
+   - YES: the character is a yawnoc-relevant character. ✔️
+   - NO: go to 5.
+
+5. Is the character the simplified form of another character?
+   - YES: go to 6.
+   - NO: the character is a yawnoc-relevant character. ✔️
+
+6. Is the character used in another context as a non-simplified character?
+   - YES: the character is a yawnoc-relevant character. ✔️
+   - NO: the character is NOT a yawnoc-relevant character. ❎
+
+[CJK Unified Ideographs block]:
+  https://en.wikipedia.org/wiki/CJK_Unified_Ideographs_(Unicode_block)
+[CJK Unified Ideographs Extension A block]:
+  https://en.wikipedia.org/wiki/CJK_Unified_Ideographs_Extension_A
+[康熙字典]: https://en.wikipedia.org/wiki/Kangxi_dictionary
+
+
 ## Stuff in the `cns/` directory
 
 
