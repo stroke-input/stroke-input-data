@@ -26,7 +26,7 @@ All strokes are classified into 5 types, entered via keypad:
 [dumbphone]: dumbphone-stroke-input.jpg
 
 
-## Stuff in the `yawnoc/` directory
+## Stuff in the `yawnoc/` directory (work in progress)
 
 A set of (code point, character, stroke sequence) triplets (tab-separated),
 manually compiled by @yawnoc with strokes according to his liking,
