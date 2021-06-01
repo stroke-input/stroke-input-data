@@ -41,7 +41,7 @@ and released into the [Public Domain]:
 
 ### How are strokes classified?
 
-According to [康熙字典]. Notable examples:
+Mostly according to [康熙字典]. Notable examples:
 
 - `U+4E0E` 与 has 4 strokes (consistent with the upper-middle component of 與).
 - `U+4ECA` 今 has 3rd stroke horizontal.
@@ -55,6 +55,10 @@ Exceptions where lenient classification has been applied:
 - `U+4E31` 丱 has 2nd stroke either left-slash or vertical.
 - `U+4E9B` 些 has either 7 strokes or 8 strokes.
   (康熙字典 counts only 3 strokes for the component 止; allow counting 4.)
+
+Exceptions where [康熙字典] has been ignored:
+
+- `U+5E73` 平 has dots as 丷 rather than as 八
 
 
 ### How are strokes ordered?
