@@ -79,6 +79,7 @@ Leniently. Notable examples:
 - `U+5315` 匕 can have ㇒ either 1st or 2nd.
 - `U+6208` 戈 can have ㇔ either last or 2nd-last.
 - `U+65B9` 方 can have ㇒ either 2nd-last or last.
+- `U+6BCD` 母 can have ㇐ either last or 2nd-last.
 - `U+821F` 舟 can have ㇐ either last or 2nd-last.
 
 
