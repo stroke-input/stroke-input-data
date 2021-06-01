@@ -62,6 +62,7 @@ Exceptions where lenient classification has been applied:
 Leniently. Notable examples:
 
 - `U+4E5D` 九 can have left-slash either 1st or 2nd.
+- `U+5315` 匕 can have left-slash either 1st or 2nd.
 - `U+6208` 戈 can have dot either last or 2nd-last.
 - `U+65B9` 方 can have left-slash either 2nd-last or last.
 
