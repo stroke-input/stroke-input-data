@@ -52,6 +52,8 @@ Exceptions where lenient classification has been applied:
 
 - `U+4E30` 丰 has 1st stroke either horizontal or left-slash.
 - `U+4E31` 丱 has 2nd stroke either left-slash or vertical.
+- `U+4E9B` 些 has either 7 strokes or 8 strokes.
+  (康熙字典 counts only 3 strokes for the component 止; allow counting 4.)
 
 
 ### How are strokes ordered?
