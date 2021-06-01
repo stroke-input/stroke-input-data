@@ -47,6 +47,7 @@ According to [康熙字典]. Notable examples:
 - `U+4ECA` 今 has 3rd stroke horizontal.
 - `U+53CD` 反 has 1st stroke horizontal.
 - `U+58EC` 壬 has 1st stroke horizontal.
+- `U+5315` 匕 has 1st stroke left-slash (rather than horizontal).
 
 Exceptions where lenient classification has been applied:
 
