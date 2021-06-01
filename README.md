@@ -68,6 +68,7 @@ Exceptions where lenient classification has been applied:
 Exceptions where [康熙字典] has been ignored:
 
 - `U+5E73` 平 has dots as 丷 rather than as 八
+- `U+821F` 舟 has last stroke ㇔ rather than ㇑
 
 
 ### How are strokes ordered?
@@ -78,6 +79,7 @@ Leniently. Notable examples:
 - `U+5315` 匕 can have ㇒ either 1st or 2nd.
 - `U+6208` 戈 can have ㇔ either last or 2nd-last.
 - `U+65B9` 方 can have ㇒ either 2nd-last or last.
+- `U+821F` 舟 can have ㇐ either last or 2nd-last.
 
 
 ### What is a yawnoc-relevant character?
