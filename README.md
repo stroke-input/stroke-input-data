@@ -52,20 +52,20 @@ and released into the [Public Domain]:
 
 Mostly according to [康熙字典]. Notable examples:
 
-- `U+4E0E` 与 has 4 strokes (consistent with the upper-middle component of 與).
-- `U+4ECA` 今 has 3rd stroke ㇐.
-- `U+53CD` 反 has 1st stroke ㇐.
-- `U+58EC` 壬 has 1st stroke ㇐.
-- `U+5315` 匕 has 1st stroke ㇒ (rather than ㇐).
+- `U+4E0E` 与 has 4 strokes (consistent with the upper-middle component of 與)
+- `U+4ECA` 今 has 3rd stroke ㇐
+- `U+53CD` 反 has 1st stroke ㇐
+- `U+58EC` 壬 has 1st stroke ㇐
+- `U+5315` 匕 has 1st stroke ㇒ (rather than ㇐)
 
 Exceptions where lenient classification has been applied:
 
-- `U+4E30` 丰 has 1st stroke either ㇐ or ㇒.
-- `U+4E31` 丱 has 2nd stroke either ㇓ or ㇑.
-- `U+4E9B` 些 has either 7 strokes or 8 strokes.
-  (康熙字典 counts only 3 strokes for the component 止; allow counting 4.)
-- `U+5782` 垂 has either 8 strokes or 9 strokes.
-  (康熙字典 counts only 3 strokes for the component 艹; allow counting 4.)
+- `U+4E30` 丰 has 1st stroke either ㇐ or ㇒
+- `U+4E31` 丱 has 2nd stroke either ㇓ or ㇑
+- `U+4E9B` 些 has either 7 strokes or 8 strokes
+  (康熙字典 counts only 3 strokes for the component 止; allow counting 4)
+- `U+5782` 垂 has either 8 strokes or 9 strokes
+  (康熙字典 counts only 3 strokes for the component 艹; allow counting 4)
 
 Exceptions where [康熙字典] has been ignored:
 
@@ -78,13 +78,13 @@ Exceptions where [康熙字典] has been ignored:
 
 Leniently. Notable examples:
 
-- `U+4E5D` 九 can have ㇓ either 1st or 2nd.
-- `U+5315` 匕 can have ㇒ either 1st or 2nd.
-- `U+6208` 戈 can have ㇔ either last or 2nd-last.
-- `U+65B9` 方 can have ㇒ either 2nd-last or last.
-- `U+6BCD` 母 can have ㇐ either last or 2nd-last.
-- `U+821F` 舟 can have ㇐ either last or 2nd-last.
-- `U+8279` 艹 can have ㇑ either 1st or 2nd.
+- `U+4E5D` 九 can have ㇓ either 1st or 2nd
+- `U+5315` 匕 can have ㇒ either 1st or 2nd
+- `U+6208` 戈 can have ㇔ either last or 2nd-last
+- `U+65B9` 方 can have ㇒ either 2nd-last or last
+- `U+6BCD` 母 can have ㇐ either last or 2nd-last
+- `U+821F` 舟 can have ㇐ either last or 2nd-last
+- `U+8279` 艹 can have ㇑ either 1st or 2nd
 
 
 ### What is a yawnoc-relevant character?
