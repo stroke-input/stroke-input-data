@@ -70,6 +70,7 @@ Exceptions where lenient classification has been applied:
 Exceptions where [康熙字典] has been ignored:
 
 - `U+5018` 倘 has dots as 丷 rather than as 八
+  (note that separate code points exist for 尙 and 尚)
 - `U+5E73` 平 has dots as 丷 rather than as 八
 - `U+821F` 舟 has last stroke ㇔ rather than ㇑
 
