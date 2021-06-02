@@ -64,6 +64,8 @@ Exceptions where lenient classification has been applied:
 - `U+4E31` 丱 has 2nd stroke either ㇓ or ㇑.
 - `U+4E9B` 些 has either 7 strokes or 8 strokes.
   (康熙字典 counts only 3 strokes for the component 止; allow counting 4.)
+- `U+5782` 垂 has either 8 strokes or 9 strokes.
+  (康熙字典 counts only 3 strokes for the component 艹; allow counting 4.)
 
 Exceptions where [康熙字典] has been ignored:
 
