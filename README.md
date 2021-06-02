@@ -74,7 +74,9 @@ Exceptions where [康熙字典] has been ignored:
 - `U+5018` 倘 has dots as 丷 rather than as 八
   (note that separate code points exist for 尙 and 尚)
 - `U+504F` 偏 has 3rd stroke ㇒ rather than ㇐
+- `U+5E1D` 帝 has 1st stroke ㇔ rather than ㇐
 - `U+5E73` 平 has dots as 丷 rather than as 八
+- `U+8005` 者 has no dot
 - `U+821F` 舟 has last stroke ㇔ rather than ㇑
 
 
