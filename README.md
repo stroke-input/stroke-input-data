@@ -70,8 +70,6 @@ Exceptions where [康熙字典] has been ignored:
 - `U+4E9B` 些 has 8 strokes rather than 7
   (康熙字典 counts only 3 strokes for the component 止)
 - `U+4EE4` 令 has last stroke ㇔ rather than ㇑
-- `U+5018` 倘 has dots as 丷 rather than as 八
-  (note that separate code points exist for 尙 and 尚)
 - `U+504F` 偏 has 3rd stroke ㇒ or ㇔ rather than ㇐
 - `U+5E1D` 帝 has 1st stroke ㇔ rather than ㇐
 - `U+5E73` 平 has dots as 丷 rather than as 八
