@@ -83,6 +83,7 @@ Leniently. Notable examples:
 - `U+65B9` 方 can have ㇒ either 2nd-last or last.
 - `U+6BCD` 母 can have ㇐ either last or 2nd-last.
 - `U+821F` 舟 can have ㇐ either last or 2nd-last.
+- `U+8279` 艹 can have ㇑ either 1st or 2nd.
 
 
 ### What is a yawnoc-relevant character?
