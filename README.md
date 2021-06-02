@@ -50,9 +50,9 @@ and released into the [Public Domain]:
 
 ### How are strokes classified?
 
-Mostly according to [康熙字典].
+Mostly according to [康熙字典], with leniency and some exceptions.
 
-Exceptions where lenient classification has been applied:
+Examples where lenient classification has been applied:
 
 - `U+4E30` 丰 has 1st stroke either ㇐ or ㇒
 - `U+4E31` 丱 has 2nd stroke either ㇓ or ㇑
