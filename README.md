@@ -28,7 +28,7 @@ All strokes are classified into 5 types, entered via keypad:
 
 ## Stuff in the `yawnoc/` directory (work in progress)
 
-A set of (code point, character, stroke sequence) triplets (tab-separated),
+A set of (code point, character, stroke sequence regex) triplets,
 manually compiled by @yawnoc with strokes according to his liking,
 and released into the [Public Domain]:
 
