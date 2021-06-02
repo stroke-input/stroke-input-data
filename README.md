@@ -50,13 +50,7 @@ and released into the [Public Domain]:
 
 ### How are strokes classified?
 
-Mostly according to [康熙字典]. Notable examples:
-
-- `U+4E0E` 与 has 4 strokes (consistent with the upper-middle component of 與)
-- `U+4ECA` 今 has 3rd stroke ㇐
-- `U+53CD` 反 has 1st stroke ㇐
-- `U+58EC` 壬 has 1st stroke ㇐
-- `U+5315` 匕 has 1st stroke ㇒ (rather than ㇐)
+Mostly according to [康熙字典].
 
 Exceptions where lenient classification has been applied:
 
@@ -64,16 +58,21 @@ Exceptions where lenient classification has been applied:
 - `U+4E31` 丱 has 2nd stroke either ㇓ or ㇑
 - `U+4E9B` 些 has either 7 strokes or 8 strokes
   (康熙字典 counts only 3 strokes for the component 止; allow counting 4)
+- `U+4ECA` 今 has 3rd stroke either ㇐ or ㇔
+- `U+5315` 匕 has 1st stroke either ㇐ or ㇒
+- `U+53CD` 反 has 1st stroke either ㇐ or ㇒
 - `U+5782` 垂 has either 8 strokes or 9 strokes
   (康熙字典 counts only 3 strokes for the component 艹; allow counting 4)
+- `U+58EC` 壬 has 1st stroke either ㇐ or ㇒
 - `U+7A7A` 空 has 5th stroke either ㇏ or ㇟
   (康熙字典 has ㇏ despite having ㇟ for most occurrences of 穴)
 
 Exceptions where [康熙字典] has been ignored:
 
+- `U+4EE4` 令 has last stroke ㇔ rather than ㇑
 - `U+5018` 倘 has dots as 丷 rather than as 八
   (note that separate code points exist for 尙 and 尚)
-- `U+504F` 偏 has 3rd stroke ㇒ rather than ㇐
+- `U+504F` 偏 has 3rd stroke ㇒ or ㇔ rather than ㇐
 - `U+5E1D` 帝 has 1st stroke ㇔ rather than ㇐
 - `U+5E73` 平 has dots as 丷 rather than as 八
 - `U+8005` 者 has no dot
