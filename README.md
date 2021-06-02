@@ -66,6 +66,8 @@ Exceptions where lenient classification has been applied:
   (康熙字典 counts only 3 strokes for the component 止; allow counting 4)
 - `U+5782` 垂 has either 8 strokes or 9 strokes
   (康熙字典 counts only 3 strokes for the component 艹; allow counting 4)
+- `U+7A7A` 空 has 5th stroke either ㇏ or ㇟
+  (康熙字典 has ㇏ despite having ㇟ for most occurrences of 穴)
 
 Exceptions where [康熙字典] has been ignored:
 
