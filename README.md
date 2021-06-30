@@ -105,20 +105,15 @@ Very poorly defined:
    - YES: the character is a yawnoc-relevant character. ✔️
    - NO: go to 3.
 
-3. Is the character a Japanese 国字 (kokuji), a Korean 國字 (gukja),
-   or a Vietnamese 字喃 (chữ Nôm) that has no usage in Chinese?
-   - YES: the character is NOT a yawnoc-relevant character. ❎
+3. Is the character a variant or ancient form of another character?
+   - YES: the character is a yawnoc-relevant character. ✔️
    - NO: go to 4.
 
-4. Is the character a variant or ancient form of another character?
-   - YES: the character is a yawnoc-relevant character. ✔️
-   - NO: go to 5.
-
-5. Is the character the simplified form of another character?
-   - YES: go to 6.
+4. Is the character the simplified form of another character?
+   - YES: go to 5.
    - NO: the character is a yawnoc-relevant character. ✔️
 
-6. Is the character used in another context as a non-simplified character?
+5. Is the character used in another context as a non-simplified character?
    - YES: the character is a yawnoc-relevant character. ✔️
    - NO: the character is NOT a yawnoc-relevant character. ❎
 
