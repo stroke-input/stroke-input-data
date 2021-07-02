@@ -1,6 +1,6 @@
 # stroke-input-data/cns
 
-Stroke data sets that I probably won't use,
+ROC stroke data sets that I probably won't use,
 but which are nevertheless useful for reference.
 
 

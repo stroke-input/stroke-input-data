@@ -1,7 +1,7 @@
 # stroke-input-data/yawnoc
 
 A stroke data set that I am compiling manually (work in progress).
-Will probably take 6 months to complete.
+Will probably take until end of 2021 to complete.
 
 
 ## Contents
