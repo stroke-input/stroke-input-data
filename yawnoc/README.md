@@ -56,7 +56,6 @@ Exceptions where [康熙字典] has been ignored:
 
 - `U+4EE4` 令 has last stroke ㇔ rather than ㇑
 - `U+5E1D` 帝 has 1st stroke ㇔ rather than ㇐
-- `U+8005` 者 has no dot
 - `U+821F` 舟 has last stroke ㇔ rather than ㇑
 
 
