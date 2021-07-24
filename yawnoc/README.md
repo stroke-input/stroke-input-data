@@ -12,14 +12,7 @@ Will probably take until end of 2021 to complete.
 - Compiled manually by @yawnoc
 - Released into the [Public Domain]
 
-### [`makeblank.py`]
-
-- Script used to generate `codepoint-character-sequence.txt`
-  before it was populated with actual data
-- Licensed under [MIT-0]
-
 [`codepoint-character-sequence.txt`]: yawnoc/codepoint-character-sequence.txt
-[`makeblank.py`]: yawnoc/makeblank.py
 [Public Domain]: https://creativecommons.org/publicdomain/zero/1.0/
 [MIT-0]: https://spdx.org/licenses/MIT-0
 
