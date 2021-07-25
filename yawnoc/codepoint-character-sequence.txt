@@ -17393,7 +17393,9 @@ U+90CA	郊
 U+90CB	郋	
 U+90CC	郌	
 U+90CD	郍	
-U+90CE	郎	
+U+90CE	郎	451154552
+  [Separate code points] U+90DE 郞
+  [Remark] Allow both 郎 (everyone else) or 郞 (Kangxi) as a component.
 U+90CF	郏	
 U+90D0	郐	
 U+90D1	郑	
@@ -17409,7 +17411,8 @@ U+90DA	郚
 U+90DB	郛	
 U+90DC	郜	
 U+90DD	郝	
-U+90DE	郞	
+U+90DE	郞	4511534552
+  [Separate code points] U+90CE 郎
 U+90DF	郟	
 U+90E0	郠	
 U+90E1	郡	
