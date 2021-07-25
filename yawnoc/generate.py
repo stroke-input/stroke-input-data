@@ -87,7 +87,6 @@ def parse_sequence_regex_groups(sequence_regex):
   2. a list of lists for the capture groups' alternatives.
   """
   
-  group_index = 0
   group_alternatives_list_list = []
   
   sequence_regex_no_groups = re.sub(
@@ -99,7 +98,6 @@ def parse_sequence_regex_groups(sequence_regex):
     lambda group_match_object:
       replace_group_match_object(
         group_match_object,
-        group_index,
         group_alternatives_list_list
       ),
     sequence_regex,
@@ -111,23 +109,22 @@ def parse_sequence_regex_groups(sequence_regex):
 
 def replace_group_match_object(
   group_match_object,
-  group_index,
   group_alternatives_list_list
 ):
   """
   Replace a capture group match object with a back reference.
-  Increments the supplied capture group index
-  and stores the capture group alternatives
-  in the supplied list of lists of alternatives.
+  Appends the capture group's alternatives (as a list)
+  to the supplied list of lists of alternatives.
   """
-  
-  group_index += 1
   
   group_alternatives_string = group_match_object.group('alternatives')
   group_alternatives_list = group_alternatives_string.split('|')
   group_alternatives_list_list.append(group_alternatives_list)
   
-  return fr'\{group_index}'
+  group_index = len(group_alternatives_list_list)
+  back_reference = fr'\{group_index}'
+  
+  return back_reference
 
 
 if __name__ == '__main__':
