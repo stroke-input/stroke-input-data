@@ -162,6 +162,16 @@ if __name__ == '__main__':
   sorted_sequences = sorted(character_set_from_sequence.keys())
   
   with open(OUTPUT_FILE_NAME, 'w', encoding='utf-8') as output_file:
+    
+    output_file.write(
+      '# # sequence-characters.txt\n'
+      '\n'
+      '# Automatically generated from `generate.py`.\n'
+      '# Released into the Public Domain (CC0),\n'
+      '# see <https://creativecommons.org/publicdomain/zero/1.0/>.\n'
+      '\n'
+    )
+    
     for sequence in sorted_sequences:
       sorted_character_set = sorted(character_set_from_sequence[sequence])
       sorted_characters = ''.join(sorted_character_set)
