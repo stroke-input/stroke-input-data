@@ -10623,6 +10623,7 @@ U+7673	癳
 U+7674	癴	
 U+7675	癵	
 U+7676	癶	54(334|433)
+  [Lenient order] Allow ㇏ last (TW) or 3rd-last (Conway).
 U+7677	癷	
 U+7678	癸	
 U+7679	癹	
