@@ -1025,6 +1025,7 @@ U+5184	冄	2511
 U+5185	内	2534
 U+5186	円	2521
 U+5187	冇	13(2|3)5
+  [Lenient form] Allow 3rd stroke ㇑ or ㇓ (folk).
 U+5188	冈	2534
 U+5189	冉	25121
 U+518A	冊	25(122|221)
@@ -6615,6 +6616,7 @@ U+6706	朆
 U+6707	朇	
 U+6708	月	
 U+6709	有	13(2|3)511
+  [Lenient form] Allow moon 1st stroke ㇑ (everyone else) or ㇓ (TW)
 U+670A	朊	
 U+670B	朋	
 U+670C	朌	
