@@ -20855,8 +20855,11 @@ U+9EBF	麿
 U+9EC0	黀	
 U+9EC1	黁	
 U+9EC2	黂	
-U+9EC3	黃	
-U+9EC4	黄	
+U+9EC3	黃	122112512134
+  [Separate code point] U+9EC4 黄
+  [Remark] Allow 黃 (Kangxi etc.) or 黄 (folk) as a component.
+U+9EC4	黄	12212512134
+  [Separate code point] U+9EC3 黃
 U+9EC5	黅	
 U+9EC6	黆	
 U+9EC7	黇	
