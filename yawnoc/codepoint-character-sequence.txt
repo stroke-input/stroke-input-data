@@ -3032,7 +3032,8 @@ U+590B	夋	543(4|5)354
     Kangxi is inconsistent,
     having central legs for 夋 as a component,
     but central 八 for 夋 alone.
-U+590C	夌	
+U+590C	夌	1213(4|5)354
+  [Lenient form] Allow central legs ⿰丿㇄ (Kangxi, HK, TW) or 八 (common).
 U+590D	复	
 U+590E	夎	
 U+590F	夏	
