@@ -1452,6 +1452,7 @@ U+52F9	勹	35
 U+52FA	勺	35(1|4)
 U+52FB	勻	3511
   [Separate code points] U+5300 匀
+  [Remark] Allow 勻 or 匀 as a component.
 U+52FC	勼	35(35|53)
 U+52FD	勽	3534
 U+52FE	勾	3554
