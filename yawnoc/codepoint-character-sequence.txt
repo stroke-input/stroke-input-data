@@ -95,6 +95,10 @@ U+4E0B	下	124
 U+4E0C	丌	132
 U+4E0D	不	1324
 U+4E0E	与	1251
+  [Remark]
+    4 strokes per Kangxi, consistent with how the strokes are counted
+    for the top-middle component of U+8207 與.
+    Not 3 strokes, which is simplified.
 U+4E0F	丏	1255
 U+4E10	丐	1215
 U+4E11	丑	5(12|21)1
