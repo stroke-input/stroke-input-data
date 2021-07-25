@@ -1182,6 +1182,7 @@ U+51F9	凹	(25251|52152|251251|512152)
       (This construction is consistent with the radical, 凵.)
       (However, it is not consistent with Kangxi's count of 5 strokes.)
 U+51FA	出	(252|522)52
+  [Lenient order] Allow central ㇑ 1st (everyone else) or 3rd (Conway).
 U+51FB	击	
 U+51FC	凼	253452
 U+51FD	函	(15|52)413452
