@@ -135,13 +135,25 @@ if __name__ == '__main__':
   
   for line in input_lines:
     
-    split_line_list = line.split()
-    if len(split_line_list) < 3:
+    line_match_object = re.fullmatch(
+      r'''
+        U[+][0-9A-F]{4,5}
+          \t
+        (?P<character> \S )
+          \t
+        (?P<sequence_regex> [1-5|()\\]+ )
+      ''',
+      line,
+      flags=re.VERBOSE
+    )
+    
+    if line_match_object is None:
       continue
     
-    _, character, sequence_regex = split_line_list
-    sequence_set = sequence_set_from_regex(sequence_regex)
+    character = line_match_object.group('character')
+    sequence_regex = line_match_object.group('sequence_regex')
     
+    sequence_set = sequence_set_from_regex(sequence_regex)
     for sequence in sequence_set:
       if sequence not in character_set_from_sequence:
         character_set_from_sequence[sequence] = set()

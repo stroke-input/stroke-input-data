@@ -1,3 +1,9 @@
+# codepoint-character-sequence.txt
+
+Lines are to be tab-separated (code point, character, sequence regex) triplets.
+In particular, sequence regexes must match `[1-5|()\\]+`.
+Non-compliant lines will be treated as comments by `generate.py`.
+
 U+4E00	一	1
 U+4E01	丁	12
 U+4E02	丂	15
