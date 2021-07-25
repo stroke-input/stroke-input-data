@@ -933,6 +933,7 @@ U+512D	儭	324143112342511135
 U+512E	儮	321331234312342121
 U+512F	儯	32(34|43)1134(12|21)11254444
 U+5130	儰	32(1212|2112)(4|3344|3443)35554444
+  [Lenient form] Allow bottom-right 為 (everyone else) or 爲 (Kangxi).
 U+5131	儱	3241431(2|3)5(11|41)1515111
 U+5132	儲	32411125112132511(|4)
 U+5133	儳	323525115(15|35|53)35251354
@@ -21058,6 +21059,9 @@ U+9F8A	龊
 U+9F8B	龋	
 U+9F8C	龌	
 U+9F8D	龍	41431(2|3)5(11|41)1515111
+  [Lenient form]
+    Allow meat 1st stroke ㇑ (everyone else) or ㇓ (TW).
+    Allow meat interor 二 (everyone else) or 冫 (TW).
 U+9F8E	龎	
 U+9F8F	龏	
 U+9F90	龐	
