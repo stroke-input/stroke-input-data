@@ -13482,7 +13482,8 @@ U+8208	興
 U+8209	舉	
 U+820A	舊	
 U+820B	舋	
-U+820C	舌	
+U+820C	舌	(1|3)12251
+  [Lenient form] Allow 1st stroke ㇐ (Kangxi etc.) or ㇒ (common).
 U+820D	舍	
 U+820E	舎	
 U+820F	舏	
