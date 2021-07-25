@@ -20901,6 +20901,7 @@ U+9EFA	黺
 U+9EFB	黻	
 U+9EFC	黼	
 U+9EFD	黽	2511(25|52)1211511
+  [Lenient order] Allow middle-right ㇑ 5th (TW) or 6th (Conway, HK).
 U+9EFE	黾	
 U+9EFF	黿	
 U+9F00	鼀	
