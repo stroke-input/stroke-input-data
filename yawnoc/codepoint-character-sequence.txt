@@ -17386,6 +17386,7 @@ U+9148	酈
 U+9149	酉	
 U+914A	酊	
 U+914B	酋	(34|43)1253511
+  [Lenient form] Allow top 八 (Kangxi) or 丷 (everyone else).
 U+914C	酌	
 U+914D	配	
 U+914E	酎	
