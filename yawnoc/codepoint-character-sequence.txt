@@ -221,6 +221,7 @@ U+4E84	亄	1214512514315
 U+4E85	亅	2
 U+4E86	了	52
 U+4E87	亇	3(1|5)2
+  [Lenient classification] Allow 2nd stroke ㇐ or ㇖.
 U+4E88	予	5452
 U+4E89	争	355112
 U+4E8A	亊	1435112
