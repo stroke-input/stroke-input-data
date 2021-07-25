@@ -1590,6 +1590,16 @@ U+537C	卼	135351355
 U+537D	卽	32511(15|35|53)52
 U+537E	卾	25125111552
 U+537F	卿	353(51154|3251111|3251115|3251135|3251153)52
+  [Lenient form]
+    Complicated.
+    51154 (HK, TW, etc.):
+      5-stroke middle, as the left half of U+5373 即.
+    3251111 (Kangxi):
+      7-stroke middle, like U+2967F 𩙿 with first 3 strokes replaced by ㇒.
+      Or 白 with leftmost edge extended down and connected to 二.
+      Essentially a connected version of 皀.
+    3251115|3251135|3251153 (olden):
+      7-stroke middle, as U+7680 皀.
 U+5380	厀	1234342413452
 U+5381	厁	3411234441252
 U+5382	厂	13
