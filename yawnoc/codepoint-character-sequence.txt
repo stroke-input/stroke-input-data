@@ -6188,6 +6188,7 @@ U+65B9	方	41(35|53)
 U+65BA	斺	
 U+65BB	斻	
 U+65BC	於	41(35|53)3(1|4)44
+  [Lenient classification] Allow top-right 𠂉 (HK) or 𠆢 (everyone else).
 U+65BD	施	
 U+65BE	斾	
 U+65BF	斿	
