@@ -10727,8 +10727,11 @@ U+771A	眚
 U+771B	眛	
 U+771C	眜	
 U+771D	眝	
-U+771E	眞	
-U+771F	真	
+U+771E	眞	(15|35|53)25111534
+  [Separate code point] U+771F 真
+U+771F	真	1225111134
+  [Separate code point] U+771E 眞
+  [Remark] Allow 真 (everyone else) or 眞 (Kangxi) as a component.
 U+7720	眠	
 U+7721	眡	
 U+7722	眢	
