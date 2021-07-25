@@ -122,11 +122,11 @@ U+4E1C	东
 U+4E1D	丝	
 U+4E1E	丞	525341
 U+4E1F	丟	112154
-  [Separate code point] U+4E22 丢 (1st stroke ㇒).
+  [Separate code point] U+4E22 丢 (1st stroke ㇒)
 U+4E20	丠	211(15|35|53)1
 U+4E21	両	125252
 U+4E22	丢	312154
-  [Separate code point] U+4E1F 丟 (1st stroke ㇐).
+  [Separate code point] U+4E1F 丟 (1st stroke ㇐)
 U+4E23	丣	1315251
 U+4E24	两	1253434
 U+4E25	严	
