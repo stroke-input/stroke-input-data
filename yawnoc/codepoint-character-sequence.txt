@@ -586,6 +586,7 @@ U+4FDB	俛	323525135
 U+4FDC	俜	322512115
 U+4FDD	保	322511234
 U+4FDE	俞	341(2|3)51122
+  [Separate code point] U+516A 兪
 U+4FDF	俟	325431134
 U+4FE0	俠	321343434
 U+4FE1	信	324111251
@@ -984,6 +985,10 @@ U+5167	內	2534
 U+5168	全	341121
 U+5169	兩	12523434
 U+516A	兪	341(2|3)5(11|44)55
+  [Lenient classification]
+    Allow moon 1st stroke ㇑ (Kangxi) or ㇓ (everyone else).
+    Allow moon interor 二 (everyone else) or ⺀ (Kangxi).
+  [Separate code point] U+4FDE 俞
 U+516B	八	34
 U+516C	公	3454
 U+516D	六	4134
