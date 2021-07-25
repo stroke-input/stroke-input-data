@@ -13187,6 +13187,10 @@ U+80AF	肯	2121(2|3)5(11|41)
 U+80B0	肰	
 U+80B1	肱	
 U+80B2	育	(1|41)54(2|3)5(11|41)
+  [Lenient form]
+    Allow top ⿻一厶 (TW) or ⿱亠厶 (everyone else).
+    Allow meat 1st stroke ㇑ (everyone else) or ㇓ (TW).
+    Allow meat interor 二 (everyone else) or 冫 (TW).
 U+80B3	肳	
 U+80B4	肴	
 U+80B5	肵	
