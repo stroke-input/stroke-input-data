@@ -3702,7 +3702,12 @@ U+5BAF	宯
 U+5BB0	宰	
 U+5BB1	宱	
 U+5BB2	宲	
-U+5BB3	害	
+U+5BB3	害	445(1|3)1(12|21)251
+  [Lenient form]
+    Allow 4th stroke ㇐ (common) or ㇒ (HK, TW).
+    Allow ㇑ to poke through (Kangxi, HK) or not (everyone else).
+  [Ignore Kangxi]
+    Interior 丰 rather than 丯.
 U+5BB4	宴	
 U+5BB5	宵	
 U+5BB6	家	
