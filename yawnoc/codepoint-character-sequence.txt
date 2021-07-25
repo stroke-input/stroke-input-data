@@ -1222,6 +1222,9 @@ U+524A	削	2(34|43)(2|3)5(11|41)22
 U+524B	剋	122513522
 U+524C	剌	125123422
 U+524D	前	431(2|3)5(11|44)22
+  [Lenient form]
+    Allow moon 1st stroke ㇑ (Kangxi) or ㇓ (everyone else).
+    Allow moon interor 二 (everyone else) or ⺀ (Kangxi).
 U+524E	剎	34123(4|5)422
 U+524F	剏	431132534
 U+5250	剐	
