@@ -4,6 +4,9 @@ Compiled manually by Conway (@yawnoc).
 Released into the Public Domain (CC0),
 see <https://creativecommons.org/publicdomain/zero/1.0/>.
 
+
+## Technicalities
+
 To be parsed by the script `generate.py`.
 
 Each compliant line shall be a tab-separated
@@ -18,6 +21,45 @@ Sequence regex capture groups should:
   3. contain pure digits separated by pipes, and
   4. be referred to by a backslash followed by a positive decimal digit.
 No attempt at validation is made in `generate.py`.
+
+
+## Strokes
+
+Stroke are classified mostly following 康熙字典 (Kangxi dictionary),
+with much leniency and some exceptions.
+
+1  ㇐  畫、提  horizontal; raise
+2  ㇑  棟、棟鉤  vertical; vertical-with-hook
+3  ㇒  撇  left-slash
+4  ㇔  捺、點  right-press; dot
+5  ㇖  折、彎  turn; bend
+
+Strokes are ordered very leniently.
+
+
+## Characters
+
+1. Does the character belong to either
+   the CJK Unified Ideographs block (U+4E00 to U+9FFC)
+   or the CJK Unified Ideographs Extension A block (U+3400 to U+4DBF)?
+   - YES: go to 2.
+   - NO: EXCLUDE the character. ❎
+
+2. Does the character appear in 康熙字典?
+   - YES: INCLUDE the character. ✔️
+   - NO: go to 3.
+
+3. Is the character a variant or ancient form of another character?
+   - YES: INCLUDE the character. ✔️
+   - NO: go to 4.
+
+4. Is the character the simplified form of another character?
+   - YES: go to 5.
+   - NO: INCLUDE the character. ✔️
+
+5. Is the character used in another context as a non-simplified character?
+   - YES: INCLUDE the character. ✔️
+   - NO: EXCLUDE the character. ❎
 
 
 ## CJK Unified Ideographs (U+4E00 to U+9FFC)
