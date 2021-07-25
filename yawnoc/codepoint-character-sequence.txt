@@ -21081,7 +21081,9 @@ U+9F46	齆
 U+9F47	齇	
 U+9F48	齈	
 U+9F49	齉	
-U+9F4A	齊	
+U+9F4A	齊	41432533543(112|211)
+  [Lenient order]
+    Allow bottom-right ㇑ last (Conway) or 3rd-last (everyone else).
 U+9F4B	齋	
 U+9F4C	齌	
 U+9F4D	齍	
