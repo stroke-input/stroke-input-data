@@ -3026,7 +3026,12 @@ U+5907	备
 U+5908	夈	
 U+5909	変	
 U+590A	夊	
-U+590B	夋	
+U+590B	夋	543(4|5)354
+  [Lenient form] Allow central legs ⿰丿㇄ (HK, TW) or 八 (common).
+  [Remark]
+    Kangxi is inconsistent,
+    having central legs for 夋 as a component,
+    but central 八 for 夋 alone.
 U+590C	夌	
 U+590D	复	
 U+590E	夎	
