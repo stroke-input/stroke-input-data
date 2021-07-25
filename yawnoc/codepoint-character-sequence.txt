@@ -141,9 +141,9 @@ U+4E2D	中	2512
 U+4E2E	丮	5112
 U+4E2F	丯	3332
 U+4E30	丰	(1|3)112
-  [Lenient classification] Allow 1st stroke ㇐ (Kangxi) or ㇒ (TW).
+  [Lenient form] Allow 1st stroke ㇐ (Kangxi) or ㇒ (TW).
 U+4E31	丱	5(2|3)212
-  [Lenient classification] Allow 2nd stroke ㇓ (Kangxi) or ㇑.
+  [Lenient form] Allow 2nd stroke ㇓ (Kangxi) or ㇑.
 U+4E32	串	2512512
 U+4E33	丳	25125132
 U+4E34	临	
@@ -232,7 +232,7 @@ U+4E84	亄	1214512514315
 U+4E85	亅	2
 U+4E86	了	52
 U+4E87	亇	3(1|5)2
-  [Lenient classification] Allow 2nd stroke ㇐ or ㇖.
+  [Lenient form] Allow 2nd stroke ㇐ or ㇖.
 U+4E88	予	5452
 U+4E89	争	355112
 U+4E8A	亊	1435112
@@ -251,11 +251,10 @@ U+4E96	亖	1111
 U+4E97	亗	25211
 U+4E98	亘	125111
 U+4E99	亙	1(2|3)5441
-  [Lenient classification]
-    Allow 2nd stroke to be classified as slanted ㇑ rather than ㇒.
+  [Lenient form] Allow 2nd stroke slanted ㇑ rather than ㇒.
 U+4E9A	亚	
 U+4E9B	些	21(5|21)(15|35|53)11
-  [Lenient classification]
+  [Lenient form]
     Allow 7 strokes (Kangxi) or 8 strokes (everyone else).
     ---
     Kangxi counts only 3 strokes for the component 止.
@@ -264,7 +263,7 @@ U+4E9C	亜	1251221
 U+4E9D	亝	54545411
 U+4E9E	亞	12155121
 U+4E9F	亟	(15|52|125)251541
-  [Lenient classification]
+  [Lenient form]
     Allow top-middle 丂 (Kangxi) or 了 (common).
     ---
     Conway and Kangxi count only 2 strokes for the component 丂.
@@ -312,7 +311,7 @@ U+4EC7	仇	32(35|53)
 U+4EC8	仈	3234
 U+4EC9	仉	3235
 U+4ECA	今	34(1|4)5
-  [Lenient classification] Allow 3rd stroke ㇐ (Kangxi) or ㇔ (common).
+  [Lenient form] Allow 3rd stroke ㇐ (Kangxi) or ㇔ (common).
 U+4ECB	介	3432
 U+4ECC	仌	3434
 U+4ECD	仍	32(35|53)
@@ -339,7 +338,7 @@ U+4EE1	仡	32315
 U+4EE2	仢	32354
 U+4EE3	代	32154
 U+4EE4	令	34(1|4)54
-  [Lenient classification] Per U+4ECA 今.
+  [Lenient form] Per U+4ECA 今.
   [Ignore Kangxi] Last stroke ㇔ rather than ㇑.
 U+4EE5	以	21434
 U+4EE6	仦	32234
@@ -990,7 +989,7 @@ U+5167	內	2534
 U+5168	全	341121
 U+5169	兩	12523434
 U+516A	兪	341(2|3)5(11|44)55
-  [Lenient classification]
+  [Lenient form]
     Allow moon 1st stroke ㇑ (Kangxi) or ㇓ (everyone else).
     Allow moon interor 二 (everyone else) or ⺀ (Kangxi).
   [Separate code point] U+4FDE 俞
@@ -1422,7 +1421,7 @@ U+5312	匒	35(1212|2112)341251
 U+5313	匓	35(51154|3251115|3251135|3251153)3554
 U+5314	匔	3532511132513251
 U+5315	匕	(15|35|53)
-  [Lenient classification] Allow 1st stroke ㇐ (HK, TW) or ㇒ (Conway, Kangxi).
+  [Lenient form] Allow 1st stroke ㇐ (HK, TW) or ㇒ (Conway, Kangxi).
   [Lenient order] Allow ㇐ or ㇒ 1st (everyone else) or ㇒ 2nd (Conway).
 U+5316	化	32(15|35|53)
 U+5317	北	211(15|35|53)
@@ -1609,7 +1608,7 @@ U+53CA	及	3554
 U+53CB	友	1354
 U+53CC	双	5454
 U+53CD	反	(1|3)354
-  [Lenient classification] Allow 1st stroke ㇐ (Kangxi) or ㇒ (common).
+  [Lenient form] Allow 1st stroke ㇐ (Kangxi) or ㇒ (common).
 U+53CE	収	5254
 U+53CF	叏	51254
 U+53D0	叐	31354
@@ -1621,7 +1620,7 @@ U+53D5	叕	54545454
 U+53D6	取	12211154
 U+53D7	受	3(344|443)4554
 U+53D8	变	41(2|3)23454
-  [Lenient classification] Allow vertical legs or bent legs (as in 亦).
+  [Lenient form] Allow vertical legs or bent legs (as in 亦).
   [Remark] Variant attested by Meyer & Wempe.
 U+53D9	叙	341123454
 U+53DA	叚	512115154
@@ -2564,7 +2563,7 @@ U+577F	坿	12132124
 U+5780	垀	12134312
 U+5781	垁	12131134
 U+5782	垂	312(122|1212|2112)11
-  [Lenient classification]
+  [Lenient form]
     Allow 8 strokes (Kangxi) or 9 strokes (HK, TW).
     ---
     Kangxi counts only 3 strokes for the component 艹.
@@ -2933,7 +2932,7 @@ U+58E9	壩
 U+58EA	壪	
 U+58EB	士	
 U+58EC	壬	(1|3)121
-  [Lenient classification] Allow 1st stroke ㇐ (Kangxi) or ㇒ (common).
+  [Lenient form] Allow 1st stroke ㇐ (Kangxi) or ㇒ (common).
 U+58ED	壭	
 U+58EE	壮	
 U+58EF	壯	
@@ -4350,7 +4349,7 @@ U+5E70	幰
 U+5E71	幱	
 U+5E72	干	
 U+5E73	平	1(34|43)12
-  [Lenient classification] Allow interior 八 (Kangxi) or 丷 (everyone else).
+  [Lenient form] Allow interior 八 (Kangxi) or 丷 (everyone else).
 U+5E74	年	
 U+5E75	幵	
 U+5E76	并	
@@ -6222,7 +6221,7 @@ U+65B9	方	41(35|53)
 U+65BA	斺	
 U+65BB	斻	
 U+65BC	於	41(35|53)3(1|4)44
-  [Lenient classification] Allow top-right 𠂉 (HK) or 𠆢 (everyone else).
+  [Lenient form] Allow top-right 𠂉 (HK) or 𠆢 (everyone else).
 U+65BD	施	
 U+65BE	斾	
 U+65BF	斿	
@@ -7604,7 +7603,7 @@ U+6B1E	欞
 U+6B1F	欟	
 U+6B20	欠	
 U+6B21	次	(11|41)3534
-  [Lenient classification] Allow left component 二 (Kangxi) or 冫 (common).
+  [Lenient form] Allow left component 二 (Kangxi) or 冫 (common).
 U+6B22	欢	
 U+6B23	欣	
 U+6B24	欤	
@@ -9408,7 +9407,7 @@ U+7228	爨
 U+7229	爩	
 U+722A	爪	
 U+722B	爫	3(344|443)
-  [Lenient classification]
+  [Lenient form]
     Allow bottom ㇒㇔㇔ (Kangxi etc.) or ㇔㇔㇒ (everyone else).
 U+722C	爬	
 U+722D	爭	
@@ -11537,7 +11536,7 @@ U+7A77	穷
 U+7A78	穸	
 U+7A79	穹	
 U+7A7A	空	4453(4|5)121
-  [Lenient classification]
+  [Lenient form]
     Allow 5th stroke ㇏ (Kangxi) or ㇟ (common).
     ---
     Note that Kangxi usually has ㇟ for 穴 as a component.
@@ -12888,7 +12887,7 @@ U+7FBA	羺
 U+7FBB	羻	
 U+7FBC	羼	
 U+7FBD	羽	5(33|41)5\1
-  [Lenient classification] Allow interior ㇒㇒ (Kangxi) or 冫 (everyone else).
+  [Lenient form] Allow interior ㇒㇒ (Kangxi) or 冫 (everyone else).
 U+7FBE	羾	
 U+7FBF	羿	
 U+7FC0	翀	
@@ -12961,7 +12960,7 @@ U+8002	耂
 U+8003	考	
 U+8004	耄	
 U+8005	者	12132511(|4)
-  [Lenient classification] Allow dotless (everyone else) or dotted (Kangxi).
+  [Lenient form] Allow dotless (everyone else) or dotted (Kangxi).
 U+8006	耆	
 U+8007	耇	
 U+8008	耈	
@@ -19786,7 +19785,7 @@ U+9AA5	骥
 U+9AA6	骦	
 U+9AA7	骧	
 U+9AA8	骨	25(12|21)45(2|3)5(11|41)
-  [Lenient classification]
+  [Lenient form]
     Allow meat 1st stroke ㇑ (everyone else) or ㇓ (TW).
     Allow meat interor 二 (everyone else) or 冫 (TW).
   [Lenient order]
@@ -25070,7 +25069,7 @@ U+4343	䍃	3(443|541|544)311252
   [Remark]
     Same code point is used for the interiors of
     U+9059 遙 (with ⺼) and U+9065 遥 (with 爫).
-  [Lenient classification]
+  [Lenient form]
     Allow ⺼-form with interior 冫 (Kangxi) or ⺀ (HK), and also 爫-form.
 U+4344	䍄	
 U+4345	䍅	
