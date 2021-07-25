@@ -3814,7 +3814,8 @@ U+5C1A	尚
 U+5C1B	尛	
 U+5C1C	尜	
 U+5C1D	尝	
-U+5C1E	尞	
+U+5C1E	尞	1(3443|4334)2511234
+  [Lenient order] Allow 大-first (everyone else) or 一火 (Conway).
 U+5C1F	尟	
 U+5C20	尠	
 U+5C21	尡	
