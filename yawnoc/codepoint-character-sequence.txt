@@ -224,6 +224,7 @@ U+4E7C	乼	441411215
 U+4E7D	乽	12132511(|4)5
 U+4E7E	乾	12251112315
 U+4E7F	乿	3(344|443)554(234|444)5
+  [Lenient form] Allow bottom-left 糸 (Kangxi) or 糹 (TW).
 U+4E80	亀	35251125115
 U+4E81	亁	122511112315
 U+4E82	亂	3(344|443)542554545
@@ -246,6 +247,7 @@ U+4E91	云	1154
 U+4E92	互	1551
 U+4E93	亓	1132
 U+4E94	五	1(25|52)1
+  [Lenient order] Allow ㇑ 2nd (everyone else) or 3rd (Conway).
 U+4E95	井	1132
 U+4E96	亖	1111
 U+4E97	亗	25211
