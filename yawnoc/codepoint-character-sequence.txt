@@ -1224,6 +1224,9 @@ U+5221	刡	5151522
 U+5222	刢	34(1|4)5422
 U+5223	刣	5425122
 U+5224	判	(34|43)11(2|3)22
+  [Lenient form]
+    Allow first 2 strokes 八 (Kangxi) or 丷 (everyone else).
+    Allow 5th stroke ㇑ (Kangxi) or ㇓ (everyone else).
 U+5225	別	2513522
 U+5226	刦	1215422
 U+5227	刧	1215453
@@ -1677,6 +1680,7 @@ U+53DC	叜	445433454
 U+53DD	叝	121545(3|2)54
 U+53DE	叞	5131123454
 U+53DF	叟	32(1|11)511254
+  [Lenient form] Allow 7-stroke 𦥑 (Kangxi) or 6-stroke 臼 (common).
 U+53E0	叠	5454544525111
   [Remark] Variant attested by Meyer & Wempe.
 U+53E1	叡	2145134342511154
