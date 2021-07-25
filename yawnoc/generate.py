@@ -48,7 +48,10 @@ def sequence_set_from_regex(sequence_regex):
   for group_alternatives_combination in cartesian_product:
     
     sequence = re.sub(
-      r'\\ (?P<group_index> [1-9] )',
+      r'''
+        \\
+        (?P<group_index> [1-9] )
+      ''',
       lambda back_reference_match_object:
         replace_back_reference_match_object(
           back_reference_match_object,
@@ -88,7 +91,11 @@ def parse_sequence_regex_groups(sequence_regex):
   group_alternatives_list_list = []
   
   sequence_regex_no_groups = re.sub(
-    r'\( (?P<alternatives> [1-5|]* ) \)',
+    r'''
+      \(
+        (?P<alternatives> [1-5|]* )
+      \)
+    ''',
     lambda group_match_object:
       replace_group_match_object(
         group_match_object,
