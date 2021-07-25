@@ -1033,6 +1033,7 @@ U+518B	冋	25251
 U+518C	册	(2|3)5\151
 U+518D	再	125121
 U+518E	冎	25(12|21)25
+  [Lenient order] Allow top-interior ㇐ 3rd (everyone else) or 4th (Conway).
 U+518F	冏	2535251
 U+5190	冐	2511(2|3)511
 U+5191	冑	251212511
