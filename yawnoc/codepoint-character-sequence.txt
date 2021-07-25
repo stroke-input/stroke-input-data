@@ -1161,6 +1161,24 @@ U+51F8	凸	(21251|21552|25152|251152)
       (This construction is consistent with the radical, 凵.)
       (However, it is not consistent with Kangxi's count of 5 strokes.)
 U+51F9	凹	(25251|52152|251251|512152)
+  [Lenient form]
+    Quite complicated.
+    25251 (TW):
+      Strokes 1, 2, 3, 4 construct the top.
+      Stroke 5 finishes with the bottom edge.
+      (This construction is inconsistent with the radical, 凵.)
+    52152 (HK):
+      Strokes 1, 2, 3 construct the top indent.
+      Strokes 4, 5 finish with the bottom box.
+      (This construction is consistent with the radical, 凵.)
+    251251 (doubly unlearned):
+      Same as 25251 (TW), but with its 2nd stroke divided into 2.
+      (This construction is inconsistent with the radical, 凵.)
+      (It is also inconsistent with Kangxi's count of 5 strokes.)
+    512152 (unlearned):
+      Same as 52152 (HK), but with its 1st stroke divided into 2.
+      (This construction is consistent with the radical, 凵.)
+      (However, it is not consistent with Kangxi's count of 5 strokes.)
 U+51FA	出	(25|52)252
 U+51FB	击	
 U+51FC	凼	253452
