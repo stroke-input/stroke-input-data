@@ -2047,6 +2047,8 @@ U+5581	喁	251251125214
 U+5582	喂	251251211534
 U+5583	喃	251122543112
 U+5584	善	4311(12|21)431251
+  [Lenient form] Allow top 羊 (Kangxi) or 𦍌 (everyone else).
+  [Ignore Kangxi] Interior 丷 (everyone else) rather than 八 (Kangxi).
 U+5585	喅	251251141431
 U+5586	喆	121251121251
 U+5587	喇	251125123422
