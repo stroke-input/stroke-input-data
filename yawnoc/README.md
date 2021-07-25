@@ -17,8 +17,15 @@ Will probably take until end of 2021 to complete.
 - Script used to generate `sequence-characters.txt`
 - Licensed under [MIT-0]
 
+### [`sequence-characters.txt`]
+
+- Tab-separated list of (stroke sequence, characters) pairs
+- Automatically generated from `generate.py`
+- Released into the [Public Domain]
+
 [`codepoint-character-sequence.txt`]: codepoint-character-sequence.txt
 [`generate.py`]: generate.py
+[`sequence-characters.txt`]: sequence-characters.txt
 [Public Domain]: https://creativecommons.org/publicdomain/zero/1.0/
 [MIT-0]: https://spdx.org/licenses/MIT-0
 
