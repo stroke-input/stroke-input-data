@@ -18946,6 +18946,7 @@ U+975B	靛
 U+975C	靜	
 U+975D	靝	
 U+975E	非	(2|3)1112111
+  [Lenient form] Allow left-middle stroke ㇓ (Kangxi etc.) or ㇑ (common).
 U+975F	靟	
 U+9760	靠	
 U+9761	靡	
