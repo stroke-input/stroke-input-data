@@ -6544,6 +6544,7 @@ U+66FB	曻
 U+66FC	曼	
 U+66FD	曽	
 U+66FE	曾	(34|43)2524312511
+  [Lenient form] Allow top 八 (Kangxi) or 丷 (everyone else).
 U+66FF	替	
 U+6700	最	
 U+6701	朁	
