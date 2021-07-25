@@ -10301,6 +10301,17 @@ U+755F	畟
 U+7560	畠	
 U+7561	畡	
 U+7562	畢	251(11212|12112|21122)112
+  [Lenient form]
+    Complicated.
+    11212 (HK):
+      Vertical stroke connected all the way through (as in 甲),
+      with 4 strokes for the component 艹, ordered per HK.
+    12112 (HK with TW-ordered 艹):
+      Vertical stroke connected all the way through (as in 甲),
+      with 4 strokes for the component 艹, ordered per TW.
+    21122 (Kangxi, TW):
+      Vertical stroke not connected all the way through (as in 田),
+      with 3 strokes for the component 艹.
 U+7563	畣	
 U+7564	畤	
 U+7565	略	
