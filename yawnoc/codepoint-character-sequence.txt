@@ -98,6 +98,7 @@ U+4E0E	与	1251
 U+4E0F	丏	1255
 U+4E10	丐	1215
 U+4E11	丑	5(12|21)1
+  [Lenient order] Allow ㇐ 2nd (Conway) or 3rd (everyone else).
 U+4E12	丒	5341
 U+4E13	专	
 U+4E14	且	25111
@@ -150,6 +151,7 @@ U+4E40	乀	5
 U+4E41	乁	5
 U+4E42	乂	34
 U+4E43	乃	(35|53)
+  [Lenient order] Allow ㇓ 1st (everyone else) or 2nd (Conway).
 U+4E44	乄	54
 U+4E45	久	354
 U+4E46	乆	534
