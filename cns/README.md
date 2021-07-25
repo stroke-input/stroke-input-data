@@ -38,11 +38,11 @@ but which are nevertheless useful for reference.
 - Tab-separated list of (code point, character, stroke sequence) data,
   for all characters (with blanks for those missing in the raw data sets)
 
-[`raw/`]: cns/raw
-[`process.py`]: cns/process.py
-[`stroke-data-all.txt`]: cns/stroke-data-all.txt
-[`stroke-data-bmp.txt`]: cns/stroke-data-bmp.txt
-[`stroke-data-triplets.txt`]: cns/stroke-data-triplets.txt
+[`raw/`]: raw
+[`process.py`]: process.py
+[`stroke-data-all.txt`]: stroke-data-all.txt
+[`stroke-data-bmp.txt`]: stroke-data-bmp.txt
+[`stroke-data-triplets.txt`]: stroke-data-triplets.txt
 [MIT-0]: https://spdx.org/licenses/MIT-0
 
 

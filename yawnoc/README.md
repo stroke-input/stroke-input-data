@@ -17,8 +17,8 @@ Will probably take until end of 2021 to complete.
 - Script used to generate `sequence-characters.txt`
 - Licensed under [MIT-0]
 
-[`codepoint-character-sequence.txt`]: yawnoc/codepoint-character-sequence.txt
-[`generate.py`]: yawnoc/generate.py
+[`codepoint-character-sequence.txt`]: codepoint-character-sequence.txt
+[`generate.py`]: generate.py
 [Public Domain]: https://creativecommons.org/publicdomain/zero/1.0/
 [MIT-0]: https://spdx.org/licenses/MIT-0
 
