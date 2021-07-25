@@ -25,7 +25,7 @@ No attempt at validation is made in `generate.py`.
 
 ## Strokes
 
-Stroke are classified mostly following 康熙字典 (Kangxi dictionary),
+Strokes are classified mostly following 康熙字典 (Kangxi dictionary),
 with much leniency and some exceptions.
 
 1  ㇐  畫、提  horizontal; raise
