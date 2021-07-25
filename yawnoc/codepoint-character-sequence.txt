@@ -13173,6 +13173,15 @@ U+8082	肂
 U+8083	肃	
 U+8084	肄	
 U+8085	肅	511(2|12)3(5|21)521512
+  [Lenient form]
+    Allow incomplete 1 stroke (everyone else) or complete 2 strokes (HK)
+    at the bottom of the component 聿.
+    Allow counting 3 strokes (Kangxi, TW) or 4 strokes (everyone else) for 片.
+  [Remark]
+    Awfully complicated.
+    HK stroke order <https://www.edbchinese.hk/lexlist_en/>
+    is 聿 then 片 then 爿 (roughly).
+    TW stroke order is largely top to bottom. We follow this order here.
 U+8086	肆	
 U+8087	肇	
 U+8088	肈	
