@@ -12925,7 +12925,8 @@ U+8001	老
 U+8002	耂	
 U+8003	考	
 U+8004	耄	
-U+8005	者	
+U+8005	者	12132511(|4)
+  [Lenient classification] Allow dotless (everyone else) or dotted (Kangxi).
 U+8006	耆	
 U+8007	耇	
 U+8008	耈	
