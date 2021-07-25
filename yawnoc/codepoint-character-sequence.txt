@@ -122,11 +122,11 @@ U+4E1C	东
 U+4E1D	丝	
 U+4E1E	丞	525341
 U+4E1F	丟	112154
-  [Separate code point] U+4E22 丢 (1st stroke ㇒)
+  [Separate code points] U+4E22 丢 (1st stroke ㇒)
 U+4E20	丠	211(15|35|53)1
 U+4E21	両	125252
 U+4E22	丢	312154
-  [Separate code point] U+4E1F 丟 (1st stroke ㇐)
+  [Separate code points] U+4E1F 丟 (1st stroke ㇐)
 U+4E23	丣	1315251
 U+4E24	两	1253434
 U+4E25	严	
@@ -592,7 +592,7 @@ U+4FDB	俛	323525135
 U+4FDC	俜	322512115
 U+4FDD	保	322511234
 U+4FDE	俞	341(2|3)51122
-  [Separate code point] U+516A 兪
+  [Separate code points] U+516A 兪
 U+4FDF	俟	325431134
 U+4FE0	俠	321343434
 U+4FE1	信	324111251
@@ -663,7 +663,7 @@ U+5021	倡	3225112511
 U+5022	倢	3215112134
 U+5023	倣	3241(35|53)3134
 U+5024	値	3212251115
-  [Separate code point] U+503C 值
+  [Separate code points] U+503C 值
 U+5025	倥	324453(4|5)121
 U+5026	倦	32(34|43)113455
 U+5027	倧	3244511234
@@ -688,7 +688,7 @@ U+5039	倹	3234125134
 U+503A	债	
 U+503B	倻	32122111552
 U+503C	值	3212251111
-  [Separate code point] U+5024 値
+  [Separate code points] U+5024 値
 U+503D	倽	3234112251
 U+503E	倾	
 U+503F	倿	3241431531
@@ -995,7 +995,7 @@ U+516A	兪	341(2|3)5(11|44)55
   [Lenient form]
     Allow moon 1st stroke ㇑ (Kangxi) or ㇓ (everyone else).
     Allow moon interor 二 (everyone else) or ⺀ (Kangxi).
-  [Separate code point] U+4FDE 俞
+  [Separate code points] U+4FDE 俞
 U+516B	八	34
 U+516C	公	3454
 U+516D	六	4134
@@ -1446,13 +1446,13 @@ U+52F8	勸	(1212|1221|2112)2512513241112153
 U+52F9	勹	35
 U+52FA	勺	35(1|4)
 U+52FB	勻	3511
-  [Separate code point] U+5300 匀
+  [Separate code points] U+5300 匀
 U+52FC	勼	35(35|53)
 U+52FD	勽	3534
 U+52FE	勾	3554
 U+52FF	勿	3533
 U+5300	匀	3541
-  [Separate code point] U+52FB 勻
+  [Separate code points] U+52FB 勻
 U+5301	匁	3534
 U+5302	匂	35(15|35|53)
 U+5303	匃	35345
@@ -5369,15 +5369,15 @@ U+6233	戳
 U+6234	戴	
 U+6235	戵	
 U+6236	戶	3351
-  [Separate code point] U+6237 户, U+6238 戸
+  [Separate code points] U+6237 户, U+6238 戸
   [Remark]
     Allow 戶 (TW) or 户 (HK) or 戸 (Japan) as a component.
     Kangxi usually prefers 戶, but is inconsistent
     (e.g. it has 戶 in U+6241 扁, but 戸 in U+504F 偏).
 U+6237	户	4513
-  [Separate code point] U+6236 戶, U+6238 戸
+  [Separate code points] U+6236 戶, U+6238 戸
 U+6238	戸	1513
-  [Separate code point] U+6236 戶, U+6237 户
+  [Separate code points] U+6236 戶, U+6237 户
 U+6239	戹	
 U+623A	戺	
 U+623B	戻	
@@ -10735,9 +10735,9 @@ U+771B	眛
 U+771C	眜	
 U+771D	眝	
 U+771E	眞	(15|35|53)25111534
-  [Separate code point] U+771F 真
+  [Separate code points] U+771F 真
 U+771F	真	1225111134
-  [Separate code point] U+771E 眞
+  [Separate code points] U+771E 眞
   [Remark] Allow 真 (everyone else) or 眞 (Kangxi) as a component.
 U+7720	眠	
 U+7721	眡	
@@ -20915,10 +20915,10 @@ U+9EC0	黀
 U+9EC1	黁	
 U+9EC2	黂	
 U+9EC3	黃	122112512134
-  [Separate code point] U+9EC4 黄
+  [Separate code points] U+9EC4 黄
   [Remark] Allow 黃 (Kangxi etc.) or 黄 (folk) as a component.
 U+9EC4	黄	12212512134
-  [Separate code point] U+9EC3 黃
+  [Separate code points] U+9EC3 黃
 U+9EC5	黅	
 U+9EC6	黆	
 U+9EC7	黇	
