@@ -7564,7 +7564,8 @@ U+6B1D	欝
 U+6B1E	欞	
 U+6B1F	欟	
 U+6B20	欠	
-U+6B21	次	
+U+6B21	次	(11|41)3534
+  [Lenient classification] Allow left component 二 (Kangxi) or 冫 (common).
 U+6B22	欢	
 U+6B23	欣	
 U+6B24	欤	
