@@ -41,24 +41,24 @@ Strokes are ordered very leniently.
 
 0. Is the character 〇 (U+3007 IDEOGRAPHIC NUMBER ZERO)?
    - YES: INCLUDE the character. ✔️
-   - NO: go to 1.
+   - NO: go to next question.
 
 1. Does the character belong to either
    the CJK Unified Ideographs block (U+4E00 to U+9FFC)
    or the CJK Unified Ideographs Extension A block (U+3400 to U+4DBF)?
-   - YES: go to 2.
+   - YES: go to next question.
    - NO: EXCLUDE the character. ❎
 
 2. Does the character appear in 康熙字典?
    - YES: INCLUDE the character. ✔️
-   - NO: go to 3.
+   - NO: go to next question.
 
 3. Is the character a variant or ancient form of another character?
    - YES: INCLUDE the character. ✔️
-   - NO: go to 4.
+   - NO: go to next question.
 
 4. Is the character the simplified form of another character?
-   - YES: go to 5.
+   - YES: go to next question.
    - NO: INCLUDE the character. ✔️
 
 5. Is the character used in another context as a non-simplified character?
