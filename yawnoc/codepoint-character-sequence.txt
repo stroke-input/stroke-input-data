@@ -19778,6 +19778,11 @@ U+9AA5	骥
 U+9AA6	骦	
 U+9AA7	骧	
 U+9AA8	骨	25(12|21)45(2|3)5(11|41)
+  [Lenient classification]
+    Allow meat 1st stroke ㇑ (everyone else) or ㇓ (TW).
+    Allow meat interor 二 (everyone else) or 冫 (TW).
+  [Lenient order]
+    Allow top-interior ㇐ 3rd (everyone else) or 4th (Conway).
 U+9AA9	骩	
 U+9AAA	骪	
 U+9AAB	骫	
