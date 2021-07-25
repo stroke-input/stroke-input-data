@@ -2032,6 +2032,7 @@ U+5524	唤
 U+5525	唥	2514134(1|4)54
 U+5526	唦	2514412343
 U+5527	唧	2515115452
+  [Separate code points] U+559E 喞
 U+5528	唨	25155225111
 U+5529	唩	25131234531
 U+552A	唪	25111134112
@@ -2153,6 +2154,15 @@ U+559B	喛	2513(344|443)11354
 U+559C	喜	121251431251
 U+559D	喝	251251135345
 U+559E	喞	25132511(11|15|35|53)52
+  [Lenient form]
+    Slightly complicated.
+    11 (Kangxi):
+      Like U+2967F 𩙿 with first 3 strokes replaced by ㇒.
+      Or 白 with leftmost edge extended down and connected to 二.
+      Essentially a connected version of 皀.
+    15|35|53 (everyone else):
+      As U+7680 皀.
+  [Separate code points] U+5527 唧
 U+559F	喟	25125121(2|3)5(11|41)
 U+55A0	喠	251312511121
 U+55A1	喡	251521251152
