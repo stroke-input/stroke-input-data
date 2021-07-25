@@ -23,10 +23,15 @@ Sequence regex capture groups should:
 No attempt at validation is made in `generate.py`.
 
 
+## Forms
+
+Character forms mostly follow 康熙字典 (Kangxi dictionary),
+with much leniency and some exceptions.
+
+
 ## Strokes
 
-Strokes are classified mostly following 康熙字典 (Kangxi dictionary),
-with much leniency and some exceptions.
+Strokes are classified per Conway's memory of Nokia dumbphones:
 
 1  ㇐  畫、提  horizontal; raise
 2  ㇑  棟、棟鉤  vertical; vertical-with-hook
