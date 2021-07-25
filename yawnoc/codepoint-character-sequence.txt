@@ -3898,7 +3898,8 @@ U+5C6B	屫
 U+5C6C	屬	5132(1111|4134)2522135251214
 U+5C6D	屭	
 U+5C6E	屮	
-U+5C6F	屯	
+U+5C6F	屯	(1|3)525
+  [Lenient form] Allow 1st stroke ㇐ (HK, TW) or ㇒ (Kangxi, common).
 U+5C70	屰	
 U+5C71	山	
 U+5C72	屲	
