@@ -2683,6 +2683,11 @@ U+579A	垚	121121121
 U+579B	垛	121351234
 U+579C	垜	121(35|53)1234
 U+579D	垝	121(35|53)1355
+  [Lenient form]
+    Allow top-right 刀 (Kangxi) or ⺈ (everyone else).
+  [Remark]
+    Kangxi is inconsistent; here it has top-right 刀,
+    but for U+5371 危 alone, and for U+4F79 佹, it has top-right ⺈.
 U+579E	垞	121445315
 U+579F	垟	121431112
 U+57A0	垠	121511534
