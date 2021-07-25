@@ -4,15 +4,20 @@ Compiled manually by Conway (@yawnoc).
 Released into the Public Domain (CC0),
 see <https://creativecommons.org/publicdomain/zero/1.0/>.
 
-Lines are to be tab-separated (code point, character, sequence regex) triplets.
-In particular, sequence regexes must match `[1-5|()\\]+`.
-Non-compliant lines will be treated as comments by `generate.py`.
+To be parsed by the script `generate.py`.
+
+Each compliant line shall be a tab-separated
+(code point, character, stroke sequence regex) triplet,
+where the stroke sequence regex shall match `[1-5|()\\]+`.
+
+Non-compliant lines will be treated as comments.
 
 Sequence regex capture groups should:
-1. number at most 9,
-2. not be nested,
-3. contain pure digits separated by pipes, and
-4. be referred to by a backslash followed by a positive decimal digit.
+  1. number at most 9,
+  2. not be nested,
+  3. contain pure digits separated by pipes, and
+  4. be referred to by a backslash followed by a positive decimal digit.
+No attempt at validation is made in `generate.py`.
 
 
 ## CJK Unified Ideographs (U+4E00 to U+9FFC)

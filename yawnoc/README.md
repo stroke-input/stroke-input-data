@@ -8,7 +8,7 @@ Will probably take until end of 2021 to complete.
 
 ### [`codepoint-character-sequence.txt`]
 
-- Tab-separated list of (code point, character, stroke sequence regex) data
+- Tab-separated (code point, character, stroke sequence regex) data
 - Compiled manually by @yawnoc
 - Released into the [Public Domain]
 
@@ -19,7 +19,7 @@ Will probably take until end of 2021 to complete.
 
 ### [`sequence-characters.txt`]
 
-- Tab-separated list of (stroke sequence, characters) pairs
+- Tab-separated (stroke sequence, characters) data
 - Automatically generated from `generate.py`
 - Released into the [Public Domain]
 

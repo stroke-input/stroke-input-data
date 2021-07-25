@@ -4,9 +4,9 @@
 # generate.py
 
 Parse the lines of `codepoint-character-sequence.txt`,
-which are (code point, character, sequence regex) triplets,
+which are (code point, character, stroke sequence regex) triplets,
 and generate `sequence-characters.txt`,
-whose lines shall be (sequence, characters).
+whose lines shall be (stroke sequence, characters) pairs.
 
 Licensed under "MIT No Attribution" (MIT-0),
 see <https://spdx.org/licenses/MIT-0>.
@@ -169,6 +169,8 @@ if __name__ == '__main__':
       '# Automatically generated from `generate.py`.\n'
       '# Released into the Public Domain (CC0),\n'
       '# see <https://creativecommons.org/publicdomain/zero/1.0/>.\n'
+      '\n'
+      '# Contains tab-separated (stroke sequence, characters) data.\n'
       '\n'
     )
     

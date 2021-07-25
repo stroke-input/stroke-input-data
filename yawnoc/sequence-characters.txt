@@ -4,6 +4,8 @@
 # Released into the Public Domain (CC0),
 # see <https://creativecommons.org/publicdomain/zero/1.0/>.
 
+# Contains tab-separated (stroke sequence, characters) data.
+
 1	一
 11	二
 111	三
