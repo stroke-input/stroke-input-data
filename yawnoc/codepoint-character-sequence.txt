@@ -18935,8 +18935,10 @@ U+974D	靍
 U+974E	靎	
 U+974F	靏	
 U+9750	靐	
-U+9751	靑	
-U+9752	青	
+U+9751	靑	11212521
+  [Ignore Kangxi] 青 rather than 靑 as a component.
+U+9752	青	1121(2|3)511
+  [Lenient form] Allow moon 1st stroke ㇑ (everyone else) or ㇓ (TW).
 U+9753	靓	
 U+9754	靔	
 U+9755	靕	
