@@ -39,6 +39,10 @@ Strokes are ordered very leniently.
 
 ## Characters
 
+0. Is the character 〇 (U+3007 IDEOGRAPHIC NUMBER ZERO)?
+   - YES: INCLUDE the character. ✔️
+   - NO: go to 1.
+
 1. Does the character belong to either
    the CJK Unified Ideographs block (U+4E00 to U+9FFC)
    or the CJK Unified Ideographs Extension A block (U+3400 to U+4DBF)?
@@ -60,6 +64,11 @@ Strokes are ordered very leniently.
 5. Is the character used in another context as a non-simplified character?
    - YES: INCLUDE the character. ✔️
    - NO: EXCLUDE the character. ❎
+
+
+## CJK Symbols and Punctuation (U+3000 to U+303F)
+
+U+3007	〇	5
 
 
 ## CJK Unified Ideographs (U+4E00 to U+9FFC)
