@@ -20012,7 +20012,13 @@ U+9B2E	鬮
 U+9B2F	鬯	
 U+9B30	鬰	
 U+9B31	鬱	
-U+9B32	鬲	
+U+9B32	鬲	125125(34|35|43)12
+  [Lenient form]
+    Allow the following:
+      乂 (34), Kangxi when 鬲 is not the radical;
+      八 (34), olden formm of 丷;
+      儿 (35), Kangxi when 鬲 is the radical; also Japanese & Korean;
+      丷 (43), modern Chinese.
 U+9B33	鬳	
 U+9B34	鬴	
 U+9B35	鬵	
