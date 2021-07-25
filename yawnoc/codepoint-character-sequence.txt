@@ -12881,6 +12881,7 @@ U+7FBA	羺
 U+7FBB	羻	
 U+7FBC	羼	
 U+7FBD	羽	5(33|41)5\1
+  [Lenient classification] Allow interior ㇒㇒ (Kangxi) or 冫 (everyone else).
 U+7FBE	羾	
 U+7FBF	羿	
 U+7FC0	翀	
