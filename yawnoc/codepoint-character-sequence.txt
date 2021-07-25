@@ -5280,9 +5280,13 @@ U+6232	戲
 U+6233	戳	
 U+6234	戴	
 U+6235	戵	
-U+6236	戶	
-U+6237	户	
-U+6238	戸	
+U+6236	戶	3351
+U+6237	户	4513
+U+6238	戸	1513
+  [Leniency remark]
+    Allow 戶 (TW) or 户 (HK) or 戸 (Japan) as a component.
+    Kangxi usually prefers 戶, but is inconsistent
+    (e.g. it has 戶 in U+6241 扁, but 戸 in U+504F 偏).
 U+6239	戹	
 U+623A	戺	
 U+623B	戻	
