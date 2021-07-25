@@ -9368,7 +9368,9 @@ U+7227	爧
 U+7228	爨	
 U+7229	爩	
 U+722A	爪	
-U+722B	爫	
+U+722B	爫	3(344|443)
+  [Lenient classification]
+    Allow bottom ㇒㇔㇔ (Kangxi etc.) or ㇔㇔㇒ (everyone else).
 U+722C	爬	
 U+722D	爭	
 U+722E	爮	
