@@ -1138,6 +1138,28 @@ U+51F5	凵	52
 U+51F6	凶	3452
 U+51F7	凷	12152
 U+51F8	凸	(21251|21552|25152|251152)
+  [Lenient form]
+    Quite complicated.
+    21251 (TW):
+      Strokes 1, 2, 3 construct the left-hand edges.
+      Stroke 4 links the top and right-hand edges.
+      Stroke 5 finishes with the bottom edge.
+      (This construction is inconsistent with the radical, 凵.)
+    21552 (HK variant):
+      Same as 25152 (HK), but does the left-mid stroke
+      before the linking top-right stroke.
+      (This construction is consistent with the radical, 凵.)
+    25152 (HK):
+      Strokes 1, 2, 3 construct the top half.
+      Strokes 4, 5 finish with the bottom box.
+      (This construction is consistent with the radical, 凵.)
+      (From <https://www.edbchinese.hk/lexlist_en/>.)
+    251152 (unlearned):
+      Strokes 1, 2 construct the top knob.
+      Strokes 3, 4 construct the mid horizontal strokes.
+      Strokes 5, 6 finish with the bottom box.
+      (This construction is consistent with the radical, 凵.)
+      (However, it is not consistent with Kangxi's count of 5 strokes.)
 U+51F9	凹	(25251|52152|251251|512152)
 U+51FA	出	(25|52)252
 U+51FB	击	
