@@ -4601,7 +4601,12 @@ U+5EF2	廲
 U+5EF3	廳	
 U+5EF4	廴	
 U+5EF5	廵	
-U+5EF6	延	
+U+5EF6	延	321(5|21)554
+  [Lenient form]
+    Allow 7 strokes (Kangxi) or 8 strokes (everyone else).
+    ---
+    Kangxi counts only 3 strokes for the component 止.
+    Allow counting 4 per everyone else.
 U+5EF7	廷	
 U+5EF8	廸	
 U+5EF9	廹	
