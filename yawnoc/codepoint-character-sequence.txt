@@ -2686,8 +2686,12 @@ U+579D	垝	121(35|53)1355
   [Lenient form]
     Allow top-right 刀 (Kangxi) or ⺈ (everyone else).
   [Remark]
-    Kangxi is inconsistent; here it has top-right 刀,
-    but for U+5371 危 alone, and for U+4F79 佹, it has top-right ⺈.
+    Kangxi is inconsistent; the big character for the entry has top-right 刀,
+    but the small explanatory text has top-right ⺈.
+    Yet for U+5371 危 alone, and for U+4F79 佹, it has top-right ⺈,
+    for both the big character and the small explanatory text.
+    Kangxi seems to prefer top-right 刀 when the radical is 土 (earth);
+    see U+57C6 埆 for another example.
 U+579E	垞	121445315
 U+579F	垟	121431112
 U+57A0	垠	121511534
@@ -2722,13 +2726,22 @@ U+57BC	垼	3323554121
 U+57BD	垽	4413312121
 U+57BE	垾	1212511112
 U+57BF	垿	1214135452
-U+57C0	埀	
-U+57C1	埁	
-U+57C2	埂	
-U+57C3	埃	
-U+57C4	埄	
-U+57C5	埅	
-U+57C6	埆	
+U+57C0	埀	312211(15|35|53)11
+U+57C1	埁	12125234(1|4)5
+U+57C2	埂	1211251134
+U+57C3	埃	1215431134
+U+57C4	埄	1213541112
+U+57C5	埅	55241(35|53)121
+U+57C6	埆	121(35|53)35121
+  [Lenient form]
+    Allow top-right 刀 (Kangxi) or ⺈ (everyone else).
+  [Remark]
+    Kangxi is inconsistent; the big character for the entry has top-right 刀,
+    but the small explanatory text has top-right ⺈.
+    Yet for U+89D2 角 alone, and for U+5503 唃, it has top-right ⺈,
+    for both the big character and the small explanatory text.
+    Kangxi seems to prefer top-right 刀 when the radical is 土 (earth);
+    see U+579D 垝 for another example.
 U+57C7	埇	
 U+57C8	埈	
 U+57C9	埉	
