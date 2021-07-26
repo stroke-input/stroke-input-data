@@ -4389,7 +4389,7 @@ U+5E1A	帚
 U+5E1B	帛	
 U+5E1C	帜	
 U+5E1D	帝	
-  [Ignore Kangxi] 1st stroke ㇔ rather than ㇐
+  [Ignore Kangxi] 1st stroke ㇔ rather than ㇐.
 U+5E1E	帞	
 U+5E1F	帟	
 U+5E20	帠	
