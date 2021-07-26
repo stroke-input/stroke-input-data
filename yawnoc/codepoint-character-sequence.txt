@@ -5396,7 +5396,14 @@ U+620C	戌
 U+620D	戍	
 U+620E	戎	
 U+620F	戏	
-U+6210	成	
+U+6210	成	13(5|15)5(34|43)
+  [Lenient form]
+    Allow 6 strokes (everyone else) or 7 strokes (Kangxi).
+    ---
+    Kangxi has 2-stroke interior similar to U+4E01 丁.
+    Allow 1-stroke interior 𠃌 per everyone else.
+  [Lenient order]
+    Per U+6208 戈.
 U+6211	我	
 U+6212	戒	
 U+6213	戓	
