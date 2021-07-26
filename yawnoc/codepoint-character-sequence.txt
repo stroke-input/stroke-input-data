@@ -2753,10 +2753,16 @@ U+57CD	埍	121251(2|3)5(11|41)
   [Lenient form]
     Allow meat 1st stroke ㇑ (everyone else) or ㇓ (TW).
     Allow meat interor 二 (everyone else) or 冫 (TW).
-U+57CE	城	
-U+57CF	埏	
-U+57D0	埐	
-U+57D1	埑	
+U+57CE	城	12113(5|15)5(34|43)
+U+57CF	埏	121321(5|21)554
+U+57D0	埐	1215114554
+U+57D1	埑	1213312121
+  [Ignore Kangxi]
+    斤 last stroke ㇑ rather than ㇟.
+  [Remark]
+    Kangxi is inconsistent; for the similar U+54F2 哲,
+    it has the straight form of 斤 in the big character,
+    but the bent form of 斤 in the small explanatory text.
 U+57D2	埒	
 U+57D3	埓	
 U+57D4	埔	
