@@ -38,13 +38,13 @@ def sequence_set_from_regex(sequence_regex):
   by a backslash followed by a positive decimal digit.
   """
   
-  sequence_regex_no_groups, group_alternatives_list_list = (
+  sequence_regex_no_groups, group_alternatives_set_list = (
     parse_sequence_regex_groups(sequence_regex)
   )
   
   sequence_set = set()
   
-  cartesian_product = itertools.product(*group_alternatives_list_list)
+  cartesian_product = itertools.product(*group_alternatives_set_list)
   for group_alternatives_combination in cartesian_product:
     
     sequence = re.sub(
@@ -84,10 +84,10 @@ def parse_sequence_regex_groups(sequence_regex):
   Parse the capture groups of a stroke sequence regex.
   Returns a tuple of
   1. the regex with capture groups replaced by back references, and
-  2. a list of lists for the capture groups' alternatives.
+  2. a list of sets for the capture groups' alternatives.
   """
   
-  group_alternatives_list_list = []
+  group_alternatives_set_list = []
   
   sequence_regex_no_groups = re.sub(
     r'''
@@ -98,30 +98,30 @@ def parse_sequence_regex_groups(sequence_regex):
     lambda group_match_object:
       replace_group_match_object(
         group_match_object,
-        group_alternatives_list_list
+        group_alternatives_set_list
       ),
     sequence_regex,
     flags=re.VERBOSE
   )
   
-  return sequence_regex_no_groups, group_alternatives_list_list
+  return sequence_regex_no_groups, group_alternatives_set_list
 
 
 def replace_group_match_object(
   group_match_object,
-  group_alternatives_list_list
+  group_alternatives_set_list
 ):
   """
   Replace a capture group match object with a back reference.
-  Appends the capture group's alternatives (as a list)
-  to the supplied list of lists of alternatives.
+  Appends the capture group's alternatives (as a set)
+  to the supplied list of sets of alternatives.
   """
   
   group_alternatives_string = group_match_object.group('alternatives')
-  group_alternatives_list = group_alternatives_string.split('|')
-  group_alternatives_list_list.append(group_alternatives_list)
+  group_alternatives_set = set(group_alternatives_string.split('|'))
+  group_alternatives_set_list.append(group_alternatives_set)
   
-  group_index = len(group_alternatives_list_list)
+  group_index = len(group_alternatives_set_list)
   back_reference = fr'\{group_index}'
   
   return back_reference
