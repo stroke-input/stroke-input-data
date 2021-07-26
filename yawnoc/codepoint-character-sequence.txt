@@ -2742,13 +2742,17 @@ U+57C6	埆	121(35|53)35121
     for both the big character and the small explanatory text.
     Kangxi seems to prefer top-right 刀 when the radical is 土 (earth);
     see U+579D 垝 for another example.
-U+57C7	埇	
-U+57C8	埈	
-U+57C9	埉	
-U+57CA	埊	
-U+57CB	埋	
-U+57CC	埌	
-U+57CD	埍	
+U+57C7	埇	1215425112
+U+57C8	埈	121543(4|5)354
+U+57C9	埉	1211343434
+U+57CA	埊	2522534121
+U+57CB	埋	1212511121
+U+57CC	埌	1214511534
+  [Ignore Kangxi] 4th stroke ㇔ rather than ㇐.
+U+57CD	埍	121251(2|3)5(11|41)
+  [Lenient form]
+    Allow meat 1st stroke ㇑ (everyone else) or ㇓ (TW).
+    Allow meat interor 二 (everyone else) or 冫 (TW).
 U+57CE	城	
 U+57CF	埏	
 U+57D0	埐	
