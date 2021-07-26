@@ -2763,12 +2763,14 @@ U+57D1	埑	1213312121
     Kangxi is inconsistent; for the similar U+54F2 哲,
     it has the straight form of 斤 in the big character,
     but the bent form of 斤 in the small explanatory text.
-U+57D2	埒	
-U+57D3	埓	
-U+57D4	埔	
-U+57D5	埕	
-U+57D6	埖	
-U+57D7	埗	
+U+57D2	埒	1213(344|443)124
+  [Separate code points] U+57D3 埓
+U+57D3	埓	1213443124
+  [Separate code points] U+57D2 埒
+U+57D4	埔	1211251124
+U+57D5	埕	121251(1|3)121
+U+57D6	埖	121(1212|2112)32(15|35|53)
+U+57D7	埗	1212121233
 U+57D8	埘	
 U+57D9	埙	
 U+57DA	埚	
