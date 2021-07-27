@@ -4828,7 +4828,8 @@ U+5FC0	忀
 U+5FC1	忁	
 U+5FC2	忂	
 U+5FC3	心	
-U+5FC4	忄	
+U+5FC4	忄	(244|424|442)
+  [Lenient order] Allow ㇑ 1st (Conway), 2nd (HK, TW), or 3rd (weird people).
 U+5FC5	必	
 U+5FC6	忆	
 U+5FC7	忇	
