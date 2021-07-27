@@ -17502,7 +17502,8 @@ U+90F3	郳
 U+90F4	郴	
 U+90F5	郵	
 U+90F6	郶	
-U+90F7	郷	
+U+90F7	郷	55351154552
+  [Separate code points] U+9109 鄉, U+9115 鄕
 U+90F8	郸	
 U+90F9	郹	
 U+90FA	郺	
@@ -17520,7 +17521,8 @@ U+9105	鄅
 U+9106	鄆	
 U+9107	鄇	
 U+9108	鄈	
-U+9109	鄉	
+U+9109	鄉	553451154552
+  [Separate code points] U+90F7 郷, U+9115 鄕
 U+910A	鄊	
 U+910B	鄋	
 U+910C	鄌	
@@ -17532,7 +17534,9 @@ U+9111	鄑
 U+9112	鄒	
 U+9113	鄓	
 U+9114	鄔	
-U+9115	鄕	
+U+9115	鄕	55332511(11|15|35|53)552
+  [Lenient form] Per U+559E 喞. Slightly complicated.
+  [Separate code points] U+90F7 郷, U+9109 鄉
 U+9116	鄖	
 U+9117	鄗	
 U+9118	鄘	
