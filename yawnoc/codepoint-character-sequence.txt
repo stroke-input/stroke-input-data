@@ -1529,6 +1529,7 @@ U+5341	十	12
 U+5342	卂	512
 U+5343	千	312
 U+5344	卄	122
+  [Separate code points] U+5EFE 廾
 U+5345	卅	1(2|3)22
 U+5346	卆	(35|53)12
 U+5347	升	3(13|31)2
@@ -4626,7 +4627,8 @@ U+5EFA	建
 U+5EFB	廻	
 U+5EFC	廼	
 U+5EFD	廽	
-U+5EFE	廾	
+U+5EFE	廾	132
+  [Separate code points] U+5344 卄
 U+5EFF	廿	
 U+5F00	开	
 U+5F01	弁	
