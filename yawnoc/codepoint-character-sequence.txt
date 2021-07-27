@@ -1,8 +1,8 @@
 # codepoint-character-sequence.txt
 
 Compiled manually by Conway (@yawnoc).
-Released into the Public Domain (CC0),
-see <https://creativecommons.org/publicdomain/zero/1.0/>.
+Licensed under Creative Commons Attribution 4.0 International (CC-BY-4.0),
+see <https://creativecommons.org/licenses/by/4.0/>.
 
 
 ## Technicalities

@@ -10,7 +10,7 @@ Will probably take until end of 2021 to complete.
 
 - Tab-separated (code point, character, stroke sequence regex) data
 - Compiled manually by @yawnoc
-- Released into the [Public Domain]
+- Licensed under [CC-BY-4.0]
 
 ### [`generate.py`]
 
@@ -32,6 +32,7 @@ Will probably take until end of 2021 to complete.
 [`generate.py`]: generate.py
 [`sequence-characters.txt`]: sequence-characters.txt
 [`test_generate.py`]: test_generate.py
+[CC-BY-4.0]: https://creativecommons.org/licenses/by/4.0/
 [Public Domain]: https://creativecommons.org/publicdomain/zero/1.0/
 [MIT-0]: https://spdx.org/licenses/MIT-0
 
