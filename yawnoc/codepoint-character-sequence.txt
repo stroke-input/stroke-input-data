@@ -1531,13 +1531,15 @@ U+5343	千	312
 U+5344	卄	122
   [Separate code points] U+5EFE 廾
 U+5345	卅	1(2|3)22
+  [Lenient form] Allow 2nd stroke ㇑ (Kangxi) or ㇓ (everyone else).
 U+5346	卆	(35|53)12
 U+5347	升	3(13|31)2
 U+5348	午	3112
 U+5349	卉	12132
 U+534A	半	(34|43)112
 U+534B	卋	121221
-U+534C	卌	12222
+U+534C	卌	1(2|3)222
+  [Lenient form] Per U+5345 卅.
 U+534D	卍	121212
 U+534E	华	
 U+534F	协	
