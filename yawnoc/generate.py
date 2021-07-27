@@ -170,6 +170,8 @@ if __name__ == '__main__':
     output_file.write(
       '# # sequence-characters.txt\n'
       '\n'
+      '# Copyright 2021 Conway'
+      '\n'
       '# Licensed under Creative Commons Attribution 4.0 International '
         '(CC-BY-4.0),\n'
       '# see <https://creativecommons.org/licenses/by/4.0/>.\n'
