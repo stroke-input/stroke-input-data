@@ -13800,7 +13800,10 @@ U+8276	艶
 U+8277	艷	
 U+8278	艸	
 U+8279	艹	(1212|2112)
-  [Lenient order] Allow ㇐ 1st (Conway, HK) or 2nd (olden, TW).
+  [Lenient order]
+    Allow ㇐ 1st (Conway, HK) or 2nd (olden, TW).
+  [Remark]
+    Not 3 strokes, which is simplified.
 U+827A	艺	
 U+827B	艻	
 U+827C	艼	
@@ -17197,6 +17200,8 @@ U+8FB6	辶	(4454|4554)
     4554 (everyone else):
       As in ⻎, U+2ECE CJK RADICAL WALK TWO,
       i.e. 1 dot, 2 turns, 1 press.
+  [Remark]
+    Not 3 strokes, which is simplified.
 U+8FB7	辷	
 U+8FB8	辸	
 U+8FB9	边	
