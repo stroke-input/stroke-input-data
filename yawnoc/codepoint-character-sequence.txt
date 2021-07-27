@@ -13417,7 +13417,13 @@ U+8106	脆
 U+8107	脇	
 U+8108	脈	
 U+8109	脉	
-U+810A	脊	
+U+810A	脊	(111134|341111|344134|413434)(2|3)5(11|41)
+  [Lenient form]
+    Allow four specks horizontal (Kangxi) or like 氺 (everyone else).
+    Allow meat 1st stroke ㇑ (everyone else) or ㇓ (TW).
+    Allow meat interor 二 (everyone else) or 冫 (TW).
+  [Lenient order]
+    Allow four specks before man (TW) or man before four specks (HK).
 U+810B	脋	
 U+810C	脌	
 U+810D	脍	
