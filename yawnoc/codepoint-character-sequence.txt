@@ -2967,6 +2967,7 @@ U+587D	塽	12113434343434
 U+587E	塾	41251521(35|53)4121
 U+587F	塿	12125112512531
 U+5880	墀	1215132(1111|4134)3112
+  [Ignore Kangxi] Per U+7280 犀.
 U+5881	墁	
 U+5882	墂	
 U+5883	境	
@@ -9669,7 +9670,14 @@ U+727C	牼
 U+727D	牽	
 U+727E	牾	
 U+727F	牿	
-U+7280	犀	
+U+7280	犀	5132(1111|4134)3112
+  [Lenient form]
+    Allow four specks horizontal (Kangxi) or like 氺 (everyone else).
+  [Ignore Kangxi]
+    12 strokes rather than 11.
+    ---
+    Do not connect the vertical stroke between the four specks
+    with the vertical stroke in the component 牛.
 U+7281	犁	
 U+7282	犂	
 U+7283	犃	
