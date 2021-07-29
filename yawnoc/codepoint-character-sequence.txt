@@ -21087,6 +21087,7 @@ U+9EB8	麸
 U+9EB9	麹	
 U+9EBA	麺	
 U+9EBB	麻	413123(4|5)123\1
+  [Lenient form] Allow interior 𣏟 (Kangxi, TW) or 林 (common).
 U+9EBC	麼	
 U+9EBD	麽	
 U+9EBE	麾	
