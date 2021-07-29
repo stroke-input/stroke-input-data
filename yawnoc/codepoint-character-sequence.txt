@@ -2968,14 +2968,22 @@ U+587E	塾	41251521(35|53)4121
 U+587F	塿	12125112512531
 U+5880	墀	1215132(1111|4134)3112
   [Ignore Kangxi] Per U+7280 犀.
-U+5881	墁	
-U+5882	墂	
-U+5883	境	
-U+5884	墄	
-U+5885	墅	
-U+5886	墆	
-U+5887	墇	
-U+5888	墈	
+U+5881	墁	12125112522154
+  [Ignore Kangxi]
+    Top-right ⺜ or 曰 rather than ⿱冖二.
+  [Remark]
+    Kangxi has top-right 曰 for U+66FC 曼, U+6162 慢, U+6F2B 漫, etc.
+    Radical 土 (earth) seems to be a hotbed for top-right inconsistencies;
+    see 刀 vs ⺈ in U+579D 垝, U+57C6 埆 etc.
+U+5882	墂	12112522111234
+  [Ignore Kangxi]
+    Top-right 覀 rather than 西.
+U+5883	境	12141431251135
+U+5884	墄	121132112345(34|43)
+U+5885	墅	25111215452121
+U+5886	墆	12112213545252
+U+5887	墇	12141431251112
+U+5888	墈	12112211135553
 U+5889	墉	
 U+588A	墊	
 U+588B	墋	
