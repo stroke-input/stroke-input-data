@@ -3891,7 +3891,8 @@ U+5C03	尃
 U+5C04	射	
 U+5C05	尅	
 U+5C06	将	
-U+5C07	將	
+U+5C07	將	5213354(1|4)124
+  [Lenient form] Allow moon interior 冫 (TW) or ⺀ (Kangxi, HK)
 U+5C08	專	
 U+5C09	尉	
 U+5C0A	尊	
