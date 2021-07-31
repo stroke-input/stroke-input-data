@@ -3086,30 +3086,34 @@ U+58E7	壧	12125125113121221113134
 U+58E8	壨	25121251212512125121121
 U+58E9	壩	1211452(1111|4134|4444)1221251123511
 U+58EA	壪	1214111251554(234|444)554\1515
-U+58EB	士	
+U+58EB	士	121
 U+58EC	壬	(1|3)121
-  [Lenient form] Allow 1st stroke ㇐ (Kangxi) or ㇒ (common).
-U+58ED	壭	
+  [Lenient form]
+    Allow 1st stroke ㇐ (TW etc.) or ㇒ (common).
+  [Remark]
+    Kangxi is inconsistent, having both forms for both the character itself
+    and when using it as a component.
+U+58ED	壭	12152
 U+58EE	壮	
-U+58EF	壯	
-U+58F0	声	
-U+58F1	壱	
+U+58EF	壯	5213121
+U+58F0	声	1215213
+U+58F1	壱	12145(15|35|53)
 U+58F2	売	
 U+58F3	壳	
-U+58F4	壴	
-U+58F5	壵	
+U+58F4	壴	121251431
+U+58F5	壵	121121121
 U+58F6	壶	
-U+58F7	壷	
+U+58F7	壷	12145251221
 U+58F8	壸	
-U+58F9	壹	
-U+58FA	壺	
-U+58FB	壻	
-U+58FC	壼	
-U+58FD	壽	
-U+58FE	壾	
-U+58FF	壿	
-U+5900	夀	
-U+5901	夁	
+U+58F9	壹	121451251431
+U+58FA	壺	121452155121
+U+58FB	壻	12152134(2|3)5(11|41)
+U+58FC	壼	1214512155121
+U+58FD	壽	12151211251124
+U+58FE	壾	12125143112511
+U+58FF	壿	121(34|43)1253511124
+U+5900	夀	11525121251124
+U+5901	夁	1212522125122511
 U+5902	夂	
 U+5903	夃	
 U+5904	处	
