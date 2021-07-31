@@ -135,7 +135,8 @@ U+4E22	丢	312154
 U+4E23	丣	1315251
 U+4E24	两	1253434
 U+4E25	严	
-U+4E26	並	43122431
+U+4E26	並	43122(43|521)1
+  [Lenient form] Allow corners per the bottom of U+865B 虛.
 U+4E27	丧	
 U+4E28	丨	2
 U+4E29	丩	52
