@@ -14201,7 +14201,8 @@ U+83EB	菫
 U+83EC	菬	
 U+83ED	菭	
 U+83EE	菮	
-U+83EF	華	
+U+83EF	華	(1212|2112)1\1112
+  [Lenient order] Per U+8279 艹.
 U+83F0	菰	
 U+83F1	菱	
 U+83F2	菲	
