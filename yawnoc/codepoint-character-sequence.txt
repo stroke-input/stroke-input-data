@@ -3169,10 +3169,11 @@ U+5926	夦	122111355354354
 U+5927	大	134
 U+5928	夨	(154|5134)
   [Lenient form]
-    Allow 3 strokes or 4 strokes.
+    Allow 3 strokes (Kangxi) or 4 strokes (TW).
   [Remark]
-    Kangxi does not explicitly say whether it is 3 strokes or 4.
-    Unicode counts 3 (大 + 0).
+    Kangxi does not explicitly say whether it is 3 strokes or 4,
+    but from its count of 大 + 5 = 8 strokes for U+594A 奊,
+    we infer that Kangxi counts 3 strokes for 夨.
 U+5929	天	1134
 U+592A	太	1344
 U+592B	夫	1134
@@ -3206,7 +3207,13 @@ U+5946	奆	13412511
 U+5947	奇	13412512
 U+5948	奈	13411234
 U+5949	奉	11134112
-U+594A	奊	
+U+594A	奊	(11121|121121)(154|5134)
+  [Lenient form]
+    Top:
+      Allow 5 strokes (single vertical all the way through) (Kangxi)
+      or 6 strokes (separate verticals per U+572D 圭) (everyone else).
+    Bottom:
+      Per U+5928 夨.
 U+594B	奋	
 U+594C	奌	
 U+594D	奍	
