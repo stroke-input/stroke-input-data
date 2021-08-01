@@ -686,7 +686,7 @@ U+5031	倱	32251115(35|53)
 U+5032	倲	3212511234
 U+5033	倳	3212515112
 U+5034	倴	321341213(2|12)
-  [Lenient form] Allow bottom-right 𠦄 (6 strokes) or 卉 (5 strokes).
+  [Lenient form] Per U+5954 奔.
   [Remark] Kangxi prints 𠦄 (6 strokes) but counts 卉 (5 strokes).
 U+5035	倵	3211212154
 U+5036	倶	3225111134
@@ -3223,9 +3223,10 @@ U+594F	奏	11134(1|3)134
 U+5950	奐	352535134
 U+5951	契	(111|333)253134
   [Lenient form] Allow top-left 丰 (everyone else) or 丯 (Kangxi).
-U+5952	奒	
-U+5953	奓	
-U+5954	奔	
+U+5952	奒	134415334
+U+5953	奓	134354354
+U+5954	奔	1341213(|1)2
+  [Lenient form] Allow bottom 卉 (5 strokes) or 𠦄 (6 strokes).
 U+5955	奕	
 U+5956	奖	
 U+5957	套	
