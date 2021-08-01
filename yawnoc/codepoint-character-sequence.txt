@@ -531,7 +531,7 @@ U+4F98	侘	32445315
 U+4F99	侙	32112154
 U+4F9A	侚	32352511
 U+4F9B	供	32122134
-U+4F9C	侜	323354(14|41)
+U+4F9C	侜	32335(414|441)
 U+4F9D	依	32413534
 U+4F9E	侞	32531251
 U+4F9F	侟	32132521
@@ -13762,7 +13762,7 @@ U+821B	舛
 U+821C	舜	
 U+821D	舝	
 U+821E	舞	
-U+821F	舟	3354(14|41)
+U+821F	舟	335(414|441)
   [Lenient order] Allow ㇐ 2nd-last (Conway) or last (HK, TW).
   [Ignore Kangxi] 2nd-last (or last) stroke ㇔ rather than ㇑.
 U+8220	舠	
