@@ -2646,7 +2646,7 @@ U+5771	坱	12125134
 U+5772	坲	12151532
 U+5773	坳	12155453
 U+5774	坴	1213(4|5)121
-  [Lenient form] Allow central legs ⿰丿㇄ (Kangxi, HK, TW) or 八 (common).
+  [Lenient form] Allow central 八 or 儿.
 U+5775	坵	12132121
 U+5776	坶	121554(14|41)
 U+5777	坷	12112512
@@ -3123,23 +3123,31 @@ U+5907	备
 U+5908	夈	354431234
 U+5909	変	41(2|3)234354
   [Lenient form] Per U+53D8 变.
-U+590A	夊	
+U+590A	夊	354
 U+590B	夋	543(4|5)354
-  [Lenient form] Allow central legs ⿰丿㇄ (HK, TW) or 八 (common).
+  [Lenient form] Allow central 八 or 儿.
   [Remark]
     Kangxi is inconsistent,
     having central legs for 夋 as a component,
     but central 八 for 夋 alone.
 U+590C	夌	1213(4|5)354
-  [Lenient form] Allow central legs ⿰丿㇄ (Kangxi, HK, TW) or 八 (common).
-U+590D	复	
-U+590E	夎	
-U+590F	夏	
-U+5910	夐	
-U+5911	夑	
-U+5912	夒	
-U+5913	夓	
-U+5914	夔	
+  [Lenient form] Allow central 八 or 儿.
+U+590D	复	312511354
+U+590E	夎	3434121354
+U+590F	夏	1325111354
+U+5910	夐	35253425111354
+  [Separate code points] U+657B 敻
+U+5911	夑	411125143344334354
+U+5912	夒	1325111(212151534|212151535|342121515|352121515)354
+  [Lenient form] Allow central 八 or 儿.
+  [Lenient order] Allow 止巳 before 八 or vice versa.
+U+5913	夓	1325111(321151134|321151135|343211511|353211511)354
+  [Lenient form] Per U+5912 夒.
+  [Lenient order] Per U+5912 夒.
+U+5914	夔	431325111(212151534|212151535|342121515|352121515)354
+  [Separate code points] U+21582 𡖂
+  [Lenient form| Per U+5912 夒.
+  [Lenient order] Per U+5912 夒.
 U+5915	夕	
 U+5916	外	
 U+5917	夗	
@@ -6348,6 +6356,7 @@ U+6578	數
 U+6579	敹	
 U+657A	敺	
 U+657B	敻	
+  [Separate code points] U+5910 夐
 U+657C	敼	
 U+657D	敽	
 U+657E	敾	
