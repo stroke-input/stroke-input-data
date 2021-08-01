@@ -1040,7 +1040,7 @@ U+5189	冉	25121
 U+518A	冊	25(122|221)
   [Lenient order] Allow ㇐ 3rd (Conway) or last (everyone else).
 U+518B	冋	25251
-U+518C	册	(2|3)5\151
+U+518C	册	(25|35)\11
 U+518D	再	125121
 U+518E	冎	25(12|21)25
   [Lenient order] Allow top-interior ㇐ 3rd (everyone else) or 4th (Conway).
@@ -1230,7 +1230,7 @@ U+521C	刜	5153222
 U+521D	初	4523453
 U+521E	刞	2511122
 U+521F	刟	5325122
-U+5220	删	(2|3)5\15122
+U+5220	删	(25|35)\1122
   [Separate code points] U+522A 刪
 U+5221	刡	5151522
 U+5222	刢	34(1|4)5422
