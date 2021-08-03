@@ -648,7 +648,9 @@ U+500C	倌	3244525151
 U+500D	倍	3241431251
 U+500E	倎	3225122134
 U+500F	倏	322(354|3134)1344
+  [Lenient form] Allow top-right 夂 (Kangxi) or 攵 (everyone else).
 U+5010	倐	322(354|3134)4334
+  [Lenient form] Allow top-right 夂 (Kangxi) or 攵 (everyone else).
 U+5011	們	3225112511
 U+5012	倒	3215412122
 U+5013	倓	3243344334
