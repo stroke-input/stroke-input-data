@@ -3249,7 +3249,12 @@ U+5963	奣	113425113511
 U+5964	奤	134132522111
 U+5965	奥	325431234134
   [Separate code points] U+5967 奧
-U+5966	奦	
+U+5966	奦	54523313453134
+  [Ignore Kangxi]
+    Top-right 攵 (4 strokes) rather than 夂 (3 strokes).
+  [Remark]
+    Kangxi is inconsistent; here it has top-right 夂 (3 strokes),
+    but in U+52D9 務 it has top-right 攵 (4 strokes).
 U+5967	奧	
   [Separate code points] U+5965 奥
 U+5968	奨	
