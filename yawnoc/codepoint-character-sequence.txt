@@ -3255,19 +3255,24 @@ U+5966	奦	54523313453134
   [Remark]
     Kangxi is inconsistent; here it has top-right 夂 (3 strokes),
     but in U+52D9 務 it has top-right 攵 (4 strokes).
-U+5967	奧	
+U+5967	奧	3253431234134
   [Separate code points] U+5965 奥
-U+5968	奨	
-U+5969	奩	
-U+596A	奪	
-U+596B	奫	
-U+596C	奬	
-U+596D	奭	
-U+596E	奮	
-U+596F	奯	
-U+5970	奰	
-U+5971	奱	
-U+5972	奲	
+U+5968	奨	2413443124134
+U+5969	奩	13412512512515
+U+596A	奪	13432411121124
+U+596B	奫	1344413(5|21)521512
+U+596C	奬	521335(41|44)124134
+U+596D	奭	113251113251134
+U+596E	奮	1343241112125121
+U+596F	奯	1342121131233(534|543)
+  [Ignore Kangxi]
+    The form here is inconsistent with its entry for U+6B72 歲.
+    Here it has 3 strokes rather than 4 for the component 止,
+    as well as 少 (4 strokes) rather than 𣥂 (3 strokes) in the bottom.
+    The agreement in the total number of strokes is fortuitous.
+U+5970	奰	252212522125221134
+U+5971	奱	4111251(554234|554444)\1134
+U+5972	奲	13412132511(|4)251251251112
 U+5973	女	
 U+5974	奴	
 U+5975	奵	
