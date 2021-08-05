@@ -77,11 +77,10 @@ U+4E0A	上	211
 U+4E0B	下	124
 U+4E0C	丌	132
 U+4E0D	不	1324
-U+4E0E	与	1251
-  [Remark]
-    4 strokes per Kangxi, consistent with how the strokes are counted
-    for the top-middle component of U+8207 與.
-    Not 3 strokes, which is simplified.
+U+4E0E	与	(151|1251)
+  [Lenient form]
+    3 strokes: Abomination.
+    4 strokes: Per Kangxi, even as the top-middle of U+8207 與.
 U+4E0F	丏	1255
 U+4E10	丐	1215
 U+4E11	丑	(5121|5211)
