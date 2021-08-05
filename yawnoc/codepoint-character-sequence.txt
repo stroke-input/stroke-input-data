@@ -691,7 +691,12 @@ U+5033	倳	3212515112
 U+5034	倴	3213412(132|1312)
   [Lenient form] Per U+5954 奔.
   [Remark] Kangxi prints 𠦄 (6 strokes) but counts 卉 (5 strokes).
-U+5035	倵	3211212154
+U+5035	倵	3211(215|2121)54
+  [Lenient form]
+    Allow 3 strokes or 4 strokes for the component 止.
+  [Remark]
+    Kangxi is inconsistent; here it counts 4 strokes for the component 止,
+    but in U+5A2C 娬 and U+658C 斌 it counts 3.
 U+5036	倶	3225111134
 U+5037	倷	3213411234
 U+5038	倸	32(3344|3443)1234
