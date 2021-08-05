@@ -17,6 +17,8 @@ To be parsed by the script `generate.py`.
 Each compliant line shall be a tab-separated
 (code point, character, stroke sequence regex) triplet,
 where the stroke sequence regex shall match `[1-5|()\\]+`.
+An optional asterisk immediately after the character
+shall indicate that it is an abomination.
 
 Non-compliant lines will be treated as comments.
 
@@ -51,35 +53,6 @@ Unicode CJK Strokes (U+31C0 to U+31E3) for convenient reference:
   ㇐㇑㇒㇓㇔㇕㇖㇗㇘㇙㇚㇛㇜㇝㇞㇟
   ㇠㇡㇢㇣
 <https://en.wikipedia.org/wiki/CJK_Strokes_(Unicode_block)>
-
-
-## Characters
-
-0. Is the character 〇 (U+3007 IDEOGRAPHIC NUMBER ZERO)?
-   - YES: INCLUDE the character. ✔️
-   - NO: go to next question.
-
-1. Does the character belong to either
-   the CJK Unified Ideographs block (U+4E00 to U+9FFC)
-   or the CJK Unified Ideographs Extension A block (U+3400 to U+4DBF)?
-   - YES: go to next question.
-   - NO: EXCLUDE the character. ❎
-
-2. Does the character appear in 康熙字典?
-   - YES: INCLUDE the character. ✔️
-   - NO: go to next question.
-
-3. Is the character a variant or ancient form of another character?
-   - YES: INCLUDE the character. ✔️
-   - NO: go to next question.
-
-4. Is the character the simplified form of another character?
-   - YES: go to next question.
-   - NO: INCLUDE the character. ✔️
-
-5. Is the character used in another context as a non-simplified character?
-   - YES: INCLUDE the character. ✔️
-   - NO: EXCLUDE the character. ❎
 
 
 ## CJK Symbols and Punctuation (U+3000 to U+303F)
