@@ -34,6 +34,7 @@ Will probably take until end of 2021 to complete.
 - Unit tests for `generate.py`
 - Licensed under [MIT-0]
 
+[`abomination.txt`]: abomination.txt
 [`codepoint-character-sequence.txt`]: codepoint-character-sequence.txt
 [`generate.py`]: generate.py
 [`sequence-characters.txt`]: sequence-characters.txt
