@@ -10,3 +10,32 @@
 # It should NOT be edited manually.
 # Manual edits should be made to `codepoint-character-sequence.txt.`
 
+专
+丛
+东
+丝
+严
+丧
+丬
+临
+为
+举
+乌
+乔
+习
+乡
+书
+买
+亚
+产
+亩
+亵
+亸
+亿
+仑
+仓
+仪
+们
+优
+伛
+伞
