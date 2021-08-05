@@ -6,6 +6,12 @@ Will probably take until end of 2021 to complete.
 
 ## Contents
 
+### [`abomination.txt`]
+
+- Abomination data
+- Automatically generated from `generate.py`
+- Released into the [public domain]
+
 ### [`codepoint-character-sequence.txt`]
 
 - Tab-separated (code point, character, stroke sequence regex) data
@@ -32,6 +38,7 @@ Will probably take until end of 2021 to complete.
 [`generate.py`]: generate.py
 [`sequence-characters.txt`]: sequence-characters.txt
 [`test_generate.py`]: test_generate.py
+[public domain]: https://creativecommons.org/publicdomain/zero/1.0/
 [CC-BY-4.0]: https://creativecommons.org/licenses/by/4.0/
 [MIT-0]: https://spdx.org/licenses/MIT-0
 
