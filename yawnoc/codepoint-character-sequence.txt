@@ -4943,7 +4943,8 @@ U+5FD9	忙
 U+5FDA	忚	
 U+5FDB	忛	
 U+5FDC	応	
-U+5FDD	忝	
+U+5FDD	忝	(1|3)1342344
+  [Lenient form] Allow top 天 (Kangxi) or 夭 (common).
 U+5FDE	忞	
 U+5FDF	忟	
 U+5FE0	忠	
