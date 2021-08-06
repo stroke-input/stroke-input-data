@@ -18,7 +18,8 @@ Each compliant line shall be a tab-separated
 (code point, character, stroke sequence regex) triplet,
 where the stroke sequence regex shall match `[1-5|()\\]+`.
 An optional asterisk immediately after the character
-shall indicate that it is an abomination.
+shall indicate that it is an abomination
+(i.e. a simplified character that is not a traditional variant).
 
 Non-compliant lines will be treated as comments.
 
