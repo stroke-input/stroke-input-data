@@ -134,7 +134,9 @@ U+4E39	丹	3541
 U+4E3A	为*	4354
 U+4E3B	主	41121
 U+4E3C	丼	11324
-U+4E3D	丽	12541254
+U+4E3D	丽	1254(|1)254
+  [Lenient form]
+    Allow top-horizontal connected (abomination) or disconnected (Kangxi etc.).
 U+4E3E	举*	443134112
 U+4E3F	丿	3
 U+4E40	乀	5
