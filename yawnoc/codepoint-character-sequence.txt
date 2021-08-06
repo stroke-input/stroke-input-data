@@ -3400,8 +3400,9 @@ U+59E8	姨	531151534
 U+59E9	姩	531311212
 U+59EA	姪	531154121
 U+59EB	姫	531125125
-U+59EC	姬	5311225125
-  [Ignore Kangxi] Right 𦣞 rather than 𦣝.
+U+59EC	姬	531(151225|1225125)
+  [Lenient form]
+    Allow right 6-stroke 𦣝 (Kangxi) or 7-stroke 𦣞 (everyone else).
 U+59ED	姭	535353531
 U+59EE	姮	531125111
 U+59EF	姯	531243135
