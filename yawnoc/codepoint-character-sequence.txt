@@ -78,7 +78,7 @@ U+4E0A	上	211
 U+4E0B	下	124
 U+4E0C	丌	132
 U+4E0D	不	1324
-U+4E0E	与	(151|1251)
+U+4E0E	与	1(5|25)1
   [Lenient form]
     3 strokes: Abomination.
     4 strokes: Per Kangxi, even as the top-middle of U+8207 與.
