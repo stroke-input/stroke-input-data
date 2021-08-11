@@ -79,9 +79,7 @@ U+4E0B	下	124
 U+4E0C	丌	132
 U+4E0D	不	1324
 U+4E0E	与	1(5|25)1
-  [Lenient form]
-    3 strokes: Abomination.
-    4 strokes: Per Kangxi, even as the top-middle of U+8207 與.
+  [Lenient form] Allow ㇉ (abomination) or ㇑㇆ (Kangxi etc.).
 U+4E0F	丏	1255
 U+4E10	丐	1215
 U+4E11	丑	(5121|5211)
@@ -13787,7 +13785,12 @@ U+8203	舃
 U+8204	舄	
 U+8205	舅	
 U+8206	舆	
-U+8207	與	
+U+8207	與	1(5|25)(2|3)3211511134
+  [Lenient form]
+    Allow ㇉ (abomination) or ㇑㇆ (Kangxi etc.) for the top-middle component.
+    Allow ㇑ (HK) or ㇓ (TW) for the bottom of the top-middle component.
+  [Ignore Kangxi]
+    Do not allow ㇔ (Kangxi) for the bottom of the top-middle component.
 U+8208	興	
 U+8209	舉	
 U+820A	舊	
