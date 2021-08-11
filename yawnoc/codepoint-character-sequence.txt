@@ -1588,7 +1588,7 @@ U+536E	卮	33155
 U+536F	卯	35352
 U+5370	印	321152
 U+5371	危	(35|53)1355
-  [Lenient form] Allow top 刀 or ⺈.
+  [Lenient form] Allow top ⺈ or 刀.
 U+5372	卲	(35|53)25152
 U+5373	即	5115452
 U+5374	却	1215452
@@ -2707,7 +2707,7 @@ U+579B	垛	121351234
 U+579C	垜	121(35|53)1234
 U+579D	垝	121(35|53)1355
   [Lenient form]
-    Allow top-right 刀 (Kangxi) or ⺈ (everyone else).
+    Allow top-right ⺈ (everyone else) or 刀 (Kangxi).
   [Remark]
     Kangxi is inconsistent; the big character for the entry has top-right 刀,
     but the small explanatory text has top-right ⺈.
