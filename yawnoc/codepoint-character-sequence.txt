@@ -2755,9 +2755,9 @@ U+57C2	埂	1211251134
 U+57C3	埃	1215431134
 U+57C4	埄	1213541112
 U+57C5	埅	(52|552)(4135|4153)121
-U+57C6	埆	121(35|53)35121
-  [Lenient form]
-    Allow top-right 刀 (Kangxi) or ⺈ (everyone else).
+U+57C6	埆	1213535121
+  [Ignore Kangxi]
+    Top-right ⺈ (everyone else) rather than 刀 (Kangxi).
   [Remark]
     Kangxi is inconsistent; the big character for the entry has top-right 刀,
     but the small explanatory text has top-right ⺈.
