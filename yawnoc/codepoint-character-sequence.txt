@@ -1861,7 +1861,7 @@ U+5465	呥	25125121
 U+5466	呦	25155453
 U+5467	呧	2513515(1|4)
 U+5468	周	35(112|121)251
-  [Lenient form] Allow ㇑ to poke through (Kangxi, HK) or not (everyone else)
+  [Lenient form] Allow ㇑ to poke through (Kangxi, HK) or not (everyone else).
 U+5469	呩	25111234
 U+546A	呪	25125135
 U+546B	呫	25121251
