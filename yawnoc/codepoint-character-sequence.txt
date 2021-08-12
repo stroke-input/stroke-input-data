@@ -16624,7 +16624,10 @@ U+8D0B	贋
 U+8D0C	贌	
 U+8D0D	贍	
 U+8D0E	贎	
-U+8D0F	贏	
+U+8D0F	贏	415251251113435(11|41)(2|3)54
+  [Lenient form]
+    Allow meat interior 二 (Kangxi) or 冫 (HK, TW).
+    Allow 凡 1st stroke ㇑ (HK) or ㇓ (everyone else).
 U+8D10	贐	
 U+8D11	贑	
 U+8D12	贒	
