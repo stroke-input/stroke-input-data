@@ -3836,66 +3836,73 @@ U+5B7D	孽	(122|1212|2112)3251514143112521
   [Separate code points] U+5B7C 孼
 U+5B7E	孾	52125111342511134531
 U+5B7F	孿	4111251(554234|554444)\1521
-U+5B80	宀	
-U+5B81	宁	
-U+5B82	宂	
-U+5B83	它	
-U+5B84	宄	
-U+5B85	宅	
-U+5B86	宆	
-U+5B87	宇	
-U+5B88	守	
-U+5B89	安	
-U+5B8A	宊	
-U+5B8B	宋	
-U+5B8C	完	
-U+5B8D	宍	
-U+5B8E	宎	
-U+5B8F	宏	
-U+5B90	宐	
-U+5B91	宑	
-U+5B92	宒	
-U+5B93	宓	
-U+5B94	宔	
-U+5B95	宕	
-U+5B96	宖	
-U+5B97	宗	
-U+5B98	官	
-U+5B99	宙	
-U+5B9A	定	
-U+5B9B	宛	
-U+5B9C	宜	
-U+5B9D	宝	
-U+5B9E	实	
-U+5B9F	実	
-U+5BA0	宠	
-U+5BA1	审	
-U+5BA2	客	
-U+5BA3	宣	
-U+5BA4	室	
-U+5BA5	宥	
-U+5BA6	宦	
-U+5BA7	宧	
-U+5BA8	宨	
-U+5BA9	宩	
-U+5BAA	宪	
-U+5BAB	宫	
-U+5BAC	宬	
-U+5BAD	宭	
-U+5BAE	宮	
-U+5BAF	宯	
-U+5BB0	宰	
-U+5BB1	宱	
-U+5BB2	宲	
+U+5B80	宀	445
+U+5B81	宁	44512
+U+5B82	宂	44535
+U+5B83	它	445(35|53)
+U+5B84	宄	445(35|53)
+U+5B85	宅	445315
+U+5B86	宆	445515
+U+5B87	宇	445112
+U+5B88	守	445124
+U+5B89	安	445531
+U+5B8A	宊	4451344
+U+5B8B	宋	4451234
+U+5B8C	完	4451135
+U+5B8D	宍	4454134
+U+5B8E	宎	4453134
+U+5B8F	宏	4451354
+U+5B90	宐	445(|1)(2|3)541
+  [Lenient form]
+    Allow 7 strokes (Kangxi) or 8 strokes (TW).
+    Allow 4th-last stroke slanted ㇑ or ㇒, per U+4E99 亙.
+U+5B91	宑	4451132
+U+5B92	宒	4453115
+U+5B93	宓	44545443
+U+5B94	宔	44541121
+U+5B95	宕	44513251
+U+5B96	宖	44551554
+U+5B97	宗	44511234
+U+5B98	官	44525151
+U+5B99	宙	44525121
+U+5B9A	定	44512134
+U+5B9B	宛	44535455
+U+5B9C	宜	44525111
+U+5B9D	宝	44511214
+  [Remark] Variant attested by Meyer & Wempe.
+U+5B9E	实*	44544134
+U+5B9F	実	44511134
+U+5BA0	宠*	44513534
+U+5BA1	审*	44525112
+U+5BA2	客	445354251
+U+5BA3	宣	445125111
+U+5BA4	室	445154121
+U+5BA5	宥	44513(2|3)511
+U+5BA6	宦	445125125
+U+5BA7	宧	445(151225|1225125)
+  [Lenient form] Per U+59EC 姬.
+U+5BA8	宨	445341534
+U+5BA9	宩	445431234
+U+5BAA	宪*	445312135
+U+5BAB	宫*	445251251
+  [Separate code points] U+5BAE 宮
+U+5BAC	宬	44513(5|15)(534|543)
+U+5BAD	宭	4455113251
+U+5BAE	宮	4452513251
+  [Separate code points] U+5BAB 宫
+U+5BAF	宯	4451213521
+U+5BB0	宰	4454143112
+U+5BB1	宱	4453231211
+U+5BB2	宲	4452511234
 U+5BB3	害	445(1|3)(112|121)251
   [Lenient form]
     Allow 4th stroke ㇐ (common) or ㇒ (HK, TW).
     Allow ㇑ to poke through (Kangxi, HK) or not (everyone else).
   [Ignore Kangxi]
     Interior 丰 rather than 丯.
-U+5BB4	宴	
-U+5BB5	宵	
-U+5BB6	家	
+U+5BB4	宴	4452511531
+U+5BB5	宵	4452(34|43)(2|3)5(11|41)
+U+5BB6	家	4451353334
 U+5BB7	宷	
 U+5BB8	宸	
 U+5BB9	容	
