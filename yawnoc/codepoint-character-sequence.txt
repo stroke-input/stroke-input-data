@@ -4103,10 +4103,12 @@ U+5C6A	屪	513445(13443|14334)2511234
 U+5C6B	屫	5135213313425125251
 U+5C6C	屬	5132(1111|4134)2522135251214
 U+5C6D	屭	513251113425111342511134
-U+5C6E	屮	
+U+5C6E	屮	52(2|3)
+  [Lenient form] Allow last stroke ㇑ (Kangxi etc.) or ㇓ (Japan).
+  [Remark] Kangxi lists the ㇓ form as a separate character.
 U+5C6F	屯	(1|3)525
   [Lenient form] Allow 1st stroke ㇐ (HK, TW) or ㇒ (Kangxi, common).
-U+5C70	屰	
+U+5C70	屰	431523
 U+5C71	山	
 U+5C72	屲	
 U+5C73	屳	
