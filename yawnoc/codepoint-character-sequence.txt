@@ -3950,7 +3950,8 @@ U+5BE2	寢	44552135114554
 U+5BE3	寣	44552134111251
 U+5BE4	寤	4455213(1251|1521)251
 U+5BE5	寥	445(533|541)\134333
-U+5BE6	實	
+U+5BE6	實	44555(12|21)2511134
+  [Lenient order] Per U+6BCC 毌.
 U+5BE7	寧	
 U+5BE8	寨	
 U+5BE9	審	
@@ -8056,9 +8057,10 @@ U+6BC8	毈
 U+6BC9	毉	
 U+6BCA	毊	
 U+6BCB	毋	
-U+6BCC	毌	
+U+6BCC	毌	55(12|21)
+  [Lenient order] Allow ㇐ 2nd-last (Conway) or last (everyone else).
 U+6BCD	母	55(414|441)
-  [Lenient order] Allow ㇐ 2nd-last (Conway) or last (HK, TW).
+  [Lenient order] Allow ㇐ 2nd-last (Conway) or last (everyone else).
 U+6BCE	毎	
 U+6BCF	每	
 U+6BD0	毐	
