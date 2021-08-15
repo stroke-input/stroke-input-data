@@ -4899,7 +4899,7 @@ U+5F64	彤
 U+5F65	彥	413413333
   [Separate code points] U+5F66 彦
   [Remark] Allow 彥 (Kangxi etc.) or 彦 (abomination) as a component.
-U+5F66*	彦	414313333
+U+5F66	彦*	414313333
   [Separate code points] U+5F65 彥
 U+5F67	彧	
 U+5F68	彨	
