@@ -28195,5 +28195,9 @@ U+4DBF	䶿
 
 ## CJK Unified Ideographs Extension B (U+20000 to U+2A6DD)
 
+U+21582	𡖂	(1221|2112)1325111(212151534|212151535|342121515|352121515)354
+  [Separate code points] U+5914 夔
+  [Lenient form| Per U+5912 夒.
+  [Lenient order] Per U+5912 夒.
 U+27C3C	𧰼	352534353334
   [Separate code points] U+8C61 象
