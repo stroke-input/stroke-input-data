@@ -4503,19 +4503,19 @@ U+5DE2	巢	55525111234
 U+5DE3	巣	44325111234
 U+5DE4	巤	55525341(511|544)\15
   [Lenient form] Allow bottom hairs ㇐ (everyone else) or ㇔ (Kangxi).
-U+5DE5	工	
-U+5DE6	左	
-U+5DE7	巧	
+U+5DE5	工	121
+U+5DE6	左	13121
+U+5DE7	巧	12115
 U+5DE8	巨	(1515|12511)
   [Lenient form] Allow 4 strokes (abomination) or 5 strokes (Kangxi etc.).
-U+5DE9	巩	
-U+5DEA	巪	
-U+5DEB	巫	
-U+5DEC	巬	
-U+5DED	巭	
-U+5DEE	差	
-U+5DEF	巯	
-U+5DF0	巰	
+U+5DE9	巩	121354
+U+5DEA	巪	(1515|12511)5
+U+5DEB	巫	1234341
+U+5DEC	巬	121351134
+U+5DED	巭	121531134
+U+5DEE	差	4311(|2)13121
+U+5DEF	巯*	54121(|4)154325
+U+5DF0	巰	1555121(|4)154325
 U+5DF1	己	
 U+5DF2	已	
 U+5DF3	巳	
@@ -21648,7 +21648,7 @@ U+3428	㐨
 U+3429	㐩	
 U+342A	㐪	
 U+342B	㐫	
-U+342C	㐬	
+U+342C	㐬	(|4)154325
 U+342D	㐭	
 U+342E	㐮	
 U+342F	㐯	
