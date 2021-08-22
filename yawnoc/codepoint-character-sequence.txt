@@ -1286,7 +1286,7 @@ U+524D	前	431(2|3)5(11|44)22
   [Lenient form]
     Allow moon 1st stroke ㇑ (Kangxi) or ㇓ (everyone else).
     Allow moon interior 二 (everyone else) or ⺀ (Kangxi).
-U+524E	剎	3412(34|35)422
+U+524E	剎	34(1234|1235)422
 U+524F	剏	431132534
 U+5250	剐*	251253422
 U+5251	剑*	341443122
