@@ -11,6 +11,7 @@ see <https://spdx.org/licenses/MIT-0>.
 """
 
 
+import itertools
 import re
 
 
@@ -21,6 +22,88 @@ def get_lines(file_name):
   
   with open(file_name, 'r', encoding='utf-8') as file:
     return file.read().splitlines()
+
+
+CAPTURE_GROUP_REGEX = r'''
+  \(
+    (?P<alternatives> [1-5|]* )
+  \)
+'''
+
+
+def replace_capture_group(group_match_object, group_alternatives_set_list):
+  """
+  Replace a capture group match object with a back reference.
+  Appends the capture group's alternatives (as a set)
+  to the supplied list of sets of capture group alternatives.
+  """
+  
+  group_alternatives_string = group_match_object.group('alternatives')
+  group_alternatives_set = set(group_alternatives_string.split('|'))
+  group_alternatives_set_list.append(group_alternatives_set)
+  
+  group_index = len(group_alternatives_set_list)
+  back_reference = fr'\{group_index}'
+  
+  return back_reference
+
+
+BACK_REFERENCE_REGEX = r'''
+  \\
+  (?P<group_index> [1-9] )
+'''
+
+
+def replace_back_reference(
+  back_reference_match_object,
+  alternatives_combination
+):
+  """
+  Replace a back reference with the appropriate alternative.
+  """
+  
+  group_index = int(back_reference_match_object.group('group_index'))
+  alternative = alternatives_combination[group_index - 1]
+  
+  return alternative
+
+
+def to_sequence_set(sequence_regex):
+  """
+  Convert stroke sequence regex to a stroke sequence set.
+  Assumes capture groups:
+    1. number at most 9,
+    2. are not nested,
+    3. contain pure digits separated by pipes, and
+    4. are referred to by a backslash followed by
+       a positive decimal digit.
+  """
+  
+  group_alternatives_set_list = []
+  
+  back_referenced_sequence_regex = re.sub(
+    CAPTURE_GROUP_REGEX,
+    lambda x: replace_capture_group(x, group_alternatives_set_list),
+    sequence_regex,
+    flags=re.VERBOSE
+  )
+  
+  sequence_set = set()
+  
+  alternatives_combinations = itertools.product(*group_alternatives_set_list)
+  
+  for alternatives_combination in alternatives_combinations:
+    
+    sequence = re.sub(
+      BACK_REFERENCE_REGEX,
+      lambda x: replace_back_reference(x, alternatives_combination),
+      back_referenced_sequence_regex,
+      flags=re.VERBOSE
+    )
+    
+    sequence_set.add(sequence)
+  
+  return sequence_set
 
 
 COMPLIANT_LINE_REGEX = r'''
