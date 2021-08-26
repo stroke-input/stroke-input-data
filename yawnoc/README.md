@@ -8,7 +8,7 @@ Will probably take until end of 2021 to complete.
 
 ### [`codepoint-character-sequence.txt`]
 
-- Tab-separated (code point, character, stroke sequence regex) data
+- Tab-separated (code point, character, stroke sequence regex) triplets
 - Compiled manually by @yawnoc
 - Licensed under [CC-BY-4.0]
 
@@ -19,7 +19,7 @@ Will probably take until end of 2021 to complete.
 
 ### [`sequence-characters.txt`]
 
-- Tab-separated (stroke sequence, characters) data
+- Tab-separated (stroke sequence, character data) pairs
 - Automatically generated from `generate.py`
 - Licensed under [CC-BY-4.0]
 
