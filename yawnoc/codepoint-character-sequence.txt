@@ -4917,6 +4917,7 @@ U+5F5E	彞	511431234554234132
   [Separate code points] U+5F5D 彝
 U+5F5F	彟*	5111241223241112154
 U+5F60	彠	511121251124(122|1212|1221|2112)3241112154
+  [Ignore Kangxi] Top-left 彐 rather than 彑.
 U+5F61	彡	
 U+5F62	形	
 U+5F63	彣	
