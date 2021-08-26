@@ -16,10 +16,11 @@ To be parsed by the script `generate.py`.
 
 Each compliant line shall be a tab-separated
 (code point, character, stroke sequence regex) triplet,
-where the stroke sequence regex shall match `[1-5|()\\]+`.
-An optional asterisk immediately after the character
-shall indicate that it is an abomination
-(i.e. a simplified character that is not a traditional variant).
+where:
+  1. the stroke sequence regex shall match `[1-5|()\\]+`, and
+  2. the character may be immediately followed by an asterisk
+     to indicate that it is abomination (a simplified character
+     that is not a traditional variant).
 
 Non-compliant lines will be treated as comments.
 
