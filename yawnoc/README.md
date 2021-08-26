@@ -19,7 +19,7 @@ Will probably take until end of 2021 to complete.
 
 ### [`sequence-characters.txt`]
 
-- Tab-separated (stroke sequence, character data) pairs
+- Tab-separated (stroke sequence, characters data) pairs
 - Automatically generated from `generate.py`
 - Licensed under [CC-BY-4.0]
 
