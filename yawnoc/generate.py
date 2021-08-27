@@ -149,7 +149,7 @@ COMPLIANT_LINE_REGEX = r'''
 
 
 SEQUENCE_CHARACTERS_FILE_HEADER = (
-r'''
+'''\
 # # sequence-characters.txt
 
 # Copyright 2021 Conway.
