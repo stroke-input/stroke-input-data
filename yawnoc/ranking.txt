@@ -13,10 +13,10 @@
 
 # Lines beginning with a hash (#) will be ignored.
 
-# On every other line, each non-whitespace character
-# will be assigned a ranking equal to the line number of that line.
-# If a character appears more than once, its earliest appearance
-# (lowest line number) will prevail.
+# On every other line, each character will be assigned a ranking
+# equal to the line number of that line.
+# If a character appears more than once, the ranking
+# from its earliest appearance (lowest line number) will prevail.
 
 是不一了
 你有我人在
