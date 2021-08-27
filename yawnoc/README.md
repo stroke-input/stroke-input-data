@@ -17,6 +17,12 @@ Will probably take until end of 2021 to complete.
 - Script used to generate `sequence-characters.txt`
 - Licensed under [MIT-0]
 
+### [`ranking.txt`]
+
+- Ranking of commonly used characters
+- Compiled manually by @yawnoc
+- Released into the [public domain]
+
 ### [`sequence-characters.txt`]
 
 - Tab-separated (stroke sequence, characters data) pairs
@@ -30,11 +36,12 @@ Will probably take until end of 2021 to complete.
 
 [`codepoint-character-sequence.txt`]: codepoint-character-sequence.txt
 [`generate.py`]: generate.py
+[`ranking.txt`]: ranking.txt
 [`sequence-characters.txt`]: sequence-characters.txt
 [`test_generate.py`]: test_generate.py
-[public domain]: https://creativecommons.org/publicdomain/zero/1.0/
 [CC-BY-4.0]: https://creativecommons.org/licenses/by/4.0/
 [MIT-0]: https://spdx.org/licenses/MIT-0
+[public domain]: https://creativecommons.org/publicdomain/zero/1.0/
 
 
 ## Unicode strokes

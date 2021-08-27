@@ -1,0 +1,15 @@
+# # ranking.txt
+
+# Compiled manually by Conway (@yawnoc).
+
+# Released into the public domain,
+# see <https://creativecommons.org/publicdomain/zero/1.0/>.
+
+# To be used for candidate sorting (by the script `generate.py` etc.).
+
+# Lines beginning with a hash (#) will be ignored.
+
+# On every other line, each non-whitespace character
+# will be assigned a ranking equal to the line number of that line.
+# If a character appears more than once, its earliest appearance
+# (lowest line number) will prevail.
