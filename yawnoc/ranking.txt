@@ -2,6 +2,10 @@
 
 # Compiled manually by Conway (@yawnoc).
 
+# Inspired by the frequency data found at
+# <https://humanum.arts.cuhk.edu.hk/Lexis/chifreq/>
+# for Hong Kong in the 80s and 90s.
+
 # Released into the public domain,
 # see <https://creativecommons.org/publicdomain/zero/1.0/>.
 
@@ -13,3 +17,33 @@
 # will be assigned a ranking equal to the line number of that line.
 # If a character appears more than once, its earliest appearance
 # (lowest line number) will prevail.
+
+是不一了
+有我人在
+
+無所以來
+會中個大但
+可為上下時
+
+這他的
+
+其好只
+如要之也
+出於到年得
+而多過天地都
+行去
+當
+
+用本分
+自作十對生
+然能後就
+那們說説
+
+小子心事外成
+方家經學發面
+意
+
+和政
+港民國
+
+著
