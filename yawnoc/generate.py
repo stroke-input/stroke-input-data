@@ -24,19 +24,19 @@ def get_lines(file_name):
     return file.read().splitlines()
 
 
-CAPTURE_GROUP_REGEX = r'''
-  \(
-    (?P<alternatives> [1-5|]* )
-  \)
-'''
-
-
 def join_sorted(string_set):
   """
   Join a set of strings with sorting.
   """
   
   return ''.join(sorted(string_set))
+
+
+CAPTURE_GROUP_REGEX = r'''
+  \(
+    (?P<alternatives> [1-5|]* )
+  \)
+'''
 
 
 def replace_capture_group(group_match_object, group_alternatives_set_list):
