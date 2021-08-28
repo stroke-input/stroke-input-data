@@ -23,9 +23,9 @@ Will probably take until end of 2021 to complete.
 - Compiled manually by @yawnoc
 - Released into the [public domain]
 
-### [`sequence-characters.txt`]
+### [`sequence-exact-characters.txt`]
 
-- Tab-separated (stroke sequence, characters data) pairs
+- Tab-separated (stroke sequence, exact-match characters data) pairs
 - Automatically generated from `generate.py`
 - Licensed under [CC-BY-4.0]
 
@@ -37,7 +37,7 @@ Will probably take until end of 2021 to complete.
 [`codepoint-character-sequence.txt`]: codepoint-character-sequence.txt
 [`generate.py`]: generate.py
 [`ranking.txt`]: ranking.txt
-[`sequence-characters.txt`]: sequence-characters.txt
+[`sequence-exact-characters.txt`]: sequence-exact-characters.txt
 [`test_generate.py`]: test_generate.py
 [CC-BY-4.0]: https://creativecommons.org/licenses/by/4.0/
 [MIT-0]: https://spdx.org/licenses/MIT-0
