@@ -3,8 +3,8 @@
 """
 # generate.py
 
-Parse `codepoint-character-sequence.txt`
-and generate `sequence-exact-characters.txt`.
+Parse `codepoint-character-sequence.txt` and `ranking.txt`,
+generating `sequence-exact-characters.txt`.
 
 Licensed under "MIT No Attribution" (MIT-0),
 see <https://spdx.org/licenses/MIT-0>.
