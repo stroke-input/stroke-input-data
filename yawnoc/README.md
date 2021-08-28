@@ -29,6 +29,12 @@ Will probably take until end of 2021 to complete.
 - Automatically generated from `generate.py`
 - Licensed under [CC-BY-4.0]
 
+### [`sequence-prefix-characters.txt`]
+
+- Tab-separated (stroke sequence, prefix-match characters data) pairs
+- Automatically generated from `generate.py`
+- Licensed under [CC-BY-4.0]
+
 ### [`test_generate.py`]
 
 - Unit tests for `generate.py`
@@ -38,6 +44,7 @@ Will probably take until end of 2021 to complete.
 [`generate.py`]: generate.py
 [`ranking.txt`]: ranking.txt
 [`sequence-exact-characters.txt`]: sequence-exact-characters.txt
+[`sequence-prefix-characters.txt`]: sequence-prefix-characters.txt
 [`test_generate.py`]: test_generate.py
 [CC-BY-4.0]: https://creativecommons.org/licenses/by/4.0/
 [MIT-0]: https://spdx.org/licenses/MIT-0

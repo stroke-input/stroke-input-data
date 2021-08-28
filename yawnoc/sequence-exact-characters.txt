@@ -1,5 +1,7 @@
 # # sequence-exact-characters.txt
 
+# Character data for exact-match candidates.
+
 # Copyright 2021 Conway.
 # Licensed under Creative Commons Attribution 4.0 International (CC-BY-4.0),
 # see <https://creativecommons.org/licenses/by/4.0/>.
