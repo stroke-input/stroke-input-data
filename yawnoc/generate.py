@@ -193,7 +193,7 @@ SEQUENCE_PREFIX_CHARACTERS_FILE_HEADER = (
 
 # Character data for prefix-match candidates,
 # pre-computed for stroke sequences up to length n = {length},
-# which limits the live lookup size to ~{rows} rows / 5^(n+1) = {result}.
+# which limits the live lookup size to ~{rows} rows / 5^(n+1) = {result} rows.
 
 # Copyright 2021 Conway.
 # Licensed under Creative Commons Attribution 4.0 International (CC-BY-4.0),
