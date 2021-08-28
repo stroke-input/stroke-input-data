@@ -140,11 +140,9 @@ class CharactersData:
     goodly_string = join_sorted(self.goodly_set, sorting_function)
     abomination_string = join_sorted(self.abomination_set, sorting_function)
     if max_candidate_count > 0:
-      goodly_count = len(goodly_string)
-      goodly_string = \
-        goodly_string[: max_candidate_count]
-      abomination_string = \
-        abomination_string[: max(0, max_candidate_count - goodly_count)]
+      max_abomination_count = max(0, max_candidate_count - len(goodly_string))
+      goodly_string = goodly_string[: max_candidate_count]
+      abomination_string = abomination_string[: max_abomination_count]
     if len(abomination_string) == 0:
       return goodly_string
     else:
