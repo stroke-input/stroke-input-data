@@ -213,7 +213,7 @@ SEQUENCE_PREFIX_CHARACTERS_FILE_HEADER = (
 
 
 MAX_CHARACTER = chr(0x10FFFF)
-PRECOMPUTE_PREFIX_MATCHES_MAX_STOKE_COUNT = 3
+PRECOMPUTE_PREFIX_MATCHES_MAX_STROKE_COUNT = 3
 MAX_PREFIX_MATCH_COUNT = 20
 FULL_LOOKUP_ROW_COUNT = 30e3
 
@@ -305,7 +305,7 @@ if __name__ == '__main__':
   
   prefix_sequence_list = [
     ''.join(stroke_digit_combination)
-      for length in range(1, 1 + PRECOMPUTE_PREFIX_MATCHES_MAX_STOKE_COUNT)
+      for length in range(1, 1 + PRECOMPUTE_PREFIX_MATCHES_MAX_STROKE_COUNT)
       for stroke_digit_combination in itertools.product('12345', repeat=length)
   ]
   
@@ -316,11 +316,11 @@ if __name__ == '__main__':
       .write(
         SEQUENCE_PREFIX_CHARACTERS_FILE_HEADER
           .format(
-            length=PRECOMPUTE_PREFIX_MATCHES_MAX_STOKE_COUNT,
+            length=PRECOMPUTE_PREFIX_MATCHES_MAX_STROKE_COUNT,
             rows=int(FULL_LOOKUP_ROW_COUNT),
             result=int(
               FULL_LOOKUP_ROW_COUNT
-              / pow(5, PRECOMPUTE_PREFIX_MATCHES_MAX_STOKE_COUNT + 1),
+              / pow(5, PRECOMPUTE_PREFIX_MATCHES_MAX_STROKE_COUNT + 1),
             )
           )
       )
