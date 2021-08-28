@@ -177,7 +177,7 @@ SEQUENCE_EXACT_CHARACTERS_FILE_HEADER = (
 if __name__ == '__main__':
   
   sorting_rank_from_character = {}
-  characters_data_from_sequence = {}
+  exact_characters_data_from_sequence = {}
   
   with open('.ignored-lines.txt', 'w', encoding='utf-8') \
   as ignored_lines_file:
@@ -232,17 +232,17 @@ if __name__ == '__main__':
       for sequence in sequence_set:
         
         try:
-          characters_data = characters_data_from_sequence[sequence]
+          exact_characters_data = exact_characters_data_from_sequence[sequence]
         except KeyError:
-          characters_data = \
-            characters_data_from_sequence[sequence] = CharactersData()
+          exact_characters_data = \
+            exact_characters_data_from_sequence[sequence] = CharactersData()
         
         if is_abomination:
-          characters_data.add_abomination(character)
+          exact_characters_data.add_abomination(character)
         else:
-          characters_data.add_goodly(character)
+          exact_characters_data.add_goodly(character)
   
-  sorted_sequences = sorted(characters_data_from_sequence.keys())
+  sorted_sequences = sorted(exact_characters_data_from_sequence.keys())
   
   with open('sequence-exact-characters.txt', 'w', encoding='utf-8') \
   as sequence_exact_characters_file:
@@ -251,9 +251,10 @@ if __name__ == '__main__':
     
     for sequence in sorted_sequences:
       
-      characters_data = characters_data_from_sequence[sequence]
-      characters_data_string = \
-        characters_data.to_string(character_sorting_function)
-      sequence_exact_characters_line = f'{sequence}\t{characters_data_string}'
+      exact_characters_data = exact_characters_data_from_sequence[sequence]
+      exact_characters_data_string = \
+        exact_characters_data.to_string(character_sorting_function)
+      sequence_exact_characters_line = \
+        f'{sequence}\t{exact_characters_data_string}'
       sequence_exact_characters_file\
         .write(sequence_exact_characters_line + '\n')
