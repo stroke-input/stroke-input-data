@@ -24,12 +24,12 @@ def get_lines(file_name):
     return file.read().splitlines()
 
 
-def join_sorted(string_set):
+def join_sorted(string_set, sorting_function):
   """
   Join a set of strings with sorting.
   """
   
-  return ''.join(sorted(string_set))
+  return ''.join(sorted(string_set, key=sorting_function))
 
 
 CAPTURE_GROUP_REGEX = r'''
@@ -129,13 +129,18 @@ class CharactersData:
   def add_abomination(self, character):
     self.abomination_set.add(character)
   
-  def to_string(self):
-    goodly_string = join_sorted(self.goodly_set)
-    abomination_string = join_sorted(self.abomination_set)
+  def to_string(self, sorting_function):
+    goodly_string = join_sorted(self.goodly_set, sorting_function)
+    abomination_string = join_sorted(self.abomination_set, sorting_function)
     if len(abomination_string) == 0:
       return goodly_string
     else:
       return f'{goodly_string},{abomination_string}'
+
+
+IGNORED_RANKING_LINK_REGEX = r'''
+  [\s]* [#] .*
+'''
 
 
 COMPLIANT_LINE_REGEX = r'''
@@ -171,10 +176,37 @@ SEQUENCE_CHARACTERS_FILE_HEADER = (
 
 if __name__ == '__main__':
   
+  sorting_rank_from_character = {}
   characters_data_from_sequence = {}
   
   with open('.ignored-lines.txt', 'w', encoding='utf-8') \
   as ignored_lines_file:
+    
+    infinite_sorting_rank = 0
+    for line_number, ranking_line in enumerate(get_lines('ranking.txt'), 1):
+      
+      line_match_object = re.fullmatch(
+        IGNORED_RANKING_LINK_REGEX,
+        ranking_line,
+        flags=re.VERBOSE
+      )
+      line_is_ignored = line_match_object is not None
+      
+      if line_is_ignored:
+        ignored_lines_file.write(ranking_line + '\n')
+        continue
+      
+      for character in ranking_line:
+        if character not in sorting_rank_from_character:
+          sorting_rank_from_character[character] = line_number
+          infinite_sorting_rank = line_number + 1
+    
+    def character_sorting_function(character):
+      
+      sorting_rank = \
+        sorting_rank_from_character.get(character, infinite_sorting_rank)
+      
+      return (sorting_rank, character)
     
     for codepoint_character_sequence_line \
     in get_lines('codepoint-character-sequence.txt'):
@@ -220,6 +252,7 @@ if __name__ == '__main__':
     for sequence in sorted_sequences:
       
       characters_data = characters_data_from_sequence[sequence]
-      characters_data_string = characters_data.to_string()
+      characters_data_string = \
+        characters_data.to_string(character_sorting_function)
       sequence_characters_line = f'{sequence}\t{characters_data_string}'
       sequence_characters_file.write(sequence_characters_line + '\n')
