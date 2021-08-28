@@ -149,7 +149,7 @@ class CharactersData:
       return f'{goodly_string},{abomination_string}'
 
 
-IGNORED_RANKING_LINK_REGEX = r'''
+IGNORED_RANKING_LINE_REGEX = r'''
   [\s]* [#] .*
 '''
 
@@ -230,7 +230,7 @@ if __name__ == '__main__':
     for line_number, ranking_line in enumerate(get_lines('ranking.txt'), 1):
       
       line_match_object = re.fullmatch(
-        IGNORED_RANKING_LINK_REGEX,
+        IGNORED_RANKING_LINE_REGEX,
         ranking_line,
         flags=re.VERBOSE
       )
