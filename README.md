@@ -35,7 +35,7 @@ All strokes are classified into 5 types, entered via keypad:
 ### [`codepoint-character-sequence.txt`]
 
 - Tab-separated (code point, character, stroke sequence regex) triplets
-- Compiled manually by @yawnoc
+- Compiled manually by Conway (@yawnoc)
 - Licensed under [CC-BY-4.0]
 
 ### [`generate.py`]
@@ -47,7 +47,7 @@ All strokes are classified into 5 types, entered via keypad:
 ### [`ranking.txt`]
 
 - Ranking of commonly used characters
-- Compiled manually by @yawnoc
+- Compiled manually by Conway (@yawnoc)
 - Released into the [public domain]
 
 ### [`sequence-exact-characters.txt`]
