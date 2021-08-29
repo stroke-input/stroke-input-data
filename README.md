@@ -1,4 +1,4 @@
-# stroke-input-data
+# Conway Stroke Data
 
 A data set that I am compiling manually (work in progress)
 for the [Stroke Input Method (筆畫輸入法)] in Chinese.

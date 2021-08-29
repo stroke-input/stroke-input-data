@@ -2,6 +2,9 @@
 
 Compiled manually by Conway (@yawnoc).
 
+Part of 'Conway Stroke Data',
+see <https://github.com/stroke-input/stroke-input-data>.
+
 ---
 
 Copyright 2021 Conway
