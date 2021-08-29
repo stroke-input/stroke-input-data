@@ -150,7 +150,7 @@ class CharactersData:
 
 
 IGNORED_RANKING_LINE_REGEX = r'''
-  [\s]* [#] .*
+  [#] .*
 '''
 
 
