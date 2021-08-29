@@ -40,7 +40,8 @@ All strokes are classified into 5 types, entered via keypad:
 
 ### [`generate.py`]
 
-- Script used to generate `sequence-characters.txt`
+- Script used to generate
+  `sequence-exact-characters.txt` and `sequence-prefix-characters.txt`
 - Licensed under [MIT-0]
 
 ### [`ranking.txt`]
