@@ -28,15 +28,9 @@ All strokes are classified into 5 types, entered via keypad:
 
 ## Contents
 
-### [`cns/`]
-
-ROC stroke data sets that I probably won't use,
-but which are nevertheless useful for reference.
-
 ### [`yawnoc/`]
 
 A stroke data set that I am compiling manually (work in progress).
 Will probably take until end of 2021 to complete.
 
-[`cns/`]:  cns
 [`yawnoc/`]: yawnoc
