@@ -226,8 +226,9 @@ if __name__ == '__main__':
   with open('.ignored-lines.txt', 'w', encoding='utf-8') \
   as ignored_lines_file:
     
+    current_rank = 0
     infinite_sorting_rank = 0
-    for line_number, ranking_line in enumerate(get_lines('ranking.txt'), 1):
+    for ranking_line in get_lines('ranking.txt'):
       
       line_match_object = re.fullmatch(
         IGNORED_RANKING_LINE_REGEX,
@@ -242,8 +243,9 @@ if __name__ == '__main__':
       
       for character in ranking_line:
         if character not in sorting_rank_from_character:
-          sorting_rank_from_character[character] = line_number
-          infinite_sorting_rank = line_number + 1
+          current_rank += 1
+          sorting_rank_from_character[character] = current_rank
+          infinite_sorting_rank = current_rank + 1
     
     def character_sorting_function(character):
       

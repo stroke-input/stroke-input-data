@@ -14,9 +14,10 @@
 # Lines beginning with a hash (#) will be ignored.
 
 # On every other line, each character will be assigned a ranking
-# equal to the line number of that line.
+# based on its position in this file.
+# Characters that appear earlier will be ranked higher.
 # If a character appears more than once, the ranking
-# from its earliest appearance (lowest line number) will prevail.
+# from its earliest appearance will prevail.
 
 是不一了
 你有我人在
