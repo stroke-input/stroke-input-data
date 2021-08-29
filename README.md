@@ -1,8 +1,11 @@
 # stroke-input-data
 
-Data sets for the [Stroke Input Method (筆畫輸入法)] in Chinese.
+A data set that I am compiling manually (work in progress)
+for the [Stroke Input Method (筆畫輸入法)] in Chinese.
 
-(For when I get around to writing a Stroke Input Method app some day.)
+Will probably take until end of 2021 to complete.
+
+To be used in [stroke-input-android].
 
 
 ## Stroke Input Method
@@ -23,14 +26,67 @@ All strokes are classified into 5 types, entered via keypad:
 ![Picture of a dumbphone with stroke input method on keys 1 to 5.][dumbphone]
 
 [Stroke Input Method (筆畫輸入法)]: https://zh.wikipedia.org/wiki/筆畫輸入法
+[stroke-input-android]: https://github.com/stroke-input/stroke-input-android
 [dumbphone]: dumbphone-stroke-input.jpg
 
 
 ## Contents
 
-### [`yawnoc/`]
+### [`codepoint-character-sequence.txt`]
 
-A stroke data set that I am compiling manually (work in progress).
-Will probably take until end of 2021 to complete.
+- Tab-separated (code point, character, stroke sequence regex) triplets
+- Compiled manually by @yawnoc
+- Licensed under [CC-BY-4.0]
 
-[`yawnoc/`]: yawnoc
+### [`generate.py`]
+
+- Script used to generate `sequence-characters.txt`
+- Licensed under [MIT-0]
+
+### [`ranking.txt`]
+
+- Ranking of commonly used characters
+- Compiled manually by @yawnoc
+- Released into the [public domain]
+
+### [`sequence-exact-characters.txt`]
+
+- Tab-separated (stroke sequence, exact-match characters data) pairs
+- Automatically generated from `generate.py`
+- Licensed under [CC-BY-4.0]
+
+### [`sequence-prefix-characters.txt`]
+
+- Tab-separated (stroke sequence, prefix-match characters data) pairs
+- Automatically generated from `generate.py`
+- Licensed under [CC-BY-4.0]
+
+### [`test_generate.py`]
+
+- Unit tests for `generate.py`
+- Licensed under [MIT-0]
+
+[`codepoint-character-sequence.txt`]: codepoint-character-sequence.txt
+[`generate.py`]: generate.py
+[`ranking.txt`]: ranking.txt
+[`sequence-exact-characters.txt`]: sequence-exact-characters.txt
+[`sequence-prefix-characters.txt`]: sequence-prefix-characters.txt
+[`test_generate.py`]: test_generate.py
+[CC-BY-4.0]: https://creativecommons.org/licenses/by/4.0/
+[MIT-0]: https://spdx.org/licenses/MIT-0
+[public domain]: https://creativecommons.org/publicdomain/zero/1.0/
+
+
+## Unicode strokes
+
+[CJK Strokes (Unicode block)] (`U+31C0` to `U+31E3`),
+for convenient reference:
+
+````
+㇀㇁㇂㇃㇄㇅㇆㇇㇈㇉㇊㇋㇌㇍㇎㇏
+㇐㇑㇒㇓㇔㇕㇖㇗㇘㇙㇚㇛㇜㇝㇞㇟
+㇠㇡㇢㇣
+````
+
+[CJK Strokes (Unicode block)]:
+  https://en.wikipedia.org/wiki/CJK_Strokes_(Unicode_block)
