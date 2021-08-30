@@ -17414,7 +17414,7 @@ U+8FB4	辴
 U+8FB5	辵	
 U+8FB6	辶	(454|4454|4554)
   [Lenient form]
-    454 (abbomoination):
+    454 (abomination):
       As in ⻌, U+2ECC CJK RADICAL SIMPLIFIED WALK,
       i.e. 1 dot, 1 turn, 1 press.
     4454 (Kangxi):
