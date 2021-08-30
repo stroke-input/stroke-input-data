@@ -155,7 +155,8 @@ IGNORED_RANKING_LINE_REGEX = r'''
 
 
 COMPLIANT_LINE_REGEX = r'''
-  U[+][0-9A-F]{4,5}
+  U[+]
+  (?P<codepoint_hex> [0-9A-F]{4,5} )
     \t
   (?P<character> \S )
   (?P<abomination_asterisk> [*]? )
@@ -274,9 +275,14 @@ if __name__ == '__main__':
         ignored_lines_file.write(codepoint_character_sequence_line + '\n')
         continue
       
+      codepoint_hex = line_match_object.group('codepoint_hex')
       character = line_match_object.group('character')
       abomination_asterisk = line_match_object.group('abomination_asterisk')
       sequence_regex = line_match_object.group('sequence_regex')
+      
+      if int(codepoint_hex, 16) != ord(character):
+        ignored_lines_file.write(codepoint_character_sequence_line + '\n')
+        continue
       
       is_abomination = len(abomination_asterisk) > 0
       sequence_set = to_sequence_set(sequence_regex)
