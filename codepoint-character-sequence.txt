@@ -20400,7 +20400,7 @@ U+9B32	鬲	125125(34|35|43)12
   [Lenient form]
     Allow the following:
       乂 (34), Kangxi when 鬲 is not the radical;
-      八 (34), olden formm of 丷;
+      八 (34), olden form of 丷;
       儿 (35), Kangxi when 鬲 is the radical; also Japanese & Korean;
       丷 (43), modern Chinese.
 U+9B33	鬳	
