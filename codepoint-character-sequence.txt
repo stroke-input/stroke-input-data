@@ -153,11 +153,12 @@ U+4E47	乇	315
 U+4E48	么	354
 U+4E49	义	(344|434)
 U+4E4A	乊	343
-U+4E4B	之	4134
+U+4E4B	之	(454|4134)
+  [Lenient form] Allow 3 strokes (abomination) or 4 strokes (Kangxi etc.).
 U+4E4C	乌*	3551
 U+4E4D	乍	31211
 U+4E4E	乎	34312
-U+4E4F	乏	34134
+U+4E4F	乏	3(454|4134)
 U+4E50	乐	35234
 U+4E51	乑	323334
 U+4E52	乒	321213
