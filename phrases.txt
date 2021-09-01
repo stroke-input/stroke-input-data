@@ -1,0 +1,53 @@
+# # phrases.txt
+
+# Compiled manually by Conway (@yawnoc).
+
+# Part of 'Conway Stroke Data',
+# see <https://github.com/stroke-input/stroke-input-data>.
+
+# Released into the public domain,
+# see <https://creativecommons.org/publicdomain/zero/1.0/>.
+
+# To be used for phrase candidates.
+
+# Lines beginning with a hash (#) will be ignored.
+
+一下子
+一了百了
+一事無成
+一些
+一係
+一個
+一刀切
+一切
+一半
+一啲
+一國一制
+一國兩制
+一塌糊塗
+一定
+一帆風順
+一律
+一敗塗地
+一樣
+一生一世
+一百
+一目瞭然
+一直
+一相情願
+一眼關七
+一瞬間
+一石二鳥
+一舉兩得
+一般
+一表人才
+一見鍾情
+一視同仁
+一起
+一路
+一身蟻
+一輪
+一部分
+一陣
+一面倒
+一齊
