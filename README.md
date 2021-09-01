@@ -44,6 +44,11 @@ All strokes are classified into 5 types, entered via keypad:
   `sequence-exact-characters.txt` and `sequence-prefix-characters.txt`
 - Licensed under [MIT-0]
 
+### [`phrases.txt`]
+
+- List of common phrases
+- Released into the [public domain]
+
 ### [`ranking.txt`]
 
 - Ranking of commonly used characters
@@ -69,6 +74,7 @@ All strokes are classified into 5 types, entered via keypad:
 
 [`codepoint-character-sequence.txt`]: codepoint-character-sequence.txt
 [`generate.py`]: generate.py
+[`phrases.txt`]: phrases.txt
 [`ranking.txt`]: ranking.txt
 [`sequence-exact-characters.txt`]: sequence-exact-characters.txt
 [`sequence-prefix-characters.txt`]: sequence-prefix-characters.txt
