@@ -221,7 +221,7 @@ SEQUENCE_PREFIX_CHARACTERS_FILE_HEADER = (
 
 MAX_CHARACTER = chr(0x10FFFF)
 PRECOMPUTE_PREFIX_MATCHES_MAX_STROKE_COUNT = 2
-MAX_PREFIX_MATCH_COUNT = 20
+PRECOMPUTE_PREFIX_MATCH_COUNT = 300
 FULL_LOOKUP_ROW_COUNT = 30e3
 
 
@@ -351,7 +351,7 @@ if __name__ == '__main__':
       
       prefix_characters_data_string = \
         prefix_characters_data\
-          .to_string(character_sorting_function, MAX_PREFIX_MATCH_COUNT)
+          .to_string(character_sorting_function, PRECOMPUTE_PREFIX_MATCH_COUNT)
       sequence_prefix_characters_line = \
         f'{prefix_sequence}\t{prefix_characters_data_string}'
       sequence_prefix_characters_file\
