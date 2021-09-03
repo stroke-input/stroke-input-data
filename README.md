@@ -40,7 +40,7 @@ All strokes are classified into 5 types, entered via keypad:
 
 ### [`generate.py`]
 
-- Script used to generate `sequence-exact-characters.txt`
+- Script used to generate `sequence-characters.txt`
 - Licensed under [MIT-0]
 
 ### [`phrases.txt`]
@@ -54,9 +54,9 @@ All strokes are classified into 5 types, entered via keypad:
 - Compiled manually by Conway (@yawnoc)
 - Released into the [public domain]
 
-### [`sequence-exact-characters.txt`]
+### [`sequence-characters.txt`]
 
-- Tab-separated (stroke sequence, exact-match characters data) pairs
+- Tab-separated (stroke sequence, characters data) pairs
 - Automatically generated from `generate.py`
 - Licensed under [CC-BY-4.0]
 
@@ -69,7 +69,7 @@ All strokes are classified into 5 types, entered via keypad:
 [`generate.py`]: generate.py
 [`phrases.txt`]: phrases.txt
 [`ranking.txt`]: ranking.txt
-[`sequence-exact-characters.txt`]: sequence-exact-characters.txt
+[`sequence-characters.txt`]: sequence-characters.txt
 [`test_generate.py`]: test_generate.py
 [CC-BY-4.0]: https://creativecommons.org/licenses/by/4.0/
 [MIT-0]: https://spdx.org/licenses/MIT-0
