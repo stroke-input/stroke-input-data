@@ -179,10 +179,6 @@ SEQUENCE_CHARACTERS_FILE_HEADER = (
 )
 
 
-MAX_CHARACTER = chr(0x10FFFF)
-FULL_LOOKUP_ROW_COUNT = 30e3
-
-
 if __name__ == '__main__':
   
   characters_data_from_sequence = {}
