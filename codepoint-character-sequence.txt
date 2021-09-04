@@ -1706,7 +1706,7 @@ U+53CB	友	1354
 U+53CC	双	5454
 U+53CD	反	(1|3)354
   [Lenient form] Allow 1st stroke ㇐ (Kangxi) or ㇒ (common).
-U+53CE	収	5254
+U+53CE	収	(25|52)54
 U+53CF	叏	51254
 U+53D0	叐	31354
 U+53D1	发*	53544
