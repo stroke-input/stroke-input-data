@@ -28285,8 +28285,5 @@ U+21582	𡖂	(1221|2112)1325111(215|2121)515(34|35)354
   [Separate code points] U+5914 夔
   [Lenient form| Per U+5912 夒.
 
-U+225FF	𢗿	(244|424|442)11234
-  [Separate code points] U+603D 怽
-
 U+27C3C	𧰼	352534353334
   [Separate code points] U+8C61 象
