@@ -2936,7 +2936,7 @@ U+5844	塄	12125221(4135|4153)
 U+5845	塅	121321113554
 U+5846	塆*	121412234515
 U+5847	塇	121445125111
-U+5848	塈	511541535121
+U+5848	塈	(51154|3251111)1535121
   [Separate code points] U+588D 墍
 U+5849	塉	121(111134|341111|344134|413434)(2|3)5(11|41)
 U+584A	塊	1213251(|2)13554
@@ -6671,11 +6671,13 @@ U+65DE	旞
 U+65DF	旟	
 U+65E0	无	
 U+65E1	旡	
-U+65E2	既	
+U+65E2	既	(51154|3251111)1535
   [Separate code points] U+65E3 旣
-  [Remark] See U+5373 即 remark for leniency as a component.
+  [Remark]
+    3251111 is for the CJK Compatibility Ideograph U+FA42 既.
+    See U+5373 即 remark for leniency as a component.
   [既旣] (51154|3251111|3251115|3251135|3251153)1535
-U+65E3	旣	
+U+65E3	旣	32511(15|35|53)1535
   [Separate code points] U+65E2 既
 U+65E4	旤	
 U+65E5	日	2511
