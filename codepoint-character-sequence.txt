@@ -1602,6 +1602,19 @@ U+5371	危	(35|53)1355
   [Lenient form] Allow top ⺈ or 刀.
 U+5372	卲	(35|53)25152
 U+5373	即	5115452
+  [Separate code points] U+537D 卽
+  [Remark]
+    As a component, allow the following for the left half:
+      51154 (HK, TW, etc.):
+        5-stroke left, as the left half of U+5373 即.
+      3251111 (Kangxi):
+        7-stroke left, like U+2967F 𩙿 with first 3 strokes replaced by ㇒.
+        Or 白 with leftmost edge extended down and connected to 二.
+        Essentially a connected version of 皀.
+      3251115|3251135|3251153 (olden):
+        7-stroke left, as U+7680 皀.
+  [卽] 32511(11|15|35|53)52
+  [即卽] (51154|3251111|3251115|3251135|3251153)52
 U+5374	却	1215452
 U+5375	卵	3534524
 U+5376	卶	35435452
@@ -1614,18 +1627,9 @@ U+537A	卺	52534155
 U+537B	卻	343425152
 U+537C	卼	135(35|53)1355
 U+537D	卽	32511(15|35|53)52
+  [Separate code points] U+5373 即
 U+537E	卾	25125111552
 U+537F	卿	353(51154|3251111|3251115|3251135|3251153)52
-  [Lenient form]
-    Complicated.
-    51154 (HK, TW, etc.):
-      5-stroke middle, as the left half of U+5373 即.
-    3251111 (Kangxi):
-      7-stroke middle, like U+2967F 𩙿 with first 3 strokes replaced by ㇒.
-      Or 白 with leftmost edge extended down and connected to 二.
-      Essentially a connected version of 皀.
-    3251115|3251135|3251153 (olden):
-      7-stroke middle, as U+7680 皀.
 U+5380	厀	1234342413452
 U+5381	厁	3411234441252
 U+5382	厂	13
@@ -1668,7 +1672,6 @@ U+53A6	厦	131325111354
 U+53A7	厧	13(12251111|13251111|15251115|35251115|53251115)34
 U+53A8	厨	131251431124
 U+53A9	厩	13(51154|3251111|3251115|3251135|3251153)1535
-  [Lenient form] Per U+537F 卿. Complicated.
 U+53AA	厪	1312212511121
 U+53AB	厫	13(1121|12141)(35|53)3134
 U+53AC	厬	132511354(24|34)251
@@ -2193,14 +2196,6 @@ U+559B	喛	251(3344|3443)11354
 U+559C	喜	121251431251
 U+559D	喝	251251135345
 U+559E	喞	25132511(11|15|35|53)52
-  [Lenient form]
-    Slightly complicated.
-    11 (Kangxi):
-      Like U+2967F 𩙿 with first 3 strokes replaced by ㇒.
-      Or 白 with leftmost edge extended down and connected to 二.
-      Essentially a connected version of 皀.
-    15|35|53 (everyone else):
-      As U+7680 皀.
   [Separate code points] U+5527 唧
 U+559F	喟	25125121(2|3)5(11|41)
 U+55A0	喠	251312511121
@@ -2306,7 +2301,6 @@ U+5602	嘂	25125152251251
 U+5603	嘃	251413511(2|3)5112
 U+5604	嘄	25132511151234
 U+5605	嘅	251(51154|3251111|3251115|3251135|3251153)1535
-  [Lenient form] Per U+537F 卿. Complicated.
 U+5606	嘆	25112212511134
 U+5607	嘇	25154545434333
 U+5608	嘈	25112512212511
@@ -2916,7 +2910,6 @@ U+582F	堯	121121121135
 U+5830	堰	121125115315
 U+5831	報	121431125254
 U+5832	堲	(51154|3251111|3251115|3251135|3251153)52121
-  [Lenient form] Per U+537F 卿. Complicated.
 U+5833	堳	121521325111
 U+5834	場	121251113533
 U+5835	堵	12112132511(|4)
@@ -3005,7 +2998,6 @@ U+587D	塽	12113434343434
 U+587E	塾	41251521(35|53)4121
 U+587F	塿	12125112512531
 U+5880	墀	1215132(1111|4134)3112
-  [Ignore Kangxi] Per U+7280 犀.
 U+5881	墁	12125112522154
   [Ignore Kangxi]
     Top-right ⺜ or 曰 rather than ⿱冖二.
@@ -5019,7 +5011,6 @@ U+5FAF	徯	332(3344|3443)554134
 U+5FB0	徰	3321212112121
 U+5FB1	徱	33212522111234
 U+5FB2	徲	3325132(1111|4134)3112
-  [Ignore Kangxi] Per U+7280 犀.
 U+5FB3	徳	3321(2|3)252214544
 U+5FB4	徴	33225211213134
 U+5FB5	徵	3322521(1|3)1213134
@@ -6291,7 +6282,6 @@ U+6465	摥	12131251113533
 U+6466	摦	12113411533544
 U+6467	摧	12125232411121
 U+6468	摨	1215132(1111|4134)3112
-  [Ignore Kangxi] Per U+7280 犀.
 U+6469	摩	413(1234|1235)\13112
 U+646A	摪	121521335(41|44)124
 U+646B	摫	12111342511135
@@ -6682,7 +6672,11 @@ U+65DF	旟
 U+65E0	无	
 U+65E1	旡	
 U+65E2	既	
+  [Separate code points] U+65E3 旣
+  [Remark] See U+5373 即 remark for leniency as a component.
+  [既旣] (51154|3251111|3251115|3251135|3251153)1535
 U+65E3	旣	
+  [Separate code points] U+65E2 既
 U+65E4	旤	
 U+65E5	日	2511
 U+65E6	旦	25111
