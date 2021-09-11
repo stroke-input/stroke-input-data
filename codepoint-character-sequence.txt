@@ -1471,6 +1471,7 @@ U+52FA	勺	35(1|4)
 U+52FB	勻	3511
   [Separate code points] U+5300 匀
   [Remark] Allow 勻 or 匀 as a component.
+  [勻匀] 35(11|41)
 U+52FC	勼	35(35|53)
 U+52FD	勽	3534
 U+52FE	勾	3554
@@ -1830,6 +1831,7 @@ U+543E	吾	(1251|1521)251
 U+543F	吿	3112251
   [Separate code points] U+544A 告
   [Remark] Allow 吿 (Kangxi, HK) or 告 (TW etc.) as a component.
+  [吿告] 3(112|121)251
 U+5440	呀	2511523
 U+5441	呁	25135(11|41)
 U+5442	呂	2513251
@@ -3292,6 +3294,7 @@ U+5966	奦	54523(354|3134)53134
 U+5967	奧	3253431234134
   [Separate code points] U+5965 奥
   [Remark] Allow 奥 (abomination) or 奧 (Kangxi etc.) as a component.
+  [奥奧] 325(|3)431234134
 U+5968	奨	2413443124134
 U+5969	奩	13412512512515
 U+596A	奪	13432411121124
@@ -4936,6 +4939,7 @@ U+5F64	彤	3541333
 U+5F65	彥	413413333
   [Separate code points] U+5F66 彦
   [Remark] Allow 彥 (Kangxi etc.) or 彦 (abomination) as a component.
+  [彥彦] 41(34|43)13333
 U+5F66	彦*	414313333
   [Separate code points] U+5F65 彥
 U+5F67	彧	125115(3334|4333)
@@ -5706,6 +5710,7 @@ U+6236	戶	3351
     Allow 戶 (TW) or 户 (HK) or 戸 (Japan) as a component.
     Kangxi usually prefers 戶, but is inconsistent
     (e.g. it has 戶 in U+6241 扁, but 戸 in U+504F 偏).
+  [戸戶户] (1513|3351|4513)
 U+6237	户	4513
   [Separate code points] U+6236 戶, U+6238 戸
 U+6238	戸	1513
@@ -6783,6 +6788,7 @@ U+6648	晈
 U+6649	晉	1545412511
   [Separate code points] U+664B 晋
   [Remark] Allow 晉 (Kangxi etc.) or 晋 (abomination) as a component.
+  [晋晉] 1(2243|5454)12511
 U+664A	晊	
 U+664B	晋*	1224312511
   [Separate code points] U+6649 晉
@@ -10611,6 +10617,7 @@ U+7521	甡
 U+7522	產	41341331121
   [Separate code points] U+7523 産
   [Remark] Allow 產 (Kangxi etc.) or 産 (abomination) as a component.
+  [產産] 41(34|43)1331121
 U+7523	産	41431331121
   [Separate code points] U+7522 產
 U+7524	甤	
@@ -11139,6 +11146,7 @@ U+771F	真	1(2|3)25111134
   [Separate code points] U+771E 眞
   [Lenient form] Allow 2nd stroke slanted-vertical or left-slash.
   [Remark] Allow 真 (everyone else) or 眞 (Kangxi) as a component.
+  [真眞] (12251111|13251111|15251115|35251115|53251115)34
 U+7720	眠	
 U+7721	眡	
 U+7722	眢	
@@ -11996,16 +12004,15 @@ U+7A71	穱
 U+7A72	穲	
 U+7A73	穳	
 U+7A74	穴	
+  [Remark] Allow 八 (common) or 儿 (Kangxi etc.) for 穴 as a component.
+  [穴] 445(34|35)
 U+7A75	穵	
 U+7A76	究	
 U+7A77	穷	
 U+7A78	穸	
 U+7A79	穹	
 U+7A7A	空	445(34|35)121
-  [Lenient form]
-    Allow 八 (Kangxi) or 儿 (common).
-    ---
-    Note that Kangxi usually has 儿 for 穴 as a component.
+  [Remark] Kangxi has 八 rather than its usual 儿.
 U+7A7B	穻	
 U+7A7C	穼	
 U+7A7D	穽	
@@ -14074,6 +14081,8 @@ U+826C	艬
 U+826D	艭	
 U+826E	艮	511534
 U+826F	良	4511534
+  [Remark] Allow 郎-left (everyone else) or 郞-left (Kangxi) as a component.
+  [良] 45115(4|34)
 U+8270	艰	
 U+8271	艱	
 U+8272	色	
@@ -16633,6 +16642,7 @@ U+8C61	象	3525(1|21)353334
   [Separate code points] U+27C3C 𧰼
   [Lenient form] Allow 11 strokes (abomination) or 12 strokes (Kangxi etc.).
   [Remark] Allow 象 or 𧰼 as a component.
+  [象𧰼] 3525(1|21|34)353334
 U+8C62	豢	
 U+8C63	豣	
 U+8C64	豤	
@@ -17783,6 +17793,7 @@ U+90CD	郍
 U+90CE	郎	451154(52|552)
   [Separate code points] U+90DE 郞
   [Remark] Allow 郎 (everyone else) or 郞 (Kangxi) as a component.
+  [郎郞] 45115(4|34)(52|552)
 U+90CF	郏	
 U+90D0	郐	
 U+90D1	郑	
@@ -19464,6 +19475,7 @@ U+9750	靐
 U+9751	靑	11212521
   [Separate code points] U+9752 青
   [Remark] Allow 靑 (Kangxi) or 青 (everyone else) as a component.
+  [青靑] 1121(2511|2521|3511)
 U+9752	青	1121(2|3)511
   [Separate code points] U+9751 靑
   [Lenient form] Allow moon 1st stroke ㇑ (everyone else) or ㇓ (TW).
@@ -21391,6 +21403,7 @@ U+9EC2	黂
 U+9EC3	黃	122112512134
   [Separate code points] U+9EC4 黄
   [Remark] Allow 黃 (Kangxi etc.) or 黄 (folk) as a component.
+  [黄黃] 1221(|1)2512134
 U+9EC4	黄	12212512134
   [Separate code points] U+9EC3 黃
 U+9EC5	黅	
