@@ -2793,9 +2793,6 @@ U+57CB	埋	1212511121
 U+57CC	埌	1214511534
   [Ignore Kangxi] 4th stroke ㇔ rather than ㇐.
 U+57CD	埍	121251(2|3)5(11|41)
-  [Lenient form]
-    Allow meat 1st stroke ㇑ (everyone else) or ㇓ (TW).
-    Allow meat interior 二 (everyone else) or 冫 (TW).
 U+57CE	城	12113(5|15)(534|543)
 U+57CF	埏	1213(215|2121)(54|554)
 U+57D0	埐	1215114554
@@ -11733,7 +11730,6 @@ U+796A	祪
 U+796B	祫	
 U+796C	祬	
 U+796D	祭	35(41|44)5411234
-  [Lenient form] Allow meat interior 冫 (TW) or ㇔㇔ (everyone else).
 U+796E	祮	
 U+796F	祯	
 U+7970	祰	
@@ -13571,6 +13567,14 @@ U+8086	肆
 U+8087	肇	
 U+8088	肈	
 U+8089	肉	
+  [Remark]
+    For upright 4-stroke meat as a component (in 肯, 育, etc.):
+      Allow 1st stroke ㇑ (everyone else) or ㇓ (TW).
+      Allow interior 二 (everyone else) or 冫 (TW).
+    For slanted 4-stroke meat as a component (in 然, 祭, etc.):
+      Allow interior 冫 (TW) or ⺀ (everyone else).
+  [upright-⺼] (2|3)5(11|41)
+  [slanted-⺼] 35(41|44)
 U+808A	肊	
 U+808B	肋	
 U+808C	肌	
@@ -13612,10 +13616,7 @@ U+80AF	肯	2121(2|3)5(11|41)
 U+80B0	肰	
 U+80B1	肱	
 U+80B2	育	(|4)154(2|3)5(11|41)
-  [Lenient form]
-    Allow top ⿻一厶 (TW) or ⿱亠厶 (everyone else).
-    Allow meat 1st stroke ㇑ (everyone else) or ㇓ (TW).
-    Allow meat interior 二 (everyone else) or 冫 (TW).
+  [Lenient form] Allow top ⿻一厶 (TW) or ⿱亠厶 (everyone else).
 U+80B3	肳	
 U+80B4	肴	3413(2|3)5(11|41)
 U+80B5	肵	
@@ -13706,8 +13707,6 @@ U+8109	脉
 U+810A	脊	(111134|341111|344134|413434)(2|3)5(11|41)
   [Lenient form]
     Allow four specks horizontal (Kangxi) or like 氺 (everyone else).
-    Allow meat 1st stroke ㇑ (everyone else) or ㇓ (TW).
-    Allow meat interior 二 (everyone else) or 冫 (TW).
   [Lenient order]
     Allow four specks before man (TW) or man before four specks (HK).
 U+810B	脋	
@@ -16815,9 +16814,7 @@ U+8D0C	贌
 U+8D0D	贍	
 U+8D0E	贎	
 U+8D0F	贏	415251251113435(11|41)(2|3)54
-  [Lenient form]
-    Allow meat interior 二 (Kangxi) or 冫 (HK, TW).
-    Allow 凡 1st stroke ㇑ (HK) or ㇓ (everyone else).
+  [Lenient form] Allow 凡 1st stroke ㇑ (HK) or ㇓ (everyone else).
 U+8D10	贐	
 U+8D11	贑	
 U+8D12	贒	
@@ -20332,12 +20329,8 @@ U+9AA5	骥
 U+9AA6	骦	
 U+9AA7	骧	
 U+9AA8	骨	25(5|12|21)45(2|3)5(11|41)
-  [Lenient form]
-    Top-interior per U+518E 冎.
-    Allow meat 1st stroke ㇑ (everyone else) or ㇓ (TW).
-    Allow meat interior 二 (everyone else) or 冫 (TW).
-  [Lenient order]
-    Top-interior per U+518E 冎.
+  [Lenient form] Top-interior per U+518E 冎.
+  [Lenient order] Top-interior per U+518E 冎.
 U+9AA9	骩	
 U+9AAA	骪	
 U+9AAB	骫	
@@ -21606,9 +21599,6 @@ U+9F8A	龊
 U+9F8B	龋	
 U+9F8C	龌	
 U+9F8D	龍	41431(2|3)5(11|41)1515111
-  [Lenient form]
-    Allow meat 1st stroke ㇑ (everyone else) or ㇓ (TW).
-    Allow meat interior 二 (everyone else) or 冫 (TW).
 U+9F8E	龎	
 U+9F8F	龏	
 U+9F90	龐	
@@ -25633,11 +25623,12 @@ U+4340	䍀
 U+4341	䍁	
 U+4342	䍂	
 U+4343	䍃	(3443|3541|3544)311252
+  [Lenient form] Allow ⺼-form and also 爫-form.
   [Remark]
     Same code point is used for the interiors of
     U+9059 遙 (with ⺼) and U+9065 遥 (with 爫).
-  [Lenient form]
-    Allow ⺼-form with interior 冫 (Kangxi) or ⺀ (HK), and also 爫-form.
+  [遙-interior] (3541|3544)311252
+  [遥-interior] 3443311252
 U+4344	䍄	
 U+4345	䍅	
 U+4346	䍆	
