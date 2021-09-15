@@ -151,12 +151,16 @@ class CharactersData:
     return comma_separated_string
 
 
+CHARACTER_TYPE_TRADITIONAL = '^'
+CHARACTER_TYPE_SIMPLIFIED = '*'
+
+
 COMPLIANT_LINE_REGEX = r'''
   U[+]
   (?P<codepoint_hex> [0-9A-F]{4,5} )
     \t
   (?P<character> \S )
-  (?P<abomination_asterisk> [*]? )
+  (?P<character_type> [\^*]? )
     \t
   (?P<sequence_regex> [1-5|()\\]+ )
 '''
@@ -209,14 +213,13 @@ if __name__ == '__main__':
       
       codepoint_hex = line_match_object.group('codepoint_hex')
       character = line_match_object.group('character')
-      abomination_asterisk = line_match_object.group('abomination_asterisk')
+      character_type = line_match_object.group('character_type')
       sequence_regex = line_match_object.group('sequence_regex')
       
       if int(codepoint_hex, 16) != ord(character):
         ignored_lines_file.write(codepoint_character_sequence_line + '\n')
         continue
       
-      is_abomination = len(abomination_asterisk) > 0
       sequence_set = to_sequence_set(sequence_regex)
       
       for sequence in sequence_set:
@@ -227,7 +230,9 @@ if __name__ == '__main__':
           characters_data = \
             characters_data_from_sequence[sequence] = CharactersData()
         
-        if is_abomination:
+        if character_type == CHARACTER_TYPE_TRADITIONAL:
+          characters_data.add_traditional(character)
+        elif character_type == CHARACTER_TYPE_SIMPLIFIED:
           characters_data.add_simplified(character)
         else:
           characters_data.add_dual(character)
