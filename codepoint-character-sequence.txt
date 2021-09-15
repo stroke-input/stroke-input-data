@@ -1250,13 +1250,17 @@ U+5224	判	(34|43)11(2|3)22
     Allow first 2 strokes 八 (Kangxi) or 丷 (everyone else).
     Allow 5th stroke ㇑ (Kangxi) or ㇓ (everyone else).
 U+5225	別^	2513522
+  [Separate code points] U+522B 别
+  [Remark] Allow 別 (Kangxi etc.) or 别 (abomination) as a component.
+  [別别] 251(35|53)22
 U+5226	刦	1215422
 U+5227	刧	1215453
 U+5228	刨	3551522
 U+5229	利	3123422
 U+522A	刪^	(25122|25221)22
   [Separate code points] U+5220 删
-U+522B	别	2515322
+U+522B	别*	2515322
+  [Separate code points] U+5225 別
 U+522C	刬*	11(534|543)22
 U+522D	刭*	5412122
 U+522E	刮	(1|3)1225122
@@ -2026,7 +2030,6 @@ U+54F2	哲	1213312251
 U+54F3	哳	2511213312
 U+54F4	哴	2514511534
 U+54F5	哵	251251(35|53)22
-  [Lenient form] Allow right 別 (Kangxi etc.) or 别 (abomination).
 U+54F6	哶	251(1221|2112)112
 U+54F7	哷	251(3344|3443)124
 U+54F8	哸	251(3344|3443)531
@@ -5993,7 +5996,6 @@ U+6349	捉	1212512134
 U+634A	捊	121(3344|3443)521
 U+634B	捋	121(3344|3443)124
 U+634C	捌	121251(35|53)22
-  [Lenient form] Allow right 別 (Kangxi etc.) or 别 (abomination).
 U+634D	捍	1212511112
 U+634E	捎	1212(34|43)(2|3)5(11|41)
 U+634F	捏	1212511121
