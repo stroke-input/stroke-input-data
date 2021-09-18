@@ -43,12 +43,12 @@ All strokes are classified into 5 types, entered via keypad:
 - Script used to generate `sequence-characters.txt`
 - Licensed under [MIT-0]
 
-### [`phrases.txt`], [`phrases-simplified.txt`]
+### [`phrases-traditional.txt`], [`phrases-simplified.txt`]
 
 - List of common phrases
 - Released into the [public domain]
 
-### [`ranking.txt`], [`ranking-simplified.txt`]
+### [`ranking-traditional.txt`], [`ranking-simplified.txt`]
 
 - Ranking of commonly used characters
 - Compiled manually by Conway (@yawnoc)
@@ -67,9 +67,9 @@ All strokes are classified into 5 types, entered via keypad:
 
 [`codepoint-character-sequence.txt`]: codepoint-character-sequence.txt
 [`generate.py`]: generate.py
-[`phrases.txt`]: phrases.txt
+[`phrases-traditional.txt`]: phrases-traditional.txt
 [`phrases-simplified.txt`]: phrases-simplified.txt
-[`ranking.txt`]: ranking.txt
+[`ranking-traditional.txt`]: ranking-traditional.txt
 [`ranking-simplified.txt`]: ranking-simplified.txt
 [`sequence-characters.txt`]: sequence-characters.txt
 [`test_generate.py`]: test_generate.py
