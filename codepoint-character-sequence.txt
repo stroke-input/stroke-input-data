@@ -21670,18 +21670,20 @@ U+9FAC	龬
 U+9FAD	龭	
 U+9FAE	龮	
 U+9FAF	龯	
-U+9FB0	龰	
+U+9FB0	龰	2134
 U+9FB1	龱	
 U+9FB2	龲	
 U+9FB3	龳	
-U+9FB4	龴	
-U+9FB5	龵	
-U+9FB6	龶	
-U+9FB7	龷	
-U+9FB8	龸	
-U+9FB9	龹	
+U+9FB4	龴	54
+U+9FB5	龵	3113
+U+9FB6	龶	1121
+U+9FB7	龷	1221
+U+9FB8	龸	24345
+  [Remark] Kangxi always uses top ⺌ in 龸, never 小 (as in 尙).
+U+9FB9	龹	(34|43)1134
+  [Lenient form] Allow top 八 (Kangxi) or 丷 (everyone else).
 U+9FBA	龺	12251112
-U+9FBB	龻	
+U+9FBB	龻	4111251(554234|554444)\1
 U+9FBC	龼	
 U+9FBD	龽	
 U+9FBE	龾	
