@@ -21683,7 +21683,7 @@ U+9FB8	龸	24345
 U+9FB9	龹	(34|43)1134
   [Lenient form] Allow top 八 (Kangxi) or 丷 (everyone else).
 U+9FBA	龺	12251112
-U+9FBB	龻	4111251(554234|554444)\1
+U+9FBB	龻^	4111251(554234|554444)\1
 U+9FBC	龼	
 U+9FBD	龽	
 U+9FBE	龾	
