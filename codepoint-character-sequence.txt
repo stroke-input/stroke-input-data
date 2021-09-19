@@ -241,11 +241,6 @@ U+4E99	亙^	1(2|3)5441
   [Lenient form] Allow 2nd stroke slanted ㇑ rather than ㇒.
 U+4E9A	亚*	122431
 U+4E9B	些	(215|2121)(15|35|53)11
-  [Lenient form]
-    Allow 7 strokes (Kangxi) or 8 strokes (everyone else).
-    ---
-    Kangxi counts only 3 strokes for the component 止.
-    Allow counting 4 per everyone else.
 U+4E9C	亜^	1251221
 U+4E9D	亝	54545411
 U+4E9E	亞^	12155121
@@ -2923,12 +2918,7 @@ U+5839	堹	121312511121
 U+583A	堺	121251213432
 U+583B	堻	441511112121
 U+583C	堼	121121124121
-U+583D	堽	121252211(215|2121)
-  [Lenient form]
-    Allow 12 strokes (Kangxi) or 13 strokes (everyone else).
-    ---
-    Kangxi counts only 3 strokes for the component 止.
-    Allow counting 4 per everyone else.
+U+583D	堽	12125221(1215|12121)
 U+583E	堾	121111342511
 U+583F	堿	121131251(534|543)
 U+5840	塀	121513431132
@@ -4809,9 +4799,6 @@ U+5EF4	廴	(54|554)
   [Lenient form] Allow 2 strokes (abomination) or 3 strokes (Kangxi etc.).
 U+5EF5	廵	555(54|554)
 U+5EF6	延	3(215|2121)(54|554)
-  [Lenient form]
-    Allow 3 strokes (Kangxi) or 4 strokes (everyone else) for the component 止.
-    Per U+5EF4 廴.
 U+5EF7	廷	3121(54|554)
 U+5EF8	廸	25121(54|554)
 U+5EF9	廹	32511(54|554)
@@ -8107,7 +8094,14 @@ U+6B5F	歟
 U+6B60	歠	
 U+6B61	歡	
 U+6B62	止	2121
+  [Remark]
+    Kangxi often counts 3 strokes for 止,
+    usually as a component beside, e.g. in U+4E9B 些.
+    Allow counting 4 strokes per everyone else.
+  [止] (215|2121)
 U+6B63	正	12121
+  [Remark] Per U+6B62 止.
+  [正] (1215|12121)
 U+6B64	此	
 U+6B65	步	2121233
 U+6B66	武	
