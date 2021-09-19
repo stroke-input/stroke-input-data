@@ -17945,7 +17945,7 @@ U+9145	酅
 U+9146	酆	
 U+9147	酇	
 U+9148	酈	
-U+9149	酉	
+U+9149	酉	1253511
 U+914A	酊	
 U+914B	酋	(34|43)1253511
   [Lenient form] Allow top 八 (Kangxi) or 丷 (everyone else).
@@ -18066,7 +18066,12 @@ U+91BD	醽
 U+91BE	醾	
 U+91BF	醿	
 U+91C0	釀	
-U+91C1	釁	
+U+91C1	釁^	25(112|151|1251)32115114512535113453
+  [Lenient form]
+    Complicated. For the interior of the top middle:
+    112  (HK, TW): ⿱一丅. The top middle is effectively ⿵冂〒.
+    151  (Kangxi): ⿱一コ. The top middle is a reduced (5-stroke) form of 同.
+    1251 (common): ⿱一口. The top middle is 同.
 U+91C2	釂	
 U+91C3	釃	
 U+91C4	釄	
