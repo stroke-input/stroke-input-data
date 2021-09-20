@@ -21541,7 +21541,7 @@ U+9EFA	黺
 U+9EFB	黻	
 U+9EFC	黼	
 U+9EFD	黽^	2511(25|52)1211511
-  [Lenient order] Allow middle-right ㇑ 5th (TW) or 6th (Conway, HK).
+  [Lenient order] Allow central ㇑ before ㇟ (TW) or ㇟ before ㇑ (Conway, HK).
 U+9EFE	黾	25125115
 U+9EFF	黿	
 U+9F00	鼀	
@@ -21705,7 +21705,16 @@ U+9F98	龘
 U+9F99	龙*	13534
 U+9F9A	龚	
 U+9F9B	龛	
-U+9F9C	龜	
+U+9F9C	龜^	(3|35)2511(25|52)(55151134|5115115341)
+  [Lenient form]
+    Complicated.
+    (3|35)
+      Allow top ㇒ (abomination) or ⺈ (Kangxi etc.).
+    (25|52)
+      Allow central ㇑ before ㇟ (TW) or ㇟ before ㇑ (Conway, HK).
+    (55151134|5115115341)
+      Allow both 彐 connected to 龱 (Kangxi, TW) for 16 strokes in total
+      or both 彐 disconnected from 龱 (Conway, HK) for 18 strokes in total.
 U+9F9D	龝	
 U+9F9E	龞	
 U+9F9F	龟	
