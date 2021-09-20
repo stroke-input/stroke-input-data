@@ -10586,7 +10586,8 @@ U+74E2	瓢
 U+74E3	瓣	
 U+74E4	瓤	
 U+74E5	瓥	
-U+74E6	瓦	
+U+74E6	瓦	1(5|21)54
+  [Lenient form] Allow 4 strokes or 5 strokes.
 U+74E7	瓧	
 U+74E8	瓨	
 U+74E9	瓩	
