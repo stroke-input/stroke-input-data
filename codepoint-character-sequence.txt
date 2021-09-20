@@ -19894,7 +19894,8 @@ U+98A4	颤
 U+98A5	颥	
 U+98A6	颦	
 U+98A7	颧	
-U+98A8	風	
+U+98A8	風^	35(1|3)251214
+  [Lenient form] Allow 3rd stroke ㇐ (Kangxi etc.) or ㇒ (common).
 U+98A9	颩	
 U+98AA	颪	
 U+98AB	颫	
@@ -19932,7 +19933,7 @@ U+98CA	飊
 U+98CB	飋	
 U+98CC	飌	
 U+98CD	飍	
-U+98CE	风	
+U+98CE	风*	3534
 U+98CF	飏	
 U+98D0	飐	
 U+98D1	飑	
