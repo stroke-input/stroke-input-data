@@ -17290,7 +17290,7 @@ U+8EA7	躧
 U+8EA8	躨	
 U+8EA9	躩	
 U+8EAA	躪	
-U+8EAB	身	
+U+8EAB	身	3251113
 U+8EAC	躬	
 U+8EAD	躭	
 U+8EAE	躮	
