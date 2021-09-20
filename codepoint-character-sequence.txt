@@ -8232,7 +8232,8 @@ U+6BC7	毇
 U+6BC8	毈	
 U+6BC9	毉	
 U+6BCA	毊	
-U+6BCB	毋	
+U+6BCB	毋	55(13|31)
+  [Lenient order] Allow ㇐ 2nd-last (Conway) or last (everyone else).
 U+6BCC	毌	55(12|21)
   [Lenient order] Allow ㇐ 2nd-last (Conway) or last (everyone else).
 U+6BCD	母	55(414|441)
