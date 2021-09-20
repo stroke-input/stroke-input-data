@@ -25685,8 +25685,8 @@ U+4343	䍃	(3443|3541|3544)311252
   [Remark]
     Same code point is used for the interiors of
     U+9059 遙 (with ⺼) and U+9065 遥 (with 爫).
-  [遙-interior] (3541|3544)311252
-  [遥-interior] 3443311252
+  [interior of 遙] (3541|3544)311252
+  [interior of 遥] 3443311252
 U+4344	䍄	
 U+4345	䍅	
 U+4346	䍆	
