@@ -9922,8 +9922,9 @@ U+7257	牗
 U+7258	牘	
 U+7259	牙	1523
 U+725A	牚	243452511523
-U+725B	牛	
-U+725C	牜	
+U+725B	牛	3112
+U+725C	牜	(3112|3121)
+  [Lenient order] Allow ㇑ last (Conway) or 2nd-last (everyone else).
 U+725D	牝	
 U+725E	牞	
 U+725F	牟	
