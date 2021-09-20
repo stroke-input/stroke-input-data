@@ -9871,7 +9871,7 @@ U+7226	爦
 U+7227	爧	
 U+7228	爨	
 U+7229	爩	
-U+722A	爪	
+U+722A	爪	3324
 U+722B	爫	(3344|3443)
   [Lenient form]
     Allow bottom ㇒㇔㇔ (Kangxi etc.) or ㇔㇔㇒ (everyone else).
