@@ -13622,15 +13622,15 @@ U+8085	肅^	511(2|12)3(5|21)521512
 U+8086	肆	
 U+8087	肇	
 U+8088	肈	
-U+8089	肉	
+U+8089	肉	253434
   [Remark]
     For upright 4-stroke meat as a component (in 肯, 育, etc.):
       Allow 1st stroke ㇑ (everyone else) or ㇓ (TW).
       Allow interior 二 (everyone else) or 冫 (TW).
     For slanted 4-stroke meat as a component (in 然, 祭, etc.):
       Allow interior 冫 (TW) or ⺀ (everyone else).
-  [upright-⺼] (2|3)5(11|41)
-  [slanted-⺼] 35(41|44)
+  [⺼-upright] (2|3)5(11|41)
+  [⺼-slanted] 35(41|44)
 U+808A	肊	
 U+808B	肋	
 U+808C	肌	
