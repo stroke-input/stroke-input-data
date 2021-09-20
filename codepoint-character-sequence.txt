@@ -11718,8 +11718,12 @@ U+7936	礶
 U+7937	礷	
 U+7938	礸	
 U+7939	礹	
-U+793A	示	
-U+793B	礻	
+U+793A	示	11234
+  [Ignore Kangxi] Last stroke ㇔ rather than ㇑.
+U+793B	礻	4(5|13)24
+  [Lenient form] Allow 4 strokes or 5 strokes.
+  [Remark] Allow 示 (Kangxi) or 礻 (everyone else) as a component beside.
+  [礻示] (4524|11234|41324)
 U+793C	礼	
 U+793D	礽	
 U+793E	社	
