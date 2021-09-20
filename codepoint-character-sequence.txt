@@ -6692,8 +6692,8 @@ U+65DC	旜
 U+65DD	旝	
 U+65DE	旞	
 U+65DF	旟	
-U+65E0	无	
-U+65E1	旡	
+U+65E0	无	1135
+U+65E1	旡	1535
 U+65E2	既	(51154|3251111)1535
   [Separate code points] U+65E3 旣
   [Remark]
