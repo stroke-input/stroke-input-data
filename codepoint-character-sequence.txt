@@ -21717,7 +21717,7 @@ U+9F9C	龜^	(3|35)2511(25|52)(55151134|5115115341)
       or both 彐 disconnected from 龱 (Conway, HK) for 18 strokes in total.
 U+9F9D	龝	
 U+9F9E	龞	
-U+9F9F	龟	
+U+9F9F	龟*	3525115
 U+9FA0	龠	
 U+9FA1	龡	
 U+9FA2	龢	
