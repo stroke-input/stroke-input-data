@@ -14146,7 +14146,7 @@ U+8274	艴
 U+8275	艵	
 U+8276	艶	
 U+8277	艷	
-U+8278	艸	
+U+8278	艸	523522
 U+8279	艹	(122|1212|2112)
   [Lenient form]
     Allow 3 strokes (abomination) or 4 strokes (Kangxi etc.).
