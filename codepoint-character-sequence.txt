@@ -10237,9 +10237,9 @@ U+7386	玆
 U+7387	率	41554413412
   [Ignore Kangxi] Specks per 氺, rather than as stacked 八八.
 U+7388	玈	
-U+7389	玉	
-U+738A	玊	
-U+738B	王	
+U+7389	玉	11214
+U+738A	玊	11214
+U+738B	王	1121
 U+738C	玌	
 U+738D	玍	
 U+738E	玎	
