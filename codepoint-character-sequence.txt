@@ -19432,7 +19432,13 @@ U+96E4	雤
 U+96E5	雥	
 U+96E6	雦	
 U+96E7	雧	
-U+96E8	雨	
+U+96E8	雨	1252(4134|4444)
+  [Lenient form]
+    Allow four specks like 氺 (HK, TW) or all ㇔ (Kangxi).
+    When used as a component above, allow four specks all ㇐ (Kangxi).
+  [Remark]
+    When used as a component above, the roof is 冖 (45), not 冂 (25).
+  [雨-above] 1452(1111|4134|4444)
 U+96E9	雩	1452(1111|4134|4444)115
 U+96EA	雪	
 U+96EB	雫	
