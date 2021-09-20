@@ -6552,9 +6552,6 @@ U+655A	敚	43251353134
 U+655B	敛*	34144313134
 U+655C	敜	34(1|4)545443134
 U+655D	敝	(|2)(34|43)252343134
-  [Lenient form]
-    Allow left ㇑ connected (everyone else) or disconnected (Kangxi).
-    Allow top-left 八 (Kangxi) or 丷 (everyone else).
 U+655E	敞	2(34|43)252513134
 U+655F	敟	251221343134
 U+6560	敠	545454542154
@@ -22891,7 +22888,10 @@ U+383C	㠼
 U+383D	㠽	
 U+383E	㠾	
 U+383F	㠿	
-U+3840	㡀	
+U+3840	㡀	(|2)(34|43)25234
+  [Lenient form]
+    Allow ㇑ connected (everyone else) or disconnected (Kangxi).
+    Allow top 八 (Kangxi) or 丷 (everyone else).
 U+3841	㡁	
 U+3842	㡂	
 U+3843	㡃	
