@@ -17460,7 +17460,9 @@ U+8F62	轢
 U+8F63	轣	
 U+8F64	轤	
 U+8F65	轥	
-U+8F66	车	
+U+8F66	车*	1512
+  [Lenient order] Per U+725C 牜 when used as a component beside.
+  [车-beside] (1512|1521)
 U+8F67	轧	
 U+8F68	轨	
 U+8F69	轩	
