@@ -16088,7 +16088,7 @@ U+89FE	觾
 U+89FF	觿	
 U+8A00	言	(1|4)111251
   [Lenient form] Allow 1st stroke ㇐ (Kangxi) or ㇔ (everyone else).
-U+8A01	訁	
+U+8A01	訁^	(1|4)111251
 U+8A02	訂	
 U+8A03	訃	
 U+8A04	訄	
@@ -16504,7 +16504,7 @@ U+8B9C	讜
 U+8B9D	讝	
 U+8B9E	讞	
 U+8B9F	讟	
-U+8BA0	讠	
+U+8BA0	讠*	45
 U+8BA1	计	
 U+8BA2	订	
 U+8BA3	讣	
