@@ -12039,9 +12039,9 @@ U+7A70	穰
 U+7A71	穱	
 U+7A72	穲	
 U+7A73	穳	
-U+7A74	穴	
+U+7A74	穴	44534
   [Remark] Allow 八 (common) or 儿 (Kangxi etc.) for 穴 as a component.
-  [穴] 445(34|35)
+  [穴-above] 445(34|35)
 U+7A75	穵	
 U+7A76	究	
 U+7A77	穷	
