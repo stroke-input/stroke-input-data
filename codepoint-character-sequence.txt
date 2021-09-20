@@ -15952,9 +15952,12 @@ U+897A	襺
 U+897B	襻	
 U+897C	襼	
 U+897D	襽	
-U+897E	襾	
+U+897E	襾	125221
+  [Separate code points] U+8980 覀
+  [Remark] Note that 襾 and 覀 have the same stroke sequence.
 U+897F	西	125351
-U+8980	覀	
+U+8980	覀	125221
+  [Separate code points] U+897E 襾
 U+8981	要	
 U+8982	覂	
 U+8983	覃	125221251112
