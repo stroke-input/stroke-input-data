@@ -28423,3 +28423,7 @@ U+26951	𦥑	3211511
 
 U+27FB7	𧾷	251(215|2121)
   [Lenient form] Per U+6B62 止, which Kangxi often counts as having 3 strokes.
+
+U+2967F	𩙿^	34(1|4)251111
+  [Separate code points] U+98E0 飠
+  [Lenient form] Per U+4ECA 今.
