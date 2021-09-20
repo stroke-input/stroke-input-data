@@ -10012,7 +10012,7 @@ U+72A8	犨
 U+72A9	犩	
 U+72AA	犪	
 U+72AB	犫	
-U+72AC	犬	
+U+72AC	犬	1344
 U+72AD	犭	(353|533)
   [Lenient order] Allow ㇁ 2nd (everyone else) or 1st (Conway).
 U+72AE	犮	13(34|54)4
