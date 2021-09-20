@@ -21531,7 +21531,12 @@ U+9EF5	黵
 U+9EF6	黶	
 U+9EF7	黷	
 U+9EF8	黸	
-U+9EF9	黹	
+U+9EF9	黹	22431(|2)(34|43)25234
+  [Lenient form] Per U+3840 㡀.
+  [Remark]
+    Kangxi is inconsistent.
+    Given that it counts 8 strokes for U+3840 㡀,
+    it ought to count 13 strokes for U+9EF9 黹, rather than 12.
 U+9EFA	黺	
 U+9EFB	黻	
 U+9EFC	黼	
