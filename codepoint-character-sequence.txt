@@ -13350,7 +13350,13 @@ U+7F86	羆
 U+7F87	羇	
 U+7F88	羈	
 U+7F89	羉	
-U+7F8A	羊	
+U+7F8A	羊	431112
+  [Lenient form]
+    For 羊 as a component above (i.e. U+2EB6 CJK RADICAL SHEEP ⺶),
+    allow 6 strokes (abomination) or 7 strokes (Kangxi etc.).
+    Similar leniency to U+9B3C 鬼.
+  [羊-above] 4311(|2)13
+  [羊-beside] 431113
 U+7F8B	羋	
 U+7F8C	羌	
 U+7F8D	羍	
