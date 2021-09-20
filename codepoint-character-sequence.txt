@@ -13494,7 +13494,8 @@ U+800E	耎
 U+800F	耏	
 U+8010	耐	
 U+8011	耑	252132522
-U+8012	耒	
+U+8012	耒	(1|3)11234
+  [Lenient form] Allow first stroke ㇐ (abomination) or ㇒ (Kangxi etc.).
 U+8013	耓	
 U+8014	耔	
 U+8015	耕	
