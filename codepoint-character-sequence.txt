@@ -19225,7 +19225,7 @@ U+9618	阘
 U+9619	阙	
 U+961A	阚	
 U+961B	阛	
-U+961C	阜	
+U+961C	阜	32515112
 U+961D	阝	(52|552)
   [Lenient form] Allow 2 strokes (abomination) or 3 strokes (Kangxi etc.).
 U+961E	阞	
