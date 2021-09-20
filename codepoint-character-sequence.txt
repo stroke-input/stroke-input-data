@@ -19954,7 +19954,11 @@ U+98DD	飝
 U+98DE	飞*	534
 U+98DF	食	34(1|4)511534
   [Lenient form] Per U+4ECA 今.
-U+98E0	飠	
+U+98E0	飠^	34(1|4)51154
+  [Separate code points] U+2967F 𩙿
+  [Lenient form] Per U+4ECA 今.
+  [Remark] Allow 𩙿 (Kangxi) or 飠 (everyone else) as a component.
+  [𩙿飠] 34(1|4)(51154|251111)
 U+98E1	飡	
 U+98E2	飢	
 U+98E3	飣	
