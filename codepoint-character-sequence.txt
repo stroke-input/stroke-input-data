@@ -19060,7 +19060,8 @@ U+9575	镵
 U+9576	镶	
 U+9577	長^	(12|21)111534
   [Lenient order] Allow ㇑ 1st (TW) or 2nd (Conway, HK).
-U+9578	镸	
+U+9578	镸	(12|21)11154
+  [Lenient order] Per U+9577 長.
 U+9579	镹	
 U+957A	镺	
 U+957B	镻	
