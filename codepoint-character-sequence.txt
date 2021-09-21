@@ -21777,6 +21777,8 @@ U+9FB9	龹	(34|43)1134
   [Lenient form] Allow top 八 (Kangxi) or 丷 (everyone else).
 U+9FBA	龺	12251112
 U+9FBB	龻^	(1|4)111251(554234|554444)\2
+  [Separate code points] U+470C 䜌
+  [䜌-above] (1|4)111251(554234|554444)\2
 U+9FBC	龼	
 U+9FBD	龽	
 U+9FBE	龾	
@@ -26735,7 +26737,8 @@ U+4708	䜈
 U+4709	䜉	
 U+470A	䜊	
 U+470B	䜋	
-U+470C	䜌	
+U+470C	䜌	(554234|554444)(1|4)111251\1
+  [Separate code points] U+9FBB 龻
 U+470D	䜍	
 U+470E	䜎	
 U+470F	䜏	
