@@ -11045,7 +11045,16 @@ U+768C	皌
 U+768D	皍	
 U+768E	皎	
 U+768F	皏	
-U+7690	皐	
+U+7690	皐	32511(|2)(1111|4134)12
+  [Lenient form]
+    Allow four specks horizontal (Kangxi) or like 氺 (everyone else).
+    Allow 11 strokes or 12 strokes, depending on whether
+    the vertical stroke between the four specks
+    is connected to the vertical stroke in the component 十.
+  [Remark]
+    Kangxi is inconsistent;
+    it counts 11 strokes for U+7690 皐 itself,
+    but counts 12 strokes for the component in U+5651 噑.
 U+7691	皑	
 U+7692	皒	
 U+7693	皓	
