@@ -28470,9 +28470,6 @@ U+21582	𡖂	(1221|2112)1325111(215|2121)515(34|35)354
   [Separate code points] U+5914 夔
   [Lenient form| Per U+5912 夒.
 
-U+27C3C	𧰼^	352534353334
-  [Separate code points] U+8C61 象
-
 U+25055	𥁕^	2534125221
   [Separate code points] U+6637 昷
 
@@ -28483,6 +28480,9 @@ U+26951	𦥑	3211511
     In U+53DF 叟, U+81FE 臾, etc.,
     allow 6-stroke 臼 (common) or 7-stroke 𦥑 (Kangxi).
   [臼𦥑] 321(|1)511
+
+U+27C3C	𧰼^	352534353334
+  [Separate code points] U+8C61 象
 
 U+27FB7	𧾷	251(215|2121)
   [Lenient form] Per U+6B62 止, which Kangxi often counts as having 3 strokes.
