@@ -7022,10 +7022,10 @@ U+6707	朇	341252431251132511312
 U+6708	月	3511
 U+6709	有	13(2|3)511
   [Lenient form] Allow moon 1st stroke ㇑ (everyone else) or ㇓ (TW)
-U+670A	朊	
+U+670A	朊	35111135
 U+670B	朋	35113511
-U+670C	朌	
-U+670D	服	
+U+670C	朌	35113453
+U+670D	服	35115254
 U+670E	朎	
 U+670F	朏	
 U+6710	朐	
@@ -28463,6 +28463,8 @@ U+4DBF	䶿
 
 
 ## CJK Unified Ideographs Extension B (U+20000 to U+2A6DD)
+
+U+20B1D	𠬝	5254
 
 U+21582	𡖂	(1221|2112)1325111(215|2121)515(34|35)354
   [Separate code points] U+5914 夔
