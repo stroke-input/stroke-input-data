@@ -13666,9 +13666,9 @@ U+8089	肉	253434
       Allow interior 二 (Kangxi, HK) or 冫 (TW).
     For slanted 4-stroke meat as a component (in 然, 祭, etc.):
       Allow interior 冫 (TW) or ⺀ (Kangxi, HK).
-  [⺼-beside] 35(11|41)
-  [⺼-below] (2|3)5(11|41)
-  [⺼-slanted] 35(41|44)
+  [⺼-beside (meat)] 35(11|41)
+  [⺼-below (meat)] (2|3)5(11|41)
+  [⺼-slanted (meat)] 35(41|44)
 U+808A	肊	
 U+808B	肋	
 U+808C	肌	
