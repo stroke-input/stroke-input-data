@@ -6646,12 +6646,12 @@ U+65B2	斲	(55|251)155151213312
   [Remark]
     Kangxi counts only 10 strokes for the left component,
     despite counting 11 strokes for U+20041 𠁁.
-U+65B3	斳	
-U+65B4	斴	
-U+65B5	斵	
-U+65B6	斶	
-U+65B7	斷	
-U+65B8	斸	
+U+65B3	斳	122125111213312
+U+65B4	斴	4312343541523312
+U+65B5	斵	35453121551213312
+U+65B6	斶	33122522135251214
+U+65B7	斷^	554554(1|5)55455453312
+U+65B8	斸	5132(1111|4134)25221352512143312
 U+65B9	方	(4135|4153)
   [Lenient order] Allow ㇓ 2nd-last or last.
 U+65BA	斺	
@@ -22959,7 +22959,10 @@ U+3869	㡩
 U+386A	㡪	
 U+386B	㡫	
 U+386C	㡬	
-U+386D	㡭	
+U+386D	㡭^	554554(1|5)5545545
+  [Lenient form]
+    Allow one 𠃊 overall with 一 dividing (everyone else)
+    or 𠃊 stacked above 𠃊 (Kangxi).
 U+386E	㡮	
 U+386F	㡯	
 U+3870	㡰	
