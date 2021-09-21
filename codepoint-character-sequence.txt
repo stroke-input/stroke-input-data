@@ -7001,7 +7001,10 @@ U+66F7	曷	251135345
 U+66F8	書^	5111212511
   [Ignore Kangxi] Do not allow ㇑ to poke through like 聿.
 U+66F9	曹	12512212511
-U+66FA	曺	
+U+66FA	曺	(|4)1251212511
+  [Lenient form]
+    Allow top 十 (logical) or 亠 (TW).
+    Like allowing both U+5DFF 巿 (1252) and U+5E02 市 (41252).
 U+66FB	曻	
 U+66FC	曼	25112522154
 U+66FD	曽	
