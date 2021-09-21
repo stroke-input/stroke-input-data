@@ -13652,12 +13652,15 @@ U+8087	肇
 U+8088	肈	
 U+8089	肉	253434
   [Remark]
-    For upright 4-stroke meat as a component (in 肯, 育, etc.):
-      Allow 1st stroke ㇑ (everyone else) or ㇓ (TW).
-      Allow interior 二 (everyone else) or 冫 (TW).
+    For 4-stroke meat as a component beside (in 肌, 肥, etc.):
+      Allow interior 二 (Kangxi) or 冫 (HK, TW).
+    For 4-stroke meat as a component below (in 肯, 育, etc.):
+      Allow 1st stroke ㇑ (Kangxi, HK) or ㇓ (TW).
+      Allow interior 二 (Kangxi, HK) or 冫 (TW).
     For slanted 4-stroke meat as a component (in 然, 祭, etc.):
-      Allow interior 冫 (TW) or ⺀ (everyone else).
-  [⺼-upright] (2|3)5(11|41)
+      Allow interior 冫 (TW) or ⺀ (Kangxi, HK).
+  [⺼-beside] 35(11|41)
+  [⺼-below] (2|3)5(11|41)
   [⺼-slanted] 35(41|44)
 U+808A	肊	
 U+808B	肋	
@@ -13687,7 +13690,7 @@ U+80A2	肢
 U+80A3	肣	
 U+80A4	肤	
 U+80A5	肥	
-U+80A6	肦	(2|3)5(11|41)3453
+U+80A6	肦	35(11|41)3453
   [Separate code points] U+670C 朌
 U+80A7	肧	
 U+80A8	肨	
@@ -13732,7 +13735,7 @@ U+80CC	背	211(15|35|53)(2|3)5(11|41)
 U+80CD	胍	
 U+80CE	胎	
 U+80CF	胏	
-U+80D0	胐	(2|3)5(11|41)(252|522)52
+U+80D0	胐	35(11|41)(252|522)52
   [Separate code points] U+670F 朏
 U+80D1	胑	
 U+80D2	胒	
