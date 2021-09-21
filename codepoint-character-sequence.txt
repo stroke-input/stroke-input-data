@@ -7031,7 +7031,8 @@ U+670F	朏	3511(252|522)52
   [Separate code points] U+80D0 胐
 U+6710	朐	351135251
   [Separate code points] U+80CA 胊
-U+6711	朑	
+U+6711	朑	35(11|41)12215
+  [Lenient form] Allow left moon (everyone else) or meat (TW).
 U+6712	朒	
 U+6713	朓	
 U+6714	朔	4315233511
