@@ -6640,7 +6640,12 @@ U+65AE	斮	122125113312
 U+65AF	斯	122111343312
 U+65B0	新	4143112343312
 U+65B1	斱	12132511(|4)3312
-U+65B2	斲	
+U+65B2	斲	(55|251)155151213312
+  [Lenient form]
+    Allow 2 strokes or 3 strokes for the 口-like top-left.
+  [Remark]
+    Kangxi counts only 10 strokes for the left component,
+    despite counting 11 strokes for U+20041 𠁁.
 U+65B3	斳	
 U+65B4	斴	
 U+65B5	斵	
