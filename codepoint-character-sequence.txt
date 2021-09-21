@@ -6995,7 +6995,8 @@ U+66F2	曲	251221
 U+66F3	曳	251153
 U+66F4	更	1251134
 U+66F5	曵	2511(534|543)
-U+66F6	曶	
+U+66F6	曶	35332511
+  [Separate code points] U+3ADA 㫚
 U+66F7	曷	251135345
 U+66F8	書	
 U+66F9	曹	12512212511
@@ -23609,7 +23610,8 @@ U+3AD6	㫖
 U+3AD7	㫗	
 U+3AD8	㫘	
 U+3AD9	㫙	
-U+3ADA	㫚	
+U+3ADA	㫚	35332511
+  [Separate code points] U+66F6 曶
 U+3ADB	㫛	
 U+3ADC	㫜	
 U+3ADD	㫝	
