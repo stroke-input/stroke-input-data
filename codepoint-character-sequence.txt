@@ -6998,7 +6998,8 @@ U+66F5	曵	2511(534|543)
 U+66F6	曶	35332511
   [Separate code points] U+3ADA 㫚
 U+66F7	曷	251135345
-U+66F8	書	
+U+66F8	書^	5111212511
+  [Ignore Kangxi] Do not allow ㇑ to poke through like 聿.
 U+66F9	曹	12512212511
 U+66FA	曺	
 U+66FB	曻	
