@@ -7208,7 +7208,8 @@ U+67B0	枰	12341(34|43)12
 U+67B1	枱	123454251
 U+67B2	枲	542511234
 U+67B3	枳	123425134
-U+67B4	枴	
+U+67B4	枴	123425153
+  [Separate code points] U+67FA 柺
 U+67B5	枵	
 U+67B6	架	
 U+67B7	枷	
@@ -7279,7 +7280,8 @@ U+67F6	柶
 U+67F7	柷	
 U+67F8	柸	
 U+67F9	柹	
-U+67FA	柺	
+U+67FA	柺	123425153
+  [Separate code points] U+67B4 枴
 U+67FB	査	123425111
   [Separate code points] U+67E5 查
 U+67FC	柼	
