@@ -3205,7 +3205,7 @@ U+5928	夨	(154|5134)
     Allow 3 strokes (Kangxi) or 4 strokes (TW).
   [Remark]
     Kangxi does not explicitly say whether it is 3 strokes or 4,
-    but from its count of 大 + 5 = 8 strokes for U+594A 奊,
+    but from its count of {大 + 5} = 8 strokes for U+594A 奊,
     we infer that Kangxi counts 3 strokes for 夨.
 U+5929	天	1134
 U+592A	太	1344
@@ -6485,7 +6485,7 @@ U+6522	攢^	1213121353121352511134
 U+6523	攣^	(1|4)111251(554234|554444)\23112
 U+6524	攤^	1211221251113432411121
 U+6525	攥	12131431425111134554234
-  [Remark] Kangxi incorrectly lists this under 手 + 19.
+  [Remark] Kangxi incorrectly lists this under {手 + 19}.
 U+6526	攦	12112541254413522115(15|35|53)
 U+6527	攧	121(12251111|13251111|15251115|35251115|53251115)34132511134
 U+6528	攨	121445(34|35)335443354433544
