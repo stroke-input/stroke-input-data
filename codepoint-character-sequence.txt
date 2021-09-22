@@ -7223,40 +7223,53 @@ U+67BD	枽	1212211234
   [Ignore Kangxi] 10 strokes rather than 9 strokes.
 U+67BE	枾	123412(312|321)
 U+67BF	枿	123412(132|1312)
-U+67C0	柀	
-U+67C1	柁	
-U+67C2	柂	
-U+67C3	柃	
-U+67C4	柄	
-U+67C5	柅	
-U+67C6	柆	
-U+67C7	柇	
-U+67C8	柈	
-U+67C9	柉	
-U+67CA	柊	
-U+67CB	柋	
-U+67CC	柌	
-U+67CD	柍	
-U+67CE	柎	
-U+67CF	柏	
-U+67D0	某	
-U+67D1	柑	
-U+67D2	柒	
-U+67D3	染	
+U+67C0	柀	1234(35|53)254
+U+67C1	柁	1234445(35|53)
+U+67C2	柂	123431525
+U+67C3	柃	123434(152|154|454)
+U+67C4	柄	123412534
+U+67C5	柅	1234513(15|35|53)
+U+67C6	柆	123441431
+U+67C7	柇	123431234
+U+67C8	柈	1234(34|43)112
+U+67C9	柉	12343(454|4134)
+U+67CA	柊	1234354(41|44)
+U+67CB	柋	321541234
+U+67CC	柌	123451251
+U+67CD	柍	123425134
+U+67CE	柎	123432124
+U+67CF	柏	123432511
+U+67D0	某	122111234
+U+67D1	柑	123412211
+U+67D2	柒	441151234
+U+67D3	染	441(35|53)1234
 U+67D4	柔	545231234
-U+67D5	柕	
-U+67D6	柖	
-U+67D7	柗	
-U+67D8	柘	
-U+67D9	柙	
-U+67DA	柚	
-U+67DB	柛	
-U+67DC	柜	
-U+67DD	柝	
-U+67DE	柞	
-U+67DF	柟	
-U+67E0	柠	
-U+67E1	柡	
+U+67D5	柕	123454523
+U+67D6	柖	123453251
+U+67D7	柗	123434251
+U+67D8	柘	123413251
+U+67D9	柙	123425112
+U+67DA	柚	123425121
+U+67DB	柛	123425112
+U+67DC	柜	1234(1515|12511)
+U+67DD	柝	123433124
+U+67DE	柞	123431211
+U+67DF	柟	123425121
+U+67E0	柠	123444512
+U+67E1	柡	1234(45534|112534)
+  [Separate code points] U+6810 栐
+  [Lenient form]
+    Allow right 永 or ⿱二水.
+  [Remark]
+    U+67E1 柡 has right ⿱二水 according to Kangxi and to modern fonts.
+    Given that it is listed under {木 + 5} despite ⿱二水 having 6 strokes,
+    the 丁 in ⿱二水 might be a weird printing of ㇆,
+    so that ⿱二水 is a strange 永 (5 strokes) with top ㇐ rather than ㇔.
+    In other words, U+67E1 柡 ought to have been U+6810 栐
+    (which does not appear in Kangxi).
+    This is supported by the following:
+      {康熙 U+67E1 柡} ...音永柡木可用爲笏...
+      {廣韻 U+6810 栐} 木可爲笏
 U+67E2	柢	
 U+67E3	柣	
 U+67E4	柤	
@@ -7306,7 +7319,8 @@ U+680C	栌
 U+680D	栍	
 U+680E	栎	
 U+680F	栏	
-U+6810	栐	
+U+6810	栐	123445534
+  [Separate code points] U+67E1 柡
 U+6811	树	
 U+6812	栒	
 U+6813	栓	
@@ -8391,7 +8405,7 @@ U+6C3B	氻
 U+6C3C	氼	
 U+6C3D	氽	
 U+6C3E	氾	
-U+6C3F	氿	
+U+6C3F	氿	441(35|53)
 U+6C40	汀	
 U+6C41	汁	
 U+6C42	求	1241344
@@ -21894,7 +21908,7 @@ U+3408	㐈
 U+3409	㐉	
 U+340A	㐊	
 U+340B	㐋	
-U+340C	㐌	
+U+340C	㐌	31525
 U+340D	㐍	
 U+340E	㐎	
 U+340F	㐏	
@@ -22237,7 +22251,7 @@ U+355F	㕟
 U+3560	㕠	
 U+3561	㕡	
 U+3562	㕢	
-U+3563	㕣	
+U+3563	㕣	34251
 U+3564	㕤	
 U+3565	㕥	
 U+3566	㕦	
