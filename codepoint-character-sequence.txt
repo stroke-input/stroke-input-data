@@ -669,7 +669,6 @@ U+5031	倱	32251115(35|53)
 U+5032	倲^	3212511234
 U+5033	倳	3212515112
 U+5034	倴	3213412(132|1312)
-  [Lenient form] Per U+5954 奔.
   [Remark] Kangxi prints 𠦄 (6 strokes) but counts 卉 (5 strokes).
 U+5035	倵	3211(215|2121)54
   [Lenient form]
@@ -1558,6 +1557,9 @@ U+5346	卆	(35|53)12
 U+5347	升	(3132|3312)
 U+5348	午	3112
 U+5349	卉	12132
+  [Separate code points] U+20984 𠦄
+  [Remark] Allow both 卉 or 𠦄 (with bottom-left left-slash) as a component.
+  [卉𠦄] 12(132|1312)
 U+534A	半	(34|43)112
 U+534B	卋	121221
 U+534C	卌	1(2|3)222
@@ -3258,7 +3260,6 @@ U+5951	契	(1112|3112|3332)53134
 U+5952	奒	134415334
 U+5953	奓	134354354
 U+5954	奔	13412(132|1312)
-  [Lenient form] Allow bottom 卉 (5 strokes) or 𠦄 (6 strokes).
 U+5955	奕	413234134
 U+5956	奖*	(241|412)354134
 U+5957	套	134(12|21)11154
@@ -7210,17 +7211,18 @@ U+67B2	枲	542511234
 U+67B3	枳	123425134
 U+67B4	枴	123425153
   [Separate code points] U+67FA 柺
-U+67B5	枵	
-U+67B6	架	
-U+67B7	枷	
-U+67B8	枸	
-U+67B9	枹	
-U+67BA	枺	
-U+67BB	枻	
+U+67B5	枵	123425115
+U+67B6	架	532511234
+U+67B7	枷	123453251
+U+67B8	枸	123435251
+U+67B9	枹	123435515
+U+67BA	枺	123411234
+U+67BB	枻	123412215
 U+67BC	枼	122151234
-U+67BD	枽	
-U+67BE	枾	
-U+67BF	枿	
+U+67BD	枽	1212211234
+  [Ignore Kangxi] 10 strokes rather than 9 strokes.
+U+67BE	枾	123412(312|321)
+U+67BF	枿	123412(132|1312)
 U+67C0	柀	
 U+67C1	柁	
 U+67C2	柂	
@@ -28491,6 +28493,10 @@ U+4DBF	䶿
 
 
 ## CJK Unified Ideographs Extension B (U+20000 to U+2A6DD)
+
+U+20984	𠦄	121(2|3)12
+  [Separate code points] U+5349 卉
+  [Lenient form] Allow bottom-left left-slash (like 廾) or vertical (like 十).
 
 U+20B1D	𠬝	(25|52)54
   [Lenient order] Allow ㇑ before ㇆ (HK) or ㇆ before ㇑ (Conway,  TW).
