@@ -999,6 +999,7 @@ U+516A	兪	341(2|3)5(11|44)55
     Allow moon 1st stroke ㇑ (Kangxi) or ㇓ (everyone else).
     Allow moon interior 二 (everyone else) or ⺀ (Kangxi).
   [Separate code points] U+4FDE 俞
+  [俞兪] 341(2|3)5(1122|1155|4455)
 U+516B	八	34
 U+516C	公	3454
 U+516D	六	4134
@@ -8189,9 +8190,10 @@ U+6B42	歂	2521325223534
 U+6B43	歃	(1|3)123215113534
 U+6B44	歄	25(5|12|21)252513534
 U+6B45	歅	(125221|125351)1213534
-U+6B46	歆	
-U+6B47	歇	
-U+6B48	歈	
+U+6B46	歆	4143125113534
+U+6B47	歇	2511353453534
+U+6B48	歈	341(2|3)5(1122|1155|4455)3534
+  [Lenient form] Allow left 俞 (everyone else) or 兪 (Kangxi).
 U+6B49	歉	
 U+6B4A	歊	
 U+6B4B	歋	33215315353534
