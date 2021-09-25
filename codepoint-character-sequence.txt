@@ -9763,7 +9763,8 @@ U+715E	煞
 U+715F	煟	
 U+7160	煠	
 U+7161	煡	
-U+7162	煢	
+U+7162	煢^	4334433445(251|512)
+  [Ignore Kangxi] Bottom 卂 with ㇑ rather than ㇓.
 U+7163	煣	
 U+7164	煤	
 U+7165	煥	
