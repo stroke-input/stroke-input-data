@@ -8420,8 +8420,8 @@ U+6C0F	氏	3515
 U+6C10	氐	3515(1|4)
   [Lenient form] Allow bottom ㇐ (Kangxi etc.) or ㇔ (common).
 U+6C11	民	51515
-U+6C12	氒	
-U+6C13	氓	
+U+6C12	氒	351512
+U+6C13	氓	41551515
 U+6C14	气	3115
 U+6C15	氕	
 U+6C16	氖	
