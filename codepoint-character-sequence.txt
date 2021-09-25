@@ -16972,7 +16972,8 @@ U+8CDF	賟
 U+8CE0	賠	
 U+8CE1	賡	
 U+8CE2	賢	
-U+8CE3	賣	
+U+8CE3	賣^	121252212511134
+  [Separate code points] U+27DA0 𧶠
 U+8CE4	賤	
 U+8CE5	賥	
 U+8CE6	賦	
@@ -28610,6 +28611,14 @@ U+26951	𦥑	3211511
 
 U+27C3C	𧰼^	352534353334
   [Separate code points] U+8C61 象
+
+U+27DA0	𧶠	121253512511134
+  [Separate code points] U+8CE3 賣
+  [Remark]
+    Allow 𧶠 (Kangxi) or 賣 (common) as a component
+    for characters in the phonetic series 𧶠
+    (Cantonese: yuk9; Old Chinese (Baxter–Sagart) /*luk/)
+  [賣𧶠] 12125(22|35)12511134
 
 U+27FB7	𧾷	251(215|2121)
   [Lenient form] Per U+6B62 止, which Kangxi often counts as having 3 strokes.
