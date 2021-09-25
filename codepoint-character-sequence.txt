@@ -8344,16 +8344,21 @@ U+6BC9	毉	131134535541234341
 U+6BCA	毊	12152133554313425125251
 U+6BCB	毋	55(13|31)
   [Lenient order] Allow ㇐ 2nd-last (Conway) or last (everyone else).
+  [Ignore Kangxi] Have ㇓ poking through, rather than ㇑ not poking through.
+  [毋母] 55(13|31|414|441)
 U+6BCC	毌	55(12|21)
   [Lenient order] Allow ㇐ 2nd-last (Conway) or last (everyone else).
 U+6BCD	母	55(414|441)
   [Lenient order] Allow ㇐ 2nd-last (Conway) or last (everyone else).
-U+6BCE	毎	
+U+6BCE	毎^	3155(12|21)
 U+6BCF	每	3155(414|441)
-U+6BD0	毐	
-U+6BD1	毑	
-U+6BD2	毒	
-U+6BD3	毓	
+U+6BD0	毐	12155(13|31)
+  [Ignore Kangxi] Per U+6BCB 毋.
+U+6BD1	毑	55(414|441)525
+U+6BD2	毒	112155(13|31|414|441)
+  [Lenient form] Allow bottom 毋 (Kangxi) or 母 (abomination).
+  [Ignore Kangxi] Per U+6BCB 毋.
+U+6BD3	毓	3155(414|441)(|4)154325
 U+6BD4	比	15(15|35|53)
 U+6BD5	毕	
 U+6BD6	毖	
