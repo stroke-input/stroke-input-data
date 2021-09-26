@@ -1550,8 +1550,9 @@ U+533E	匾	1(1513|3351|4513)251225
 U+533F	匿	1(122|1212|2112)132515
 U+5340	區^	12512512515
 U+5341	十	12
-U+5342	卂	(251|512)
-  [Lenient order] Allow ㇑ first (as if writing 凡) or last (logical).
+U+5342	卂	(251|351|512)
+  [Lenient form] Allow middle ㇑ or ㇓.
+  [Lenient order] Allow ㇑ or ㇓ first (as if writing 凡), or ㇑ last (logical).
 U+5343	千	312
 U+5344	卄	122
   [Separate code points] U+5EFE 廾
@@ -5763,7 +5764,7 @@ U+625B	扛	121121
 U+625C	扜	121112
 U+625D	扝	121115
 U+625E	扞	121112
-U+625F	扟	121(251|512)
+U+625F	扟	121(251|351|512)
 U+6260	扠	121544
 U+6261	扡	121525
 U+6262	扢	121315
@@ -9788,8 +9789,7 @@ U+715E	煞
 U+715F	煟	
 U+7160	煠	
 U+7161	煡	
-U+7162	煢^	4334433445(251|512)
-  [Ignore Kangxi] Bottom 卂 with ㇑ rather than ㇓.
+U+7162	煢^	4334433445(251|351|512)
 U+7163	煣	
 U+7164	煤	
 U+7165	煥	
