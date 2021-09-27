@@ -1569,7 +1569,7 @@ U+5347	升	(3132|3312)
 U+5348	午	3112
 U+5349	卉	12132
   [Separate code points] U+20984 𠦄
-  [Remark] Allow both 卉 or 𠦄 (with bottom-left left-slash) as a component.
+  [Remark] Allow 卉 or 𠦄 (with bottom-left left-slash) as a component.
   [卉𠦄] 12(132|1312)
 U+534A	半	(34|43)112
 U+534B	卋	121221
@@ -10051,7 +10051,7 @@ U+722B	爫	(3344|3443)
 U+722C	爬	
 U+722D	爭^	(3344|3443)5112
   [Separate code points] U+4E89 争
-  [Remark] Allow both 爭 (Kangxi etc.) or 争 (folk) as a component.
+  [Remark] Allow 爭 (Kangxi etc.) or 争 (folk) as a component.
   [争爭] (35|3344|3443)5112
 U+722E	爮	
 U+722F	爯	
@@ -28700,7 +28700,7 @@ U+21582	𡖂	(1221|2112)1325111(215|2121)515(34|35)354
 
 U+25055	𥁕^	2534125221
   [Separate code points] U+6637 昷
-  [Remark] Allow both 𥁕 (Kangxi etc.) or 昷 (common) as a component.
+  [Remark] Allow 𥁕 (Kangxi etc.) or 昷 (common) as a component.
   [昷𥁕] (2511|25341)25221
 
 U+25AD7	𥫗	314314
