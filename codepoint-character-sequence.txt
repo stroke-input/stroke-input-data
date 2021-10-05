@@ -12971,10 +12971,10 @@ U+7CF3	糳	22431431123215113554431234
       20 residual strokes: ⿰⿻丵臼⿱殳米 (Kangxi erroneously counts 21)
     Modern fonts have ⿱⿰⿻丵臼殳米, which is neither of these,
     but has the same stroke sequence as the latter (20 residual strokes).
-U+7CF4	糴	
-U+7CF5	糵	
-U+7CF6	糶	
-U+7CF7	糷	
+U+7CF4	糴^	34431234(533533|541541)32411121
+U+7CF5	糵	(122|1212|2112)3251514143112431234
+U+7CF6	糶^	(252|522)52431234(533533|541541)32411121
+U+7CF7	糷	431234(122|1212|2112)25112511125431234
 U+7CF8	糸	554234
 U+7CF9	糹^	554444
   [Remark] Allow 糸 (Kangxi) or 糹 (everyone else) as a component beside.
@@ -15273,7 +15273,7 @@ U+8597	薗
 U+8598	薘	
 U+8599	薙	
 U+859A	薚	
-U+859B	薛	
+U+859B	薛	(122|1212|2112)3251514143112
 U+859C	薜	
 U+859D	薝	
 U+859E	薞	
