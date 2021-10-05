@@ -4542,9 +4542,9 @@ U+5DE6	左	13121
 U+5DE7	巧	12115
 U+5DE8	巨	(1515|12511)
   [Lenient form] Allow 4 strokes (abomination) or 5 strokes (Kangxi etc.).
-U+5DE9	巩	121354
+U+5DE9	巩	121(254|354)
+  [Lenient form] Allow 凡 1st stroke ㇑ (HK) or ㇓ (everyone else).
   [Ignore Kangxi] Do not allow right interior ㇐.
-  [Remark] Right component truncated-丸 (HK, TW) and 凡 (common) are both 354.
 U+5DEA	巪	(1515|12511)5
 U+5DEB	巫	1234341
 U+5DEC	巬	121351134
@@ -5217,7 +5217,7 @@ U+604C	恌	(244|424|442)341534
 U+604D	恍	(244|424|442)243135
 U+604E	恎	(244|424|442)154121
 U+604F	恏	5315214544
-U+6050	恐	1213544544
+U+6050	恐	121(254|354)4544
 U+6051	恑	(244|424|442)351355
 U+6052	恒	(244|424|442)125111
 U+6053	恓	(244|424|442)125351
