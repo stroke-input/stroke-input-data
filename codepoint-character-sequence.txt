@@ -12962,9 +12962,15 @@ U+7CED	糭^	43123434444452(34|35)354
 U+7CEE	糮^	43123412512531(1|4)25221
 U+7CEF	糯	4312341(25|45)2(1111|4134|4444)132522
 U+7CF0	糰^	43123425125112141241
-U+7CF1	糱	
-U+7CF2	糲	
-U+7CF3	糳	
+U+7CF1	糱	(252|523)3251514143112431234
+U+7CF2	糲^	43123413(122|1212|2112)251125(5|21)4
+U+7CF3	糳	22431431123215113554431234
+  [Remark]
+    Kangxi has two variants:
+      16 residual strokes: ⿱⿰凿殳米
+      20 residual strokes: ⿰⿻丵臼⿱殳米 (Kangxi erroneously counts 21)
+    Modern fonts have ⿱⿰⿻丵臼殳米, which is neither of these,
+    but has the same stroke sequence as the latter (20 residual strokes).
 U+7CF4	糴	
 U+7CF5	糵	
 U+7CF6	糶	
