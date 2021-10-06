@@ -10083,6 +10083,7 @@ U+722A	爪	3324
 U+722B	爫	(3344|3443)
   [Lenient form]
     Allow bottom ㇒㇔㇔ (Kangxi etc.) or ㇔㇔㇒ (everyone else).
+  [爫*] 3443
 U+722C	爬	33245215
 U+722D	爭^	(3344|3443)5112
   [Separate code points] U+4E89 争
