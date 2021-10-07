@@ -13938,10 +13938,10 @@ U+807D	聽^	122111(1|3)1211(2|3)2522114544
 U+807E	聾^	41431(2511|3511|3541)1515111122111
 U+807F	聿	511112
 U+8080	肀	5112
-U+8081	肁	
-U+8082	肂	
+U+8081	肁	(1513|3351|4513)511112
+U+8082	肂	1354511112
 U+8083	肃*	51123234
-U+8084	肄	
+U+8084	肄	(15|35|53)31134511112
 U+8085	肅^	511(|1)23(5|21)521512
   [Lenient form]
     Allow incomplete 1 stroke (everyone else) or complete 2 strokes (HK)
@@ -13952,9 +13952,9 @@ U+8085	肅^	511(|1)23(5|21)521512
     HK stroke order <https://www.edbchinese.hk/lexlist_en/>
     is 聿 then 片 then 爿 (roughly).
     TW stroke order is largely top to bottom. We follow this order here.
-U+8086	肆	
-U+8087	肇	
-U+8088	肈	
+U+8086	肆	(12|21)11154511112
+U+8087	肇	(1513|3351|4513)3134511112
+U+8088	肈	(1513|3351|4513)(1534|1543)511112
 U+8089	肉	253434
   [Remark]
     For 4-stroke meat as a component beside (in 肌, 肥, etc.):
