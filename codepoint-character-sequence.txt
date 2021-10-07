@@ -13677,23 +13677,25 @@ U+7F8A	羊	431112
     Similar leniency to U+9B3C 鬼.
   [羊-above] 4311(|2)13
   [羊-beside] 431113
-U+7F8B	羋	
+U+7F8B	羋^	2(1221|2112)112
+  [Separate code points] U+8288 芈
 U+7F8C	羌	4311(|2)135
-U+7F8D	羍	
+U+7F8D	羍	134431112
 U+7F8E	美	431121134
-U+7F8F	羏	
-U+7F90	羐	
+U+7F8F	羏	431113333
+  [Ignore Kangxi] 羊 slanted rather than straight.
+U+7F90	羐	(122|1221|2112)121354
 U+7F91	羑	431121354
-U+7F92	羒	
-U+7F93	羓	
+U+7F92	羒	4311133453
+U+7F93	羓	4311135215
 U+7F94	羔	4311214444
 U+7F95	羕	43112145534
   [Ignore Kangxi] Bottom normal 永 rather than strange version with ㇟.
-U+7F96	羖	
+U+7F96	羖	4311133554
 U+7F97	羗	4311(|2)13554
-U+7F98	羘	
-U+7F99	羙	
-U+7F9A	羚	
+U+7F98	羘	(3511|3541)431112
+U+7F99	羙	4311214334
+U+7F9A	羚	43111334(152|154|454)
 U+7F9B	羛	
 U+7F9C	羜	
 U+7F9D	羝	
@@ -14517,7 +14519,7 @@ U+8284	芄
 U+8285	芅	
 U+8286	芆	
 U+8287	芇	
-U+8288	芈	
+U+8288	芈	(1221|2112)112
 U+8289	芉	
 U+828A	芊	
 U+828B	芋	
