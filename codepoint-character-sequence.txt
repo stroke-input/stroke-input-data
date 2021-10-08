@@ -2767,7 +2767,7 @@ U+579A	垚	121121121
 U+579B	垛	121351234
 U+579C	垜	121(35|53)1234
 U+579D	垝	121351355
-  [Ignore Kangxi] Top-right ⺈ (everyone else) rather than 刀 (Kangxi).
+  [Ignore Kangxi] Top-right ⺈ rather than 刀.
   [Remark]
     Kangxi is inconsistent; the big character for the entry has top-right 刀,
     but the small explanatory text has top-right ⺈.
@@ -2819,7 +2819,7 @@ U+57C6	埆	1213535(112|121)
   [Lenient form]
     Per U+89D2 角.
   [Ignore Kangxi]
-    Top-right ⺈ (everyone else) rather than 刀 (Kangxi).
+    Top-right ⺈ rather than 刀.
   [Remark]
     Kangxi is inconsistent; the big character for the entry has top-right 刀,
     but the small explanatory text has top-right ⺈.
@@ -2882,7 +2882,7 @@ U+57F1	埱	12121123454
 U+57F2	埲	12111134112
 U+57F3	埳	12135321511
   [Ignore Kangxi]
-    Top-right ⺈ (everyone else) rather than 刀 (Kangxi).
+    Top-right ⺈ rather than 刀.
   [Remark]
     See U+579D 垝 and U+57C6 埆.
 U+57F4	埴	1211(2|3)25111(1|5)
@@ -14340,15 +14340,16 @@ U+81E7	臧	13513125125(534|543)
 U+81E8	臨^	12512531251251251
 U+81E9	臩	(125125|521521)12512513432
 U+81EA	自	325111
-U+81EB	臫	
+U+81EB	臫	3251115
 U+81EC	臬	3251111234
 U+81ED	臭	3251111344
-U+81EE	臮	
+U+81EE	臮	325111323434
 U+81EF	臯	325111(|2)(1111|4134)12
   [Lenient form] Per U+7690 皐.
-U+81F0	臰	
+U+81F0	臰	3251111354(15|35|53)
 U+81F1	臱	325111445(34|35)(4135|4153)
-U+81F2	臲	
+U+81F2	臲	3251111234351355
+  [Ignore Kangxi] Top-right ⺈ rather than 刀.
 U+81F3	至	154121
 U+81F4	致	154121(354|3134)
   [Lenient form] Allow right 夂 (Kangxi etc.) or 攵 (common).
