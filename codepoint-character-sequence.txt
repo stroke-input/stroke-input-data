@@ -14410,8 +14410,8 @@ U+8219	舙	(112251|312251)\1\1
 U+821A	舚	(1|3)122513513(34|35)4111251
 U+821B	舛	354152
 U+821C	舜	344345354152
-U+821D	舝	
-U+821E	舞	
+U+821D	舝	5215554554152
+U+821E	舞	31122221354152
 U+821F	舟	335(414|441)
   [Lenient order] Allow ㇐ 2nd-last (Conway) or last (HK, TW).
   [Ignore Kangxi] 2nd-last (or last) stroke ㇔ rather than ㇑.
