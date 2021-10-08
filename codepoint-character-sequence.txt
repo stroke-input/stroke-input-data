@@ -14501,8 +14501,8 @@ U+826E	艮	511534
 U+826F	良	4511534
   [Remark] Allow 郎-left (everyone else) or 郞-left (Kangxi) as a component.
   [良-beside] 45115(4|34)
-U+8270	艰	
-U+8271	艱	
+U+8270	艰*	54511534
+U+8271	艱^	12212511134511534
 U+8272	色	(35|53)5215
   [Lenient form] Allow top ⺈ or 刀.
   [色 (right of 絶)] 355215
