@@ -196,6 +196,7 @@ f'''\
 
 if __name__ == '__main__':
   
+  character_set = set()
   characters_data_from_sequence = {}
   
   with open(IGNORED_LINES_FILE_NAME, 'w', encoding='utf-8') \
@@ -224,6 +225,7 @@ if __name__ == '__main__':
         ignored_lines_file.write(codepoint_character_sequence_line + '\n')
         continue
       
+      character_set.add(character)
       sequence_set = to_sequence_set(sequence_regex)
       
       for sequence in sequence_set:
@@ -241,6 +243,11 @@ if __name__ == '__main__':
         else:
           characters_data.add_dual(character)
   
+  print(
+    f'Finished parsing `{CODEPOINT_CHARACTER_SEQUENCE_FILE_NAME}` '
+    f'({len(character_set)} characters).'
+  )
+  
   sorted_sequences = sorted(characters_data_from_sequence.keys())
   
   with open(SEQUENCE_CHARACTERS_FILE_NAME, 'w', encoding='utf-8') \
@@ -253,3 +260,8 @@ if __name__ == '__main__':
       characters_data = characters_data_from_sequence[sequence]
       characters_data_string = characters_data.to_string()
       sequence_characters_file.write(f'{sequence}\t{characters_data_string}\n')
+
+  print(
+    f'Finished generating `{SEQUENCE_CHARACTERS_FILE_NAME}` '
+    f'({len(sorted_sequences)} stroke sequences).'
+  )
