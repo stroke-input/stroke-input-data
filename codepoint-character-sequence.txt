@@ -19778,7 +19778,13 @@ U+9695	隕
 U+9696	隖	
 U+9697	隗	
 U+9698	隘	
-U+9699	隙	
+U+9699	隙	(52|552)234(|3)2511234
+  [Lenient form]
+    Allow the following for the right half:
+      10 strokes (Kangxi): ⿳小日小
+      11 strokes (HK, TW): ⿳少日小 or ⿳小白小
+    Both of the 11-stroke forms can be found among Hong Kong MTR stickers
+    containing the phrase 請小心月台空隙 (Please mind the gap).
 U+969A	隚	
 U+969B	際	
 U+969C	障	
