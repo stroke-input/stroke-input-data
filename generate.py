@@ -125,6 +125,15 @@ CHARACTERS_SIMPLIFIED_FILE_NAME = 'characters-simplified.txt'
 IGNORED_LINES_FILE_NAME = '.ignored-lines.txt'
 
 
+CREATIVE_COMMONS_NOTICE = (
+'''\
+# Copyright 2021 Conway.
+# Licensed under Creative Commons Attribution 4.0 International (CC-BY-4.0),
+# see <https://creativecommons.org/licenses/by/4.0/>.\
+'''
+)
+
+
 SEQUENCE_CHARACTERS_FILE_HEADER = (
 f'''\
 # # {SEQUENCE_CHARACTERS_FILE_NAME}
@@ -132,9 +141,7 @@ f'''\
 # Part of 'Conway Stroke Data',
 # see <https://github.com/stroke-input/stroke-input-data>.
 
-# Copyright 2021 Conway.
-# Licensed under Creative Commons Attribution 4.0 International (CC-BY-4.0),
-# see <https://creativecommons.org/licenses/by/4.0/>.
+{CREATIVE_COMMONS_NOTICE}
 
 # Contains tab-separated (stroke sequence, characters) pairs.
 
