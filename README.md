@@ -32,7 +32,7 @@ All strokes are classified into 5 types, entered via keypad:
 
 ## Contents
 
-### [`characters-traditional.txt`], [characters-simplified.txt`]
+### [`characters-traditional.txt`], [`characters-simplified.txt`]
 
 - Lists of traditional-only and simplified-only characters
 - Automatically generated from `generate.py`
