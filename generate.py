@@ -114,43 +114,6 @@ def to_sequence_set(sequence_regex):
   return sequence_set
 
 
-class CharactersData:
-  """
-  Class for characters data.
-  """
-  
-  def __init__(self):
-    self.dual_set = set()
-    self.traditional_set = set()
-    self.simplified_set = set()
-  
-  def add_dual(self, character):
-    self.dual_set.add(character)
-  
-  def add_traditional(self, character):
-    self.traditional_set.add(character)
-  
-  def add_simplified(self, character):
-    self.simplified_set.add(character)
-  
-  def add_data(self, characters_data):
-    for character in characters_data.dual_set:
-      self.add_dual(character)
-    for character in characters_data.traditional_set:
-      self.add_traditional(character)
-    for character in characters_data.simplified_set:
-      self.add_simplified(character)
-  
-  def to_string(self):
-    dual_string = join_sorted(self.dual_set)
-    traditional_string = join_sorted(self.traditional_set)
-    simplified_string = join_sorted(self.simplified_set)
-    comma_separated_string = \
-      f'{dual_string},{traditional_string},{simplified_string}'
-    comma_separated_string = re.sub(',+$', '', comma_separated_string)
-    return comma_separated_string
-
-
 CHARACTER_TYPE_TRADITIONAL = '^'
 CHARACTER_TYPE_SIMPLIFIED = '*'
 
