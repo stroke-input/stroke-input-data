@@ -56,7 +56,7 @@ All strokes are classified into 5 types, entered via keypad:
 
 ### [`sequence-characters.txt`]
 
-- Tab-separated (stroke sequence, characters data) pairs
+- Tab-separated (stroke sequence, characters) pairs
 - Automatically generated from `generate.py`
 - Licensed under [CC-BY-4.0]
 
