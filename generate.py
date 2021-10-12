@@ -134,6 +134,14 @@ CREATIVE_COMMONS_NOTICE = (
 )
 
 
+PUBLIC_DOMAIN_NOTICE = (
+'''\
+# Released into the public domain,
+# see <https://creativecommons.org/publicdomain/zero/1.0/>.\
+'''
+)
+
+
 SEQUENCE_CHARACTERS_FILE_HEADER = (
 f'''\
 # # {SEQUENCE_CHARACTERS_FILE_NAME}
@@ -161,8 +169,7 @@ f'''\
 # Part of 'Conway Stroke Data',
 # see <https://github.com/stroke-input/stroke-input-data>.
 
-# Released into the public domain,
-# see <https://creativecommons.org/publicdomain/zero/1.0/>.
+{PUBLIC_DOMAIN_NOTICE}
 
 # Contains traditional characters.
 
@@ -182,8 +189,7 @@ f'''\
 # Part of 'Conway Stroke Data',
 # see <https://github.com/stroke-input/stroke-input-data>.
 
-# Released into the public domain,
-# see <https://creativecommons.org/publicdomain/zero/1.0/>.
+{PUBLIC_DOMAIN_NOTICE}
 
 # Contains simplified characters.
 
