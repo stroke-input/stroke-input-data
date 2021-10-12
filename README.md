@@ -32,6 +32,12 @@ All strokes are classified into 5 types, entered via keypad:
 
 ## Contents
 
+### [`characters-traditional.txt`], [characters-simplified.txt`]
+
+- Lists of traditional-only and simplified-only characters
+- Automatically generated from `generate.py`
+- Released into the [public domain]
+
 ### [`codepoint-character-sequence.txt`]
 
 - Tab-separated (code point, character, stroke sequence regex) triplets
@@ -40,7 +46,7 @@ All strokes are classified into 5 types, entered via keypad:
 
 ### [`generate.py`]
 
-- Script used to generate `sequence-characters.txt`
+- Script used to generate `sequence-characters.txt` and `characters-*.txt`
 - Licensed under [MIT-0]
 
 ### [`phrases-traditional.txt`], [`phrases-simplified.txt`]
@@ -66,6 +72,8 @@ All strokes are classified into 5 types, entered via keypad:
 - Unit tests for `generate.py`
 - Licensed under [MIT-0]
 
+[`characters-traditional.txt`]: characters-traditional.txt
+[`characters-simplified.txt`]: characters-simplified.txt
 [`codepoint-character-sequence.txt`]: codepoint-character-sequence.txt
 [`generate.py`]: generate.py
 [`phrases-traditional.txt`]: phrases-traditional.txt
