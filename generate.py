@@ -220,7 +220,8 @@ if __name__ == '__main__':
       characters = characters_from_sequence[sequence]
       sequence_characters_file.write(f'{sequence}\t{characters}\n')
   
+  sorted_sequence_count = len(sorted_sequences)
   print(
     f'Finished generating `{SEQUENCE_CHARACTERS_FILE_NAME}` '
-    f'({len(sorted_sequences)} stroke sequences).'
+    f'({sorted_sequence_count} stroke sequences).'
   )
