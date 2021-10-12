@@ -108,8 +108,6 @@ def to_sequence_set(sequence_regex):
 
 CHARACTER_TYPE_TRADITIONAL = '^'
 CHARACTER_TYPE_SIMPLIFIED = '*'
-
-
 COMPLIANT_LINE_REGEX = r'''
   U[+]
   (?P<codepoint_hex> [0-9A-F]{4,5} )
