@@ -51,13 +51,13 @@ All strokes are classified into 5 types, entered via keypad:
 
 ### [`phrases-traditional.txt`], [`phrases-simplified.txt`]
 
-- List of common phrases
+- Lists of common phrases
 - Compiled manually by Conway (@yawnoc)
 - Released into the [public domain]
 
 ### [`ranking-traditional.txt`], [`ranking-simplified.txt`]
 
-- Ranking of commonly used characters
+- Rankings of commonly used characters
 - Compiled manually by Conway (@yawnoc)
 - Released into the [public domain]
 
