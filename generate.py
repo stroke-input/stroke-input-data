@@ -24,14 +24,6 @@ def get_lines(file_name):
     return file.read().splitlines()
 
 
-def join_sorted(string_set):
-  """
-  Join a set of strings with lexicographic sorting.
-  """
-  
-  return ''.join(sorted(string_set))
-
-
 CAPTURE_GROUP_REGEX = r'''
   \(
     (?P<alternatives> [1-5|]* )
