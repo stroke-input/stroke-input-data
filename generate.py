@@ -125,6 +125,14 @@ CHARACTERS_SIMPLIFIED_FILE_NAME = 'characters-simplified.txt'
 IGNORED_LINES_FILE_NAME = '.ignored-lines.txt'
 
 
+STROKE_DATA_NOTICE = (
+'''\
+# Part of 'Conway Stroke Data',
+# see <https://github.com/stroke-input/stroke-input-data>.\
+'''
+)
+
+
 CREATIVE_COMMONS_NOTICE = (
 '''\
 # Copyright 2021 Conway.
@@ -146,8 +154,7 @@ SEQUENCE_CHARACTERS_FILE_HEADER = (
 f'''\
 # # {SEQUENCE_CHARACTERS_FILE_NAME}
 
-# Part of 'Conway Stroke Data',
-# see <https://github.com/stroke-input/stroke-input-data>.
+{STROKE_DATA_NOTICE}
 
 {CREATIVE_COMMONS_NOTICE}
 
@@ -166,8 +173,7 @@ CHARACTERS_TRADITIONAL_FILE_HEADER = (
 f'''\
 # # {CHARACTERS_TRADITIONAL_FILE_NAME}
 
-# Part of 'Conway Stroke Data',
-# see <https://github.com/stroke-input/stroke-input-data>.
+{STROKE_DATA_NOTICE}
 
 {PUBLIC_DOMAIN_NOTICE}
 
@@ -186,8 +192,7 @@ CHARACTERS_SIMPLIFIED_FILE_HEADER = (
 f'''\
 # # {CHARACTERS_SIMPLIFIED_FILE_NAME}
 
-# Part of 'Conway Stroke Data',
-# see <https://github.com/stroke-input/stroke-input-data>.
+{STROKE_DATA_NOTICE}
 
 {PUBLIC_DOMAIN_NOTICE}
 
