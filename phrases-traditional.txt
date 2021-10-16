@@ -10,6 +10,9 @@
 
 # To be used for phrase candidates.
 
+# Lines are sorted according to the Sort plugin of Pluma text editor,
+# see <https://github.com/mate-desktop/pluma>.
+
 # Lines beginning with a hash (#) will be ignored.
 
 一下
