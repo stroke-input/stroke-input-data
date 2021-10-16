@@ -1,5 +1,7 @@
 # # phrases-simplified.txt
 
+# Compiled manually by Conway (@yawnoc).
+
 # Part of 'Conway Stroke Data',
 # see <https://github.com/stroke-input/stroke-input-data>.
 
