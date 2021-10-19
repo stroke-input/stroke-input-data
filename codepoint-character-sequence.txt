@@ -36,6 +36,26 @@ Sequence regex capture groups should:
 No attempt at validation is made in `generate.py`.
 
 
+## Character set
+
+With the exception of U+3007 〇 IDEOGRAPHIC NUMBER ZERO,
+all included characters shall be CJK Unified Ideographs (main or extension).
+
+This means that the following shall NOT be included:
+- U+2E80 to U+2EFF (CJK Radicals Supplement)
+- U+2F00 to U+2FDF (Kangxi Radicals)
+- U+31C0 to U+31EF (CJK Strokes)
+- U+F900 to U+FAFF (CJK Compatibility Ideographs)
+- U+2F800 to U+2FA1F (CJK Compatibility Ideographs Supplement)
+
+Moreover, a character shall NOT be included
+if its glyph is missing in the Noto Sans CJK font as of Debian 10
+(see <https://packages.debian.org/buster/fonts-noto-cjk>).
+This is because such a character is likely to be displayed
+as a box/replacement/substitute/tofu/.notdef character on Android,
+which is not particularly useful.
+
+
 ## Forms
 
 Character forms mostly follow 康熙字典 (Kangxi dictionary),
@@ -3843,7 +3863,8 @@ U+5B4B	孋^	53112541254413522115(15|35|53)
 U+5B4C	孌^	(1|4)111251(554234|554444)\2531
 U+5B4D	孍	53125125113(5|12)1221113134
   [Remark]
-    The font on my phone is dumb; it displays ⿰犭嚴 (per U+7381 玁),
+    The font on Conway's phone is dumb;
+    it displays ⿰犭嚴 (per U+7381 玁),
     rather than ⿰女嚴.
 U+5B4E	孎	5315132(1111|4134)2522135251214
 U+5B4F	孏^	531(122|1212|2112)25112511125431234
