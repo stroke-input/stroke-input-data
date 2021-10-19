@@ -17161,20 +17161,20 @@ U+8C5A	豚	(3511|3541)1353334
 U+8C5B	豛	13533343554
 U+8C5C	豜	13533341132
   [Separate code points] U+8C63 豣
-U+8C5D	豝	
-U+8C5E	豞	
-U+8C5F	豟	
-U+8C60	豠	
+U+8C5D	豝	13533345215
+U+8C5E	豞	135333435251
+U+8C5F	豟	1353334(1513|3351|4513)5
+U+8C60	豠	135333425111
 U+8C61	象	3525(1|21)353334
   [Separate code points] U+27C3C 𧰼
   [Lenient form] Allow 11 strokes (abomination) or 12 strokes (Kangxi etc.).
   [Remark] Allow 象 or 𧰼 as a component.
   [象𧰼] 3525(1|21|34)353334
-U+8C62	豢	
+U+8C62	豢	(34|43)11341353334
 U+8C63	豣^	1353334113112
   [Separate code points] U+8C5C 豜
-U+8C64	豤	
-U+8C65	豥	
+U+8C64	豤	1353334511534
+U+8C65	豥	1353334415334
 U+8C66	豦	2153151353334
 U+8C67	豧	
 U+8C68	豨	
