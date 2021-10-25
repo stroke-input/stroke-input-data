@@ -20528,8 +20528,8 @@ U+98DA	飚*	3534433443344334
 U+98DB	飛^	53433(2534|5342)
   [Lenient order]
     Allow ㇑ before lower 飞 (Conway) or ㇑ after lower 飞 (HK, TW).
-U+98DC	飜	
-U+98DD	飝	
+U+98DC	飜^	34312342512153433(2534|5342)
+U+98DD	飝	(534332534|534335342)\1\1
 U+98DE	飞*	534
 U+98DF	食	34(1|4)511534
   [Lenient form] Per U+4ECA 今.
