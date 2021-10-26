@@ -3089,8 +3089,7 @@ U+5881	墁	12125112522154
     Radical 土 (earth) seems to be a hotbed for top-right inconsistencies;
     see 刀 vs ⺈ in U+579D 垝, U+57C6 埆 etc.
 U+5882	墂	12112522111234
-  [Ignore Kangxi]
-    Top-right 覀 rather than 西.
+  [Ignore Kangxi] Top-right 覀 rather than 西.
 U+5883	境	12141431251135
 U+5884	墄	12113211234(534|543)
 U+5885	墅	25111215452121
@@ -21841,17 +21840,20 @@ U+9DC1	鷁^	(34|43)1342522132511154444
 U+9DC2	鷂^	(3443|3541|3544)31125232511154444
 U+9DC3	鷃	251144553132511154444
 U+9DC4	鷄^	(3344|3443)55413432511154444
-U+9DC5	鷅	
-U+9DC6	鷆	
-U+9DC7	鷇	
-U+9DC8	鷈	
-U+9DC9	鷉	
+U+9DC5	鷅	125221123432511154444
+  [Ignore Kangxi] Top-left 覀 rather than 西.
+U+9DC6	鷆^	(15|35|53)2511153432511154444
+  [Separate code points] U+9DCF 鷏
+U+9DC7	鷇	121451325111544443554
+U+9DC8	鷈^	325111544443321531535
+U+9DC9	鷉^	332153153532511154444
 U+9DCA	鷊^	125125(35|43)1232511154444
 U+9DCB	鷋	
 U+9DCC	鷌	
 U+9DCD	鷍	
 U+9DCE	鷎	
 U+9DCF	鷏	
+  [Separate code points] U+9DC6 鷆
 U+9DD0	鷐	
 U+9DD1	鷑	
 U+9DD2	鷒	
