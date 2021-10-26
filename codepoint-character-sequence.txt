@@ -49,11 +49,10 @@ This means that the following shall NOT be included:
 - U+2F800 to U+2FA1F (CJK Compatibility Ideographs Supplement)
 
 Moreover, a character shall NOT be included
-if its glyph is missing in the Noto Sans CJK font as of Debian 10
+unless it is supported by the Noto Sans CJK font on Debian 10
 (see <https://packages.debian.org/buster/fonts-noto-cjk>).
-This is because such a character is likely to be displayed
-as a box/replacement/substitute/tofu/.notdef character on Android,
-which is not particularly useful.
+This is because Noto Sans CJK support on Debian 10
+is strongly correlated with font support on Android.
 
 
 ## Forms
