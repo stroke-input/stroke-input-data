@@ -314,3 +314,24 @@ if __name__ == '__main__':
     f'Finished generating `{CHARACTERS_SIMPLIFIED_FILE_NAME}` '
     f'({simplified_character_count} characters).'
   )
+  
+  sequences_per_character = sorted_sequence_count / character_count
+  print(
+    f'On average, there are {sequences_per_character:.3f} '
+    f'stroke sequences per character.'
+  )
+  
+  traditional_fraction = traditional_character_count / character_count
+  print(
+    f'{traditional_fraction:.1%} of characters are traditional-only.'
+  )
+  
+  simplified_fraction = simplified_character_count / character_count
+  print(
+    f'{simplified_fraction:.1%} of characters are simplified-only.'
+  )
+  
+  dual_fraction = 1 - traditional_fraction - simplified_fraction
+  print(
+    f'{dual_fraction:.1%} of characters are dual.'
+  )
