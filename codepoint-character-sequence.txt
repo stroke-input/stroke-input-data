@@ -26,6 +26,10 @@ where:
      (b) a caret (^), to indicate that it is traditional-only, or
      (c) an asterisk (*), to indicate that it is simplified-only.
 
+A character shall NOT be marked traditional-only
+if the corresponding simplified character is excluded from the character set
+due to lack of font support (see section 'Character set' below).
+
 Non-compliant lines will be ignored.
 
 Sequence regex capture groups should:
