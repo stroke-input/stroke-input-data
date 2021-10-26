@@ -29008,70 +29008,47 @@ U+4DB5	䶵
 ## CJK Unified Ideographs Extension B (U+20000 to U+2A6DD)
 
 U+20089	𠂉	31
-
 U+20094	𠂔	(3523|32523)
   [Lenient form] Allow 4 strokes (abomination) or 5 strokes (Kangxi etc.).
-
 U+200A2	𠂢	333(2|5)34
-
 U+200A4	𠂤	325151
-
 U+201A2	𠆢	34
-
 U+20984	𠦄	121(2|3)12
   [Separate code points] U+5349 卉
   [Lenient form] Allow bottom-left left-slash (like 廾) or vertical (like 十).
-
 U+20B1D	𠬝	(25|52)54
   [Lenient order] Allow ㇑ before ㇆ (HK) or ㇆ before ㇑ (Conway,  TW).
-
 U+21582	𡖂	(122|1212|1221|2112)1325111(215|2121)515(34|35)354
   [Separate code points] U+5914 夔, U+8637 蘷, U+8641 虁
   [Lenient form] Per U+5912 夒.
-
 U+21FFA	𡿺	555325341
-
 U+221C1	𢇁	5545544444
-
 U+233DF	𣏟	12351235
-
 U+241FE	𤇾	4334433445
-
 U+248E9	𤣩	1121
-
 U+24D14	𤴔	5(215|2121)
   [Lenient form] Per U+6B62 止, which Kangxi often counts as having 3 strokes.
-
 U+25055	𥁕^	2534125221
   [Separate code points] U+6637 昷
   [Remark] Allow 𥁕 (Kangxi etc.) or 昷 (common) as a component.
   [昷𥁕] (2511|25341)25221
-
 U+25AD7	𥫗	314314
-
 U+2634C	𦍌	431121
-
 U+26612	𦘒	51112
-
 U+268DD	𦣝	(125125|151225)
   [Separate code points] U+268DE 𦣞
   [Lenient order] Allow ㇑ before bendy or bendy before ㇑.
   [Remark] Allow 𦣝 (Kangxi) or 𦣞 (everyone else) as a component.
   [𦣝𦣞 (top-left of 煕熙)] (125125|151225|1225125)
-
 U+26951	𦥑	3211511
   [Remark]
     In U+53DF 叟, U+81FE 臾, etc.,
     allow 6-stroke 臼 (common) or 7-stroke 𦥑 (Kangxi).
   [臼𦥑] 321(|1)511
-
 U+2696F	𦥯	3434321151145
-
 U+27607	𧘇	3534
-
 U+27C3C	𧰼^	352534353334
   [Separate code points] U+8C61 象
-
 U+27DA0	𧶠	121253512511134
   [Separate code points] U+8CE3 賣
   [Remark]
@@ -29079,24 +29056,15 @@ U+27DA0	𧶠	121253512511134
     for characters in the phonetic series 𧶠
     (Cantonese: yuk9; Old Chinese (Baxter–Sagart) /*luk/)
   [賣𧶠] 121(25221|25351)2511134
-
 U+27FB7	𧾷	251(215|2121)
   [Lenient form] Per U+6B62 止, which Kangxi often counts as having 3 strokes.
-
 U+28CCA	𨳊	25112511(35|53)
-
 U+28CCD	𨳍	2511251115
-
 U+28CD2	𨳒	25112511234
-
 U+28D99	𨶙	2511251154(2511|3511|3541)(15|35|53)\2
-
 U+2967F	𩙿^	34(1|4)251111
   [Separate code points] U+98E0 飠
   [Lenient form] Per U+4ECA 今.
-
 U+29810	𩠐	5551325111
-
 U+29D4B	𩵋^	3525121134
-
 U+2C72F	𬜯*	1221253434
