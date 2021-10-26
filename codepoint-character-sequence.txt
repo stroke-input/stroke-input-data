@@ -29005,7 +29005,7 @@ U+4DB5	䶵
 // U+4DB6 䶶 to U+4DBF 䶿 lack the appropriate font support (Noto Sans CJK).
 
 
-## CJK Unified Ideographs Extension B (U+20000 to U+2A6DD)
+## CJK Unified Ideographs Extension B (U+20000 to U+2A6DF)
 
 U+20089	𠂉	31
 U+20094	𠂔	(3523|32523)
