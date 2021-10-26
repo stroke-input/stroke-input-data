@@ -85,7 +85,7 @@ Unicode CJK Strokes (U+31C0 to U+31E3) for convenient reference:
 U+3007	〇	5
 
 
-## CJK Unified Ideographs (U+4E00 to U+9FFC)
+## CJK Unified Ideographs (U+4E00 to U+9FFF)
 
 U+4E00	一	1
 U+4E01	丁	12
@@ -22391,50 +22391,7 @@ U+9FCD	鿍
 U+9FCE	鿎	
 U+9FCF	鿏	
 U+9FD0	鿐	
-U+9FD1	鿑	
-U+9FD2	鿒	
-U+9FD3	鿓	
-U+9FD4	鿔	
-U+9FD5	鿕	
-U+9FD6	鿖	
-U+9FD7	鿗	
-U+9FD8	鿘	
-U+9FD9	鿙	
-U+9FDA	鿚	
-U+9FDB	鿛	
-U+9FDC	鿜	
-U+9FDD	鿝	
-U+9FDE	鿞	
-U+9FDF	鿟	
-U+9FE0	鿠	
-U+9FE1	鿡	
-U+9FE2	鿢	
-U+9FE3	鿣	
-U+9FE4	鿤	
-U+9FE5	鿥	
-U+9FE6	鿦	
-U+9FE7	鿧	
-U+9FE8	鿨	
-U+9FE9	鿩	
-U+9FEA	鿪	
-U+9FEB	鿫	
-U+9FEC	鿬	
-U+9FED	鿭	
-U+9FEE	鿮	
-U+9FEF	鿯	
-U+9FF0	鿰	
-U+9FF1	鿱	
-U+9FF2	鿲	
-U+9FF3	鿳	
-U+9FF4	鿴	
-U+9FF5	鿵	
-U+9FF6	鿶	
-U+9FF7	鿷	
-U+9FF8	鿸	
-U+9FF9	鿹	
-U+9FFA	鿺	
-U+9FFB	鿻	
-U+9FFC	鿼	
+// U+9FD1 鿑 to U+9FFF 鿿 lack the appropriate font support (Noto Sans CJK).
 
 
 ## CJK Unified Ideographs Extension A (U+3400 to U+4DBF)
