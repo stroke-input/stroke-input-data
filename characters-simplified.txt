@@ -13,6 +13,8 @@
 # It should NOT be edited manually.
 # Manual edits should be made to `codepoint-character-sequence.txt`.
 
+㐷
+㐽
 㝉
 专
 丛
