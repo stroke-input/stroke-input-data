@@ -22173,9 +22173,9 @@ U+9EF9	黹	22431(|2)(34|43)25234
     Kangxi is inconsistent.
     Given that it counts 8 strokes for U+3840 㡀,
     it ought to count 13 strokes for U+9EF9 黹, rather than 12.
-U+9EFA	黺	
-U+9EFB	黻	
-U+9EFC	黼	
+U+9EFA	黺	22431(|2)(34|43)252343453
+U+9EFB	黻	22431(|2)(34|43)2523413(34|54)4
+U+9EFC	黼	22431(|2)(34|43)252341251124
 U+9EFD	黽^	2511(25|52)1211511
   [Lenient order] Allow central ㇑ before ㇟ (TW) or ㇟ before ㇑ (Conway, HK).
 U+9EFE	黾	25125115
