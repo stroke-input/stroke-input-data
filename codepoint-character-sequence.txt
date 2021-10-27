@@ -22416,10 +22416,12 @@ U+9FD0	鿐^	352512144444411253511
 
 ## CJK Unified Ideographs Extension A (U+3400 to U+4DBF)
 
-U+3400	㐀	
-U+3401	㐁	
-U+3402	㐂	
-U+3403	㐃	
+U+3400	㐀	(2112|2121)1
+  [Lenient order] Allow 2112 (TW) or 2121 (everyone else).
+U+3401	㐁	125341
+U+3402	㐂	151515
+U+3403	㐃	(54|341)2
+  [Lenient form] Allow top 厶 or 亼.
 U+3404	㐄	
 U+3405	㐅	34
 U+3406	㐆	
