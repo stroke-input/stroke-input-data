@@ -22354,8 +22354,8 @@ U+9F9C	龜^	(3|35)2511(25|52)(55151134|5115115341)
     (55151134|5115115341)
       Allow both 彐 connected to 龱 (Kangxi, TW) for 16 strokes in total
       or both 彐 disconnected from 龱 (Conway, HK) for 18 strokes in total.
-U+9F9D	龝	
-U+9F9E	龞	
+U+9F9D	龝^	31234(3|35)2511(25|52)(55151134|5115115341)
+U+9F9E	龞^	(|2)(34|43)252343134(3|35)2511(25|52)(55151134|5115115341)
 U+9F9F	龟*	3525115
 U+9FA0	龠	34125125125125122
 U+9FA1	龡	
