@@ -22198,10 +22198,10 @@ U+9F0E	鼎	25111(5|52)13212(5|12)
   [Lenient form]
     Allow 爿-like component 3 strokes (HK) or 4 strokes (TW).
     Allow 片-like component 4 strokes (TW) or 5 strokes (HK).
-U+9F0F	鼏	
-U+9F10	鼐	
-U+9F11	鼑	
-U+9F12	鼒	
+U+9F0F	鼏	4525111(5|52)13212(5|12)
+U+9F10	鼐	(35|53)25111(5|52)13212(5|12)
+U+9F11	鼑	2125111(5|52)13212(5|12)
+U+9F12	鼒	12325111(5|52)13212(5|12)
 U+9F13	鼓	1212514311254
 U+9F14	鼔	
 U+9F15	鼕	
