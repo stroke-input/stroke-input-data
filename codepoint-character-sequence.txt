@@ -22099,8 +22099,11 @@ U+9EB9	麹*	112135435431234
 U+9EBA	麺*	1121354132522111
 U+9EBB	麻	413(1234|1235)\1
   [Lenient form] Allow interior 𣏟 (Kangxi, TW) or 林 (common).
-U+9EBC	麼	
-U+9EBD	麽	
+U+9EBC	麼^	413(1234|1235)\1554
+  [Separate code points] U+9EBD 麽
+  [麽麼] 413(1234|1235)\1(354|554)
+U+9EBD	麽	413(1234|1235)\1354
+  [Separate code points] U+9EBC 麼
 U+9EBE	麾	
 U+9EBF	麿	
 U+9EC0	黀	
