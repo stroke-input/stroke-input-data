@@ -22263,7 +22263,8 @@ U+9F4A	齊^	4143253354(3112|3211)
     Allow bottom-right ㇑ last (Conway) or 3rd-last (everyone else).
 U+9F4B	齋^	4143253354(3112342|3211234)
 U+9F4C	齌	4143253354(31143342|32114334)
-U+9F4D	齍	
+U+9F4D	齍	4143253354(311225221|311252212|321125221)
+  [Lenient form] Allow ⿱齊皿 (Kangxi) or ⿵齊皿 (TW).
 U+9F4E	齎	
 U+9F4F	齏	
 U+9F50	齐*	413432
