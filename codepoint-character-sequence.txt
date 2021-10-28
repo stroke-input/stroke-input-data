@@ -22864,16 +22864,20 @@ U+35B2	㖲	531251251(35|53)
 U+35B3	㖳	441531251(35|53)
 U+35B4	㖴	251(122|1212|2112)3533
 U+35B5	㖵	25125111134
-U+35B6	㖶	
-U+35B7	㖷	
-U+35B8	㖸	
-U+35B9	㖹	
-U+35BA	㖺	
-U+35BB	㖻	
-U+35BC	㖼	
-U+35BD	㖽	
+U+35B6	㖶	251(125221|125351)121
+U+35B7	㖷	251251112134
+U+35B8	㖸	251215315151
+U+35B9	㖹	251345325221
+U+35BA	㖺	251111342511
+U+35BB	㖻	251545231234
+U+35BC	㖼	251122111234
+U+35BD	㖽	251132511134
 U+35BE	㖾	251251431523
-U+35BF	㖿	
+U+35BF	㖿	251122111(52|552)
+  [Remark]
+    Kangxi has right 卩 (52) rather than 阝 (552).
+    But since we allow the 2-stroke (abomination) form of 阝,
+    this is automatically accounted for.
 U+35C0	㗀	
 U+35C1	㗁	
 U+35C2	㗂	
