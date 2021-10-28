@@ -22819,7 +22819,7 @@ U+3585	㖅	251131(534|543)
 U+3586	㖆	251251221
 U+3587	㖇	251132522
 U+3588	㖈	1213(15|35|53)251
-  [Separate code points] U+439B 䎛 (duplicate; blame Unicode)
+  [Duplicate code points (blame Unicode)] U+439B 䎛
 U+3589	㖉	251342121
 U+358A	㖊*	251511124
 U+358B	㖋	3432251(35|53)
@@ -26446,7 +26446,7 @@ U+4398	䎘
 U+4399	䎙	
 U+439A	䎚	
 U+439B	䎛	1213(15|35|53)251
-  [Separate code points] U+3588 㖈 (duplicate; blame Unicode)
+  [Duplicate code points (blame Unicode)] U+3588 㖈
 U+439C	䎜	
 U+439D	䎝	
 U+439E	䎞	
