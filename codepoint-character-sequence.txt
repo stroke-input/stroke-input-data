@@ -23393,7 +23393,8 @@ U+37B3	㞳	2524412
 U+37B4	㞴	2523515
 U+37B5	㞵	2524134
 U+37B6	㞶	2524134
-U+37B7	㞷	
+U+37B7	㞷	52(2|3)1121
+  [Remark] Unicode erroneously has this under radical 屮 (not 山).
 U+37B8	㞸	
 U+37B9	㞹	
 U+37BA	㞺	
