@@ -323,15 +323,15 @@ if __name__ == '__main__':
   
   traditional_fraction = traditional_character_count / character_count
   print(
-    f'{traditional_fraction:5.2%} of characters are traditional-only.'
+    f'{traditional_fraction:6.2%} of characters are traditional-only.'
   )
   
   simplified_fraction = simplified_character_count / character_count
   print(
-    f'{simplified_fraction:5.2%} of characters are simplified-only.'
+    f'{simplified_fraction:6.2%} of characters are simplified-only.'
   )
   
   dual_fraction = 1 - traditional_fraction - simplified_fraction
   print(
-    f'{dual_fraction:5.2%} of characters are dual.'
+    f'{dual_fraction:6.2%} of characters are dual.'
   )
