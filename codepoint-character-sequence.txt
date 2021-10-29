@@ -23589,7 +23589,7 @@ U+386D	㡭^	554554(1|5)5545545
   [Lenient form]
     Allow one 𠃊 overall with 一 dividing (everyone else)
     or 𠃊 stacked above 𠃊 (Kangxi).
-U+386E	㡮	
+U+386E	㡮	554554134(534|543)3115
 U+386F	㡯	
 U+3870	㡰	
 U+3871	㡱	
