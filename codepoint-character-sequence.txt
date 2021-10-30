@@ -24180,9 +24180,14 @@ U+3AAB	㪫	214513434251112154
 U+3AAC	㪬	(533533|541541)324111212154
 U+3AAD	㪭	21531525121252212154
 U+3AAE	㪮	1(25|45)2(1111|4134|4444)2512512512154
-U+3AAF	㪯	
-U+3AB0	㪰	
-U+3AB1	㪱	
+U+3AAF	㪯^	4134112
+U+3AB0	㪰^	4134431234
+U+3AB1	㪱	41343525(|34|35)134
+  [Lenient form]
+    Allow right 奐 (Kangxi) or 奂 (abomination).
+  [Remark]
+    Unicode has not bothered with separate code points
+    for traditional and simplified.
 U+3AB2	㪲	
 U+3AB3	㪳	
 U+3AB4	㪴	
