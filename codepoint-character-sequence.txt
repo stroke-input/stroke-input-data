@@ -7945,6 +7945,10 @@ U+69E6	槦	1234413511(2|3)5112
 U+69E7	槧^	125111233121234
 U+69E8	槨^	123441251521(52|552)
 U+69E9	槩	(51154|3251111|3251115|3251135|3251153)15351234
+  [Separate code points] U+3BA3 㮣
+  [Remark]
+    For U+69E9 槩, some fonts have top 既, others have 旣 (Unicode Standard).
+    For U+3BA3 㮣, all fonts have top 既 (Unicode Standard).
 U+69EA	槪^	123432511(11|15|35|53)1535
   [Separate code points] U+6982 概
 U+69EB	槫	123412511214124
@@ -24443,7 +24447,8 @@ U+3B9F	㮟	1234132511234
 U+3BA0	㮠*	1234122451234
 U+3BA1	㮡	4334(1515|12511)1234
 U+3BA2	㮢	1234325131134
-U+3BA3	㮣	(51154|3251111|3251115|3251135|3251153)15351234
+U+3BA3	㮣	5115415351234
+  [Separate code points] U+69E9 槩
 U+3BA4	㮤	44534342511234
   [Ignore Kangxi] 谷-top 八 rather than 儿.
 U+3BA5	㮥	12345413425121
