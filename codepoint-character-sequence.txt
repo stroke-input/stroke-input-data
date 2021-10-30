@@ -4725,6 +4725,7 @@ U+5E4D	幍	252(3344|3443)321511
 U+5E4E	幎	2524525114134
 U+5E4F	幏	2524451353334
 U+5E50	幐	(3511|3544)(34|43)1134252
+  [Separate code points] U+3B3A 㬺
 U+5E51	幑	332252(1|3)2523134
 U+5E52	幒	252325(334|354)14544
 U+5E53	幓	25254545434333
@@ -24333,10 +24334,12 @@ U+3B37	㬷	35112512341
 U+3B38	㬸	3511(122|1212|2112)32(15|35|53)
 U+3B39	㬹	(3511|3541)(35|3344|3443)5112
   [Remark] Unicode erroneously has this under radical 月 (not 肉).
-U+3B3A	㬺	
-U+3B3B	㬻	
-U+3B3C	㬼	
-U+3B3D	㬽	
+U+3B3A	㬺	3511(34|43)1134252
+  [Separate code points] U+5E50 幐
+U+3B3B	㬻	3511(122|1212|2112)415325
+U+3B3C	㬼	13(2|3)511312511354
+U+3B3D	㬽	(3511|3541)25125125115
+  [Lenient form] Allow left meat, since it is probably a variant of U+984E 顎.
 U+3B3E	㬾	
 U+3B3F	㬿	
 U+3B40	㭀	
