@@ -24188,16 +24188,17 @@ U+3AB1	㪱	41343525(|34|35)134
   [Remark]
     Unicode has not bothered with separate code points
     for traditional and simplified.
-U+3AB2	㪲	
-U+3AB3	㪳	
-U+3AB4	㪴	
-U+3AB5	㪵	
-U+3AB6	㪶	
+U+3AB2	㪲	44125
+U+3AB3	㪳	44125
+U+3AB4	㪴	11354412
+U+3AB5	㪵	(34|43)1134412
+  [Ignore Kangxi] 半 last stroke ㇓ rather than ㇑.
+U+3AB6	㪶	1325114412
 U+3AB7	㪷	12514314412
-U+3AB8	㪸	
-U+3AB9	㪹	
-U+3ABA	㪺	
-U+3ABB	㪻	
+U+3AB8	㪸	122111344412
+U+3AB9	㪹	251125125314412
+U+3ABA	㪺	12511125111344412
+U+3ABB	㪻	(1|4)111251(554234|554444)\24412
 U+3ABC	㪼	
 U+3ABD	㪽	
 U+3ABE	㪾	
