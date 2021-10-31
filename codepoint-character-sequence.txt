@@ -25325,7 +25325,9 @@ U+3EF5	㻵	1121513521521521
 U+3EF6	㻶	1121314314511112
 U+3EF7	㻷	1121125234125234
 U+3EF8	㻸	1121153515352511
-U+3EF9	㻹	
+U+3EF9	㻹	13251135333411214
+  [Ignore Kangxi] Top-right 豕 rather than 豖.
+  [Remark] Kangxi counts 豕 even though it prints 豖.
 U+3EFA	㻺	
 U+3EFB	㻻	
 U+3EFC	㻼	
