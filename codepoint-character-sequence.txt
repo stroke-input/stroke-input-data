@@ -7948,7 +7948,7 @@ U+69E7	槧^	125111233121234
 U+69E8	槨^	123441251521(52|552)
 U+69E9	槩	(51154|3251111|3251115|3251135|3251153)15351234
   [Separate code points] U+3BA3 㮣
-  [Remark]
+  [Bad fonts]
     For U+69E9 槩, some fonts have top 既, others have 旣 (Unicode Standard).
     For U+3BA3 㮣, all fonts have top 既 (Unicode Standard).
 U+69EA	槪^	123432511(11|15|35|53)1535
@@ -24932,7 +24932,7 @@ U+3D76	㵶	44112132411121(534|543)
 U+3D77	㵷	41431134414143112
 U+3D78	㵸	441341251251(|251)25122
   [Separate code points] U+7039 瀹
-  [Remark]
+  [Bad fonts]
     For U+7039 瀹, all fonts have right-middle 口口口 (Unicode Standard).
     For U+3D78 㵸, some fonts have 口口 (Unicode Standard), others have 口口口.
 U+3D79	㵹	
