@@ -25096,7 +25096,7 @@ U+3E12	㸒	(3344|3443)3121
 U+3E13	㸓	(3344|3443)2511
 U+3E14	㸔	(343|3344|3443)1325111
   [Lenient form] Allow ㇒ to consume middle dot of 爫 or be separate.
-U+3E15	㸕	
+U+3E15	㸕	33243241112154
 U+3E16	㸖	
 U+3E17	㸗	
 U+3E18	㸘	
