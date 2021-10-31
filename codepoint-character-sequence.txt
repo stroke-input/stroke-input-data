@@ -25094,7 +25094,8 @@ U+3E11	㸑	25(112|151|1251)321151145123412344334
   [Lenient form] Per U+91C1 釁.
 U+3E12	㸒	(3344|3443)3121
 U+3E13	㸓	(3344|3443)2511
-U+3E14	㸔	
+U+3E14	㸔	(343|3344|3443)1325111
+  [Lenient form] Allow ㇒ to consume middle dot of 爫 or be separate.
 U+3E15	㸕	
 U+3E16	㸖	
 U+3E17	㸗	
