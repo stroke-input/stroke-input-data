@@ -21,7 +21,7 @@
 
 # ## Exceedingly common
 
-不一
+不一了
 之中也
 上下
 〇一二三四五六七八九十
@@ -35,7 +35,7 @@
 
 # ## Reasonably common
 
-世主
+世主事
 尺寸
 乘
 缺乏
@@ -43,7 +43,7 @@
 
 # ## Slightly common
 
-丟丢
+丟丢予
 串
 丈呎吋
 乖
