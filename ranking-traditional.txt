@@ -22,34 +22,32 @@
 # ## Exceedingly common
 
 不一
-
-中
-
+之中
 上下
-
 一二三四五六七八九十
 
 # ## Quite common
 
 並且
+乃乎久
 
 # ## Reasonably common
 
 世主
 尺寸
+乘
+缺乏
 
 # ## Slightly common
 
 丟丢
-
 串
 丈呎吋
-
+乖
 丸
 
 # ## Miscellaneous
 
 子丑寅卯辰巳午未申酉戌亥
 甲乙丙丁戊己庚辛壬癸
-
 乒乓
