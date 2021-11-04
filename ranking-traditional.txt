@@ -35,7 +35,7 @@
 
 # ## Reasonably common
 
-世
+世主
 尺寸
 
 # ## Slightly common
@@ -45,7 +45,11 @@
 串
 丈呎吋
 
+丸
+
 # ## Miscellaneous
 
 子丑寅卯辰巳午未申酉戌亥
 甲乙丙丁戊己庚辛壬癸
+
+乒乓
