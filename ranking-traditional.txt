@@ -22,14 +22,16 @@
 # ## Exceedingly common
 
 不一
-之中
+之中也
 上下
-一二三四五六七八九十
+〇一二三四五六七八九十
 
 # ## Quite common
 
 並且
 乃乎久
+
+乜
 
 # ## Reasonably common
 
@@ -37,6 +39,7 @@
 尺寸
 乘
 缺乏
+乾亂
 
 # ## Slightly common
 
@@ -44,7 +47,7 @@
 串
 丈呎吋
 乖
-丸
+丸乳
 
 # ## Miscellaneous
 
