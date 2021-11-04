@@ -25,13 +25,16 @@
 之中也
 上下
 〇一二三四五六七八九十
+些
+
+啲
 
 # ## Quite common
 
 並且
 乃乎久
 
-乜
+乜咩
 
 # ## Reasonably common
 
@@ -40,14 +43,16 @@
 乘
 缺乏
 乾亂
+互
 
 # ## Slightly common
 
 丟丢予
-串
+串亞
 丈呎吋
 乖
 丸乳
+云
 
 # ## Miscellaneous
 
