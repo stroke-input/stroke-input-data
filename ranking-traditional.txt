@@ -17,3 +17,32 @@
 # Characters that appear earlier will be ranked higher.
 # If a character appears more than once, the ranking
 # from its earliest appearance will prevail.
+
+
+# ## Exceedingly common
+
+不一
+
+上下
+
+一二三四五六七八九十
+
+# ## Quite common
+
+並且
+
+# ## Reasonably common
+
+世
+尺寸
+
+# ## Slightly common
+
+丟丢
+
+丈
+
+# ## Miscellaneous
+
+子丑寅卯辰巳午未申酉戌亥
+甲乙丙丁戊己庚辛壬癸
