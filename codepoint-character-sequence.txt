@@ -1180,7 +1180,7 @@ U+51DD	凝	41(15|35|53)311345452134
 U+51DE	凞	413125125(55|515)4444
   [Remark]
     Kangxi prints 㔾 (2 strokes) for the top-right,
-	but has a stroke count consistent with 巳 (3 strokes).
+    but has a stroke count consistent with 巳 (3 strokes).
 U+51DF	凟	41121(25221|25351)2511134
 U+51E0	几	35
 U+51E1	凡	354
@@ -8456,8 +8456,8 @@ U+6BBF	殿	5131221343554
 U+6BC0	毀^	3215111213554
   [Separate code points] U+6BC1 毁
   [Remark]
-	Allow 毀 or 毁 as a component.
-	Note that 毀 and 毁 have the same stroke sequence.
+    Allow 毀 or 毁 as a component.
+    Note that 毀 and 毁 have the same stroke sequence.
   [毀毁] 3215111213554
 U+6BC1	毁*	3215111213554
   [Separate code points] U+6BC0 毀
@@ -10006,8 +10006,8 @@ U+7188	熈	3125125(55|515)4444
     Allow top-right 㔾 (Kangxi U+51DE 凞) or 巳 (Kangxi) or 已 (TW).
   [Remark]
     Kangxi is inconsistent;
-	it has top-right 㔾 (yet stroke count for 巳) in U+51DE 凞
-	but top-right 巳 in U+7188 熈.
+    it has top-right 㔾 (yet stroke count for 巳) in U+51DE 凞
+    but top-right 巳 in U+7188 熈.
 U+7189	熉	43342512511134
 U+718A	熊	54(2511|3511|3541)(15|35|53)\24444
 U+718B	熋	54(2511|3511|3541)(15|35|53)\24334
@@ -27307,8 +27307,8 @@ U+4673	䙳	1252214334
 U+4674	䙴	125221134(55|515)
   [Lenient form] Allow bottom 㔾 or 巳.
   [Remark]
-	Kangxi is inconsistent; here it has bottom 㔾,
-	but for the component in U+9077 遷 it has bottom 巳.
+    Kangxi is inconsistent; here it has bottom 㔾,
+    but for the component in U+9077 遷 it has bottom 巳.
 U+4675	䙵	
 U+4676	䙶	
 U+4677	䙷	
