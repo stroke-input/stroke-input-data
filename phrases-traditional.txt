@@ -1,4 +1,4 @@
-# # phrases.txt
+# # phrases-traditional.txt
 
 # Compiled manually by Conway (@yawnoc).
 

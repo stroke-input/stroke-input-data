@@ -1,4 +1,4 @@
-# # ranking.txt
+# # ranking-traditional.txt
 
 # Compiled manually by Conway (@yawnoc).
 
