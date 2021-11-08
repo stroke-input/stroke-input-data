@@ -27309,8 +27309,9 @@ U+4674	䙴	125221134(55|515)
   [Remark]
     Kangxi is inconsistent; here it has bottom 㔾,
     but for the component in U+9077 遷 it has bottom 巳.
-U+4675	䙵	
-U+4676	䙶	
+U+4675	䙵	125221121121
+U+4676	䙶*	12535(|1)1453534
+  [Lenient form] Allow left 酉 (TW) or 西 (everyone else).
 U+4677	䙷	
 U+4678	䙸	
 U+4679	䙹	
