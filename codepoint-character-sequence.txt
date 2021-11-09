@@ -353,7 +353,7 @@ U+4EE1	仡	32315
 U+4EE2	仢	3235(1|4)
 U+4EE3	代	32154
 U+4EE4	令	34(152|154|454)
-  [Lenient form] Allow ㇐㇆㇑ (Kangxi), ㇐龴 (TW), or ㇔龴 (common).
+  [Lenient form] Allow 𠆢㇐㇆㇑ (Kangxi), 𠆢㇐龴 (TW), or 𠆢㇔龴 (common).
   [令*] 34454
 U+4EE5	以	(5|21)434
   [Lenient form] Allow 4 strokes or 5 strokes.
@@ -663,11 +663,7 @@ U+500C	倌	32445(251|512)51
 U+500D	倍	3241431251
 U+500E	倎	3225122134
 U+500F	倏	322(354|3134)1344
-  [Remark]
-    Kangxi has top-right 夂 (3 strokes) despite usually having 攵 (4 strokes).
 U+5010	倐	322(354|3134)4334
-  [Remark]
-    Kangxi has top-right 夂 (3 strokes) despite usually having 攵 (4 strokes).
 U+5011	們^	3225112511
 U+5012	倒	3215412122
 U+5013	倓	3243344334
@@ -1089,7 +1085,7 @@ U+518D	再	125121
 U+518E	冎	25(5|12|21)25
   [Lenient form]
     Allow top-interior 1-stroke left-leaning (abomination)
-    or or 2-stroke right-leaning (Kangxi etc.).
+    or 2-stroke right-leaning (Kangxi etc.).
   [Lenient order]
     For top-interior 2-stroke right-leaning,
     allow ㇐ 1st (everyone else) or 2nd (Conway).
@@ -1296,8 +1292,8 @@ U+5222	刢	34(152|154|454)22
 U+5223	刣	5425122
 U+5224	判	(34|43)11(2|3)22
   [Lenient form]
-    Allow first 2 strokes 八 (Kangxi) or 丷 (everyone else).
-    Allow 5th stroke ㇑ (Kangxi) or ㇓ (everyone else).
+    Allow 半 1st two strokes 八 (Kangxi) or 丷 (everyone else).
+    Allow 半 central stroke ㇑ (Kangxi) or ㇓ (everyone else).
 U+5225	別^	2513522
   [Separate code points] U+522B 别
   [Remark] Allow 別 (Kangxi etc.) or 别 (abomination) as a component.
@@ -1652,7 +1648,7 @@ U+535A	博	121251124124
 U+535B	卛	(1|4)111251(554234|554444)\212
 U+535C	卜	24
 U+535D	卝	(1221|2112|2121)
-  [卝-component] (1221|2112)
+  [卝-component (horns)] (1221|2112)
 U+535E	卞	4124
 U+535F	卟	25124
 U+5360	占	21251
@@ -1676,7 +1672,7 @@ U+5370	印	(351|3211)52
   [Lenient form] Allow left 4 strokes (Kangxi etc.) or 3 strokes (abomination).
 U+5371	危	351355
 U+5372	卲	5325152
-  [Ignore Kangxi] Top-left 刀 rather than ⺈.
+  [Ignore Kangxi] 召-top 刀 rather than ⺈.
 U+5373	即	5115452
   [Separate code points] U+537D 卽
   [Remark]
@@ -2263,7 +2259,7 @@ U+5582	喂	251251211534
 U+5583	喃	2511(2|3)2543112
 U+5584	善	43(1112|1121)431251
   [Lenient form] Allow top 羊 (Kangxi) or 𦍌 (everyone else).
-  [Ignore Kangxi] Interior 丷 (everyone else) rather than 八 (Kangxi).
+  [Ignore Kangxi] Centre 丷 (everyone else) rather than 八 (Kangxi).
 U+5585	喅	251251141431
 U+5586	喆	121251121251
 U+5587	喇	251125123422
@@ -2769,7 +2765,7 @@ U+5771	坱	12125134
 U+5772	坲	12151532
 U+5773	坳	12155453
 U+5774	坴	121(34|35)121
-  [Lenient form] Allow central 八 or 儿.
+  [Lenient form] Allow centre 八 or 儿.
 U+5775	坵^	12132121
 U+5776	坶	12155(414|441)
 U+5777	坷	12112512
@@ -2819,13 +2815,13 @@ U+579A	垚	121121121
 U+579B	垛	121351234
 U+579C	垜	121(35|53)1234
 U+579D	垝	121351355
-  [Ignore Kangxi] Top-right ⺈ rather than 刀.
+  [Ignore Kangxi] 危-top ⺈ rather than 刀.
   [Remark]
-    Kangxi is inconsistent; the big character for the entry has top-right 刀,
-    but the small explanatory text has top-right ⺈.
-    Yet for U+5371 危 alone, and for U+4F79 佹, it has top-right ⺈,
+    Kangxi is inconsistent; the big character for the entry has 危-top 刀,
+    but the small explanatory text has 危-top ⺈.
+    Yet for U+5371 危 alone, and for U+4F79 佹, it has 危-top ⺈,
     for both the big character and the small explanatory text.
-    Kangxi seems to prefer top-right 刀 when the radical is 土 (earth);
+    Kangxi seems to prefer 刀 over ⺈ when the radical is 土 (earth);
     see U+57C6 埆 for another example.
 U+579E	垞	121445315
 U+579F	垟	121431112
@@ -2871,13 +2867,13 @@ U+57C6	埆	1213535(112|121)
   [Lenient form]
     Per U+89D2 角.
   [Ignore Kangxi]
-    Top-right ⺈ rather than 刀.
+    角-top ⺈ rather than 刀.
   [Remark]
-    Kangxi is inconsistent; the big character for the entry has top-right 刀,
-    but the small explanatory text has top-right ⺈.
-    Yet for U+89D2 角 alone, and for U+5503 唃, it has top-right ⺈,
+    Kangxi is inconsistent; the big character for the entry has 角-top 刀,
+    but the small explanatory text has 角-top ⺈.
+    Yet for U+89D2 角 alone, and for U+5503 唃, it has 角-top ⺈,
     for both the big character and the small explanatory text.
-    Kangxi seems to prefer top-right 刀 when the radical is 土 (earth);
+    Kangxi seems to prefer 刀 over ⺈ when the radical is 土 (earth);
     see U+579D 垝 for another example.
 U+57C7	埇	1215425112
 U+57C8	埈	12154(34|35)354
@@ -2885,7 +2881,7 @@ U+57C9	埉	1211343434
 U+57CA	埊	2522534121
 U+57CB	埋	1212511121
 U+57CC	埌	1214511534
-  [Ignore Kangxi] 4th stroke ㇔ rather than ㇐.
+  [Ignore Kangxi] 良-top ㇔ rather than ㇐.
 U+57CD	埍	121251(2511|3511|3541)
 U+57CE	城	121135(534|543)
 U+57CF	埏	1213(215|2121)(54|554)
@@ -2934,7 +2930,7 @@ U+57F1	埱	12121123454
 U+57F2	埲	12111134112
 U+57F3	埳	12135321511
   [Ignore Kangxi]
-    Top-right ⺈ rather than 刀.
+    臽-top ⺈ rather than 刀.
   [Remark]
     See U+579D 垝 and U+57C6 埆.
 U+57F4	埴	1211(2|3)25111(1|5)
@@ -3029,8 +3025,7 @@ U+584A	塊^	1213251(|2)13554
 U+584B	塋^	4334433445121
 U+584C	塌	1212511(533533|541541)
 U+584D	塍	(3511|3544)(34|43)1134121
-  [Lenient form]
-    Allow moon interior 二 (everyone else) or ⺀ (Kangxi).
+  [Lenient form] Allow moon interior 二 (everyone else) or ⺀ (Kangxi).
 U+584E	塎	1214453434251
 U+584F	塏^	1212521251431
 U+5850	塐	1211121554234
@@ -3086,13 +3081,13 @@ U+587F	塿^	12125112512531
 U+5880	墀	121513(|2)(1111|4134)3112
 U+5881	墁	12125112522154
   [Ignore Kangxi]
-    Top-right ⺜ or 曰 rather than ⿱冖二.
+    曼-top ⺜ or 曰 rather than ⿱冖二.
   [Remark]
-    Kangxi has top-right 曰 for U+66FC 曼, U+6162 慢, U+6F2B 漫, etc.
+    Kangxi has 曼-top 曰 for U+66FC 曼, U+6162 慢, U+6F2B 漫, etc.
     Radical 土 (earth) seems to be a hotbed for top-right inconsistencies;
     see 刀 vs ⺈ in U+579D 垝, U+57C6 埆 etc.
 U+5882	墂	12112522111234
-  [Ignore Kangxi] Top-right 覀 rather than 西.
+  [Ignore Kangxi] 票-top 覀 rather than 西.
 U+5883	境	12141431251135
 U+5884	墄	12113211234(534|543)
 U+5885	墅	25111215452121
@@ -3239,14 +3234,14 @@ U+5909	変^	41(2|3)234354
   [Lenient form] Per U+53D8 变.
 U+590A	夊	354
 U+590B	夋	54(34|35)354
-  [Lenient form] Allow central 八 or 儿.
+  [Lenient form] Allow centre 八 or 儿.
   [Remark]
     Kangxi is inconsistent,
-    having central legs for 夋 as a component,
-    but central 八 for 夋 alone.
+    having centre 儿 for 夋 as a component,
+    but centre 八 for 夋 alone.
   [夋*] 5434354
 U+590C	夌	121(34|35)354
-  [Lenient form] Allow central 八 or 儿.
+  [Lenient form] Allow centre 八 or 儿.
   [夌*] 12134354
 U+590D	复	312511354
 U+590E	夎	3434121354
@@ -3257,13 +3252,13 @@ U+5911	夑	(1|4)11125143344334354
 U+5912	夒	1325111(215|2121)515(34|35)354
   [Lenient form]
     Allow counting 3 strokes or 4 strokes for the component 止.
-    Allow central 八 or 儿.
+    Allow centre 八 or 儿.
   [Remark]
     Kangxi is inconsistent;
     while it counts 4 strokes for the component 止 both here and in U+21582 𡖂,
     it counts only 3 strokes when 夒 appears as a side component.
 U+5913	夓	13251113211511(34|35)354
-  [Lenient form] Allow central 八 or 儿.
+  [Lenient form] Allow centre 八 or 儿.
 U+5914	夔	431325111(215|2121)515(34|35)354
   [Separate code points] U+456B 䕫, U+8637 蘷, U+8641 虁, U+21582 𡖂
   [Lenient form] Per U+5912 夒.
@@ -3369,9 +3364,6 @@ U+5964	奤	134132522111
 U+5965	奥	325431234134
   [Separate code points] U+5967 奧
 U+5966	奦	54523(354|3134)53134
-  [Remark]
-    Kangxi is inconsistent; here it has top-right 夂 (3 strokes),
-    but in U+52D9 務 it has top-right 攵 (4 strokes).
 U+5967	奧^	3253431234134
   [Separate code points] U+5965 奥
   [Remark] Allow 奥 (abomination) or 奧 (Kangxi etc.) as a component.
@@ -3434,7 +3426,7 @@ U+5998	妘	5311154
 U+5999	妙	5312343
 U+599A	妚	5311324
 U+599B	妛	(252|522)1531
-  [Lenient form] Allow top 山 (Japan) or 屮 everyone else.
+  [Lenient form] Allow top 山 (Japan) or 屮 (everyone else).
 U+599C	妜	5315134
 U+599D	妝^	5213531
 U+599E	妞	531(5121|5211)
@@ -3926,10 +3918,10 @@ U+5B6F	孯	12512554521
 U+5B70	孰	41251521(354|534)
 U+5B71	孱	513521521521
 U+5B72	孲	52112155121
-  [Remark] Kangxi erroneously counts 9 strokes (not 8) for the component 亞.
+  [Remark] Kangxi erroneously counts 9 residual strokes (not 8).
 U+5B73	孳	431554554521
   [Separate code points] U+5B76 孶
-  [Remark] Kangxi erroneously counts 10 strokes (not 9) for the component 兹.
+  [Remark] Kangxi erroneously counts 10 residual strokes (not 9).
 U+5B74	孴	5215215212511
 U+5B75	孵	3534524(3344|3443)521
 U+5B76	孶	(122|1212|2112)554554521
@@ -4712,7 +4704,7 @@ U+5E3A	帺	25212211134
 U+5E3B	帻*	25211212534
 U+5E3C	帼*	25225112141
 U+5E3D	帽	252251125111
-  [Ignore Kangxi] Top-right ⺜ rather than ⿱冖二.
+  [Ignore Kangxi] 冒-top ⺜ rather than ⿱冖二.
 U+5E3E	帾	25212132511(|4)
 U+5E3F	帿	252325131134
 U+5E40	幀^	252212511134
@@ -4964,7 +4956,7 @@ U+5F22	弢	515(252|522|523)54
 U+5F23	弣	51532124
 U+5F24	弤	5153515(1|4)
 U+5F25	弥	5153(1|5)234
-  [Lenient form] Allow 尓 (Kangxi) or 尔 (abomination).
+  [Lenient form] Allow right 尓 (Kangxi) or 尔 (abomination).
 U+5F26	弦	51541554
 U+5F27	弧	51533544
 U+5F28	弨	51553251
@@ -5040,7 +5032,7 @@ U+5F5E	彞	511431234554234132
   [Separate code points] U+5F5D 彝
 U+5F5F	彟*	5111241223241112154
 U+5F60	彠^	511121251124(122|1212|1221|2112)3241112154
-  [Ignore Kangxi] Top-left 彐 rather than 彑.
+  [Ignore Kangxi] 尋-top 彐 rather than 彑.
 U+5F61	彡	333
 U+5F62	形	(1132|113112)333
 U+5F63	彣	4134333
@@ -5561,7 +5553,7 @@ U+6149	慉	(244|424|442)4155425121
 U+614A	慊	(244|424|442)(33|43)15112234
 U+614B	態^	54(2511|3511|3541)(15|35|53)\24544
 U+614C	慌	(244|424|442)(122|1212|2112)415325
-  [Ignore Kangxi] Middle-right 亡 rather than 亾.
+  [Ignore Kangxi] 荒-middle 亡 rather than 亾.
 U+614D	慍^	(244|424|442)2534125221
   [Separate code points] U+6120 愠
 U+614E	慎	(244|424|442)1(2|3)25111134
@@ -5601,7 +5593,7 @@ U+616E	慮^	215315251214544
 U+616F	慯	(244|424|442)31251113533
 U+6170	慰	513112341244544
 U+6171	慱	(244|424|442)12511214124
-  [Ignore Kangxi] Do not allow top-right 叀.
+  [Ignore Kangxi] Do not allow 專-top 叀.
 U+6172	慲	(244|424|442)12212523434
 U+6173	慳^	(244|424|442)12512554121
 U+6174	慴	(244|424|442)(533533|541541)32511
@@ -5633,7 +5625,7 @@ U+618C	憌	3411243135(11|41)4544
 U+618D	憍^	(244|424|442)313425125251
 U+618E	憎	(244|424|442)(34|43)2524312511
 U+618F	憏	(244|424|442)(3541|3544)5411234
-  [Ignore Kangxi] Right top-right per 祭, rather than as the right half of 癶.
+  [Ignore Kangxi] Do not allow 祭 top-right as the right half of 癶.
 U+6190	憐^	(244|424|442)431234354152
 U+6191	憑^	41(12|21)112544444544
 U+6192	憒^	(244|424|442)251212511134
@@ -6167,7 +6159,7 @@ U+637E	捾	121445(251|512)51
 U+637F	捿	12115112531
 U+6380	掀	12133123534
 U+6381	掁	121(12|21)111534
-  [Ignore Kangxi] Do not allow bottom-right 亾.
+  [Ignore Kangxi] Do not allow 長-bottom 亾.
 U+6382	掂	12141321251
 U+6383	掃^	12151145252
 U+6384	掄^	12134125122
@@ -6913,12 +6905,12 @@ U+6633	昳	251131134
 U+6634	昴	251135352
 U+6635	昵	2511513(15|35|53)
 U+6636	昶	455342511
-  [Ignore Kangxi] 1st stroke ㇔ rather than ㇐.
+  [Ignore Kangxi] 永 1st stroke ㇔ rather than ㇐.
 U+6637	昷	251125221
   [Separate code points] U+25055 𥁕
 U+6638	昸	2511354(41|44)
 U+6639	昹	251145534
-  [Ignore Kangxi] 5th stroke ㇔ rather than ㇐.
+  [Ignore Kangxi] 永 1st stroke ㇔ rather than ㇐.
 U+663A	昺	251112534
 U+663B	昻	251112152
 U+663C	昼	513425111
@@ -7174,7 +7166,7 @@ U+6719	朙	25(34|35)2513511
 U+671A	朚	41525113511
 U+671B	望	415(3511|3544)(1|3)121
   [Lenient form]
-    Allow top-right 月 (Kangxi) or ⿴𠂊⺀ (HK, TW).
+    Allow top-right moon upright (Kangxi) or slanted (HK, TW).
     Allow bottom 王 (abomination) or 𡈼 (Kangxi etc.).
 U+671C	朜	351141251521
 U+671D	朝	12251112(3511|3544)
@@ -7438,7 +7430,7 @@ U+6800	栀	123433155
 U+6801	栁	123435452
 U+6802	栂	123455(414|441)
 U+6803	栃	1234(1|3)3(135|153)
-  [Lenient form] Allow 5th stroke ㇐ or ㇒.
+  [Lenient form] Allow 厉 1st stroke ㇐ or ㇒.
 U+6804	栄^	443451234
 U+6805	栅	1234(25251|35351)
   [Separate code points] U+67F5 柵
@@ -7463,8 +7455,8 @@ U+6815	栕	1234125125
 U+6816	栖	1234125351
 U+6817	栗	1252211234
 U+6818	栘	1234354354
-U+6819	栙	12343541(1|5)2
-  [Lenient form] Allow 2nd-last stroke ㇐ (Kangxi) or ㇗ (everyone else).
+U+6819	栙	1234354152
+  [Ignore Kangxi] 夅 2nd-last stroke ㇗ rather than ㇐.
 U+681A	栚	1234(34|43)1134
 U+681B	栛	1234535353
 U+681C	栜	1234125234
@@ -7473,7 +7465,7 @@ U+681E	栞	11(2|3)1121234
 U+681F	栟	1234(431132|31133112)
 U+6820	栠	32(1|3)1211234
 U+6821	校	1234413434
-  [Ignore Kangxi] Middle-right 八 rather than 儿.
+  [Ignore Kangxi] 交-middle 八 rather than 儿.
 U+6822	栢	1234132511
 U+6823	栣	123432(1|3)121
 U+6824	栤	1234412534
@@ -7866,7 +7858,7 @@ U+6997	榗	12341(2243|5454)12511
 U+6998	榘	31134(1515|12511)1234
 U+6999	榙	1234(122|1212|2112)341251
 U+699A	榚	12344311214444
-  [Ignore Kangxi] Top-right 𦍌 rather than 羊.
+  [Ignore Kangxi] 羔-top 𦍌 rather than 羊.
 U+699B	榛	12341113431234
 U+699C	榜	1234414345(4135|4153)
 U+699D	榝	123434(1234|1235)3554
@@ -7877,14 +7869,14 @@ U+69A0	榠	12344525114134
 U+69A1	榡	12341121554234
 U+69A2	榢	12344451353334
 U+69A3	榣	1234(3443|3541|3544)311252
-  [Ignore Kangxi] Do not allow top-right olden 爫 (3344).
+  [Ignore Kangxi] Do not allow 䍃-top olden-爫 (3344).
 U+69A4	榤	12343541521234
 U+69A5	榥	12342511243135
 U+69A6	榦	12251112341234
 U+69A7	榧	12341(2|3)11121115
 U+69A8	榨	1234445(34|35)31211
 U+69A9	榩	12342153154134
-  [Ignore Kangxi] Bottom-right 文 rather than 攵.
+  [Ignore Kangxi] 虔-bottom 文 rather than 攵.
 U+69AA	榪^	1234(12|21)11254444
 U+69AB	榫	12343241112112
 U+69AC	榬	12341212513(2|5)34
@@ -8282,7 +8274,7 @@ U+6B1E	欞^	12341(25|45)2(1111|4134|4444)2512512511234341
 U+6B1F	欟	1234(122|1212|1221|2112)251251324111212511135
 U+6B20	欠	3534
 U+6B21	次	(11|41)3534
-  [Lenient form] Allow left component 二 (Kangxi) or 冫 (common).
+  [Lenient form] Allow left 二 (Kangxi) or 冫 (common).
   [次*] 413534
 U+6B22	欢*	543534
 U+6B23	欣	33123534
@@ -8430,7 +8422,7 @@ U+6BA6	殦	135432511154444
 U+6BA7	殧	1354412512341354
 U+6BA8	殨^	1354251212511134
 U+6BA9	殩	1354(1354|21354)54431234
-  [Lenient form] Allow right top-left 歹 (Kangxi etc.) or 歺 (common).
+  [Lenient form] Allow 粲 top-left 歹 (Kangxi etc.) or 歺 (common).
 U+6BAA	殪	1354121451251431
 U+6BAB	殫^	1354251251251112
 U+6BAC	殬	13542522112143112
@@ -8848,7 +8840,7 @@ U+6D25	津	441511112
 U+6D26	洦	441132511
 U+6D27	洧	44113(2|3)511
 U+6D28	洨	441413434
-  [Ignore Kangxi] Middle-right 八 rather than 儿.
+  [Ignore Kangxi] 交-middle 八 rather than 儿.
 U+6D29	洩^	441251153
 U+6D2A	洪	441122134
 U+6D2B	洫	441325221
@@ -9260,7 +9252,7 @@ U+6EB2	溲	441321(|1)511254
 U+6EB3	溳^	4412512511134
 U+6EB4	溴	4413251111344
 U+6EB5	溵	4413351153554
-  [Ignore Kangxi] 4th stroke ㇒ rather than ㇐.
+  [Ignore Kangxi] 殷 1st stroke ㇒ rather than ㇐.
 U+6EB6	溶	4414453434251
 U+6EB7	溷	4412513533341
 U+6EB8	溸	4411121554234
@@ -9322,7 +9314,7 @@ U+6EEE	滮	44121531535333
 U+6EEF	滯^	44112213545252
 U+6EF0	滰	44141431251135
 U+6EF1	滱	44144511352154
-  [Ignore Kangxi] Right right-interior 攴 rather than 攵.
+  [Ignore Kangxi] 寇 right-interior 攴 rather than 攵.
 U+6EF2	滲^	44154545434333
 U+6EF3	滳	441414325(34|35)251
 U+6EF4	滴	44141432512251
@@ -9422,7 +9414,7 @@ U+6F50	潐	441324111214444
 U+6F51	潑^	44154(334|433)5153554
 U+6F52	潒	4413525(1|21|34)353334
 U+6F53	潓	441125112144544
-  [Ignore Kangxi] Do not allow top-right 叀.
+  [Ignore Kangxi] Do not allow 惠-top 叀.
 U+6F54	潔^	441(1112|3112|3332)53554234
 U+6F55	潕^	441311222214444
 U+6F56	潖	441112111215215
@@ -9668,7 +9660,7 @@ U+703F	瀿	4413155(414|441)3134554234
 U+7040	灀	4411(25|45)2(1111|4134|4444)123425111
 U+7041	灁^	44125112511325112534
 U+7042	灂	441(3344|3443)25221(51154|511211)124
-  [Ignore Kangxi] Top-right 爫 rather than ⿱一小.
+  [Ignore Kangxi] 爵-top 爫 rather than ⿱一小.
 U+7043	灃^	441211121112521251431
 U+7044	灄^	441122111122111122111
 U+7045	灅	441251212512125121121
@@ -9802,7 +9794,7 @@ U+70C1	烁*	433435234
 U+70C2	烂*	433443111
 U+70C3	烃*	433454121
 U+70C4	烄	4334413434
-  [Ignore Kangxi] Middle-right 八 rather than 儿.
+  [Ignore Kangxi] 交-middle 八 rather than 儿.
 U+70C5	烅	4334325221
 U+70C6	烆	4334332112
 U+70C7	烇	4334341121
@@ -9934,7 +9926,7 @@ U+7142	煂	4334122125112
 U+7143	煃	4334134121121
 U+7144	煄	4334312511121
 U+7145	煅	4334321113554
-  [Ignore Kangxi] Middle as the left of 段, rather than as the left of 叚.
+  [Ignore Kangxi] Do not allow 段-left as the left of 叚.
 U+7146	煆	4334(251|512)115154
 U+7147	煇^	4334451251112
 U+7148	煈	433435(1|3)251214
@@ -10909,7 +10901,7 @@ U+74E3	瓣	4143113335444143112
 U+74E4	瓤	4125125111221353433544
 U+74E5	瓥	335441353334251214251214
 U+74E6	瓦	1(5|21)54
-  [Lenient form] Allow 4 strokes or 5 strokes.
+  [Lenient form] Allow 4 strokes (abomination) or 5 strokes (Kangxi etc.).
 U+74E7	瓧	1(5|21)5412
 U+74E8	瓨	1211(5|21)54
 U+74E9	瓩	1(5|21)54312
@@ -10990,7 +10982,7 @@ U+752C	甬	5425112
 U+752D	甭	132435112
 U+752E	甮	353335112
 U+752F	甯^	4454544(2|3)5112
-  [Lenient form] Allow 8th stroke ㇑ (Kangxi) or ㇓ (TW).
+  [Lenient form] Allow 用 1st stroke ㇑ (Kangxi) or ㇓ (TW).
 U+7530	田	25121
 U+7531	由	25121
 U+7532	甲	25112
@@ -11774,7 +11766,7 @@ U+7805	砅	132512534
 U+7806	砆	132511134
 U+7807	砇	132514134
 U+7808	砈	132511355
-  [Ignore Kangxi] 5th stroke ㇐ rather than ㇒.
+  [Ignore Kangxi] 厄 1st stroke ㇐ rather than ㇒.
 U+7809	砉	(1112|3112|3332)13251
 U+780A	砊	132514135
 U+780B	砋	132512121
@@ -11880,7 +11872,6 @@ U+786A	硪	132513121(534|543)
 U+786B	硫	13251(|4)154325
 U+786C	硬	132511251134
 U+786D	硭	13251(122|1212|2112)415
-  [Ignore Kangxi] Middle-bottom 亡 rather than 亾.
 U+786E	确	132513535(112|121)
 U+786F	硯^	132512511135
 U+7870	硰	441234313251
@@ -12211,7 +12202,7 @@ U+79A8	禨	(4524|11234)554554134(534|543)
 U+79A9	禩	(4524|11234)25121122134
 U+79AA	禪^	(4524|11234)251251251112
 U+79AB	禫	(4524|11234)125221251112
-  [Ignore Kangxi] Right top 覀 rather than 西.
+  [Ignore Kangxi] 覃-top 覀 rather than 西.
 U+79AC	禬	(4524|11234)3412524312511
 U+79AD	禭	(4524|11234)(34|43)1353334(454|4454|4554)
 U+79AE	禮^	(4524|11234)2512211251431
@@ -12423,7 +12414,6 @@ U+7A71	穱	31234(3344|3443)25221(51154|511211)124
 U+7A72	穲	31234125412544135221(1515|1535|1553|3535|5353)
 U+7A73	穳	312343121353121352511134
 U+7A74	穴	44534
-  [Remark] Allow 八 (common) or 儿 (Kangxi etc.) for 穴 as a component.
   [穴-above] 445(34|35)
   [穴*-above] 44534
 U+7A75	穵	445(34|35)5
@@ -13273,7 +13263,7 @@ U+7DA1	綡^	(554234|554444)41251234
 U+7DA2	綢^	(554234|554444)35(112|121)251
 U+7DA3	綣^	(554234|554444)(34|43)113455
 U+7DA4	綤	53251(52|552)554234
-  [Ignore Kangxi] Top-left 刀 rather than ⺈.
+  [Ignore Kangxi] 召-top 刀 rather than ⺈.
 U+7DA5	綥	(554234|554444)25121132
 U+7DA6	綦	12211134554234
 U+7DA7	綧^	(554234|554444)41251521
@@ -13836,7 +13826,7 @@ U+7FBA	羺	4311131(25|45)2(1111|4134|4444)132522
 U+7FBB	羻	431113413522154544354
 U+7FBC	羼	513431112431113431112
 U+7FBD	羽	(533533|541541)
-  [Lenient form] Allow interior ㇒㇒ (Kangxi) or 冫 (everyone else).
+  [Lenient form] Allow interiors ㇒㇒ (Kangxi) or 冫 (everyone else).
   [羽*] 541541
 U+7FBE	羾	(533533|541541)121
 U+7FBF	羿	(533533|541541)132
@@ -13901,7 +13891,7 @@ U+7FF7	翷	431234354152(533533|541541)
 U+7FF8	翸	12(122|1212)2511134(533533|541541)
 U+7FF9	翹^	121121121135(533533|541541)
 U+7FFA	翺	325111(|2)(1111|4134)12(533533|541541)
-  [Ignore Kangxi] Left bottom ㇑ rather than ㇓.
+  [Ignore Kangxi] 臯-bottom ㇑ rather than ㇓.
 U+7FFB	翻	343123425121(533533|541541)
 U+7FFC	翼	(533533|541541)25121122134
 U+7FFD	翽^	2121131233(534|543)(533533|541541)
@@ -14458,7 +14448,7 @@ U+81EF	臯	325111(|2)(1111|4134)12
 U+81F0	臰	3251111354(15|35|53)
 U+81F1	臱	325111445(34|35)(4135|4153)
 U+81F2	臲	3251111234351355
-  [Ignore Kangxi] Top-right ⺈ rather than 刀.
+  [Ignore Kangxi] 危-top ⺈ rather than 刀.
 U+81F3	至	154121
 U+81F4	致	154121(354|3134)
   [Lenient form] Allow right 夂 (Kangxi etc.) or 攵 (common).
@@ -14553,7 +14543,6 @@ U+8236	舶	335(414|441)32511
 U+8237	舷	335(414|441)41554
 U+8238	舸	335(414|441)12512
 U+8239	船	335(414|441)(34|35)251
-  [Ignore Kangxi] Top-right 八 or 儿 (or 几) rather than 刀.
 U+823A	舺	335(414|441)25112
 U+823B	舻*	335(414|441)21513
 U+823C	舼	335(414|441)122134
@@ -14583,7 +14572,7 @@ U+8253	艓	335(414|441)122151234
 U+8254	艔	335(414|441)413122154
 U+8255	艕	335(414|441)414345(4135|4153)
 U+8256	艖	335(414|441)4311(|2)13121
-  [Ignore Kangxi] Right top 䒑 rather than 卝.
+  [Ignore Kangxi] 差-top 䒑 rather than 卝.
   [Remark] Despite having 卝 (4 strokes), Kangxi counts 䒑 (3 strokes).
 U+8257	艗	335(414|441)(34|43)13425221
 U+8258	艘	335(414|441)321(|1)511254
@@ -14937,7 +14926,7 @@ U+83A0	莠	(122|1212|2112)31234(35|53)
 U+83A1	莡	(122|1212|2112)2512134
 U+83A2	莢^	(122|1212|2112)1343434
 U+83A3	莣	(122|1212|2112)4154544
-  [Ignore Kangxi] Middle 亡 rather than 亾.
+  [Ignore Kangxi] 忘-top 亡 rather than 亾.
 U+83A4	莤	(122|1212|2112)1253511
 U+83A5	莥	(122|1212|2112)(353|533)(5121|5211)
 U+83A6	莦	(122|1212|2112)(234|243)(2511|3511|3541)
@@ -15610,7 +15599,7 @@ U+862E	蘮	(122|1212|2112)25221134334433422
 U+862F	蘯^	(122|1212|2112)44125111353325221
 U+8630	蘰	(122|1212|2112)(554234|554444)25112522154
 U+8631	蘱	(122|1212|2112)4312341344132511134
-  [Ignore Kangxi] Bottom-left 犬 rather than 大.
+  [Ignore Kangxi] 類 bottom-left 犬 rather than 大.
 U+8632	蘲^	(122|1212|2112)251212512125121121
 U+8633	蘳	(122|1212|2112)122(|1)12512134121121
 U+8634	蘴^	(122|1212|2112)211121112521251431
@@ -15746,7 +15735,7 @@ U+86A9	蚩	52(2|3)1251214
   [Lenient form] Allow top-middle stroke ㇑ or ㇓.
 U+86AA	蚪	2512144412
 U+86AB	蚫	25121435515
-  [Remark] Kangxi erroneously counts 4 strokes (not 5) for the component 包.
+  [Remark] Kangxi erroneously counts 4 residual strokes (not 5).
 U+86AC	蚬*	2512142535
 U+86AD	蚭	251214513(15|35|53)
 U+86AE	蚮	25121432154
@@ -16749,7 +16738,7 @@ U+8A76	詶^	(1|4)111251434242
 U+8A77	詷^	(1|4)111251251251
 U+8A78	詸^	(1|4)111251431234
 U+8A79	詹	3513(34|35)(1|4)111251
-  [Lenient form] Allow central 八 or 儿.
+  [Lenient form] Allow centre 八 or 儿.
 U+8A7A	詺	(1|4)111251354251
 U+8A7B	詻	(1|4)111251354251
 U+8A7C	詼^	(1|4)111251134334
@@ -16900,7 +16889,7 @@ U+8B07	謇	4451122134(1|4)111251
 U+8B08	謈	2511122134(1|4)111251
 U+8B09	謉	(1|4)1112513251(|2)13554
 U+8B0A	謊^	(1|4)111251(122|1212|2112)415325
-  [Ignore Kangxi] Middle-right 亡 rather than 亾.
+  [Ignore Kangxi] 荒-middle 亡 rather than 亾.
 U+8B0B	謋	(1|4)1112513541521234
 U+8B0C	謌	(1|4)1112511251212512
 U+8B0D	謍	4334433445(1|4)111251
@@ -16955,7 +16944,7 @@ U+8B3B	謻	(1|4)11125131234354354
 U+8B3C	謼	(1|4)11125121531534312
 U+8B3D	謽	515(54|251)251214(1|4)111251
 U+8B3E	謾^	(1|4)11125125112522154
-  [Ignore Kangxi] Top-right ⺜ or 曰 rather than ⿱冖二.
+  [Ignore Kangxi] 曼-top ⺜ or 曰 rather than ⿱冖二.
 U+8B3F	謿^	(1|4)11125112251112(3511|3544)
 U+8B40	譀	(1|4)111251(5|12)1221113134
 U+8B41	譁^	(1|4)111251(122|1212|2112)1\2112
@@ -16988,7 +16977,7 @@ U+8B59	譙^	(1|4)111251324111214444
 U+8B5A	譚^	(1|4)111251125221251112
 U+8B5B	譛^	(1|4)111251113411342511
 U+8B5C	譜^	(1|4)111251431224312511
-  [Ignore Kangxi] Middle-right as the bottom of 虚 rather than 虛.
+  [Ignore Kangxi] 普-middle as the bottom of 虚 rather than 虛.
 U+8B5D	譝	(1|4)1112512511(25|52)1211511
 U+8B5E	譞^	(1|4)1112512522112513(2|5)34
 U+8B5F	譟^	(1|4)1112512512512511234
@@ -18364,7 +18353,7 @@ U+9083	邃	445(34|35)(34|43)1353334(454|4454|4554)
 U+9084	還^	2522112513(2|5)34(454|4454|4554)
 U+9085	邅	4125251125111(454|4454|4554)
 U+9086	邆	54(334|433)1251431(454|4454|4554)
-  [Ignore Kangxi] 登 top-left 2 strokes, not 3 strokes (夕).
+  [Ignore Kangxi] 登 top-left 2 strokes, rather than 3 strokes (夕).
 U+9087	邇^	13425234343434(454|4454|4554)
 U+9088	邈	34435333251135(454|4454|4554)
 U+9089	邉^	325111445(34|35)251(454|4454|4554)
@@ -18537,7 +18526,7 @@ U+9121	鄡	32511151234(52|552)
 U+9122	鄢	121211(5|25)4444(52|552)
 U+9123	鄣	41431251112(52|552)
 U+9124	鄤	25112522154(52|552)
-  [Ignore Kangxi] Top-left ⺜ or 曰 rather than ⿱冖二.
+  [Ignore Kangxi] 曼-top ⺜ or 曰 rather than ⿱冖二.
 U+9125	鄥	32511154444(52|552)
 U+9126	鄦	311222214444(52|552)
 U+9127	鄧^	54(334|433)1251431(52|552)
@@ -19005,7 +18994,7 @@ U+92E6	鋦^	341124315135251
 U+92E7	鋧	341124312511135
 U+92E8	鋨^	341124313121(534|543)
 U+92E9	鋩	34112431(122|1212|2112)415
-  [Ignore Kangxi] Bottom-right 亡 rather than 亾.
+  [Ignore Kangxi] 芒-bottom 亡 rather than 亾.
 U+92EA	鋪^	341124311251124
 U+92EB	鋫	312342234112431
 U+92EC	鋬	121(1|3)35434112431
@@ -19745,7 +19734,7 @@ U+95BD	閽^	2511251135152511
 U+95BE	閾^	2511251112511(534|543)
 U+95BF	閿^	2511251134434554
 U+95C0	闀	25112511122134515
-  [Ignore Kangxi] Interior bottom 巳 rather than 㔾.
+  [Ignore Kangxi] 巷 bottom 巳 rather than 㔾.
 U+95C1	闁^	2511251125112511
 U+95C2	闂	25112511(34|43)113455
 U+95C3	闃^	25112511251111344
@@ -20109,7 +20098,7 @@ U+9717	霗	1(25|45)2(1111|4134|4444)44134(152|154|454)
 U+9718	霘	1(25|45)2(1111|4134|4444)441251251
 U+9719	霙	1(25|45)2(1111|4134|4444)(122|1212|2112)25134
 U+971A	霚^	1(25|45)2(1111|4134|4444)545233134
-  [Ignore Kangxi] Bottom-right 攵 rather than 文.
+  [Ignore Kangxi] 敄 right 攵 rather than 文.
 U+971B	霛^	1(25|45)2(1111|4134|4444)515515515
 U+971C	霜	1(25|45)2(1111|4134|4444)123425111
 U+971D	霝	1(25|45)2(1111|4134|4444)251251251
@@ -20187,7 +20176,7 @@ U+975C	靜^	1121(2511|2521|3511)(3344|3443)5112
   [静靜] 1121(2511|2521|3511)(35|3344|3443)5112
 U+975D	靝	1121(2511|2521|3511)3115431234
 U+975E	非	(2|3)1112111
-  [Lenient form] Allow left-middle stroke ㇓ (Kangxi etc.) or ㇑ (common).
+  [Lenient form] Allow left-middle ㇓ (Kangxi etc.) or ㇑ (common).
 U+975F	靟	(2|3)11121113115
 U+9760	靠	3(112|121)251(2|3)1112111
 U+9761	靡	413(1234|1235)\1(2|3)1112111
@@ -21881,7 +21870,7 @@ U+9DC2	鷂^	(3443|3541|3544)31125232511154444
 U+9DC3	鷃	251144553132511154444
 U+9DC4	鷄^	(3344|3443)55413432511154444
 U+9DC5	鷅	125221123432511154444
-  [Ignore Kangxi] Top-left 覀 rather than 西.
+  [Ignore Kangxi] 栗-top 覀 rather than 西.
 U+9DC6	鷆^	(15|35|53)2511153432511154444
   [Separate code points] U+9DCF 鷏
 U+9DC7	鷇	121451325111544443554
@@ -22317,7 +22306,7 @@ U+9F5D	齝	21213434134345254251
 U+9F5E	齞	21213434134345225134
 U+9F5F	齟^	21213434134345225111
 U+9F60	齠^	21213434134345253251
-  [Ignore Kangxi] Top-right 刀 rather than ⺈.
+  [Ignore Kangxi] 召-top 刀 rather than ⺈.
 U+9F61	齡^	21213434134345234(152|154|454)
 U+9F62	齢^	21214312345234(152|154|454)
 U+9F63	齣^	21213434134345235251
@@ -22621,7 +22610,7 @@ U+34A5	㒥	32211121112521251431
 U+34A6	㒦	32251212512125121121
 U+34A7	㒧	3241345225(5|21)432411121
 U+34A8	㒨	32(325341|3251251)3211511134515
-  [Lenient form] Allow right top-middle 囟 (everyone else) or ⿱㇒同.
+  [Lenient form] Allow right top-middle 囟 (everyone else) or ⿱㇒同 (TW).
 U+34A9	㒩^	32551353334251214251214
 U+34AA	㒪^	34125125125125(215|2121)1353334
 U+34AB	㒫	121135
@@ -22976,7 +22965,7 @@ U+35FD	㗽^	553(51154|451154|3251111|3251115|3251135|3251153)(52|552)251
 U+35FE	㗾	25112212511232(15|35|53)
 U+35FF	㗿	2512511251112512
 U+3600	㘀	251321511431234
-  [Ignore Kangxi] Top-right 臼 (6 strokes) rather than 𦥑 (7 strokes).
+  [Ignore Kangxi] 䊆-top 臼 (6 strokes) rather than 𦥑 (7 strokes).
 U+3601	㘁	2512522112143112
 U+3602	㘂	251(431|1212|2112)5545544544
 U+3603	㘃	251(122|1212|2112)132514544
@@ -23196,7 +23185,7 @@ U+36D7	㛗	5313434121
 U+36D8	㛘	5311245521
 U+36D9	㛙	5314143112
 U+36DA	㛚	5315425112
-  [Ignore Kangxi] Top-right 龴 rather than コ.
+  [Ignore Kangxi] 甬-top 龴 rather than コ.
 U+36DB	㛛	5313251113
 U+36DC	㛜	3223134531
 U+36DD	㛝	5312511134
@@ -23217,7 +23206,7 @@ U+36EB	㛫	53125113533
 U+36EC	㛬	531121(34|35)121
 U+36ED	㛭	53112212511
 U+36EE	㛮	531445433454
-  [Ignore Kangxi] Right-middle 火 rather than ⿱八𠆢.
+  [Ignore Kangxi] 叜-middle 火 rather than ⿱八𠆢.
 U+36EF	㛯	531(35|53)2513553
 U+36F0	㛰	531515152511
 U+36F1	㛱	531251211534
@@ -23254,7 +23243,7 @@ U+370F	㜏^	5312512511134
 U+3710	㜐	5312521251431
 U+3711	㜑	4411251124531
 U+3712	㜒	531321511(132|1312)
-  [Ignore Kangxi] Top-right 臼 (6 strokes) rather than 𦥑 (7 strokes).
+  [Ignore Kangxi] 舁-top 臼 (6 strokes) rather than 𦥑 (7 strokes).
 U+3713	㜓	531(122|1212|2112)341251
 U+3714	㜔	5314143125135
 U+3715	㜕	5311251112(454|4454|4554)
@@ -23484,10 +23473,10 @@ U+37EE	㟮	252445(34|35)1344
 U+37EF	㟯	252445354251
 U+37F0	㟰	2524525114134
 U+37F1	㟱	2524311214444
-  [Ignore Kangxi] Top-right 𦍌 rather than 羊.
+  [Ignore Kangxi] 羔-top 𦍌 rather than 羊.
 U+37F2	㟲	2521332511234
 U+37F3	㟳	2521252211234
-  [Ignore Kangxi] Top-right 覀 rather than 西.
+  [Ignore Kangxi] 栗-top 覀 rather than 西.
 U+37F4	㟴	2523251(|2)13554
 U+37F5	㟵^	2522522112121
 U+37F6	㟶	2521332511234
@@ -23520,7 +23509,7 @@ U+3810	㠐^	252313425125251
 U+3811	㠑	25225221(2|3)1112111
 U+3812	㠒	2521252211123422
 U+3813	㠓	252(122|1212|2112)4511353334
-  [Ignore Kangxi] Top-right 艹 rather than like 业.
+  [Ignore Kangxi] 蒙-top 艹 rather than like 业.
 U+3814	㠔	2525132514143112
 U+3815	㠕	252(52|552)3251(|2)13554
 U+3816	㠖	2524311213121(534|543)
@@ -23603,7 +23592,6 @@ U+385E	㡞	25225112512531
 U+385F	㡟	25212512212511
 U+3860	㡠	25254(334|433)1251431
 U+3861	㡡	252131251431124
-  [Separate code points] U+5E6E 幮
 U+3862	㡢	252251125221(|4)(135|153)
 U+3863	㡣^	4143452521515111
 U+3864	㡤	2522243143111234
@@ -26229,7 +26217,7 @@ U+4260	䉠	3143143322521353134
 U+4261	䉡	3143144125251125111
 U+4262	䉢	3143141234341252511
 U+4263	䉣	314314321511354444
-  [Ignore Kangxi] Middle 臼 (6 strokes) rather than 𦥑 (7 strokes).
+  [Ignore Kangxi] 舄-top 臼 (6 strokes) rather than 𦥑 (7 strokes).
 U+4264	䉤*	3143144312345313134
 U+4265	䉥	314314121325(334|354)14544
 U+4266	䉦	314314125221134(55|515)(454|4454|4554)
@@ -27141,7 +27129,7 @@ U+45CC	䗌	251214251131121
 U+45CD	䗍	551353334251214
 U+45CE	䗎	251214(125221|125351)121
 U+45CF	䗏	251214445433454
-  [Ignore Kangxi] Right-middle 火 rather than ⿱儿𠆢.
+  [Ignore Kangxi] 叜-middle 火 rather than ⿱儿𠆢.
 U+45D0	䗐	(4135|4153)31525251214
 U+45D1	䗑	251214251141431
 U+45D2	䗒	25121443122(43|521)1
@@ -27322,7 +27310,7 @@ U+4679	䙹	(1132|113112)2511135
 U+467A	䙺	43342511135
 U+467B	䙻	(3523|32523)2511135
 U+467C	䙼	532512511135
-  [Ignore Kangxi] Top-left 刀 rather than ⺈.
+  [Ignore Kangxi] 召-top 刀 rather than ⺈.
 U+467D	䙽	(13443|14334)2511135
 U+467E	䙾	445(15|35|53)2511135
 U+467F	䙿	112342511135
@@ -27581,7 +27569,7 @@ U+4775	䝵	25111341251124
 U+4776	䝶	251113441251234
 U+4777	䝷	311342512511134
 U+4778	䝸	2511134(122|1212|2112)1254
-  [Ignore Kangxi] Top-right 艹 rather than 卝.
+  [Ignore Kangxi] 芰-top 艹 rather than 卝.
 U+4779	䝹	251113444535455
 U+477A	䝺^	413441342511134
 U+477B	䝻	251113451312251
@@ -29197,7 +29185,7 @@ U+2020C	𠈌	34343434
 U+20628	𠘨	35
 U+20984	𠦄	121(2|3)12
   [Separate code points] U+5349 卉
-  [Lenient form] Allow bottom-left left-slash (like 廾) or vertical (like 十).
+  [Lenient form] Allow bottom-left ㇓ (like 廾) or ㇑ (like 卄).
 U+20AD3	𠫓	(|4)154
 U+20B1D	𠬝	(25|52)54
   [Lenient order] Allow ㇑ before ㇆ (HK) or ㇆ before ㇑ (Conway,  TW).
