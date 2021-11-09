@@ -98,5 +98,17 @@ for convenient reference:
 ㇠㇡㇢㇣
 ````
 
+## Unicode composition
+
+[Ideographic Description Characters (Unicode block)] (`U+2FF0` to `U+2FFB`),
+for convenient reference:
+
+````
+⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻
+````
+
+
 [CJK Strokes (Unicode block)]:
   https://en.wikipedia.org/wiki/CJK_Strokes_(Unicode_block)
+[Ideographic Description Characters (Unicode block)]:
+  https://en.wikipedia.org/wiki/Ideographic_Description_Characters_(Unicode_block)
