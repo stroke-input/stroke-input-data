@@ -77,12 +77,6 @@ Strokes are classified per Conway's memory of Nokia dumbphones:
 
 Strokes are ordered very leniently.
 
-Unicode CJK Strokes (U+31C0 to U+31E3) for convenient reference:
-  ㇀㇁㇂㇃㇄㇅㇆㇇㇈㇉㇊㇋㇌㇍㇎㇏
-  ㇐㇑㇒㇓㇔㇕㇖㇗㇘㇙㇚㇛㇜㇝㇞㇟
-  ㇠㇡㇢㇣
-<https://en.wikipedia.org/wiki/CJK_Strokes_(Unicode_block)>
-
 
 ## CJK Symbols and Punctuation (U+3000 to U+303F)
 
