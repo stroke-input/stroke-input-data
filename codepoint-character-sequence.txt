@@ -1245,6 +1245,7 @@ U+51FA	出	(252|522)52
 U+51FB	击*	11252
 U+51FC	凼	253452
 U+51FD	函	(15|52)413452
+  [Ignore Kangxi] Do not allow four specks all ㇔ for 函 as a component.
 U+51FE	凾	(15|52|125)2515452
 U+51FF	凿*	224314311252
 U+5200	刀	53
