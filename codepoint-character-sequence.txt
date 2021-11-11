@@ -28764,7 +28764,11 @@ U+4C13	䰓	(12|21)11154333325111445(34|35)(4135|4153)
 U+4C14	䰔^	(12|21)11154333335(414|441)355425221
 U+4C15	䰕	(12|21)111543332153152512125221
 U+4C16	䰖	(12|21)111543333121353121352511134
-U+4C17	䰗	
+U+4C17	䰗^	211211121235(251|2511)25115
+  [Separate code points] U+29C18 𩰘
+  [Lenient form]
+    Allow interior ⿱⺈黾 (everyone else) or 亀 (Japan),
+    even though the latter is encoded separately as U+29C18 𩰘.
 U+4C18	䰘	
 U+4C19	䰙	
 U+4C1A	䰚	
