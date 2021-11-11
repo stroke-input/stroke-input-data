@@ -3338,7 +3338,7 @@ U+5951	契	(1112|3112|3332)53134
   [Lenient form]
     Allow top-left 丰 (everyone else) or 丯 (Kangxi).
   [Ignore Kangxi]
-    Do not allow top-left 龶 (㇑ not poking through) for 契 as a component.
+    Do not allow top-left ㇑ not poking through for 契 as a component.
 U+5952	奒	134415334
 U+5953	奓	134354354
 U+5954	奔	13412(132|1312)
@@ -28854,11 +28854,11 @@ U+4C67	䱧	35251214444(34|43)113455
 U+4C68	䱨	3525121444412523422
 U+4C69	䱩	3525121444425431415
 U+4C6A	䱪	3525121444411213534
-U+4C6B	䱫	
-U+4C6C	䱬	
-U+4C6D	䱭	
-U+4C6E	䱮	
-U+4C6F	䱯	
+U+4C6B	䱫^	12512342235251214444
+U+4C6C	䱬	3525121444452134(2511|3511|3541)
+U+4C6D	䱭	35251214444(244|424|442)1(2|3)5441
+U+4C6E	䱮	35251214444(1112|3112|3332)53134
+U+4C6F	䱯	54523313435251214444
 U+4C70	䱰	
 U+4C71	䱱	
 U+4C72	䱲	
