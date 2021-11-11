@@ -4764,6 +4764,7 @@ U+5E74	年	311212
 U+5E75	幵	11(2|3)112
   [Separate code points] U+5F00 开
   [Remark] Allow 开 or 幵 (with slanted left) as a component.
+  [幵-above] 11(2|3)112
   [幵-component] 113112
   [开幵] (1132|113112)
 U+5E76	并	431132
@@ -29179,9 +29180,9 @@ U+4DA9	䶩	2121343413434524143253354(3112|3211)
   [Ignore Kangxi] 齊-centre 丫 rather than 了.
 U+4DAA	䶪	21213434134345212132411121(534|543)
 U+4DAB	䶫	21213434134345225125113(5|12)1221113134
-U+4DAC	䶬	
-U+4DAD	䶭	
-U+4DAE	䶮	
+U+4DAC	䶬	11(2|3)11241431(2511|3511|3541)1515111
+U+4DAD	䶭*	135341121
+U+4DAE	䶮*	135341134
 U+4DAF	䶯	
 U+4DB0	䶰	
 U+4DB1	䶱	
