@@ -28912,6 +28912,9 @@ U+4CA1	䲡*	35251211431253511
 U+4CA2	䲢*	351143113435251211
 U+4CA3	䲣*	215315352512113134
 U+4CA4	䲤*	352512114411253511
+  [Han unification (historic)]
+    Same code point (U+4CA4 䲤) historically used for both ⿰魚酒 and ⿰鱼酒.
+    Today the traditional version (⿰魚酒) is represented by U+9FD0 鿐.
 U+4CA5	䲥	
 U+4CA6	䲦	
 U+4CA7	䲧	
