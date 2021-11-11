@@ -28769,7 +28769,7 @@ U+4C17	䰗^	211211121235(251|2511)25115
   [Lenient form]
     Allow interior ⿱⺈黾 (everyone else) or 亀 (Japan),
     even though the latter is encoded separately as U+29C18 𩰘.
-U+4C18	䰘	
+U+4C18	䰘	2112111212(533533|541541)34333
 U+4C19	䰙	
 U+4C1A	䰚	
 U+4C1B	䰛	
