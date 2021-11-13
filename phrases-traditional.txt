@@ -8,7 +8,7 @@
 # Released into the public domain,
 # see <https://creativecommons.org/publicdomain/zero/1.0/>.
 
-# To be used for phrase candidates.
+# To be used for phrase candidates (up to 6 characters in length).
 
 # Lines are sorted according to the Sort plugin of Pluma text editor,
 # see <https://github.com/mate-desktop/pluma>.
