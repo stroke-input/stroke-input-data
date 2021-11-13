@@ -15,6 +15,21 @@
 
 # Lines beginning with a hash (#) will be ignored.
 
+# The following traditional variants shall be allowed:
+
+# 唇脣
+# 嘆歎
+# 床牀
+# 温溫
+# 眾衆
+# 着著 (入聲)
+# 綫線
+# 葱蔥
+# 衛衞
+# 說説
+
+# ----------------------------------------------------------------
+
 一下
 一下子
 一乾二淨
