@@ -17,6 +17,7 @@
 
 # The following traditional variants shall be allowed:
 
+# 兌兑
 # 剷鏟
 # 台臺
 # 唇脣
@@ -2900,6 +2901,7 @@
 匪夷所思
 匪徒
 匯兌
+匯兑
 匯報
 匯款
 匯率
