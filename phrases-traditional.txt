@@ -17,6 +17,7 @@
 
 # The following traditional variants shall be allowed:
 
+# 了瞭 (上聲)
 # 佈布 (散也)
 # 兌兑
 # 剷鏟
