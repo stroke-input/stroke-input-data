@@ -29204,6 +29204,7 @@ U+201A2	𠆢	34
 U+201A9	𠆩	32354
 U+2020C	𠈌	34343434
 U+20628	𠘨	35
+U+20779	𠝹	25121343222
 U+20984	𠦄	121(2|3)12
   [Separate code points] U+5349 卉
   [Lenient form] Allow bottom-left ㇓ (like 廾) or ㇑ (like 卄).
