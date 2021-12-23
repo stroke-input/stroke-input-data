@@ -77,6 +77,11 @@ All strokes are classified into 5 types, entered via keypad:
 - Unit tests for `generate.py`
 - Licensed under [MIT-0]
 
+### [`test_sort.py`]
+
+- Unit tests for `sort.py`
+- Licensed under [MIT-0]
+
 [`characters-traditional.txt`]: characters-traditional.txt
 [`characters-simplified.txt`]: characters-simplified.txt
 [`codepoint-character-sequence.txt`]: codepoint-character-sequence.txt
@@ -88,6 +93,7 @@ All strokes are classified into 5 types, entered via keypad:
 [`sort.py`]: sort.py
 [`sequence-characters.txt`]: sequence-characters.txt
 [`test_generate.py`]: test_generate.py
+[`test_sort.py`]: test_sort.py
 [CC-BY-4.0]: https://creativecommons.org/licenses/by/4.0/
 [MIT-0]: https://spdx.org/licenses/MIT-0
 [public domain]: https://creativecommons.org/publicdomain/zero/1.0/
