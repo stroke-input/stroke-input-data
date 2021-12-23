@@ -10,9 +10,6 @@
 
 # To be used for phrase candidates (up to 6 characters in length).
 
-# Lines after the last double-newline in this file
-# shall be sorted using `sort.py`.
-
 # Lines beginning with a hash (#) will be ignored.
 
 # The following traditional variants shall be allowed:
@@ -92,7 +89,8 @@
 # 韭韮
 # 麪麵
 
-# ----------------------------------------------------------------
+# Lines after the last double-newline in this file
+# shall be sorted using `sort.py`.
 
 一下
 一下子

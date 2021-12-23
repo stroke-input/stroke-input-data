@@ -10,12 +10,10 @@
 
 # To be used for phrase candidates (up to 6 characters in length).
 
-# Lines after the last double-newline in this file
-# shall be sorted using `sort.py`.
-
 # Lines beginning with a hash (#) will be ignored.
 
-# ----------------------------------------------------------------
+# Lines after the last double-newline in this file
+# shall be sorted using `sort.py`.
 
 一下
 一下子
