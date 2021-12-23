@@ -67,6 +67,11 @@ All strokes are classified into 5 types, entered via keypad:
 - Automatically generated from `generate.py`
 - Licensed under [CC-BY-4.0]
 
+### [`sort.py`]
+
+- Script used to sort phrases in `phrases-*.txt`.
+- Licensed under [MIT-0]
+
 ### [`test_generate.py`]
 
 - Unit tests for `generate.py`
@@ -80,6 +85,7 @@ All strokes are classified into 5 types, entered via keypad:
 [`phrases-simplified.txt`]: phrases-simplified.txt
 [`ranking-traditional.txt`]: ranking-traditional.txt
 [`ranking-simplified.txt`]: ranking-simplified.txt
+[`sort.py`]: sort.py
 [`sequence-characters.txt`]: sequence-characters.txt
 [`test_generate.py`]: test_generate.py
 [CC-BY-4.0]: https://creativecommons.org/licenses/by/4.0/
