@@ -3,8 +3,8 @@
 """
 # sort.py
 
-Sort (in-place) the phrases listed
-in `phrases-traditional.txt` and `phrases-simplified.txt`.
+Sort (in-place) certain sections of
+`phrases-traditional.txt` and `phrases-simplified.txt`.
 
 Licensed under "MIT No Attribution" (MIT-0),
 see <https://spdx.org/licenses/MIT-0>.
@@ -12,6 +12,7 @@ see <https://spdx.org/licenses/MIT-0>.
 
 
 import os
+import re
 import shutil
 
 
@@ -72,11 +73,37 @@ def simple_phrase_sorting_key(phrase):
   return tuple(simple_character_sorting_key(character) for character in phrase)
 
 
+def sort_phrase_sections(text):
+  """
+  Sort (in-place) the phrase sections of the supplied text.
+  """
+  
+  return \
+          re.sub(
+            '(?<=^\# <phrases>\n)([\s\S]+?)(?=\n\# </phrases>)',
+            sort_phrase_section_match,
+            text,
+            flags=re.MULTILINE
+          )
+
+
+def sort_phrase_section_match(match_object):
+  """
+  Sort the phrases in a match object.
+  """
+  
+  phrases_text = match_object.group()
+  sorted_phrases_list = \
+          sorted(set(phrases_text.splitlines()), key=simple_phrase_sorting_key)
+  sorted_phrases_text = '\n'.join(sorted_phrases_list)
+  
+  return sorted_phrases_text
+
+
 PHRASE_FILE_NAMES = [
   'phrases-traditional.txt',
   'phrases-simplified.txt',
 ]
-PHRASE_SECTION_DELIMITER = '\n\n'
 
 
 if __name__ == '__main__':
@@ -86,18 +113,9 @@ if __name__ == '__main__':
     create_backup_file(phrase_file_name)
     
     with open(phrase_file_name ,'r', encoding='utf-8') as phrase_file:
-      
-      preamble_text, _, phrase_text = \
-              phrase_file \
-                .read() \
-                .rpartition(PHRASE_SECTION_DELIMITER)
+      phrase_file_text = phrase_file.read()
     
-    sorted_phrase_list = \
-            sorted(set(phrase_text.splitlines()), key=simple_phrase_sorting_key)
+    phrase_file_text = sort_phrase_sections(phrase_file_text)
     
     with open(phrase_file_name ,'w', encoding='utf-8') as phrase_file:
-      
-      phrase_file.write(preamble_text)
-      phrase_file.write(PHRASE_SECTION_DELIMITER)
-      for phrase in sorted_phrase_list:
-        phrase_file.write(f'{phrase}\n')
+      phrase_file.write(phrase_file_text)

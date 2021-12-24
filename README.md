@@ -69,7 +69,7 @@ All strokes are classified into 5 types, entered via keypad:
 
 ### [`sort.py`]
 
-- Script used to sort phrases in `phrases-*.txt`.
+- Script used to sort certain sections of `phrases-*.txt`.
 - Licensed under [MIT-0]
 
 ### [`test_generate.py`]

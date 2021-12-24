@@ -10,11 +10,12 @@
 
 # To be used for phrase candidates (up to 6 characters in length).
 
-# Lines beginning with a hash (#) will be ignored.
+# Lines beginning with a hash (#) will be ignored by Stroke Input Method.
 
-# Lines after the last double-newline in this file
-# shall be sorted using `sort.py`.
+# Custom HTML tags demarcate the sections that are to be
+# canonicalised and/or sorted by `sort.py`.
 
+# <phrases>
 一下
 一下子
 一丝不挂
@@ -18061,3 +18062,4 @@
 𢯎痕
 𣲷𣲷
 𤓓味
+# </phrases>
