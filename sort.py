@@ -73,6 +73,53 @@ def simple_phrase_sorting_key(phrase):
   return tuple(simple_character_sorting_key(character) for character in phrase)
 
 
+def sort_variant_sections(text):
+  """
+  Sort (in-place) the variant sections of the supplied text.
+  """
+  
+  return \
+          re.sub(
+            '(?<=^# <variants>\n)([\s\S]+?)(?=\n# </variants>)',
+            sort_variant_section_match,
+            text,
+            flags=re.MULTILINE
+          )
+
+
+def sort_variant_section_match(match_object):
+  """
+  Sort the variants in a variant section match object.
+  """
+  
+  variants_text = match_object.group()
+  variants_text = \
+          re.sub(
+            '(?<=^# )(\S+)',
+            sort_inline_variants_match,
+            variants_text,
+            flags=re.MULTILINE
+          )
+  sorted_variants_list = \
+          sorted(set(variants_text.splitlines()), key=simple_phrase_sorting_key)
+  sorted_variants_text = '\n'.join(sorted_variants_list)
+  
+  return sorted_variants_text
+
+
+def sort_inline_variants_match(match_object):
+  """
+  Sort the variants in an inline variants match object.
+  """
+  
+  inline_variants_text = match_object.group()
+  sorted_inline_variants_list = \
+          sorted(inline_variants_text, key=simple_character_sorting_key)
+  inline_variants_text = ''.join(sorted_inline_variants_list)
+  
+  return inline_variants_text
+
+
 def sort_phrase_sections(text):
   """
   Sort (in-place) the phrase sections of the supplied text.
@@ -89,7 +136,7 @@ def sort_phrase_sections(text):
 
 def sort_phrase_section_match(match_object):
   """
-  Sort the phrases in a match object.
+  Sort the phrases in a phrase section match object.
   """
   
   phrases_text = match_object.group()
@@ -115,6 +162,7 @@ if __name__ == '__main__':
     with open(phrase_file_name ,'r', encoding='utf-8') as phrase_file:
       phrase_file_text = phrase_file.read()
     
+    phrase_file_text = sort_variant_sections(phrase_file_text)
     phrase_file_text = sort_phrase_sections(phrase_file_text)
     
     with open(phrase_file_name ,'w', encoding='utf-8') as phrase_file:

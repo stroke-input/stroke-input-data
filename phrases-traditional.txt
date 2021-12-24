@@ -12,11 +12,12 @@
 
 # Lines beginning with a hash (#) will be ignored by Stroke Input Method.
 
-# Custom HTML tags demarcate the sections that are to be
-# canonicalised and/or sorted by `sort.py`.
+# Custom HTML tags demarcate the sections
+# that are to be sorted by `sort.py`.
 
 # The following traditional variants shall be allowed:
 
+# <variants>
 # 了瞭 (上聲)
 # 什甚 (什麼)
 # 佈布 (散也)
@@ -92,6 +93,7 @@
 # 閱閲
 # 韭韮
 # 麪麵
+# </variants>
 
 # <phrases>
 一下
