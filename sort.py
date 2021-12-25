@@ -90,6 +90,10 @@ def sort_variant_sections(text):
 def sort_variant_section_match(match_object):
   """
   Sort the variants in a variant section match object.
+  
+  This involves both inline sorting
+  (variants in each line after the leading hash and space)
+  and sorting of the lines.
   """
   
   variants_text = match_object.group()
