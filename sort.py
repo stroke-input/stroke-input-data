@@ -131,7 +131,7 @@ def sort_phrase_sections(text):
   
   return \
           re.sub(
-            '(?<=^\# <phrases>\n)([\s\S]+?)(?=\n\# </phrases>)',
+            '(?<=^# <phrases>\n)([\s\S]+?)(?=\n# </phrases>)',
             sort_phrase_section_match,
             text,
             flags=re.MULTILINE
