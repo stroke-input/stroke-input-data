@@ -118,7 +118,7 @@ def sort_inline_variants_match(match_object):
   
   inline_variants_text = match_object.group()
   sorted_inline_variants_list = \
-          sorted(inline_variants_text, key=simple_character_sorting_key)
+          sorted(set(inline_variants_text), key=simple_character_sorting_key)
   inline_variants_text = ''.join(sorted_inline_variants_list)
   
   return inline_variants_text
