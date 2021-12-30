@@ -16,6 +16,14 @@
 # that are to be sorted by `sort.py`.
 
 # <phrases>
+谷口
+谷底
+谷地
+谷关
+豁免
+豁免权
+豁然
+豁达
 一下
 一下子
 一丝不挂
