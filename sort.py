@@ -47,7 +47,7 @@ CJK_UNIFIED_IDEOGRAPHS_START = 0x4E00
 CJK_UNIFIED_IDEOGRAPHS_END = 0x9FFF
 
 
-def simple_character_sorting_key(character):
+def character_sorting_key(character):
   """
   Return a key for simple sorting of Chinese characters.
   
@@ -65,12 +65,12 @@ def simple_character_sorting_key(character):
   return (block_rank, code_point)
 
 
-def simple_phrase_sorting_key(phrase):
+def phrase_sorting_key(phrase):
   """
   Return a key for simple sorting of Chinese phrases.
   """
   
-  return tuple(simple_character_sorting_key(character) for character in phrase)
+  return tuple(character_sorting_key(character) for character in phrase)
 
 
 def sort_variant_sections(text):
@@ -105,7 +105,7 @@ def sort_variant_section_match(match_object):
             flags=re.MULTILINE
           )
   sorted_variants_list = \
-          sorted(set(variants_text.splitlines()), key=simple_phrase_sorting_key)
+          sorted(set(variants_text.splitlines()), key=phrase_sorting_key)
   sorted_variants_text = '\n'.join(sorted_variants_list)
   
   return sorted_variants_text
@@ -118,7 +118,7 @@ def sort_inline_variants_match(match_object):
   
   inline_variants_text = match_object.group()
   sorted_inline_variants_list = \
-          sorted(set(inline_variants_text), key=simple_character_sorting_key)
+          sorted(set(inline_variants_text), key=character_sorting_key)
   inline_variants_text = ''.join(sorted_inline_variants_list)
   
   return inline_variants_text
@@ -145,7 +145,7 @@ def sort_phrase_section_match(match_object):
   
   phrases_text = match_object.group()
   sorted_phrases_list = \
-          sorted(set(phrases_text.splitlines()), key=simple_phrase_sorting_key)
+          sorted(set(phrases_text.splitlines()), key=phrase_sorting_key)
   sorted_phrases_text = '\n'.join(sorted_phrases_list)
   
   return sorted_phrases_text
