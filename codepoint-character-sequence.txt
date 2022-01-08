@@ -29212,6 +29212,7 @@ U+20AD3	𠫓	(|4)154
 U+20B1D	𠬝	(25|52)54
   [Lenient order] Allow ㇑ before ㇆ (HK) or ㇆ before ㇑ (Conway,  TW).
 U+20E98	𠺘	2514414511534
+U+210C1	𡃁	2511121(2511|2521|3511)2511135
 U+21582	𡖂	(122|1212|1221|2112)1325111(215|2121)515(34|35)354
   [Separate code points] U+456B 䕫, U+5914 夔, U+8637 蘷, U+8641 虁
   [Lenient form] Per U+5912 夒.
