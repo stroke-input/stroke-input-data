@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.0.1] URL fixes (2022-01-10)
+
 - Fixed diff/unreleased URLs in changelog
 
 
@@ -12,6 +15,8 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.0.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.0.1...HEAD
+[v1.0.1]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.0.0...v1.0.1
 [v1.0.0]:
   https://github.com/stroke-input/stroke-input-data/releases/tag/v1.0.0
