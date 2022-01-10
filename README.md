@@ -6,7 +6,7 @@ for [Stroke Input Method (Chinese keyboard for Android)][app].
 
 ## Stroke input method
 
-The stroke input method is found on all dumbphones in HK and surrounds.
+The stroke input method (筆畫輸入法) is found on all dumbphones in HK and surrounds.
 
 It is the simplest Chinese input method in existence.
 All strokes are classified into 5 types, entered via keypad:
