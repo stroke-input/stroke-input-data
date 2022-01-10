@@ -1,6 +1,6 @@
 # Conway Stroke Data
 
-A data set compiled manually by Conway (@yawnoc)
+A data set compiled manually by Conway ([@yawnoc])
 for [Stroke Input Method (Chinese keyboard for Android)][app].
 
 
@@ -23,6 +23,7 @@ All strokes are classified into 5 types, entered via keypad:
 
 [app]: https://github.com/stroke-input/stroke-input-android
 [dumbphone]: dumbphone-stroke-input.jpg
+[@yawnoc]: https://github.com/yawnoc
 
 
 ## Contents
@@ -36,7 +37,7 @@ All strokes are classified into 5 types, entered via keypad:
 ### [`codepoint-character-sequence.txt`]
 
 - Tab-separated (code point, character, stroke sequence regex) triplets
-- Compiled manually by Conway (@yawnoc)
+- Compiled manually by Conway ([@yawnoc])
 - Licensed under [CC-BY-4.0]
 
 ### [`generate.py`]
@@ -47,13 +48,13 @@ All strokes are classified into 5 types, entered via keypad:
 ### [`phrases-traditional.txt`], [`phrases-simplified.txt`]
 
 - Lists of common phrases
-- Compiled manually by Conway (@yawnoc)
+- Compiled manually by Conway ([@yawnoc])
 - Released into the [public domain]
 
 ### [`ranking-traditional.txt`], [`ranking-simplified.txt`]
 
 - Rankings of commonly used characters
-- Compiled manually by Conway (@yawnoc)
+- Compiled manually by Conway ([@yawnoc])
 - Released into the [public domain]
 
 ### [`sequence-characters.txt`]
