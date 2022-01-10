@@ -1,14 +1,10 @@
 # Conway Stroke Data
 
-A data set that I am compiling manually (work in progress)
-for the [Stroke Input Method (筆畫輸入法)] in Chinese.
-
-Will probably take until end of 2021 to complete.
-
-To be used in [stroke-input-android].
+A data set compiled manually by Conway (@yawnoc)
+for [Stroke Input Method (Chinese keyboard for Android)][app].
 
 
-## Stroke Input Method
+## Stroke input method
 
 The stroke input method is found on all dumbphones in HK and surrounds.
 
@@ -25,8 +21,7 @@ All strokes are classified into 5 types, entered via keypad:
 
 ![Picture of a dumbphone with stroke input method on keys 1 to 5.][dumbphone]
 
-[Stroke Input Method (筆畫輸入法)]: https://zh.wikipedia.org/wiki/筆畫輸入法
-[stroke-input-android]: https://github.com/stroke-input/stroke-input-android
+[app]: https://github.com/stroke-input/stroke-input-android
 [dumbphone]: dumbphone-stroke-input.jpg
 
 
