@@ -135,7 +135,7 @@ STROKE_DATA_NOTICE = (
 
 CREATIVE_COMMONS_NOTICE = (
 '''\
-# Copyright 2021 Conway.
+# Copyright 2021--2022 Conway.
 # Licensed under Creative Commons Attribution 4.0 International (CC-BY-4.0),
 # see <https://creativecommons.org/licenses/by/4.0/>.\
 '''
