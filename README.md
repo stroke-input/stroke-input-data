@@ -1,12 +1,13 @@
 # Conway Stroke Data
 
-A data set compiled manually by Conway ([@yawnoc])
-for [Stroke Input Method (Chinese keyboard for Android)][app].
+A data set compiled manually by Conway ([@yawnoc]),
+used in the Android keyboard app [Stroke Input Method (Chinese keyboard)][app].
 
 
-## Stroke input method
+## Stroke input method (筆畫輸入法)
 
-The stroke input method (筆畫輸入法) is found on all dumbphones in HK and surrounds.
+The (generic) stroke input method is found on all dumbphones
+in HK and surrounds.
 
 It is the simplest Chinese input method in existence.
 All strokes are classified into 5 types, entered via keypad:
@@ -26,7 +27,7 @@ All strokes are classified into 5 types, entered via keypad:
 [@yawnoc]: https://github.com/yawnoc
 
 
-## Contents
+## Contents of this repository
 
 ### [`characters-traditional.txt`], [`characters-simplified.txt`]
 
@@ -95,10 +96,12 @@ All strokes are classified into 5 types, entered via keypad:
 [public domain]: https://creativecommons.org/publicdomain/zero/1.0/
 
 
-## Unicode strokes
+## Miscellanea for convenient reference (in comments)
 
-[CJK Strokes (Unicode block)] (`U+31C0` to `U+31E3`),
-for convenient reference:
+
+### Unicode strokes
+
+[CJK Strokes (Unicode block)] (`U+31C0` to `U+31E3`):
 
 ````
 ㇀㇁㇂㇃㇄㇅㇆㇇㇈㇉㇊㇋㇌㇍㇎㇏
@@ -106,10 +109,9 @@ for convenient reference:
 ㇠㇡㇢㇣
 ````
 
-## Unicode composition
+### Unicode composition
 
-[Ideographic Description Characters (Unicode block)] (`U+2FF0` to `U+2FFB`),
-for convenient reference:
+[Ideographic Description Characters (Unicode block)] (`U+2FF0` to `U+2FFB`):
 
 ````
 ⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻
