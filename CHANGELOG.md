@@ -4,6 +4,7 @@
 ## [Unreleased]
 
 - Added phrases missed from 成語動畫廊
+- Added phrases 麥兜, 菠蘿油
 - Added phrases 三七二十一, 下一個, 日日, 燶咗
 
 
