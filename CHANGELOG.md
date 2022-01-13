@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added phrases 三七二十一, 下一個, 日日, 燶咗
+
 
 ## [v1.0.1] URL fixes (2022-01-10)
 
