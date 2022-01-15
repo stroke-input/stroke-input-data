@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Fixed missing 嘢 in traditional ranking
+
 
 ## [v1.1.0] Professor Panda says... (2022-01-15)
 
