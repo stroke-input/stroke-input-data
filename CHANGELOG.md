@@ -6,6 +6,7 @@
 - Added phrases missed from 成語動畫廊
 - Added phrases 麥兜, 菠蘿油
 - Added phrases 三七二十一, 下一個, 日日, 燶咗
+- Added some HK place names
 - Allowed variant 鷄 for 雞 in traditional phrases
 
 
