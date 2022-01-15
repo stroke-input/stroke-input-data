@@ -3,6 +3,7 @@
 
 ## [Unreleased]
 
+- Fixed missing 防 in rankings
 - Fixed missing 嘢 in traditional ranking
 
 
