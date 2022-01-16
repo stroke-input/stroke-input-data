@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.2.1] Small clarifications (2022-01-16)
+
 - Clarify readme parsing of `codepoint-character-sequence.txt`
 - Fixed changelog v1.2.0 heading missing date
 
@@ -41,7 +44,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.2.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.2.1...HEAD
+[v1.2.1]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.2.0...v1.2.1
 [v1.2.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.1.0...v1.2.0
 [v1.1.0]:
