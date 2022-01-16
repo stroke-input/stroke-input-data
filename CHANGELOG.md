@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.2.0] Non-BMP characters in Tongyong Guifan Hanzi Biao
+
 - Added stroke data for non-BMP characters in [通用规范汉字表] (2013),
   or "Table of General Standard Chinese Characters"
   (see [tygfhzb.pdf])
@@ -35,7 +38,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.1.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.2.0...HEAD
+[v1.2.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.1.0...v1.2.0
 [v1.1.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.0.1...v1.1.0
 [v1.0.1]:
