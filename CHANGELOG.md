@@ -3,6 +3,7 @@
 
 ## [Unreleased]
 
+- Clarify readme parsing of `codepoint-character-sequence.txt`
 - Fixed changelog v1.2.0 heading missing date
 
 
