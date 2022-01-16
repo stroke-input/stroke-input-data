@@ -3,8 +3,16 @@
 
 ## [Unreleased]
 
+- Added stroke data for non-BMP characters in [通用规范汉字表] (2013),
+  or "Table of General Standard Chinese Characters"
+  (see [tygfhzb.pdf])
 - Fixed missing 防 in rankings
 - Fixed missing 嘢 in traditional ranking
+
+[通用规范汉字表]:
+  https://en.wikipedia.org/wiki/Table_of_General_Standard_Chinese_Characters
+[tygfhzb.pdf]:
+  https://www.gov.cn/gzdt/att/att/site1/20130819/tygfhzb.pdf
 
 
 ## [v1.1.0] Professor Panda says... (2022-01-15)
