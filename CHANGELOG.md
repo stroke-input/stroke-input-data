@@ -3,8 +3,10 @@
 
 ## [Unreleased]
 
+- Fixed changelog v1.2.0 heading missing date
 
-## [v1.2.0] Non-BMP characters in Tongyong Guifan Hanzi Biao
+
+## [v1.2.0] Non-BMP characters in Tongyong Guifan Hanzi Biao (2022-01-16)
 
 - Added stroke data for non-BMP characters in [通用规范汉字表] (2013),
   or "Table of General Standard Chinese Characters"
