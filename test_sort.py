@@ -38,7 +38,7 @@ class TestSort(unittest.TestCase):
   
   def test_simple_character_sorting_key(self):
     for character, key in self.simple_sorting_key_from_character.items():
-      self.assertEqual(sort.simple_character_sorting_key(character), key)
+      self.assertEqual(sort.character_sorting_key(character), key)
 
 
 if __name__ == '__main__':

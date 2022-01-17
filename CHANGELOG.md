@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Fixed `test_sort.py` sorting key name
+
 
 ## [v1.2.1] Small clarifications (2022-01-16)
 
