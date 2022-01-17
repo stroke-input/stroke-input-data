@@ -26,6 +26,10 @@ import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
@@ -38,6 +42,14 @@ public class MakeSer
   private static final String PHRASES_FILE_NAME_TRADITIONAL_SERIAL = "generated/phrases-traditional.ser";
   private static final String PHRASES_FILE_NAME_SIMPLIFIED_SERIAL = "generated/phrases-simplified.ser";
   
+  private static final String RANKING_FILE_NAME_TRADITIONAL_TEXT = "compiled/ranking-traditional.txt";
+  private static final String RANKING_FILE_NAME_SIMPLIFIED_TEXT = "compiled/ranking-simplified.txt";
+  private static final String RANKING_FILE_NAME_TRADITIONAL_SERIAL = "generated/ranking-traditional.ser";
+  private static final String RANKING_FILE_NAME_SIMPLIFIED_SERIAL = "generated/ranking-simplified.ser";
+  private static final String COMMON_FILE_NAME_TRADITIONAL_SERIAL = "generated/common-traditional.ser";
+  private static final String COMMON_FILE_NAME_SIMPLIFIED_SERIAL = "generated/common-simplified.ser";
+  private static final int COMMON_CHARACTER_RANK_THRESHOLD = 1400;
+  
   private static final String SEQUENCE_CHARACTERS_FILE_NAME_TEXT = "generated/sequence-characters.txt";
   private static final String SEQUENCE_CHARACTERS_FILE_NAME_SERIAL = "generated/sequence-characters.ser";
   
@@ -45,6 +57,18 @@ public class MakeSer
   {
     serialisePhrasesData(PHRASES_FILE_NAME_TRADITIONAL_TEXT, PHRASES_FILE_NAME_TRADITIONAL_SERIAL);
     serialisePhrasesData(PHRASES_FILE_NAME_SIMPLIFIED_TEXT, PHRASES_FILE_NAME_SIMPLIFIED_SERIAL);
+    
+    serialiseRankingData(
+      RANKING_FILE_NAME_TRADITIONAL_TEXT,
+      RANKING_FILE_NAME_TRADITIONAL_SERIAL,
+      COMMON_FILE_NAME_TRADITIONAL_SERIAL
+    );
+    serialiseRankingData(
+      RANKING_FILE_NAME_SIMPLIFIED_TEXT,
+      RANKING_FILE_NAME_SIMPLIFIED_SERIAL,
+      COMMON_FILE_NAME_SIMPLIFIED_SERIAL
+    );
+    
     serialiseSequenceCharactersData(SEQUENCE_CHARACTERS_FILE_NAME_TEXT, SEQUENCE_CHARACTERS_FILE_NAME_SERIAL);
   }
   
@@ -67,6 +91,58 @@ public class MakeSer
       final ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
       objectOutputStream.writeObject(phraseSet);
       objectOutputStream.close();
+    }
+    catch (IOException exception)
+    {
+      exception.printStackTrace();
+    }
+  }
+  
+  private static void serialiseRankingData(
+    final String rankingFileNameText,
+    final String rankingFileNameSerial,
+    final String commonFileNameSerial
+  )
+  {
+    final Map<Integer, Integer> sortingRankFromCodePoint = new HashMap<>();
+    final Set<Integer> commonCodePointSet = new HashSet<>();
+    
+    try (final BufferedReader bufferedReader = new BufferedReader(new FileReader(rankingFileNameText)))
+    {
+      int currentRank = 0;
+      String line;
+      while ((line = bufferedReader.readLine()) != null)
+      {
+        if (!isCommentLine(line))
+        {
+          for (final int codePoint : toCodePointList(line))
+          {
+            currentRank++;
+            if (!sortingRankFromCodePoint.containsKey(codePoint))
+            {
+              sortingRankFromCodePoint.put(codePoint, currentRank);
+            }
+            if (currentRank < COMMON_CHARACTER_RANK_THRESHOLD)
+            {
+              commonCodePointSet.add(codePoint);
+            }
+          }
+        }
+      }
+      
+      {
+        final FileOutputStream fileOutputStream = new FileOutputStream(rankingFileNameSerial);
+        final ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
+        objectOutputStream.writeObject(sortingRankFromCodePoint);
+        objectOutputStream.close();
+      }
+      
+      {
+        final FileOutputStream fileOutputStream = new FileOutputStream(commonFileNameSerial);
+        final ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
+        objectOutputStream.writeObject(commonCodePointSet);
+        objectOutputStream.close();
+      }
     }
     catch (IOException exception)
     {
@@ -109,6 +185,21 @@ public class MakeSer
   private static boolean isCommentLine(final String line)
   {
     return line.startsWith("#") || line.length() == 0;
+  }
+  
+  public static List<Integer> toCodePointList(final String string)
+  {
+    final List<Integer> codePointList = new ArrayList<>();
+    
+    final int charCount = string.length();
+    for (int charIndex = 0; charIndex < charCount;)
+    {
+      final int codePoint = string.codePointAt(charIndex);
+      codePointList.add(codePoint);
+      charIndex += Character.charCount(codePoint);
+    }
+    
+    return codePointList;
   }
   
   private static String[] sunder(final String string, final String delimiter)
