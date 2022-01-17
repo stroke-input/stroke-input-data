@@ -3,8 +3,8 @@
 """
 # generate.py
 
-Parse `codepoint-character-sequence.txt`,
-generating `sequence-characters.txt`.
+Parse `compiled/codepoint-character-sequence.txt`,
+generating `generated/sequence-characters.txt` etc.
 
 Licensed under "MIT No Attribution" (MIT-0),
 see <https://spdx.org/licenses/MIT-0>.
@@ -118,11 +118,12 @@ COMPLIANT_LINE_REGEX = r'''
   (?P<sequence_regex> [1-5|()\\]+ )
 '''
 
-CODEPOINT_CHARACTER_SEQUENCE_FILE_NAME = 'codepoint-character-sequence.txt'
-SEQUENCE_CHARACTERS_FILE_NAME = 'sequence-characters.txt'
-CHARACTERS_TRADITIONAL_FILE_NAME = 'characters-traditional.txt'
-CHARACTERS_SIMPLIFIED_FILE_NAME = 'characters-simplified.txt'
-IGNORED_LINES_FILE_NAME = '.ignored-lines.txt'
+CODEPOINT_CHARACTER_SEQUENCE_FILE_NAME = \
+        'compiled/codepoint-character-sequence.txt'
+SEQUENCE_CHARACTERS_FILE_NAME = 'generated/sequence-characters.txt'
+CHARACTERS_TRADITIONAL_FILE_NAME = 'generated/characters-traditional.txt'
+CHARACTERS_SIMPLIFIED_FILE_NAME = 'generated/characters-simplified.txt'
+IGNORED_LINES_FILE_NAME = 'generated/.ignored-lines.txt'
 
 
 STROKE_DATA_NOTICE = (

@@ -4,7 +4,8 @@
 # sort.py
 
 Sort (in-place) certain sections of
-`phrases-traditional.txt` and `phrases-simplified.txt`.
+`compiled/phrases-traditional.txt`
+and `compiled/phrases-simplified.txt`.
 
 Licensed under "MIT No Attribution" (MIT-0),
 see <https://spdx.org/licenses/MIT-0>.
@@ -25,7 +26,9 @@ def backupise_name(file_name, counter):
   Bad luck if you use Windows.
   """
   
-  return f'.{file_name}-{counter}.bak'
+  file_name_head, file_name_tail = os.path.split(file_name)
+  
+  return f'{file_name_head}/.{file_name_tail}-{counter}.bak'
 
 
 def create_backup_file(file_name):
@@ -152,8 +155,8 @@ def sort_phrase_section_match(match_object):
 
 
 PHRASE_FILE_NAMES = [
-  'phrases-traditional.txt',
-  'phrases-simplified.txt',
+  'compiled/phrases-traditional.txt',
+  'compiled/phrases-simplified.txt',
 ]
 
 
