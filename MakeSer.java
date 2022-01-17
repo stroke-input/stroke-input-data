@@ -27,16 +27,51 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.util.Map;
+import java.util.Set;
 import java.util.TreeMap;
+import java.util.TreeSet;
 
 public class MakeSer
 {
+  private static final String PHRASES_FILE_NAME_TRADITIONAL_TEXT = "compiled/phrases-traditional.txt";
+  private static final String PHRASES_FILE_NAME_SIMPLIFIED_TEXT = "compiled/phrases-simplified.txt";
+  private static final String PHRASES_FILE_NAME_TRADITIONAL_SERIAL = "generated/phrases-traditional.ser";
+  private static final String PHRASES_FILE_NAME_SIMPLIFIED_SERIAL = "generated/phrases-simplified.ser";
+  
   private static final String SEQUENCE_CHARACTERS_FILE_NAME_TEXT = "generated/sequence-characters.txt";
   private static final String SEQUENCE_CHARACTERS_FILE_NAME_SERIAL = "generated/sequence-characters.ser";
   
   public static void main(String[] args)
   {
+    serialisePhrasesData(PHRASES_FILE_NAME_TRADITIONAL_TEXT, PHRASES_FILE_NAME_TRADITIONAL_SERIAL);
+    serialisePhrasesData(PHRASES_FILE_NAME_SIMPLIFIED_TEXT, PHRASES_FILE_NAME_SIMPLIFIED_SERIAL);
     serialiseSequenceCharactersData(SEQUENCE_CHARACTERS_FILE_NAME_TEXT, SEQUENCE_CHARACTERS_FILE_NAME_SERIAL);
+  }
+  
+  private static void serialisePhrasesData(final String phrasesFileNameText, final String phrasesFileNameSerial)
+  {
+    final Set<String> phraseSet = new TreeSet<>();
+    
+    try (final BufferedReader bufferedReader = new BufferedReader(new FileReader(phrasesFileNameText)))
+    {
+      String line;
+      while ((line = bufferedReader.readLine()) != null)
+      {
+        if (!isCommentLine(line))
+        {
+          phraseSet.add(line);
+        }
+      }
+      
+      final FileOutputStream fileOutputStream = new FileOutputStream(phrasesFileNameSerial);
+      final ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
+      objectOutputStream.writeObject(phraseSet);
+      objectOutputStream.close();
+    }
+    catch (IOException exception)
+    {
+      exception.printStackTrace();
+    }
   }
   
   private static void serialiseSequenceCharactersData(
