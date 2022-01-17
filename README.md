@@ -27,101 +27,44 @@ All strokes are classified into 5 types, entered via keypad:
 [@yawnoc]: https://github.com/yawnoc
 
 
-## Contents of this repository
+## Directories
 
-### [`characters-traditional.txt`], [`characters-simplified.txt`]
+### [`compiled/`]
 
-- Lists of traditional-only and simplified-only characters
-- Automatically generated from `generate.py`
-  (which parses `codepoint-character-sequence.txt`)
-- Released into the [public domain]
+Contains data __compiled manually__ by Conway ([@yawnoc]).
 
-### [`codepoint-character-sequence.txt`]
+### [`generated/`]
 
-- Tab-separated (code point, character, stroke sequence regex) triplets
-- Compiled manually by Conway ([@yawnoc])
-- Licensed under [CC-BY-4.0]
+Contains data __generated automatically__ by the scripts in the root directory.
 
-### [`generate.py`]
+[`compiled/`]: compiled/
+[`generated/`]: generated/
 
-- Script used to generate `sequence-characters.txt` and `characters-*.txt`
-  (by parsing `codepoint-character-sequence.txt`)
+
+## Scripts
+
+### [`make_txt.py`]
+
+- Script used to generate `generated/*.txt` (text files)
 - Licensed under [MIT-0]
 
-### [`phrases-traditional.txt`], [`phrases-simplified.txt`]
+### [`sort_phrases.py`]
 
-- Lists of common phrases
-- Compiled manually by Conway ([@yawnoc])
-- Released into the [public domain]
-
-### [`ranking-traditional.txt`], [`ranking-simplified.txt`]
-
-- Rankings of commonly used characters
-- Compiled manually by Conway ([@yawnoc])
-- Released into the [public domain]
-
-### [`sequence-characters.txt`]
-
-- Tab-separated (stroke sequence, characters) pairs
-- Automatically generated from `generate.py`
-  (which parses `codepoint-character-sequence.txt`)
-- Licensed under [CC-BY-4.0]
-
-### [`sort.py`]
-
-- Script used to sort certain sections of `phrases-*.txt`.
+- Script used to sort certain sections of `compiled/phrases-*.txt`.
 - Licensed under [MIT-0]
 
-### [`test_generate.py`]
+### [`test_make_txt.py`]
 
-- Unit tests for `generate.py`
+- Unit tests for `make_txt.py`
 - Licensed under [MIT-0]
 
-### [`test_sort.py`]
+### [`test_sort_phrases.py`]
 
-- Unit tests for `sort.py`
+- Unit tests for `sort_phrases.py`
 - Licensed under [MIT-0]
 
-[`characters-traditional.txt`]: characters-traditional.txt
-[`characters-simplified.txt`]: characters-simplified.txt
-[`codepoint-character-sequence.txt`]: codepoint-character-sequence.txt
-[`generate.py`]: generate.py
-[`phrases-traditional.txt`]: phrases-traditional.txt
-[`phrases-simplified.txt`]: phrases-simplified.txt
-[`ranking-traditional.txt`]: ranking-traditional.txt
-[`ranking-simplified.txt`]: ranking-simplified.txt
-[`sort.py`]: sort.py
-[`sequence-characters.txt`]: sequence-characters.txt
-[`test_generate.py`]: test_generate.py
-[`test_sort.py`]: test_sort.py
-[CC-BY-4.0]: https://creativecommons.org/licenses/by/4.0/
+[`make_txt.py`]: make_txt.py
+[`sort_phrases.py`]: sort_phrases.py
+[`test_make_txt.py`]: test_make_txt.py
+[`test_sort_phrases.py`]: test_sort_phrases.py
 [MIT-0]: https://spdx.org/licenses/MIT-0
-[public domain]: https://creativecommons.org/publicdomain/zero/1.0/
-
-
-## Miscellanea for convenient reference (in comments)
-
-
-### Unicode strokes
-
-[CJK Strokes (Unicode block)] (`U+31C0` to `U+31E3`):
-
-````
-㇀㇁㇂㇃㇄㇅㇆㇇㇈㇉㇊㇋㇌㇍㇎㇏
-㇐㇑㇒㇓㇔㇕㇖㇗㇘㇙㇚㇛㇜㇝㇞㇟
-㇠㇡㇢㇣
-````
-
-### Unicode composition
-
-[Ideographic Description Characters (Unicode block)] (`U+2FF0` to `U+2FFB`):
-
-````
-⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻
-````
-
-
-[CJK Strokes (Unicode block)]:
-  https://en.wikipedia.org/wiki/CJK_Strokes_(Unicode_block)
-[Ideographic Description Characters (Unicode block)]:
-  https://en.wikipedia.org/wiki/Ideographic_Description_Characters_(Unicode_block)
