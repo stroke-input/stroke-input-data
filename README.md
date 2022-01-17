@@ -1,10 +1,10 @@
 # Conway Stroke Data
 
 A data set compiled manually by Conway ([@yawnoc]),
-used in the Android keyboard app [Stroke Input Method (Chinese keyboard)][app].
+used in the Android keyboard app [Stroke Input Method (筆畫輸入法)][app].
 
 
-## Stroke input method (筆畫輸入法)
+## The (generic) stroke input method
 
 The (generic) stroke input method is found on all dumbphones
 in HK and surrounds.
