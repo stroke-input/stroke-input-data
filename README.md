@@ -23,7 +23,7 @@ All strokes are classified into 5 types, entered via keypad:
 ![Picture of a dumbphone with stroke input method on keys 1 to 5.][dumbphone]
 
 [app]: https://github.com/stroke-input/stroke-input-android
-[dumbphone]: dumbphone-stroke-input.jpg
+[dumbphone]: images/dumbphone-stroke-input.jpg
 [@yawnoc]: https://github.com/yawnoc
 
 
