@@ -17,8 +17,14 @@ import unittest
 class TestSort(unittest.TestCase):
   
   def test_backupise_name(self):
-    self.assertEqual(sort_phrases.backupise_name('foo', 1234), '.foo-1234.bak')
-    self.assertEqual(sort_phrases.backupise_name('bar', 0), '.bar-0.bak')
+    self.assertEqual(
+      sort_phrases.backupise_name('dir/foo', 1234),
+      'dir/.foo-1234.bak'
+    )
+    self.assertEqual(
+      sort_phrases.backupise_name('dir/bar', 0),
+      'dir/.bar-0.bak'
+    )
   
   simple_sorting_key_from_character = {
     
