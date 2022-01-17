@@ -15,7 +15,7 @@ see <https://creativecommons.org/licenses/by/4.0/>.
 
 ## Technicalities
 
-To be parsed by the script `generate.py`.
+To be parsed by the script `make_txt.py`.
 
 Each compliant line shall be a tab-separated
 (code point, character, stroke sequence regex) triplet,
@@ -37,7 +37,7 @@ Sequence regex capture groups should:
   2. not be nested,
   3. contain pure digits separated by pipes, and
   4. be referred to by a backslash followed by a positive decimal digit.
-No attempt at validation is made in `generate.py`.
+No attempt at validation is made in `make_txt.py`.
 
 
 ## Character set

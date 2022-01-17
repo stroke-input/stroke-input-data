@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 
 """
-# test_generate.py
+# test_make_txt.py
 
-Perform unit testing on `generate.py`.
+Perform unit testing on `make_txt.py`.
 
 Licensed under "MIT No Attribution" (MIT-0),
 see <https://spdx.org/licenses/MIT-0>.
 """
 
 
-import generate
+import make_txt
 import unittest
 
 
-class TestGenerate(unittest.TestCase):
+class TestMakeTxt(unittest.TestCase):
   
   actual_sequence_set_from_regex = {
     '1': {'1'},
@@ -40,7 +40,7 @@ class TestGenerate(unittest.TestCase):
   
   def test_to_sequence_set(self):
     for regex, set_ in self.actual_sequence_set_from_regex.items():
-      self.assertEqual(generate.to_sequence_set(regex), set_)
+      self.assertEqual(make_txt.to_sequence_set(regex), set_)
 
 
 if __name__ == '__main__':
