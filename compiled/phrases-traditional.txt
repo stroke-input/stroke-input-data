@@ -13,7 +13,7 @@
 # Lines beginning with a hash (#) will be ignored by Stroke Input Method.
 
 # Custom HTML tags demarcate the sections
-# that are to be sorted by `sort.py`.
+# that are to be sorted by `sort_phrases.py`.
 
 # The following traditional variants shall be allowed:
 

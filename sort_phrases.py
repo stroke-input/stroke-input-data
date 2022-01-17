@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-# sort.py
+# sort_phrases.py
 
 Sort (in-place) certain sections of
 `compiled/phrases-traditional.txt`

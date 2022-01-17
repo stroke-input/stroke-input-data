@@ -1,24 +1,24 @@
 #!/usr/bin/env python3
 
 """
-# test_sort.py
+# test_sort_phrases.py
 
-Perform unit testing on `sort.py`.
+Perform unit testing on `sort_phrases.py`.
 
 Licensed under "MIT No Attribution" (MIT-0),
 see <https://spdx.org/licenses/MIT-0>.
 """
 
 
-import sort
+import sort_phrases
 import unittest
 
 
 class TestSort(unittest.TestCase):
   
   def test_backupise_name(self):
-    self.assertEqual(sort.backupise_name('foo', 1234), '.foo-1234.bak')
-    self.assertEqual(sort.backupise_name('bar', 0), '.bar-0.bak')
+    self.assertEqual(sort_phrases.backupise_name('foo', 1234), '.foo-1234.bak')
+    self.assertEqual(sort_phrases.backupise_name('bar', 0), '.bar-0.bak')
   
   simple_sorting_key_from_character = {
     
@@ -38,7 +38,10 @@ class TestSort(unittest.TestCase):
   
   def test_simple_character_sorting_key(self):
     for character, key in self.simple_sorting_key_from_character.items():
-      self.assertEqual(sort.simple_character_sorting_key(character), key)
+      self.assertEqual(
+        sort_phrases.simple_character_sorting_key(character),
+        key
+      )
 
 
 if __name__ == '__main__':
