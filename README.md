@@ -48,6 +48,11 @@ Contains data __generated automatically__ by the scripts in the root directory.
 - Script used to generate `generated/*.txt` (text files)
 - Licensed under [MIT-0]
 
+### [`MakeSer.java`]
+
+- Script used to generate `generated/*.ser` (serial files)
+- Licensed under [MIT-0]
+
 ### [`sort_phrases.py`]
 
 - Script used to sort certain sections of `compiled/phrases-*.txt`.
@@ -64,6 +69,7 @@ Contains data __generated automatically__ by the scripts in the root directory.
 - Licensed under [MIT-0]
 
 [`make_txt.py`]: make_txt.py
+[`MakeSer.java`]: MakeSer.java
 [`sort_phrases.py`]: sort_phrases.py
 [`test_make_txt.py`]: test_make_txt.py
 [`test_sort_phrases.py`]: test_sort_phrases.py
