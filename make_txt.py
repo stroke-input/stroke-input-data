@@ -4,7 +4,7 @@
 # make_txt.py
 
 Parse `compiled/codepoint-character-sequence.txt`,
-generating `generated/sequence-characters.txt` etc.
+generating the text files in `generated/`.
 
 Licensed under "MIT No Attribution" (MIT-0),
 see <https://spdx.org/licenses/MIT-0>.
