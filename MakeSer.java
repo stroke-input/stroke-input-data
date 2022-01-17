@@ -50,6 +50,11 @@ public class MakeSer
   private static final String COMMON_FILE_NAME_SIMPLIFIED_SERIAL = "generated/common-simplified.ser";
   private static final int COMMON_CHARACTER_RANK_THRESHOLD = 1400;
   
+  private static final String CHARACTERS_FILE_NAME_TRADITIONAL_TEXT = "generated/characters-traditional.txt";
+  private static final String CHARACTERS_FILE_NAME_SIMPLIFIED_TEXT = "generated/characters-simplified.txt";
+  private static final String CHARACTERS_FILE_NAME_TRADITIONAL_SERIAL = "generated/characters-traditional.ser";
+  private static final String CHARACTERS_FILE_NAME_SIMPLIFIED_SERIAL = "generated/characters-simplified.ser";
+  
   private static final String SEQUENCE_CHARACTERS_FILE_NAME_TEXT = "generated/sequence-characters.txt";
   private static final String SEQUENCE_CHARACTERS_FILE_NAME_SERIAL = "generated/sequence-characters.ser";
   
@@ -68,6 +73,9 @@ public class MakeSer
       RANKING_FILE_NAME_SIMPLIFIED_SERIAL,
       COMMON_FILE_NAME_SIMPLIFIED_SERIAL
     );
+    
+    serialiseCharactersData(CHARACTERS_FILE_NAME_TRADITIONAL_TEXT, CHARACTERS_FILE_NAME_TRADITIONAL_SERIAL);
+    serialiseCharactersData(CHARACTERS_FILE_NAME_SIMPLIFIED_TEXT, CHARACTERS_FILE_NAME_SIMPLIFIED_SERIAL);
     
     serialiseSequenceCharactersData(SEQUENCE_CHARACTERS_FILE_NAME_TEXT, SEQUENCE_CHARACTERS_FILE_NAME_SERIAL);
   }
@@ -150,6 +158,35 @@ public class MakeSer
     }
   }
   
+  private static void serialiseCharactersData(
+    final String charactersFileNameText,
+    final String charactersFileNameSerial
+  )
+  {
+    final Set<Integer> codePointSet = new HashSet<>();
+    
+    try (final BufferedReader bufferedReader = new BufferedReader(new FileReader(charactersFileNameText)))
+    {
+      String line;
+      while ((line = bufferedReader.readLine()) != null)
+      {
+        if (!isCommentLine(line))
+        {
+          codePointSet.add(getFirstCodePoint(line));
+        }
+      }
+      
+      final FileOutputStream fileOutputStream = new FileOutputStream(charactersFileNameSerial);
+      final ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
+      objectOutputStream.writeObject(codePointSet);
+      objectOutputStream.close();
+    }
+    catch (IOException exception)
+    {
+      exception.printStackTrace();
+    }
+  }
+  
   private static void serialiseSequenceCharactersData(
     final String sequenceCharactersFileNameText,
     final String sequenceCharactersFileNameSerial
@@ -187,7 +224,12 @@ public class MakeSer
     return line.startsWith("#") || line.length() == 0;
   }
   
-  public static List<Integer> toCodePointList(final String string)
+  private static int getFirstCodePoint(final String string)
+  {
+    return string.codePointAt(0);
+  }
+  
+  private static List<Integer> toCodePointList(final String string)
   {
     final List<Integer> codePointList = new ArrayList<>();
     
