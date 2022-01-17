@@ -46,7 +46,7 @@ public class MakeSer
   {
     final Map<String, String> charactersFromStrokeDigitSequence = new TreeMap<>();
     
-    try (BufferedReader bufferedReader = new BufferedReader(new FileReader(sequenceCharactersFileNameText)))
+    try (final BufferedReader bufferedReader = new BufferedReader(new FileReader(sequenceCharactersFileNameText)))
     {
       String line;
       while ((line = bufferedReader.readLine()) != null)
