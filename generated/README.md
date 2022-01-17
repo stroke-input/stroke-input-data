@@ -6,6 +6,7 @@ by the scripts in the root directory.
 
 ## Contents
 
+
 ### Text
 
 #### [`characters-traditional.txt`], [`characters-simplified.txt`]
@@ -20,7 +21,40 @@ by the scripts in the root directory.
 - Automatically generated from `../make_txt.py`
 - Licensed under [CC-BY-4.0]
 
-### Serial
+
+### Serial (ignored by Git)
+
+#### `characters-traditional.ser`, `characters-simplified.ser`
+
+- `Set<Integer>`: sets of integer code points
+  for traditional-only and simplified-only characters
+- Automatically generated from `../MakeSer.java`
+- Released into the [public domain]
+
+#### `common-traditional.ser`, `common-simplified.ser`
+
+- `Set<Integer>`: sets of integer code points
+  for commonly used traditional and simplified characters
+- Automatically generated from `../MakeSer.java`
+- Released into the [public domain]
+
+#### `phrases-traditional.ser`, `phrases-simplified.ser`
+
+- `Set<String>`: sets of traditional and simplified phrases
+- Automatically generated from `../MakeSer.java`
+- Released into the [public domain]
+
+#### `ranking-traditional.ser`, `ranking-simplified.ser`
+
+- `Map<Integer, Integer>`: maps from integer code point to integer rank
+- Automatically generated from `../MakeSer.java`
+- Released into the [public domain]
+
+#### `sequence-characters.ser`
+
+- `Map<String, String>`: map from stroke digit sequence to characters
+- Automatically generated from `../MakeSer.java`
+- Licensed under [CC-BY-4.0]
 
 [`characters-traditional.txt`]: characters-traditional.txt
 [`characters-simplified.txt`]: characters-simplified.txt
