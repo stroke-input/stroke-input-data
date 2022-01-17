@@ -20,7 +20,7 @@ class TestSort(unittest.TestCase):
     self.assertEqual(sort.backupise_name('foo', 1234), '.foo-1234.bak')
     self.assertEqual(sort.backupise_name('bar', 0), '.bar-0.bak')
   
-  simple_sorting_key_from_character = {
+  sorting_key_from_character = {
     
     '㐀': (1, 0x3400),
     '䶵': (1, 0x4DB5),
@@ -36,8 +36,8 @@ class TestSort(unittest.TestCase):
     
   }
   
-  def test_simple_character_sorting_key(self):
-    for character, key in self.simple_sorting_key_from_character.items():
+  def test_character_sorting_key(self):
+    for character, key in self.sorting_key_from_character.items():
       self.assertEqual(sort.character_sorting_key(character), key)
 
 
