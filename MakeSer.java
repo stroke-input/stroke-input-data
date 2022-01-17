@@ -31,20 +31,22 @@ import java.util.TreeMap;
 
 public class MakeSer
 {
-  private static final String TEXT_FILE_EXTENSION = ".txt";
-  private static final String SERIAL_FILE_EXTENSION = ".ser";
-  private static final String SEQUENCE_CHARACTERS_BASE_NAME = "generated/sequence-characters";
+  private static final String SEQUENCE_CHARACTERS_FILE_NAME_TEXT = "generated/sequence-characters.txt";
+  private static final String SEQUENCE_CHARACTERS_FILE_NAME_SERIAL = "generated/sequence-characters.ser";
   
   public static void main(String[] args)
   {
-    serialiseSequenceCharactersData(SEQUENCE_CHARACTERS_BASE_NAME);
+    serialiseSequenceCharactersData(SEQUENCE_CHARACTERS_FILE_NAME_TEXT, SEQUENCE_CHARACTERS_FILE_NAME_SERIAL);
   }
   
-  private static void serialiseSequenceCharactersData(final String sequenceCharactersBaseName)
+  private static void serialiseSequenceCharactersData(
+    final String sequenceCharactersFileNameText,
+    final String sequenceCharactersFileNameSerial
+  )
   {
     final Map<String, String> charactersFromStrokeDigitSequence = new TreeMap<>();
     
-    try (BufferedReader bufferedReader = new BufferedReader(new FileReader(sequenceCharactersBaseName + TEXT_FILE_EXTENSION)))
+    try (BufferedReader bufferedReader = new BufferedReader(new FileReader(sequenceCharactersFileNameText)))
     {
       String line;
       while ((line = bufferedReader.readLine()) != null)
@@ -58,8 +60,7 @@ public class MakeSer
         }
       }
       
-      final FileOutputStream fileOutputStream =
-              new FileOutputStream(sequenceCharactersBaseName + SERIAL_FILE_EXTENSION);
+      final FileOutputStream fileOutputStream = new FileOutputStream(sequenceCharactersFileNameSerial);
       final ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
       objectOutputStream.writeObject(charactersFromStrokeDigitSequence);
       objectOutputStream.close();
