@@ -14,7 +14,7 @@ import sort_phrases
 import unittest
 
 
-class TestSort(unittest.TestCase):
+class TestSortPhrases(unittest.TestCase):
   
   def test_backupise_name(self):
     self.assertEqual(
