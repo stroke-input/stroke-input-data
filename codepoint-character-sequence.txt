@@ -29201,6 +29201,7 @@ U+20094	𠂔	(3523|32523)
   [Lenient form] Allow 4 strokes (abomination) or 5 strokes (Kangxi etc.).
 U+200A2	𠂢	333(2|5)34
 U+200A4	𠂤	325151
+U+200EE	𠃮	55132534
 U+20164	𠅤	41251214544
 U+201A2	𠆢	34
 U+201A9	𠆩	32354
