@@ -19953,10 +19953,11 @@ U+9696	隖^	(52|552)3251154444
 U+9697	隗	(52|552)3251(|2)13554
 U+9698	隘	(52|552)(34|43)13425221
 U+9699	隙	(52|552)234(|3)2511234
+  [Separate code points] U+28EF6 𨻶
   [Lenient form]
     Allow the following for the right half:
       10 strokes (Kangxi): ⿳小日小
-      11 strokes (HK, TW): ⿳少日小 or ⿳小白小
+      11 strokes (HK, TW): ⿳小白小 (same strokes as ⿳少日小 in U+28EF6 𨻶)
     Both of the 11-stroke forms can be found among Hong Kong MTR stickers
     containing the phrase 請小心月台空隙 (Please mind the gap).
 U+969A	隚	(52|552)24345251121
@@ -29406,6 +29407,9 @@ U+28CCD	𨳍	2511251115
 U+28CD2	𨳒	25112511234
 U+28D99	𨶙	2511251154(2511|3511|3541)(15|35|53)\2
 U+28E99	𨺙	(52|552)32151135
+U+28EF6	𨻶	(52|552)23432511234
+  [Separate code points] U+9699 隙
+  [隙𨻶] (52|552)234(|3)2511234
 U+2967F	𩙿^	34(1|4)511211
   [Separate code points] U+98E0 飠
   [Lenient form] Per U+4ECA 今.
