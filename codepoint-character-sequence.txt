@@ -29196,6 +29196,7 @@ U+4DB5	䶵	341251251251251223321531535
 
 ## CJK Unified Ideographs Extension B (U+20000 to U+2A6DF)
 
+U+2003E	𠀾*	1324341154
 U+20089	𠂉	31
 U+20094	𠂔	(3523|32523)
   [Lenient form] Allow 4 strokes (abomination) or 5 strokes (Kangxi etc.).
