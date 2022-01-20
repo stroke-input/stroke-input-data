@@ -29426,6 +29426,7 @@ U+24DB8	𤶸	413415113(52|552)
 U+24DEA	𤷪	4134152125221
 U+24DEB	𤷫	4134112523422
 U+24E3B	𤸻	41341531543112
+U+24E50	𤹐	413411354224444
 U+25055	𥁕^	2534125221
   [Separate code points] U+6637 昷
   [Remark] Allow 𥁕 (Kangxi etc.) or 昷 (common) as a component.
