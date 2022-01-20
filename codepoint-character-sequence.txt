@@ -29423,6 +29423,7 @@ U+24AC9	𤫉	1121(1|4)1112514334433454
 U+24D14	𤴔	5(215|2121)
   [Lenient form] Per U+6B62 止, which Kangxi often counts as having 3 strokes.
 U+24DB8	𤶸	413415113(52|552)
+U+24DEA	𤷪	4134152125221
 U+25055	𥁕^	2534125221
   [Separate code points] U+6637 昷
   [Remark] Allow 𥁕 (Kangxi etc.) or 昷 (common) as a component.
