@@ -29475,6 +29475,7 @@ U+268DD	𦣝	(125125|151225)
   [Lenient order] Allow ㇑ before bendy or bendy before ㇑.
   [Remark] Allow 𦣝 (Kangxi) or 𦣞 (everyone else) as a component.
   [𦣝𦣞 (top-left of 煕熙)] (125125|151225|1225125)
+U+26926	𦤦	3251111344251135345
 U+26951	𦥑	3211511
   [Remark]
     In U+53DF 叟, U+81FE 臾, etc.,
