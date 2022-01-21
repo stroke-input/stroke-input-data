@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added stroke data for some dialectal Extension B characters
+- Added a few phrases for some dialectal Extension B characters
 - Fixed `test_sort.py` sorting key name
 
 
