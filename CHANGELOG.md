@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.3.0] Some dialectal terms (2022-01-21)
+
 - Added stroke data for some dialectal Extension B characters
 - Added a few phrases for some dialectal Extension B characters
 - Fixed `test_sort.py` sorting key name
@@ -48,7 +51,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.2.1...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.3.0...HEAD
+[v1.3.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.2.1...v1.3.0
 [v1.2.1]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.2.0...v1.2.1
 [v1.2.0]:
