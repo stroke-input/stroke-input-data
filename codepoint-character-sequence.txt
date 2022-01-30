@@ -33,7 +33,7 @@ due to lack of font support (see section 'Character set' below).
 Non-compliant lines will be ignored.
 
 Sequence regex capture groups should:
-  1. number at most 9,
+  1. number at most 5,
   2. not be nested,
   3. contain pure digits separated by pipes, and
   4. be referred to by a backslash followed by a positive decimal digit.

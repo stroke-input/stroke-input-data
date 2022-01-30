@@ -4,6 +4,7 @@
 ## [Unreleased]
 
 - Improved README content listing structure
+- Fixed `codepoint-character-sequence.txt` stroke sequence regex comment
 
 
 ## [v1.3.0] Some dialectal terms (2022-01-21)
