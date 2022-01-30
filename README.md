@@ -66,16 +66,19 @@ by running `generate.py`, which parses `codepoint-character-sequence.txt`:
 - Licensed under [CC-BY-4.0]
 
 
-### [`generate.py`]
+### C. Scripts
+
+#### [`generate.py`]
 
 - Script used to generate `sequence-characters.txt` and `characters-*.txt`
   (by parsing `codepoint-character-sequence.txt`)
 - Licensed under [MIT-0]
 
-### [`sort.py`]
+#### [`sort.py`]
 
 - Script used to sort certain sections of `phrases-*.txt`.
 - Licensed under [MIT-0]
+
 
 ### [`test_generate.py`]
 
