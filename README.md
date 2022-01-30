@@ -36,19 +36,19 @@ The following files contain data manually compiled by Conway ([@yawnoc]):
 
 #### [`codepoint-character-sequence.txt`]
 
-- Tab-separated (code point, character, stroke sequence regex) triplets
-- Licensed under [CC-BY-4.0]
+- Tab-separated (code point, character, stroke sequence regex) triplets.
+- Licensed under [CC-BY-4.0].
 
 #### [`phrases-traditional.txt`], [`phrases-simplified.txt`]
 
-- Lists of common phrases
-- To be sorted by running `sort.py`
-- Released into the [public domain]
+- Lists of common phrases.
+- To be sorted by running `sort.py`.
+- Released into the [public domain].
 
 #### [`ranking-traditional.txt`], [`ranking-simplified.txt`]
 
-- Rankings of commonly used characters
-- Released into the [public domain]
+- Rankings of commonly used characters.
+- Released into the [public domain].
 
 
 ### B. Automatically generated data
@@ -58,13 +58,13 @@ by running `generate.py`, which parses `codepoint-character-sequence.txt`:
 
 #### [`characters-traditional.txt`], [`characters-simplified.txt`]
 
-- Lists of traditional-only and simplified-only characters
-- Released into the [public domain]
+- Lists of traditional-only and simplified-only characters.
+- Released into the [public domain].
 
 #### [`sequence-characters.txt`]
 
-- Tab-separated (stroke sequence, characters) pairs
-- Licensed under [CC-BY-4.0]
+- Tab-separated (stroke sequence, characters) pairs.
+- Licensed under [CC-BY-4.0].
 
 
 ### C. Scripts
@@ -72,26 +72,26 @@ by running `generate.py`, which parses `codepoint-character-sequence.txt`:
 #### [`generate.py`]
 
 - Script used to generate `sequence-characters.txt` and `characters-*.txt`
-  (by parsing `codepoint-character-sequence.txt`)
-- Licensed under [MIT-0]
+  (by parsing `codepoint-character-sequence.txt`).
+- Licensed under [MIT-0].
 
 #### [`sort.py`]
 
 - Script used to sort certain sections of `phrases-*.txt`.
-- Licensed under [MIT-0]
+- Licensed under [MIT-0].
 
 
 ### D. Tests
 
 #### [`test_generate.py`]
 
-- Unit tests for `generate.py`
-- Licensed under [MIT-0]
+- Unit tests for `generate.py`.
+- Licensed under [MIT-0].
 
 #### [`test_sort.py`]
 
-- Unit tests for `sort.py`
-- Licensed under [MIT-0]
+- Unit tests for `sort.py`.
+- Licensed under [MIT-0].
 
 [`characters-traditional.txt`]: characters-traditional.txt
 [`characters-simplified.txt`]: characters-simplified.txt
