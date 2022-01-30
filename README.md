@@ -29,6 +29,27 @@ All strokes are classified into 5 types, entered via keypad:
 
 ## Contents of this repository
 
+
+### A. Manually compiled data
+
+The following files contain data manually compiled by Conway ([@yawnoc]):
+
+#### [`codepoint-character-sequence.txt`]
+
+- Tab-separated (code point, character, stroke sequence regex) triplets
+- Licensed under [CC-BY-4.0]
+
+#### [`phrases-traditional.txt`], [`phrases-simplified.txt`]
+
+- Lists of common phrases
+- Released into the [public domain]
+
+#### [`ranking-traditional.txt`], [`ranking-simplified.txt`]
+
+- Rankings of commonly used characters
+- Released into the [public domain]
+
+
 ### [`characters-traditional.txt`], [`characters-simplified.txt`]
 
 - Lists of traditional-only and simplified-only characters
@@ -36,29 +57,11 @@ All strokes are classified into 5 types, entered via keypad:
   (which parses `codepoint-character-sequence.txt`)
 - Released into the [public domain]
 
-### [`codepoint-character-sequence.txt`]
-
-- Tab-separated (code point, character, stroke sequence regex) triplets
-- Compiled manually by Conway ([@yawnoc])
-- Licensed under [CC-BY-4.0]
-
 ### [`generate.py`]
 
 - Script used to generate `sequence-characters.txt` and `characters-*.txt`
   (by parsing `codepoint-character-sequence.txt`)
 - Licensed under [MIT-0]
-
-### [`phrases-traditional.txt`], [`phrases-simplified.txt`]
-
-- Lists of common phrases
-- Compiled manually by Conway ([@yawnoc])
-- Released into the [public domain]
-
-### [`ranking-traditional.txt`], [`ranking-simplified.txt`]
-
-- Rankings of commonly used characters
-- Compiled manually by Conway ([@yawnoc])
-- Released into the [public domain]
 
 ### [`sequence-characters.txt`]
 
