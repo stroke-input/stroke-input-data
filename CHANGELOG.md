@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Improved README content listing structure
+
 
 ## [v1.3.0] Some dialectal terms (2022-01-21)
 
