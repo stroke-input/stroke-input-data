@@ -80,12 +80,14 @@ by running `generate.py`, which parses `codepoint-character-sequence.txt`:
 - Licensed under [MIT-0]
 
 
-### [`test_generate.py`]
+### D. Tests
+
+#### [`test_generate.py`]
 
 - Unit tests for `generate.py`
 - Licensed under [MIT-0]
 
-### [`test_sort.py`]
+#### [`test_sort.py`]
 
 - Unit tests for `sort.py`
 - Licensed under [MIT-0]
