@@ -50,25 +50,27 @@ The following files contain data manually compiled by Conway ([@yawnoc]):
 - Released into the [public domain]
 
 
-### [`characters-traditional.txt`], [`characters-simplified.txt`]
+### B. Automatically generated data
+
+The following files contain data automatically generated
+by running `generate.py`, which parses `codepoint-character-sequence.txt`:
+
+#### [`characters-traditional.txt`], [`characters-simplified.txt`]
 
 - Lists of traditional-only and simplified-only characters
-- Automatically generated using `generate.py`
-  (which parses `codepoint-character-sequence.txt`)
 - Released into the [public domain]
+
+#### [`sequence-characters.txt`]
+
+- Tab-separated (stroke sequence, characters) pairs
+- Licensed under [CC-BY-4.0]
+
 
 ### [`generate.py`]
 
 - Script used to generate `sequence-characters.txt` and `characters-*.txt`
   (by parsing `codepoint-character-sequence.txt`)
 - Licensed under [MIT-0]
-
-### [`sequence-characters.txt`]
-
-- Tab-separated (stroke sequence, characters) pairs
-- Automatically generated using `generate.py`
-  (which parses `codepoint-character-sequence.txt`)
-- Licensed under [CC-BY-4.0]
 
 ### [`sort.py`]
 
