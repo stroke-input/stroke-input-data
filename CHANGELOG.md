@@ -3,6 +3,7 @@
 
 ## [Unreleased]
 
+- Added phrase 功架
 - Improved README content listing structure
 - Fixed `codepoint-character-sequence.txt` stroke sequence regex comment
 
