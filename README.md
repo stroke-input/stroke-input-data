@@ -42,6 +42,7 @@ The following files contain data manually compiled by Conway ([@yawnoc]):
 #### [`phrases-traditional.txt`], [`phrases-simplified.txt`]
 
 - Lists of common phrases
+- To be sorted by running `sort.py`
 - Released into the [public domain]
 
 #### [`ranking-traditional.txt`], [`ranking-simplified.txt`]
