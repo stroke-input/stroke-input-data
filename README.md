@@ -32,7 +32,7 @@ All strokes are classified into 5 types, entered via keypad:
 ### [`characters-traditional.txt`], [`characters-simplified.txt`]
 
 - Lists of traditional-only and simplified-only characters
-- Automatically generated from `generate.py`
+- Automatically generated using `generate.py`
   (which parses `codepoint-character-sequence.txt`)
 - Released into the [public domain]
 
@@ -63,7 +63,7 @@ All strokes are classified into 5 types, entered via keypad:
 ### [`sequence-characters.txt`]
 
 - Tab-separated (stroke sequence, characters) pairs
-- Automatically generated from `generate.py`
+- Automatically generated using `generate.py`
   (which parses `codepoint-character-sequence.txt`)
 - Licensed under [CC-BY-4.0]
 
