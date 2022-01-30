@@ -37,6 +37,8 @@ The following files contain data manually compiled by Conway ([@yawnoc]):
 #### [`codepoint-character-sequence.txt`]
 
 - Tab-separated (code point, character, stroke sequence regex) triplets.
+- There are 28k+ entries. Because Conway ([@yawnoc]) is human,
+  it is highly likely that there are some mistakes; **please report these**.
 - Licensed under [CC-BY-4.0].
 
 #### [`phrases-traditional.txt`], [`phrases-simplified.txt`]
