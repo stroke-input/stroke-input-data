@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.4.0] 安裝功架 (2022-01-31)
+
 - Added phrases 功架, 安裝
 - Improved README content listing structure
 - Fixed `codepoint-character-sequence.txt` stroke sequence regex comment
@@ -55,7 +58,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.3.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.4.0...HEAD
+[v1.4.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.3.0...v1.4.0
 [v1.3.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.2.1...v1.3.0
 [v1.2.1]:
