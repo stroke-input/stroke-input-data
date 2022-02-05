@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.4.1] Meat-beside fixes (2022-02-05)
+
 - Fixed incorrect stroke sequences for meat-beside in `U+8192 膒` to `U+819F 膟`,
   specifically 膒膓膔膕膖膗膘膙膛膜膝膞膟
 
@@ -61,7 +64,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.4.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.4.1...HEAD
+[v1.4.1]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.4.0...v1.4.1
 [v1.4.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.3.0...v1.4.0
 [v1.3.0]:
