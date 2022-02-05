@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+- Fixed incorrect stroke sequences for meat-beside in `U+8192 膒` to `U+819F 膟`,
+  specifically 膒膓膔膕膖膗膘膙膛膜膝膞膟
+
 
 ## [v1.4.0] 安裝功架 (2022-01-31)
 
