@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added phrase 樹熊
+
 
 ## [v1.4.1] Meat-beside fixes (2022-02-05)
 
