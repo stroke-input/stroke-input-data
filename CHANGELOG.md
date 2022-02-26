@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.5.0] 樹熊侍應 (2022-02-26)
+
 - Added phrases 侍應, 樹熊
 
 
@@ -66,7 +69,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.4.1...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.5.0...HEAD
+[v1.5.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.4.1...v1.5.0
 [v1.4.1]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.4.0...v1.4.1
 [v1.4.0]:
