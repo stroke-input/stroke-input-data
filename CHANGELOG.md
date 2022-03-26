@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.6.0] 奇難雜症 (2022-03-26)
+
 - Added phrase 奇難雜症
 - Added phrase 床下底
 - Added phrase 放工
@@ -74,7 +77,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.5.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.6.0...HEAD
+[v1.6.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.5.0...v1.6.0
 [v1.5.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.4.1...v1.5.0
 [v1.4.1]:
