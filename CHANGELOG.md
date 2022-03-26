@@ -6,6 +6,7 @@
 - Added phrase 奇難雜症
 - Added phrase 床下底
 - Added phrase 放工
+- Added phrases 擺低, 放低, 漏低
 
 
 ## [v1.5.0] 樹熊侍應 (2022-02-26)
