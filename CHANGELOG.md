@@ -3,6 +3,7 @@
 
 ## [Unreleased]
 
+- Added phrase 較為
 - Added phrase 爆煲
 
 
