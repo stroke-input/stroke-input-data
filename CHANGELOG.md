@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added phrase 爆煲
+
 
 ## [v1.6.0] 奇難雜症 (2022-03-26)
 
