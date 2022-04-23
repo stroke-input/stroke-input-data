@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.7.0] 較為爆煲 (2022-04-23)
+
 - Added phrase 較為
 - Added phrase 爆煲
 
@@ -80,7 +83,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.6.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.7.0...HEAD
+[v1.7.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.6.0...v1.7.0
 [v1.6.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.5.0...v1.6.0
 [v1.5.0]:
