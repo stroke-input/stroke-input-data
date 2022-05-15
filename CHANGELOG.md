@@ -4,6 +4,7 @@
 ## [Unreleased]
 
 - Added phrase 暢順
+- Added phrase 避彈衣
 
 
 ## [v1.7.0] 較為爆煲 (2022-04-23)
