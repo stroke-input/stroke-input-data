@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added phrase 暢順
+
 
 ## [v1.7.0] 較為爆煲 (2022-04-23)
 
