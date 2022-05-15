@@ -4,6 +4,7 @@
 ## [Unreleased]
 
 - Added phrase 暢順
+- Added phrase 彈牙
 - Added phrase 避彈衣
 
 
