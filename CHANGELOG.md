@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.8.0] 暢順彈牙 (2022-05-16)
+
 - Added phrase 暢順
 - Added phrase 彈牙
 - Added phrase 避彈衣
@@ -87,7 +90,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.7.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.8.0...HEAD
+[v1.8.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.7.0...v1.8.0
 [v1.7.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.6.0...v1.7.0
 [v1.6.0]:
