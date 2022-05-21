@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added phrase 好在
+
 
 ## [v1.8.0] 暢順彈牙 (2022-05-16)
 
