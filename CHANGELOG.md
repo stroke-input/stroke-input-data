@@ -3,7 +3,7 @@
 
 ## [Unreleased]
 
-- Added phrase 好在
+- Added phrases 好在, 好彩
 
 
 ## [v1.8.0] 暢順彈牙 (2022-05-16)
