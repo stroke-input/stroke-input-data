@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.9.0] 好在好彩 (2022-05-21)
+
 - Added phrases 好在, 好彩
 
 
@@ -92,7 +95,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.8.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.9.0...HEAD
+[v1.9.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.8.0...v1.9.0
 [v1.8.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.7.0...v1.8.0
 [v1.7.0]:
