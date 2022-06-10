@@ -4,6 +4,7 @@
 ## [Unreleased]
 
 - Added phrases 屋企, 屋企人
+- Added phrases 流感針, 豬流感
 - Added phrase 折腰
 
 
