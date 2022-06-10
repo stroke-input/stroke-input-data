@@ -5,7 +5,7 @@
 
 - Added phrases 屋企, 屋企人
 - Added phrases 流感針, 豬流感
-- Added phrase 折腰
+- Added phrases 折腰, 緊絀
 
 
 ## [v1.9.0] 好在好彩 (2022-05-21)
