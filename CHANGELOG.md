@@ -3,6 +3,7 @@
 
 ## [Unreleased]
 
+- Added phrases 屋企, 屋企人
 - Added phrase 折腰
 
 
