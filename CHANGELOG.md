@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.10.0] 屋企直程 (2022-06-10)
+
 - Added phrases 屋企, 屋企人
 - Added phrases 直程, 直頭
 - Added phrases 流感針, 豬流感
@@ -100,7 +103,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.9.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.10.0...HEAD
+[v1.10.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.9.0...v1.10.0
 [v1.9.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.8.0...v1.9.0
 [v1.8.0]:
