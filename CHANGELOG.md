@@ -3,7 +3,7 @@
 
 ## [Unreleased]
 
-- Added phrase 清盤
+- Added phrases 債主, 清盤
 
 
 ## [v1.10.0] 屋企直程 (2022-06-10)
