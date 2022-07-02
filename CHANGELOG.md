@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.11.0] 債主清盤 (2022-07-02)
+
 - Added phrases 債主, 清盤
 
 
@@ -105,7 +108,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.10.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.11.0...HEAD
+[v1.11.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.10.0...v1.11.0
 [v1.10.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.9.0...v1.10.0
 [v1.9.0]:
