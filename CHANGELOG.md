@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added phrase 掌上壓
+
 
 ## [v1.11.0] 債主清盤 (2022-07-02)
 
