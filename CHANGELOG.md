@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.12.0] 扵拜 leniencies (2022-07-16)
+
 - Allowed 4th stroke ㇑ for stroke sequence of U+62DC 拜
 - Allowed left 才 (123) for stroke sequence of U+6275 扵
 - Added phrase 掌上壓
@@ -113,7 +116,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.11.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.12.0...HEAD
+[v1.12.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.11.0...v1.12.0
 [v1.11.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.10.0...v1.11.0
 [v1.10.0]:
