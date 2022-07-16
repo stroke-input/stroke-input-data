@@ -3,6 +3,7 @@
 
 ## [Unreleased]
 
+- Allowed 4th stroke ㇑ for stroke sequence of U+62DC 拜
 - Allowed left 才 (123) for stroke sequence of U+6275 扵
 - Added phrase 掌上壓
 - Added phrase 悉數
