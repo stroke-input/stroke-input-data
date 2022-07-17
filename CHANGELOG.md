@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added phrases 起屋, 起樓
+
 
 ## [v1.12.0] 扵拜 leniencies (2022-07-16)
 
