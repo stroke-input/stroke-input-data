@@ -4,6 +4,7 @@
 ## [Unreleased]
 
 - Fixed inconsistent leniency for 3rd stroke of 亦-above
+- Fixed missing leniency for last stroke of U+4F5F 佟
 - Added phrases 起屋, 起樓
 
 
