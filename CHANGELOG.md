@@ -5,6 +5,7 @@
 
 - Fixed inconsistent leniency for 3rd stroke of 亦-above
 - Fixed missing leniency for last stroke of U+4F5F 佟
+- Fixed missing 衮袞-leniency in U+78D9 磙, U+3665 㙥
 - Added phrases 起屋, 起樓
 
 
