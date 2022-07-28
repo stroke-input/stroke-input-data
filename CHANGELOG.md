@@ -3,6 +3,7 @@
 
 ## [Unreleased]
 
+- Fixed inconsistent leniency for 3rd stroke of 亦-above
 - Added phrases 起屋, 起樓
 
 
