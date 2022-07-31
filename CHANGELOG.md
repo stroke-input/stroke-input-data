@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.13.0] 秋葵起樓 (2022-07-31)
+
 - Fixed inconsistent leniency for 3rd stroke of 亦-above
 - Fixed missing leniency for last stroke of U+4F5F 佟
 - Fixed missing 衮袞-leniency in U+78D9 磙, U+3665 㙥
@@ -123,7 +126,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.12.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.13.0...HEAD
+[v1.13.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.12.0...v1.13.0
 [v1.12.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.11.0...v1.12.0
 [v1.11.0]:
