@@ -8,7 +8,7 @@
 - Fixed missing 衮袞-leniency in U+78D9 磙, U+3665 㙥
 - Fixed missing 青靑-leniency in U+775B 睛
 - Fixed missing 黄黃-leniency in U+9ECB 黋
-- Added phrases 起屋, 起樓
+- Added phrases 起屋, 起樓, 秋葵
 
 
 ## [v1.12.0] 扵拜 leniencies (2022-07-16)
