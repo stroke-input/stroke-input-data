@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Fixed stroke sequence for U+8389 莉 incorrectly that of U+8388 莈
+
 
 ## [v1.13.0] 秋葵起樓 (2022-07-31)
 
