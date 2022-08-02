@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.13.1] 莉 fix (2022-08-02)
+
 - Fixed stroke sequence for U+8389 莉 incorrectly that of U+8388 莈
 
 
@@ -128,7 +131,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.13.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.13.1...HEAD
+[v1.13.1]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.13.0...v1.13.1
 [v1.13.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.12.0...v1.13.0
 [v1.12.0]:
