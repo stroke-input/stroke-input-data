@@ -4,7 +4,7 @@
 ## [Unreleased]
 
 - Raised ranking of 機
-- Added phrases 早前, 騙案
+- Added phrases 早前, 騙案, 對路
 
 
 ## [v1.13.1] 莉 fix (2022-08-02)
