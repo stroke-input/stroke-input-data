@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.14.0] 早前騙案 (2022-09-04)
+
 - Raised ranking of 機
 - Added phrases 早前, 騙案, 對路
 - Added phrases 一旦, 一早, 一時, 一條, 一條龍, 一概, 一概而論, 一模一樣, 一貫, 一連, 一點
@@ -136,7 +139,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.13.1...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.14.0...HEAD
+[v1.14.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.13.1...v1.14.0
 [v1.13.1]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.13.0...v1.13.1
 [v1.13.0]:
