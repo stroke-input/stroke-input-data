@@ -6,7 +6,7 @@
 - Raised ranking of 機
 - Added phrases 早前, 騙案, 對路
 - Added phrases 一旦, 一早, 一時, 一條, 一條龍, 一概, 一概而論, 一模一樣, 一貫, 一連, 一點
-- Added phrases 一年 etc., 一號 etc.
+- Added phrases 一年 etc., 一月 etc., 一號 etc.
 
 
 ## [v1.13.1] 莉 fix (2022-08-02)
