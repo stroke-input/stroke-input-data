@@ -3,6 +3,7 @@
 
 ## [Unreleased]
 
+- Raised ranking of 機
 - Added phrases 早前, 騙案
 
 
