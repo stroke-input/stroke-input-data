@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.15.0] God save the King (2022-09-11)
+
 - Added phrase 英皇壽辰
 - Added phrase 保重
 
@@ -142,7 +145,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.14.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.15.0...HEAD
+[v1.15.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.14.0...v1.15.0
 [v1.14.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.13.1...v1.14.0
 [v1.13.1]:
