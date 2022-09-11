@@ -3,6 +3,7 @@
 
 ## [Unreleased]
 
+- Added phrase 英皇壽辰
 - Added phrase 保重
 
 
