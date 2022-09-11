@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added phrase 保重
+
 
 ## [v1.14.0] 早前騙案 (2022-09-04)
 
