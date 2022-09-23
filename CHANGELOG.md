@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added phrases 喊露, 打喊露
+
 
 ## [v1.15.0] God save the King (2022-09-11)
 
