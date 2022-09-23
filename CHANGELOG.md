@@ -4,6 +4,15 @@
 ## [Unreleased]
 
 - Added phrases 喊露, 打喊露
+- Added phrases 七七八八, 七彩
+- Added phrases 九十後, 九重
+- Added phrase 了結
+- Added phrases 二進制, 十進制, 進制
+- Added phrases 人事部, 人名, 人均
+- Added phrase 兒科
+- Added phrases 入伙, 入住, 入味, etc.
+- Added phrases 刁蠻, 力度, 叉腰
+- Added phrase 幾點
 
 
 ## [v1.15.0] God save the King (2022-09-11)
