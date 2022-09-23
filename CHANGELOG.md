@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.16.0] 打喊露 (2022-09-23)
+
 - Added phrases 喊露, 打喊露
 - Added phrases 七七八八, 七彩
 - Added phrases 九十後, 九重
@@ -156,7 +159,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.15.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.16.0...HEAD
+[v1.16.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.15.0...v1.16.0
 [v1.15.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.14.0...v1.15.0
 [v1.14.0]:
