@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.17.0] 乾透 (2022-10-30)
+
 - Added phrases 大佬, 大堂, 大會, 大禍, 大蒜, 大難
 - Added phrases 乾透, 俐落
 - Added phrases 凡塵, 凡間
@@ -164,7 +167,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.16.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.17.0...HEAD
+[v1.17.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.16.0...v1.17.0
 [v1.16.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.15.0...v1.16.0
 [v1.15.0]:
