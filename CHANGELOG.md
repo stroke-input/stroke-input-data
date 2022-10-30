@@ -4,6 +4,7 @@
 ## [Unreleased]
 
 - Added phrases 大佬, 大堂, 大會, 大禍, 大蒜, 大難
+- Added phrases 乾透, 俐落
 
 
 ## [v1.16.0] 打喊露 (2022-09-23)
