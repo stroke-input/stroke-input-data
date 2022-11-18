@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added phrase 鬥木
+
 
 ## [v1.17.0] 乾透 (2022-10-30)
 
