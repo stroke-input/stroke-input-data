@@ -4,6 +4,7 @@
 ## [Unreleased]
 
 - Added phrase 鬥木
+- Added phrase 軟熟
 
 
 ## [v1.17.0] 乾透 (2022-10-30)
