@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.18.0] 軟熟 (2022-11-20)
+
 - Added phrase 器重
 - Added phrase 鬥木
 - Added phrase 軟熟
@@ -171,7 +174,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.17.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.18.0...HEAD
+[v1.18.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.17.0...v1.18.0
 [v1.17.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.16.0...v1.17.0
 [v1.16.0]:
