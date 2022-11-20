@@ -3,6 +3,7 @@
 
 ## [Unreleased]
 
+- Added phrase 器重
 - Added phrase 鬥木
 - Added phrase 軟熟
 
