@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.19.0] 落街插蘇 (2022-12-23)
+
 - Added phrase 落街
 - Added phrase 插蘇
 
@@ -177,7 +180,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.18.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.19.0...HEAD
+[v1.19.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.18.0...v1.19.0
 [v1.18.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.17.0...v1.18.0
 [v1.17.0]:
