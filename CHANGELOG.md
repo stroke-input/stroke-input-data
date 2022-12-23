@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added phrase 插蘇
+
 
 ## [v1.18.0] 軟熟 (2022-11-20)
 
