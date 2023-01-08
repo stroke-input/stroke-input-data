@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added phrase 指擬
+
 
 ## [v1.19.0] 落街插蘇 (2022-12-23)
 
