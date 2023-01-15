@@ -5,8 +5,8 @@
 
 - Added stroke data for Jyutping-recommended particles U+21014 𡀔, U+21145 𡅅
   (see <<https://jyutping.org/blog/particles/>>)
-- Added stroke data for some mouth-beside characters
-  in CJK Unified Ideographs Extension B
+- Added stroke data for remaining mouth-beside characters
+  with decent font support in CJK Unified Ideographs Extension B
   (𠮿𠯆𠯢𠯫𠯻𠯿𠰍𠰠𠰴𠰺𠰻𠱼𠲍𠲖𠲵𠲸𠳓𠳔𠳝𠳭𠳿𠴨𠴱𠴲𠵅𠵆𠵌𠵎𠵘𠵱𠵴𠶖𠷈𠸄𠸍𠸖𠸝𠹤𠹵𠹶𠹹𠺕𠺖𠼝𠼦𠼻𠽟𠾐𠾶𡂴𡂿𡃏)
 - Added phrase 指擬
 
