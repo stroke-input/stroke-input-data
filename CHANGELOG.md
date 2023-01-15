@@ -7,7 +7,7 @@
   (see <<https://jyutping.org/blog/particles/>>)
 - Added stroke data for some mouth-beside characters
   in CJK Unified Ideographs Extension B
-  (𠹶𠹹𠺕𠺖𠼝𠼦𠼻𠽟𠾐𠾶𡂴𡂿𡃏)
+  (𠹵𠹶𠹹𠺕𠺖𠼝𠼦𠼻𠽟𠾐𠾶𡂴𡂿𡃏)
 - Added phrase 指擬
 
 
