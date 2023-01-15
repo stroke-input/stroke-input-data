@@ -4,6 +4,7 @@
 ## [Unreleased]
 
 - Added stroke data for particles in <<https://jyutping.org/blog/particles/>>
+  - U+21014 𡀔
   - U+21145 𡅅
 - Added phrase 指擬
 
