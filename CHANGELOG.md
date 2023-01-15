@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.20.0] 𡀔𡅅指擬 (2023-01-15)
+
 - Added stroke data for Jyutping-recommended particles U+21014 𡀔, U+21145 𡅅
   (see <<https://jyutping.org/blog/particles/>>)
 - Added stroke data for remaining mouth-beside characters
@@ -187,7 +190,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.19.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.20.0...HEAD
+[v1.20.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.19.0...v1.20.0
 [v1.19.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.18.0...v1.19.0
 [v1.18.0]:
