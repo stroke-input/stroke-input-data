@@ -5,6 +5,9 @@
 
 - Added stroke data for U+21014 𡀔, U+21145 𡅅
   (see <<https://jyutping.org/blog/particles/>>)
+- Added stroke data for some mouth-beside characters
+  in CJK Unified Ideographs Extension B
+  (𡃏)
 - Added phrase 指擬
 
 
