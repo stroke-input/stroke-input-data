@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added phrase 山埃
+
 
 ## [v1.20.0] 𡀔𡅅指擬 (2023-01-15)
 
