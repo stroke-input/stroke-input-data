@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.21.0] 山埃 (2023-01-22)
+
 - Added phrase 山埃
 
 
@@ -192,7 +195,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.20.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.21.0...HEAD
+[v1.21.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.20.0...v1.21.0
 [v1.20.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.19.0...v1.20.0
 [v1.19.0]:
