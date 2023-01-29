@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.22.0] 等埋休憩 (2023-01-29)
+
 - Added phrase 等埋
 - Added phrase 休憩
 
@@ -198,7 +201,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.21.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.22.0...HEAD
+[v1.22.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.21.0...v1.22.0
 [v1.21.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.20.0...v1.21.0
 [v1.20.0]:
