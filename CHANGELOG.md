@@ -3,6 +3,7 @@
 
 ## [Unreleased]
 
+- Added phrase 等埋
 - Added phrase 休憩
 
 
