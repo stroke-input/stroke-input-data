@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added phrase 休憩
+
 
 ## [v1.21.0] 山埃 (2023-01-22)
 
