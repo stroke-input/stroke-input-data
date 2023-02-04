@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added phrase 圍裙
+
 
 ## [v1.22.0] 等埋休憩 (2023-01-29)
 
