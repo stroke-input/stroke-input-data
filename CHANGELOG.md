@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+- Added phrases 夠鐘, 夠瞓
+- Added phrase 唔夠
+
 
 ## [v1.23.0] 圍裙攞位 (2023-03-06)
 
