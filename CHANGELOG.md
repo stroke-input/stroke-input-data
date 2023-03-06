@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.24.0] 夠鐘 (2023-03-06)
+
 - Added phrases 夠鐘, 夠瞓
 - Added phrase 唔夠
 
@@ -210,7 +213,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.23.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.24.0...HEAD
+[v1.24.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.23.0...v1.24.0
 [v1.23.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.22.0...v1.23.0
 [v1.22.0]:
