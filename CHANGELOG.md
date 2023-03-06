@@ -4,6 +4,7 @@
 ## [Unreleased]
 
 - Added phrase 圍裙
+- Added phrase 揀選
 
 
 ## [v1.22.0] 等埋休憩 (2023-01-29)
