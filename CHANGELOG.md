@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.23.0] 圍裙攞位 (2023-03-06)
+
 - Added phrase 圍裙
 - Added phrases 攞位, 揀位, 揀選
 
@@ -204,7 +207,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.22.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.23.0...HEAD
+[v1.23.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.22.0...v1.23.0
 [v1.22.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.21.0...v1.22.0
 [v1.21.0]:
