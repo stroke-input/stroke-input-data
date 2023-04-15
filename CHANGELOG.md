@@ -4,6 +4,7 @@
 ## [Unreleased]
 
 - Added phrase 即管
+- Added phrase 細個
 
 
 ## [v1.24.0] 夠鐘 (2023-03-06)
