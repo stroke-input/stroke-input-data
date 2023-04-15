@@ -5,6 +5,7 @@
 
 - Added phrase 即管
 - Added phrases 細個, 嗰陣, 嗰陣時, 舊陣時
+- Added (traditional variant) phrase 侷限
 
 
 ## [v1.24.0] 夠鐘 (2023-03-06)
