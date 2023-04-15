@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.25.0] 舊陣時 (2023-04-15)
+
 - Added phrase 即管
 - Added phrases 細個, 嗰陣, 嗰陣時, 舊陣時
 - Added (traditional variant) phrase 侷限
@@ -217,7 +220,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.24.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.25.0...HEAD
+[v1.25.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.24.0...v1.25.0
 [v1.24.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.23.0...v1.24.0
 [v1.23.0]:
