@@ -6,6 +6,7 @@
 - Added phrase 清補涼
 - Added phrases 芡實, 茨實
 - Added phrases 南杏, 北杏
+- Added phrase 黨參
 
 
 ## [v1.25.0] 舊陣時 (2023-04-15)
