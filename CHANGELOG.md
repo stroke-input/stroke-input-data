@@ -3,6 +3,7 @@
 
 ## [Unreleased]
 
+- Added phrase 清補涼
 - Added phrases 芡實, 茨實
 - Added phrases 南杏, 北杏
 
