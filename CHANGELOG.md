@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added phrases 芡實, 茨實
+
 
 ## [v1.25.0] 舊陣時 (2023-04-15)
 
