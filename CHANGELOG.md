@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.26.0] 清補涼 (2023-06-27)
+
 - Added phrase 清補涼
 - Added phrases 芡實, 茨實
 - Added phrases 南杏, 北杏
@@ -225,7 +228,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.25.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.26.0...HEAD
+[v1.26.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.25.0...v1.26.0
 [v1.25.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.24.0...v1.25.0
 [v1.24.0]:
