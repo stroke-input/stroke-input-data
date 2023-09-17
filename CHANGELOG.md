@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added phrases 上堂, 落堂
+
 
 ## [v1.26.0] 清補涼 (2023-06-27)
 
