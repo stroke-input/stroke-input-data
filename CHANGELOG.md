@@ -4,6 +4,7 @@
 ## [Unreleased]
 
 - Added phrases 上堂, 落堂
+- Added phrase 詐諦
 
 
 ## [v1.26.0] 清補涼 (2023-06-27)
