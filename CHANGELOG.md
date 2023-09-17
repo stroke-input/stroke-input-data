@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.27.0] 詐諦上堂 (2023-09-17)
+
 - Added phrases 上堂, 落堂
 - Added phrase 詐諦
 
@@ -231,7 +234,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.26.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.27.0...HEAD
+[v1.27.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.26.0...v1.27.0
 [v1.26.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.25.0...v1.26.0
 [v1.25.0]:
