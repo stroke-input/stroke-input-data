@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added phrase 肚餓
+
 
 ## [v1.27.0] 詐諦上堂 (2023-09-17)
 
