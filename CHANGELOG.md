@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.28.0] 肚餓 (2023-10-05)
+
 - Added phrase 肚餓
 
 
@@ -236,7 +239,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.27.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.28.0...HEAD
+[v1.28.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.27.0...v1.28.0
 [v1.27.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.26.0...v1.27.0
 [v1.26.0]:
