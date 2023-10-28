@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.29.0] 食夾棍 (2023-10-28)
+
 - Added phrase 食夾棍
 - Added phrase 爆坼
 
@@ -242,7 +245,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.28.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.29.0...HEAD
+[v1.29.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.28.0...v1.29.0
 [v1.28.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.27.0...v1.28.0
 [v1.27.0]:
