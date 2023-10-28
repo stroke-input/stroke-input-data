@@ -4,6 +4,7 @@
 ## [Unreleased]
 
 - Added phrase 食夾棍
+- Added phrase 爆坼
 
 
 ## [v1.28.0] 肚餓 (2023-10-05)
