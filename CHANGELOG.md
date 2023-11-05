@@ -7,8 +7,7 @@
 - Added phrases 覺意, 唔覺意
 - Added phrase 冧咗
 - Added phrase 揩花
-- Rewrote `generate.py`
-- Rewrote `sort.py`
+- Rewrote Python scripts (4-space indents, better logic)
 
 
 ## [v1.29.0] 食夾棍 (2023-10-28)
