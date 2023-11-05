@@ -3,6 +3,7 @@
 
 ## [Unreleased]
 
+- Rewrote `generate.py`
 - Rewrote `sort.py`
 
 
