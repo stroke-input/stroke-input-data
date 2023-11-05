@@ -5,6 +5,7 @@
 
 - Added phrases 㨆莊, 過莊
 - Added phrases 覺意, 唔覺意
+- Added phrase 冧咗
 - Added phrase 揩花
 - Rewrote `generate.py`
 - Rewrote `sort.py`
