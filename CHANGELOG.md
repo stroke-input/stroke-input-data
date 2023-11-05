@@ -3,6 +3,7 @@
 
 ## [Unreleased]
 
+- Added phrase 揩花
 - Rewrote `generate.py`
 - Rewrote `sort.py`
 
