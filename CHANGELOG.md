@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.30.0] 㨆莊 (2023-11-05)
+
 - Added phrases 㨆莊, 過莊, 紅頭十, 伶冧六, 大頭六, 六公
 - Added phrases 覺意, 唔覺意
 - Added phrase 冧咗
@@ -251,7 +254,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.29.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.30.0...HEAD
+[v1.30.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.29.0...v1.30.0
 [v1.29.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.28.0...v1.29.0
 [v1.28.0]:
