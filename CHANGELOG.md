@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+- Added `.bash_aliases` defining `s` (search), `sp` (search prefix),
+  and `ss` (search suffix)
+
 
 ## [v1.30.0] 㨆莊 (2023-11-05)
 

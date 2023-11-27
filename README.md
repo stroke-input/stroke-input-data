@@ -71,6 +71,11 @@ by running `generate.py`, which parses `codepoint-character-sequence.txt`:
 
 ### C. Scripts
 
+#### [`.bash_aliases`]
+
+- Defines shell functions `s` (search), `sp` (search prefix),
+  `ss` (search suffix).
+
 #### [`generate.py`]
 
 - Script used to generate `sequence-characters.txt` and `characters-*.txt`
