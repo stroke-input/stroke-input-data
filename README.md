@@ -100,6 +100,7 @@ by running `generate.py`, which parses `codepoint-character-sequence.txt`:
 - Unit tests for `sort.py`.
 - Licensed under [MIT-0].
 
+[`.bash_aliases`]: .bash_aliases
 [`characters-traditional.txt`]: characters-traditional.txt
 [`characters-simplified.txt`]: characters-simplified.txt
 [`codepoint-character-sequence.txt`]: codepoint-character-sequence.txt
