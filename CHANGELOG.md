@@ -3,6 +3,7 @@
 
 ## [Unreleased]
 
+- Fixed incorrect stroke sequence for `U+6D77 海`
 - Added phrases 牛肉丸, 牛肉球
 - Added phrases 寄艙, 過海
 - Added `.bash_aliases` defining `s` (search), `sp` (search prefix),
