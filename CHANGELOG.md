@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.31.0] 過海 (2023-12-03)
+
 - Fixed incorrect stroke sequence for `U+6D77 海`
 - Added phrases 牛肉丸, 牛肉球
 - Added phrases 寄艙, 過海
@@ -260,7 +263,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.30.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.31.0...HEAD
+[v1.31.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.30.0...v1.31.0
 [v1.30.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.29.0...v1.30.0
 [v1.29.0]:
