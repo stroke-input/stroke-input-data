@@ -3,6 +3,7 @@
 
 ## [Unreleased]
 
+- Added phrases 牛肉丸, 牛肉球
 - Added `.bash_aliases` defining `s` (search), `sp` (search prefix),
   and `ss` (search suffix)
 
