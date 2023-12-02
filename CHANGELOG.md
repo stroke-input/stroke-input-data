@@ -4,7 +4,7 @@
 ## [Unreleased]
 
 - Added phrases 牛肉丸, 牛肉球
-- Added phrase 寄艙
+- Added phrases 寄艙, 過海
 - Added `.bash_aliases` defining `s` (search), `sp` (search prefix),
   and `ss` (search suffix)
 
