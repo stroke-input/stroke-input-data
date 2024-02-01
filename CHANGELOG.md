@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added phrase 輪候
+
 
 ## [v1.31.0] 過海 (2023-12-03)
 
