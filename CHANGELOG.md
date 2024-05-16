@@ -3,6 +3,7 @@
 
 ## [Unreleased]
 
+- Added phrase 吖嘛
 - Added phrase 輪候
 
 
