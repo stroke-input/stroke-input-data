@@ -5,7 +5,8 @@
 
 - Added phrases 吖嘛, 幫襯, 搽𢰸, 𥋇眼, 插贓嫁禍, 尋日, 黐脷根, 長氣
 - Added phrases 打冷震, 花紙, 家姐, 咁嚌, 腳趾尾, 乞人憎, 後尾, 後尾枕
-- Added phrases 揦鮓, 垃雜, 老抽, 門棖, 生抽, 話齋, 矺住, 矺扁, 矺死, 㜺鬼, 爭在
+- Added phrases 揦鮓, 垃雜, 老抽, 門棖, 生抽, 話齋, 矺住, 矺扁, 矺死, 㜺鬼
+- Added phases 爭在, 扎扎跳
 - Added phrase 輪候
 
 
