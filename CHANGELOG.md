@@ -3,7 +3,7 @@
 
 ## [Unreleased]
 
-- Added phrases 吖嘛, 幫襯, 搽𢰸
+- Added phrases 吖嘛, 幫襯, 搽𢰸, 𥋇眼
 - Added phrase 輪候
 
 
