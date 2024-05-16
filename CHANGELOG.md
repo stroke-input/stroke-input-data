@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.32.0] 㜺鬼 (2024-05-17)
+
 - Added phrases 吖嘛, 拗撬, 詏撬, 揞口費, 幫襯, 搽𢰸, 鏨刺
 - Added phrases 鐺底, 𥋇眼, 插贓嫁禍, 尋日, 黐鐺, 黐脷根
 - Added phrases 長氣, 打冷震, 花紙, 家姐, 咁嚌, 腳趾尾, 乞人憎
@@ -272,7 +275,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.31.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.32.0...HEAD
+[v1.32.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.31.0...v1.32.0
 [v1.31.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.30.0...v1.31.0
 [v1.30.0]:
