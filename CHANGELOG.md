@@ -4,7 +4,7 @@
 ## [Unreleased]
 
 - Added phrases 吖嘛, 幫襯, 搽𢰸, 𥋇眼, 插贓嫁禍, 尋日, 黐脷根, 長氣
-- Added phrases 打冷震, 花紙, 家姐, 咁嚌, 腳趾尾, 乞人憎
+- Added phrases 打冷震, 花紙, 家姐, 咁嚌, 腳趾尾, 乞人憎, 後尾, 後尾枕
 - Added phrase 輪候
 
 
