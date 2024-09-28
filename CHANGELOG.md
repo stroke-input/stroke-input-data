@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added phrases 審計署 and 統計署 (to complement -處 equivalents)
+
 
 ## [v1.32.0] 㜺鬼 (2024-05-17)
 
