@@ -29562,8 +29562,7 @@ U+26951	𦥑	3211511
     allow 6-stroke 臼 (common) or 7-stroke 𦥑 (Kangxi).
   [臼𦥑] 321(|1)511
 U+2696F	𦥯	(32113434|34343211)51145
-  [Lenient order]
-    Allow centre-first (HK, TW) or left-first (common).
+  [Lenient order] Allow centre-first (HK, TW) or left-first (common).
 U+269F2	𦧲	(1|3)1225125121554234
 U+269FA	𦧺	(1|3)122511251234(35|53)2511134
 U+26B5C	𦭜	(122|1212|2112)25134
