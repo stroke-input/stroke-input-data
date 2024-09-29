@@ -22638,8 +22638,21 @@ U+34A4	㒤	32122111122111122111
 U+34A5	㒥	32211121112521251431
 U+34A6	㒦	32251212512125121121
 U+34A7	㒧	3241345225(5|21)432411121
-U+34A8	㒨	32(325341|3251251)3211511134515
-  [Lenient form] Allow right top-middle 囟 (everyone else) or ⿱㇒同 (TW).
+U+34A8	㒨	32(3211325341|3253413211|32113251251|32512513211)511134515
+  [Lenient order]
+    Complicated, as there is both lenient form and lenient order
+    in the right component.
+    For the interior of the top-middle:
+      325341 (everyone else): 囟
+      3251251           (TW): ⿱㇒同
+    Wherefore the top middle is (325341|3251251).
+    Also allow centre-first (HK, TW) or left-first (common),
+    i.e. allow top left to appear either before or after top middle.
+    Wherefore the top left-and-middle of the right component is:
+      3211(325341|3251251) or (325341|3251251)3211
+      = (3211325341|32113251251) or (3253413211|32512513211)
+      = (3211325341|32113251251|3253413211|32512513211)
+      = (3211325341|3253413211|32113251251|32512513211)
 U+34A9	㒩^	32551353334251214251214
 U+34AA	㒪^	34125125125125(215|2121)1353334
 U+34AB	㒫	121135
