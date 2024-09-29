@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.33.0] Leniency 興學里黑必 (2024-05-17)
+
 - Allowed left-first order in 攀燓..., 學覺..., 興釁..., 與舉..., etc.
 - Allowed ㇑㇐㇐ instead of ㇐㇑㇐ in 里, 黑, etc.
 - Allowed ㇒ second-last instead of last in 必 etc.
@@ -280,7 +283,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.32.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.33.0...HEAD
+[v1.33.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.32.0...v1.33.0
 [v1.32.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.31.0...v1.32.0
 [v1.31.0]:
