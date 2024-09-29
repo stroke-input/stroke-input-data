@@ -4,7 +4,7 @@
 ## [Unreleased]
 
 
-## [v1.33.0] Leniency for 興學里黑必 (2024-05-17)
+## [v1.33.0] Leniency for 興學里黑必 (2024-09-29)
 
 - Allowed left-first order in 攀燓..., 學覺..., 興釁..., 與舉..., etc.
 - Allowed ㇑㇐㇐ instead of ㇐㇑㇐ in 里, 黑, etc.
