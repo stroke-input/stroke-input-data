@@ -3256,7 +3256,8 @@ U+5912	夒	1325111(215|2121)515(34|35)354
     Kangxi is inconsistent;
     while it counts 4 strokes for the component 止 both here and in U+21582 𡖂,
     it counts only 3 strokes when 夒 appears as a side component.
-U+5913	夓	13251113211511(34|35)354
+U+5913	夓	(13251113211|32111325111)511(34|35)354
+  [Lenient order] Allow centre-first (HK, TW) or left-first (common).
   [Lenient form] Allow centre 八 or 儿.
 U+5914	夔	431325111(215|2121)515(34|35)354
   [Separate code points] U+456B 䕫, U+8637 蘷, U+8641 虁, U+21582 𡖂
