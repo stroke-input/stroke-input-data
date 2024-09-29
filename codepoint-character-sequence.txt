@@ -14482,7 +14482,8 @@ U+8203	舃	321511154444
 U+8204	舄	321511354444
   [Separate code points] U+8203 舃
 U+8205	舅	3215112512153
-U+8206	舆*	15123211511134
+U+8206	舆*	(15123211|32111512)511134
+  [Lenient order] Allow centre-first (HK, TW) or left-first (common).
 U+8207	與^	(1523211|1533211|12523211|12533211|3211152|3211153|32111252|32111253)511134
   [Lenient order]
     Complicated, as there is both lenient form and lenient order.
