@@ -4,6 +4,11 @@
 ## [Unreleased]
 
 
+## [v1.33.1] Silly fixes (2024-09-29)
+
+- Fixed years and v1.33.0 title
+
+
 ## [v1.33.0] Leniency for 興學里黑必 (2024-09-29)
 
 - Allowed left-first order in 攀燓..., 學覺..., 興釁..., 與舉..., etc.
@@ -283,7 +288,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.33.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.33.1...HEAD
+[v1.33.1]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.33.0...v1.33.1
 [v1.33.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.32.0...v1.33.0
 [v1.32.0]:
