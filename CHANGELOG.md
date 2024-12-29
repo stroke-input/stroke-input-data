@@ -5,6 +5,7 @@
 
 - Added phrases 喼汁, 矮瓜, 蜜棗
 - Added phrases 縮骨, 縮骨遮
+- Added phrases 生鏽, 不鏽鋼
 
 
 ## [v1.33.1] Silly fixes (2024-09-29)
