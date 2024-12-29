@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v1.34.0] 不鏽鋼 (2024-12-29)
+
 - Added phrases 喼汁, 矮瓜, 蜜棗
 - Added phrases 縮骨, 縮骨遮
 - Added phrases 生鏽, 不鏽鋼
@@ -292,7 +295,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.33.1...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v1.34.0...HEAD
+[v1.34.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.33.1...v1.34.0
 [v1.33.1]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.33.0...v1.33.1
 [v1.33.0]:
