@@ -3,7 +3,7 @@
 
 ## [Unreleased]
 
-- Added phrase 喼汁
+- Added phrases 喼汁, 矮瓜
 - Added phrases 縮骨, 縮骨遮
 
 
