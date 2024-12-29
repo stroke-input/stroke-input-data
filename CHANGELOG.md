@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Added phrase 喼汁
+
 
 ## [v1.33.1] Silly fixes (2024-09-29)
 
