@@ -8,8 +8,10 @@
   These are marked with an exclamation mark `!` in `codepoint-character-sequence.txt`,
   and are written to `characters-unlikely.txt`.
 - Completed coverage of Unified Ideographs in the Basic Multilingual Plane:
-  - Added stroke data for U+9FD1 鿑 to U+9FFF 鿿 (tail end of CJK Unified Ideographs).
-  - Added stroke data for U+4DB6 䶶 to U+4DBF 䶿 (tail end of CJK Unified Ideographs Extension A).
+  - Added stroke data for U+9FD1 鿑 to U+9FFF 鿿
+    (tail end of CJK Unified Ideographs with unlikely font support).
+  - Added stroke data for U+4DB6 䶶 to U+4DBF 䶿
+    (tail end of CJK Unified Ideographs Extension A with unlikely font support).
 - Added stroke data for olden text enthusiasts:
   - U+20024 𠀤 (unlikely font support)
   - U+20087 𠂇
