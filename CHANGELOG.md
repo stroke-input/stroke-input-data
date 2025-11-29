@@ -20,6 +20,7 @@
   - U+2099D 𠦝
   - U+21BC2 𡯂
   - U+24D13 𤴓
+  - U+2626A 𦉪
 - Added stroke data for some triplications:
   - U+204D7 𠓗
   - U+204FE 𠓾
