@@ -14107,6 +14107,7 @@ U+80AA	肪	(3511|3541)(4135|4153)
 U+80AB	肫	(3511|3541)(1|3)525
 U+80AC	肬	(3511|3541)1354
 U+80AD	肭	(3511|3541)2534
+  [Separate code points] U+4DBA 䶺
 U+80AE	肮	(3511|3541)4135
 U+80AF	肯	2121(2511|3511|3541)
 U+80B0	肰	(3511|3541)1344
@@ -29292,6 +29293,8 @@ U+4DB7!	䶷	25135
 U+4DB8!	䶸	251354
 U+4DB9!	䶹	523
   [Separate code points] U+5C6E 屮
+U+4DBA!	䶺	35112534
+  [Separate code points] U+80AD 肭
 // U+4DB6 䶶 to U+4DBF 䶿 lack the appropriate font support (Noto Sans CJK).
 
 
