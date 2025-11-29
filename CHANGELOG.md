@@ -27,6 +27,8 @@
   - U+204FE 𠓾
   - U+2307E 𣁾
   - U+24FA9 𤾩
+- Added stroke data for some chemical elements:
+  - U+2B7F7 𫟷 (unlikely font support)
 
 
 ## [v1.34.0] 不鏽鋼 (2024-12-29)
