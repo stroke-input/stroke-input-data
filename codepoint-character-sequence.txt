@@ -22474,6 +22474,7 @@ U+9FD4!	鿔*	311151251212512
 U+9FD5!	鿕*	352512113541
 U+9FD6!	鿖	3412511
 U+9FD7!	鿗	343251131
+U+9FD8!	鿘	325113341251
 // U+9FD1 鿑 to U+9FFF 鿿 lack the appropriate font support (Noto Sans CJK).
 
 
