@@ -58,6 +58,11 @@ The following files contain data manually compiled by Conway ([@yawnoc]):
 The following files contain data automatically generated
 by running `generate.py`, which parses `codepoint-character-sequence.txt`:
 
+#### [`characters-unlikely.txt`]
+
+- List of characters unlikely to have font support on Android 7.0.
+- Released into the [public domain].
+
 #### [`characters-traditional.txt`], [`characters-simplified.txt`]
 
 - Lists of traditional-only and simplified-only characters.
@@ -101,6 +106,7 @@ by running `generate.py`, which parses `codepoint-character-sequence.txt`:
 - Licensed under [MIT-0].
 
 [`.bash_aliases`]: .bash_aliases
+[`characters-unlikely.txt`]: characters-unlikely.txt
 [`characters-traditional.txt`]: characters-traditional.txt
 [`characters-simplified.txt`]: characters-simplified.txt
 [`codepoint-character-sequence.txt`]: codepoint-character-sequence.txt

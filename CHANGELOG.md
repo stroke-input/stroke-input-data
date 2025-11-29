@@ -3,6 +3,11 @@
 
 ## [Unreleased]
 
+- **Breaking change:**
+  Allowed inclusion of stroke data for characters with unlikely font support in Android 7.0.
+  These are marked with an exclamation mark `!` in `codepoint-character-sequence.txt`,
+  and are written to `characters-unlikely.txt`.
+
 
 ## [v1.34.0] 不鏽鋼 (2024-12-29)
 
