@@ -26708,6 +26708,7 @@ U+43D6	䏖	(3511|3541)5152
 U+43D7	䏗	(3511|3541)3115
 U+43D8	䏘	(3511|3541)1355
 U+43D9	䏙	(3511|3541)4535
+  [Separate code points] U+4DBB 䶻
 U+43DA	䏚	(3511|3541)2343
 U+43DB	䏛	(3511|3541)35(11|41)
 U+43DC	䏜	(3511|3541)(354|3554)
@@ -29295,6 +29296,8 @@ U+4DB9!	䶹	523
   [Separate code points] U+5C6E 屮
 U+4DBA!	䶺	35112534
   [Separate code points] U+80AD 肭
+U+4DBB!	䶻	35114535
+  [Separate code points] U+43D9 䏙
 // U+4DB6 䶶 to U+4DBF 䶿 lack the appropriate font support (Noto Sans CJK).
 
 
