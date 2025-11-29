@@ -4213,6 +4213,7 @@ U+5C6B	屫	5135213313425125251
 U+5C6C	屬^	5132(1111|4134)2522135251214
 U+5C6D	屭^	513251113425111342511134
 U+5C6E	屮	52(2|3)
+  [Separate code points] U+4DB9 䶹
   [Lenient form] Allow last stroke ㇑ (Kangxi etc.) or ㇓ (Japan).
   [Remark] Kangxi lists the ㇓ form as a separate character.
 U+5C6F	屯	(1|3)525
@@ -29289,6 +29290,8 @@ U+4DB5	䶵	341251251251251223321531535
 U+4DB6!	䶶	211121251112134
 U+4DB7!	䶷	25135
 U+4DB8!	䶸	251354
+U+4DB9!	䶹	523
+  [Separate code points] U+5C6E 屮
 // U+4DB6 䶶 to U+4DBF 䶿 lack the appropriate font support (Noto Sans CJK).
 
 
