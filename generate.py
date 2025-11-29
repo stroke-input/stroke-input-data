@@ -138,7 +138,7 @@ def main():
     for line in lines:
         compliant_match = re.fullmatch(
             r'''
-                U[+] (?P<codepoint_hex> [0-9A-F]{4,5} )
+                U[+] (?P<codepoint_hex> [0-9A-F]{4,5} ) (?P<font_support> !?)
                     \t
                 (?P<character> \S ) (?P<character_type> [\^*]? )
                     \t
@@ -153,6 +153,7 @@ def main():
             continue
 
         codepoint_hex = compliant_match.group('codepoint_hex')
+        font_support = compliant_match.group('font_support')
         character = compliant_match.group('character')
         character_type = compliant_match.group('character_type')
         sequence_regex = compliant_match.group('sequence_regex')

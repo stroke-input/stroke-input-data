@@ -20,15 +20,20 @@ To be parsed by the script `generate.py`.
 Each compliant line shall be a tab-separated
 (code point, character, stroke sequence regex) triplet,
 where:
-  1. the stroke sequence regex shall match `[1-5|()\\]+`, and
-  2. the character may be immediately followed by either
+  1. the stroke sequence regex shall match `[1-5|()\\]+`,
+  2. the code point shall be immediately followed by either
+     (a) nothing, to indicate likely font support on Android 7.0, or
+     (b) an exclamation mark (!), to indicate otherwise, and
+  3. the character shall be immediately followed by either
      (a) nothing, to indicate that it is dual, or
      (b) a caret (^), to indicate that it is traditional-only, or
      (c) an asterisk (*), to indicate that it is simplified-only.
 
+Likely font support on Android 7.0 is strongly correlated with Noto Sans CJK support on Debian 10.
+See <https://web.archive.org/web/20240621123251/https://packages.debian.org/buster/fonts-noto-cjk>.
+
 A character shall NOT be marked traditional-only
-if the corresponding simplified character is excluded from the character set
-due to lack of font support (see section 'Character set' below).
+if the corresponding simplified character is not present in the character set.
 
 Non-compliant lines will be ignored.
 
@@ -51,12 +56,6 @@ This means that the following shall NOT be included:
 - U+31C0 to U+31EF (CJK Strokes)
 - U+F900 to U+FAFF (CJK Compatibility Ideographs)
 - U+2F800 to U+2FA1F (CJK Compatibility Ideographs Supplement)
-
-Moreover, a character shall NOT be included
-unless it is supported by the Noto Sans CJK font on Debian 10
-(see <https://packages.debian.org/buster/fonts-noto-cjk>).
-This is because Noto Sans CJK support on Debian 10
-is strongly correlated with font support on Android.
 
 
 ## Forms
