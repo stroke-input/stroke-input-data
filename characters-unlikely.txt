@@ -14,6 +14,7 @@
 # Manual edits should be made to `codepoint-character-sequence.txt`.
 
 䶶
+䶷
 鿑
 鿒
 鿓
