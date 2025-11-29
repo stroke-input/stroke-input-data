@@ -31,6 +31,7 @@ where:
 
 Likely font support on Android 7.0 is strongly correlated with Noto Sans CJK support on Debian 10
 <https://web.archive.org/web/20240621123251/https://packages.debian.org/buster/fonts-noto-cjk>.
+Characters unlikely to have font support on Android 7.0 should be added sparingly.
 
 A character shall NOT be marked traditional-only
 if the corresponding simplified character is not present in the character set.
