@@ -12,6 +12,7 @@ see <https://spdx.org/licenses/MIT-0>.
 
 import itertools
 import re
+import sys
 from collections import defaultdict
 from string import Template
 
@@ -27,7 +28,7 @@ STROKE_DATA_NOTICE = '''\
 '''
 
 CREATIVE_COMMONS_NOTICE = '''\
-# Copyright 2021--2024 Conway.
+# Copyright 2021--2025 Conway.
 # Licensed under Creative Commons Attribution 4.0 International (CC-BY-4.0),
 # see <https://creativecommons.org/licenses/by/4.0/>.\
 '''
@@ -157,7 +158,11 @@ def main():
         sequence_regex = compliant_match.group('sequence_regex')
 
         if int(codepoint_hex, 16) != ord(character):
-            continue
+            print(
+                f'Error in `{CODEPOINT_CHARACTER_SEQUENCE_FILE_NAME}`: U+{codepoint_hex} is not {character}',
+                file=sys.stderr,
+            )
+            sys.exit(1)
 
         if character_type == '^':
             traditional_characters.add(character)
