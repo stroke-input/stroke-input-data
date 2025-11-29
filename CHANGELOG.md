@@ -7,6 +7,7 @@
   Allowed inclusion of stroke data for characters with unlikely font support in Android 7.0.
   These are marked with an exclamation mark `!` in `codepoint-character-sequence.txt`,
   and are written to `characters-unlikely.txt`.
+- Added stroke data for U+9FD1 鿑 to U+9FFF 鿿 (tail end of CJK Unified Ideographs).
 
 
 ## [v1.34.0] 不鏽鋼 (2024-12-29)
