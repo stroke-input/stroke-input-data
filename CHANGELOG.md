@@ -8,6 +8,7 @@
   These are marked with an exclamation mark `!` in `codepoint-character-sequence.txt`,
   and are written to `characters-unlikely.txt`.
 - Added stroke data for U+9FD1 鿑 to U+9FFF 鿿 (tail end of CJK Unified Ideographs).
+- Added stroke data for U+4DB6 䶶 to U+4DBF 䶿 (tail end of CJK Unified Ideographs Extension A).
 
 
 ## [v1.34.0] 不鏽鋼 (2024-12-29)

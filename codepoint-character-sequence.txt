@@ -29306,7 +29306,6 @@ U+4DBD!	䶽	35113452(34|35)354
   [Separate code points] U+6721 朡
 U+4DBE!	䶾	321(|1)511343534
 U+4DBF!	䶿	34(1|4)(51154|511211)35
-// U+4DB6 䶶 to U+4DBF 䶿 lack the appropriate font support (Noto Sans CJK).
 
 
 ## CJK Unified Ideographs Extension B (U+20000 to U+2A6DF)
