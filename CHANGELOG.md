@@ -15,6 +15,7 @@
 - Added stroke data for olden text enthusiasts:
   - U+20024 𠀤 (unlikely font support)
   - U+20087 𠂇
+  - U+2099D 𠦝
 
 
 ## [v1.34.0] 不鏽鋼 (2024-12-29)
