@@ -29341,6 +29341,7 @@ U+2099D	𠦝	12251112
 U+20AD3	𠫓	(|4)154
 U+20B1D	𠬝	(25|52)54
   [Lenient order] Allow ㇑ before ㇆ (HK) or ㇆ before ㇑ (Conway,  TW).
+U+20B9F	𠮟	25115
 U+20BA8	𠮨	251(35|53)
 U+20BA9	𠮩	25152
 U+20BBF	𠮿	251252
