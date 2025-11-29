@@ -15,6 +15,7 @@
 - Added stroke data for olden text enthusiasts:
   - U+20024 𠀤 (unlikely font support)
   - U+20087 𠂇
+  - U+204D7 𠓗
   - U+2099D 𠦝
   - U+20B9F 𠮟
 
