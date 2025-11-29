@@ -10,6 +10,8 @@
 - Completed coverage of Unified Ideographs in the Basic Multilingual Plane:
   - Added stroke data for U+9FD1 鿑 to U+9FFF 鿿 (tail end of CJK Unified Ideographs).
   - Added stroke data for U+4DB6 䶶 to U+4DBF 䶿 (tail end of CJK Unified Ideographs Extension A).
+- Added stroke data for olden text enthusiasts:
+  - U+20087 𠂇
 
 
 ## [v1.34.0] 不鏽鋼 (2024-12-29)
