@@ -26759,6 +26759,7 @@ U+4408	䐈	(3511|3541)1(2|3)25111(1|5)
 U+4409	䐉	(3511|3541)55525121
 U+440A	䐊	(3511|3541)2511(1515|1535|1553|3535|5353)
 U+440B	䐋	(3511|3541)34544544
+  [Separate code points] U+4DBC 䶼
 U+440C	䐌	25122134(2511|3511|3541)
 U+440D	䐍	(3511|3541)121251431
 U+440E	䐎	(3511|3541)251112134
@@ -29298,6 +29299,8 @@ U+4DBA!	䶺	35112534
   [Separate code points] U+80AD 肭
 U+4DBB!	䶻	35114535
   [Separate code points] U+43D9 䏙
+U+4DBC!	䶼	351134544544
+  [Separate code points] U+440B 䐋
 // U+4DB6 䶶 to U+4DBF 䶿 lack the appropriate font support (Noto Sans CJK).
 
 
