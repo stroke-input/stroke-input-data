@@ -18,6 +18,7 @@
 - Added stroke data for critical components:
   - U+20087 𠂇
   - U+2099D 𠦝
+  - U+21BC2 𡯂
 - Added stroke data for some triplications:
   - U+204D7 𠓗
   - U+204FE 𠓾
