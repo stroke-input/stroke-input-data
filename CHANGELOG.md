@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v2.0.0] BMP completeness (2025-12-24)
+
 - **Breaking change:**
   Allowed inclusion of stroke data for characters with unlikely font support in Android 7.0.
   These are marked with an exclamation mark `!` in `codepoint-character-sequence.txt`,
@@ -322,7 +325,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v1.34.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v2.0.0...HEAD
+[v2.0.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v1.34.0...v2.0.0
 [v1.34.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.33.1...v1.34.0
 [v1.33.1]:
