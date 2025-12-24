@@ -7,7 +7,7 @@ see <https://github.com/stroke-input/stroke-input-data>.
 
 ---
 
-Copyright 2021--2024 Conway
+Copyright 2021--2025 Conway
 
 Licensed under Creative Commons Attribution 4.0 International (CC-BY-4.0),
 see <https://creativecommons.org/licenses/by/4.0/>.
@@ -20,15 +20,21 @@ To be parsed by the script `generate.py`.
 Each compliant line shall be a tab-separated
 (code point, character, stroke sequence regex) triplet,
 where:
-  1. the stroke sequence regex shall match `[1-5|()\\]+`, and
-  2. the character may be immediately followed by either
+  1. the stroke sequence regex shall match `[1-5|()\\]+`,
+  2. the code point shall be immediately followed by either
+     (a) nothing, to indicate likely font support on Android 7.0, or
+     (b) an exclamation mark (!), to indicate otherwise, and
+  3. the character shall be immediately followed by either
      (a) nothing, to indicate that it is dual, or
      (b) a caret (^), to indicate that it is traditional-only, or
      (c) an asterisk (*), to indicate that it is simplified-only.
 
+Likely font support on Android 7.0 is strongly correlated with Noto Sans CJK support on Debian 10
+<https://web.archive.org/web/20240621123251/https://packages.debian.org/buster/fonts-noto-cjk>.
+Characters unlikely to have font support on Android 7.0 should be added sparingly.
+
 A character shall NOT be marked traditional-only
-if the corresponding simplified character is excluded from the character set
-due to lack of font support (see section 'Character set' below).
+if the corresponding simplified character is not present in the character set.
 
 Non-compliant lines will be ignored.
 
@@ -51,12 +57,6 @@ This means that the following shall NOT be included:
 - U+31C0 to U+31EF (CJK Strokes)
 - U+F900 to U+FAFF (CJK Compatibility Ideographs)
 - U+2F800 to U+2FA1F (CJK Compatibility Ideographs Supplement)
-
-Moreover, a character shall NOT be included
-unless it is supported by the Noto Sans CJK font on Debian 10
-(see <https://packages.debian.org/buster/fonts-noto-cjk>).
-This is because Noto Sans CJK support on Debian 10
-is strongly correlated with font support on Android.
 
 
 ## Forms
@@ -4213,6 +4213,7 @@ U+5C6B	屫	5135213313425125251
 U+5C6C	屬^	5132(1111|4134)2522135251214
 U+5C6D	屭^	513251113425111342511134
 U+5C6E	屮	52(2|3)
+  [Separate code points] U+4DB9 䶹
   [Lenient form] Allow last stroke ㇑ (Kangxi etc.) or ㇓ (Japan).
   [Remark] Kangxi lists the ㇓ form as a separate character.
 U+5C6F	屯	(1|3)525
@@ -7179,6 +7180,7 @@ U+671E	朞	12211134(2|3)511
 U+671F	期	122111343511
 U+6720	朠	3511(122|1212|2112)25134
 U+6721	朡	(3511|3541)3452(34|35)354
+  [Separate code points] U+4DBD 䶽
   [Lenient form] Allow left moon (everyone else) or meat (TW).
 U+6722	朢	1251253511(1|3)121
   [Lenient form] Allow bottom 王 (abomination) or 𡈼 (Kangxi etc.).
@@ -14106,6 +14108,7 @@ U+80AA	肪	(3511|3541)(4135|4153)
 U+80AB	肫	(3511|3541)(1|3)525
 U+80AC	肬	(3511|3541)1354
 U+80AD	肭	(3511|3541)2534
+  [Separate code points] U+4DBA 䶺
 U+80AE	肮	(3511|3541)4135
 U+80AF	肯	2121(2511|3511|3541)
 U+80B0	肰	(3511|3541)1344
@@ -18883,7 +18886,7 @@ U+9259	鉙	3411243125134
 U+925A	鉚^	3411243135352
 U+925B	鉛^	34112431(34|35)251
 U+925C	鉜	3411243132124
-U+925D	鉝	3411243141431
+U+925D	鉝^	3411243141431
 U+925E	鉞^	3411243115(534|543)
 U+925F	鉟	3411243113241
 U+9260	鉠	3411243125134
@@ -18894,7 +18897,7 @@ U+9264	鉤^	3411243135251
 U+9265	鉥^	34112431(1234|1235)4
 U+9266	鉦^	3411243112121
 U+9267	鉧^	3411243155(414|441)
-U+9268	鉨	3411243135234
+U+9268	鉨^	3411243135234
 U+9269	鉩	3411243134234
 U+926A	鉪	3411243112215
 U+926B	鉫	3411243153251
@@ -19238,7 +19241,7 @@ U+93B2	鎲^	341124312434525135
 U+93B3	鎳^	341124313251111234
 U+93B4	鎴	341124313251114544
 U+93B5	鎵^	341124314451353334
-U+93B6	鎶	341124311251212512
+U+93B6	鎶^	341124311251212512
 U+93B7	鎷	34112431(12|21)11254444
 U+93B8	鎸^	3411243132411121(35|53)
 U+93B9	鎹	34112431(34|43)1134(454|4454|4554)
@@ -19384,7 +19387,7 @@ U+9444	鑄^	3411243112151211251124
 U+9445	鑅	3411243143344334451234
 U+9446	鑆	3411243122431431121124
 U+9447	鑇	341124314143253354(3112|3211)
-U+9448	鑈	3411243113425234343434
+U+9448	鑈^	3411243113425234343434
 U+9449	鑉	34112431(122|1212|2112)1215425221
 U+944A	鑊^	34112431(122|1212|1221|2112)3241112154
 U+944B	鑋	1251112155512134112431
@@ -21339,7 +21342,7 @@ U+9B93	鮓^	3525121444431211
 U+9B94	鮔	35251214444(1515|12511)
 U+9B95	鮕	3525121444412251
 U+9B96	鮖	3525121444413251
-U+9B97	鮗	35251214444354(41|44)
+U+9B97	鮗^	35251214444354(41|44)
 U+9B98	鮘	3525121444432154
 U+9B99	鮙^	35251214444(533533|541541)
 U+9B9A	鮚^	35251214444121251
@@ -22467,7 +22470,54 @@ U+9FCD	鿍	121354152
 U+9FCE	鿎*	13251134454
 U+9FCF	鿏*	311151121354
 U+9FD0	鿐^	352512144444411253511
-// U+9FD1 鿑 to U+9FFF 鿿 lack the appropriate font support (Noto Sans CJK).
+U+9FD1!	鿑	4111214
+U+9FD2!	鿒*	122132534
+U+9FD3!	鿓^	(122|1212|2112)132511134
+U+9FD4!	鿔*	311151251212512
+U+9FD5!	鿕*	352512113541
+U+9FD6!	鿖	3412511
+U+9FD7!	鿗	343251131
+U+9FD8!	鿘	325113341251
+U+9FD9!	鿙	3251131225135
+U+9FDA!	鿚	3251131234354251
+U+9FDB!	鿛	41121(34|35)35413425234343434
+U+9FDC!	鿜	1214143113425234343434
+U+9FDD!	鿝	123425221(4135|4153)13425234343434
+U+9FDE!	鿞	13542213425234343434
+U+9FDF!	鿟	31234223(1|5)234
+  [Lenient form] Allow right 尓 or 尔.
+U+9FE0!	鿠	312342213425234343434
+U+9FE1!	鿡	25221(554234|554444)3241112113425234343434
+U+9FE2!	鿢	122111(52|552)341251
+U+9FE3!	鿣	122111(52|552)1225135
+U+9FE4!	鿤	122111(52|552)1234354251
+U+9FE5!	鿥	45115(4|34)(52|552)13425234343434
+U+9FE6!	鿦	(122|1212|2112)251343322521353134
+U+9FE7!	鿧	(52|552)35413112113425234343434
+U+9FE8!	鿨	1(25|45)2(1111|4134|4444)2512113425234343434
+U+9FE9!	鿩	35251214444251113425234343434
+U+9FEA!	鿪	(34|43)1353334(454|4454|4554)4444
+U+9FEB!	鿫	3115325(|3)431234134
+U+9FEC!	鿬	1325125121
+U+9FED!	鿭*	3111535234
+U+9FEE!	鿮	4131222145252
+U+9FEF!	鿯	(3112|3121)353334431234
+U+9FF0!	鿰*	441122511121152
+U+9FF1!	鿱	11215215
+U+9FF2!	鿲*	12514311224553
+U+9FF3!	鿳^	35251214444335(414|441)445(35|53)
+U+9FF4!	鿴*	3525121135444
+U+9FF5!	鿵*	352512111214544
+U+9FF6!	鿶*	352512114511534
+U+9FF7!	鿷*	35251211414312511
+U+9FF8!	鿸*	35251211335(414|441)445(35|53)
+U+9FF9!	鿹*	35251211445(45434|45443)252
+U+9FFA!	鿺*	112135435451
+U+9FFB!	鿻	321511(511511|544544)513252
+U+9FFC!	鿼	321511(511511|544544)553251
+U+9FFD!	鿽	251445(34|35)31211
+U+9FFE!	鿾	12145115(4|34)(52|552)
+U+9FFF!	鿿	12511243424134
 
 
 ## CJK Unified Ideographs Extension A (U+3400 to U+4DBF)
@@ -26659,6 +26709,7 @@ U+43D6	䏖	(3511|3541)5152
 U+43D7	䏗	(3511|3541)3115
 U+43D8	䏘	(3511|3541)1355
 U+43D9	䏙	(3511|3541)4535
+  [Separate code points] U+4DBB 䶻
 U+43DA	䏚	(3511|3541)2343
 U+43DB	䏛	(3511|3541)35(11|41)
 U+43DC	䏜	(3511|3541)(354|3554)
@@ -26709,6 +26760,7 @@ U+4408	䐈	(3511|3541)1(2|3)25111(1|5)
 U+4409	䐉	(3511|3541)55525121
 U+440A	䐊	(3511|3541)2511(1515|1535|1553|3535|5353)
 U+440B	䐋	(3511|3541)34544544
+  [Separate code points] U+4DBC 䶼
 U+440C	䐌	25122134(2511|3511|3541)
 U+440D	䐍	(3511|3541)121251431
 U+440E	䐎	(3511|3541)251112134
@@ -29239,12 +29291,28 @@ U+4DB2	䶲	25121(3|35)2511(25|52)(55151134|5115115341)
 U+4DB3	䶳	341251251251251224135
 U+4DB4	䶴	4334353434125125125125122
 U+4DB5	䶵	341251251251251223321531535
-// U+4DB6 䶶 to U+4DBF 䶿 lack the appropriate font support (Noto Sans CJK).
+U+4DB6!	䶶	211121251112134
+U+4DB7!	䶷	25135
+U+4DB8!	䶸	251354
+U+4DB9!	䶹	523
+  [Separate code points] U+5C6E 屮
+U+4DBA!	䶺	35112534
+  [Separate code points] U+80AD 肭
+U+4DBB!	䶻	35114535
+  [Separate code points] U+43D9 䏙
+U+4DBC!	䶼	351134544544
+  [Separate code points] U+440B 䐋
+U+4DBD!	䶽	35113452(34|35)354
+  [Separate code points] U+6721 朡
+U+4DBE!	䶾	321(|1)511343534
+U+4DBF!	䶿	34(1|4)(51154|511211)35
 
 
 ## CJK Unified Ideographs Extension B (U+20000 to U+2A6DF)
 
+U+20024!	𠀤	1341341
 U+2003E	𠀾*	1324341154
+U+20087	𠂇	13
 U+20089	𠂉	31
 U+20094	𠂔	(3523|32523)
   [Lenient form] Allow 4 strokes (abomination) or 5 strokes (Kangxi etc.).
@@ -29257,7 +29325,9 @@ U+201A9	𠆩	32354
 U+2020C	𠈌	34343434
 U+20325	𠌥	323251154444
 U+20341	𠍁	323155(414|441)3134
+U+204D7	𠓗	(35251354|53251354)\1\1
 U+204FC	𠓼	3412343241112112
+U+204FE	𠓾	341121341121341121
 U+20547	𠕇	13(2|3)54
 U+20628	𠘨	35
 U+20676	𠙶	5252
@@ -29269,9 +29339,11 @@ U+20779	𠝹	25121343222
 U+20984	𠦄	121(2|3)12
   [Separate code points] U+5349 卉
   [Lenient form] Allow bottom-left ㇓ (like 廾) or ㇑ (like 卄).
+U+2099D	𠦝	12251112
 U+20AD3	𠫓	(|4)154
 U+20B1D	𠬝	(25|52)54
   [Lenient order] Allow ㇑ before ㇆ (HK) or ㇆ before ㇑ (Conway,  TW).
+U+20B9F	𠮟	25115
 U+20BA8	𠮨	251(35|53)
 U+20BA9	𠮩	25152
 U+20BBF	𠮿	251252
@@ -29438,6 +29510,7 @@ U+2197C	𡥼	521(35|53)2511134
 U+21839	𡠹^	53112213545252
 U+21883	𡢃^	531251125112511
 U+21A4B	𡩋^	445454425121
+U+21BC2	𡯂	3435
 U+21C2A	𡰪	513251
 U+21CA2	𡲢	513(122|1212|2112)53251
 U+21CAC	𡲬	5132(1111|4134)(252|522)52
@@ -29494,6 +29567,7 @@ U+22DEE	𢷮	12122431431121124
 U+22E8B	𢺋	12212511134324111213112
 U+22EB3	𢺳	121(1|4)111251(554234|554444)\2251214
 U+22F74	𢽴	135334343134
+U+2307E	𣁾	441244124412
 U+2317D	𣅽	2511(252|522)52
 U+233DF	𣏟	12351235
 U+233F4	𣏴	12343211
@@ -29524,6 +29598,7 @@ U+249DB	𤧛	1121414345252
 U+24A7D	𤩽*	11211(2|3)25431121344
 U+24ABA	𤪺^	1121445343123425121
 U+24AC9	𤫉	1121(1|4)1112514334433454
+U+24D13	𤴓	12134
 U+24D14	𤴔	5(215|2121)
   [Lenient form] Per U+6B62 止, which Kangxi often counts as having 3 strokes.
 U+24DB8	𤶸	413415113(52|552)
@@ -29532,6 +29607,7 @@ U+24DEB	𤷫	4134112523422
 U+24E3B	𤸻	41341531543112
 U+24E50	𤹐	413411354224444
 U+24EA7	𤺧	41341(34|43)2524312511
+U+24FA9	𤾩	132511132511132511
 U+24FC2	𤿂	325111342523434343411214
 U+2502C	𥀬	132511(2511|3511|3541)1344(35|53)254
 U+25052	𥁒	5545325221
@@ -29561,6 +29637,7 @@ U+260A5	𦂥	(554234|554444)132512534
 U+26221	𦈡*	5511(25|45)2(1111|4444)132522
 U+26222	𦈢	311(215|2121)
 U+26258	𦉘	311252243452511523
+U+2626A	𦉪	2535
 U+2634C	𦍌	431121
 U+2634B	𦍋	(1221|2112)112
   [Separate code points] U+7F8B 羋, U+8288 芈
@@ -29662,6 +29739,7 @@ U+28CCA	𨳊	25112511(35|53)
 U+28CCD	𨳍	2511251115
 U+28CD2	𨳒	25112511234
 U+28D99	𨶙	2511251154(2511|3511|3541)(15|35|53)\2
+U+28E0F	𨸏	32515151
 U+28E99	𨺙	(52|552)32151135
 U+28EF6	𨻶	(52|552)23432511234
   [Separate code points] U+9699 隙
@@ -29742,6 +29820,7 @@ U+2B6ED	𫛭*	(353|533)112135451
 U+2B7A9	𫞩*	11211221253434
 U+2B7C5	𫟅*	55141251234
 U+2B7E6	𫟦*	(1512|1521)431353334454
+U+2B7F7!	𫟷*	3111541431
 U+2B7F9	𫟹*	31115122134
 U+2B7FC	𫟼*	31115134454
 U+2B806	𫠆*	1254132534

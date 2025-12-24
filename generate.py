@@ -12,12 +12,14 @@ see <https://spdx.org/licenses/MIT-0>.
 
 import itertools
 import re
+import sys
 from collections import defaultdict
 from string import Template
 
 
 CODEPOINT_CHARACTER_SEQUENCE_FILE_NAME = 'codepoint-character-sequence.txt'
 SEQUENCE_CHARACTERS_FILE_NAME = 'sequence-characters.txt'
+CHARACTERS_UNLIKELY_FILE_NAME = 'characters-unlikely.txt'
 CHARACTERS_TRADITIONAL_FILE_NAME = 'characters-traditional.txt'
 CHARACTERS_SIMPLIFIED_FILE_NAME = 'characters-simplified.txt'
 
@@ -27,7 +29,7 @@ STROKE_DATA_NOTICE = '''\
 '''
 
 CREATIVE_COMMONS_NOTICE = '''\
-# Copyright 2021--2024 Conway.
+# Copyright 2021--2025 Conway.
 # Licensed under Creative Commons Attribution 4.0 International (CC-BY-4.0),
 # see <https://creativecommons.org/licenses/by/4.0/>.\
 '''
@@ -49,6 +51,15 @@ SEQUENCE_CHARACTERS_TEMPLATE = Template(
     f'{STROKE_DATA_NOTICE}\n\n'
     f'{CREATIVE_COMMONS_NOTICE}\n\n'
     f'# Contains tab-separated (stroke sequence, characters) pairs.\n\n'
+    f'{AUTOMATIC_GENERATION_NOTICE}\n\n'
+    f'$body\n'
+)
+
+CHARACTERS_UNLIKELY_TEMPLATE = Template(
+    f'# # {CHARACTERS_UNLIKELY_FILE_NAME}\n\n'
+    f'{STROKE_DATA_NOTICE}\n\n'
+    f'{PUBLIC_DOMAIN_NOTICE}\n\n'
+    f'# Contains characters unlikely to have font support on Android 7.0.\n\n'
     f'{AUTOMATIC_GENERATION_NOTICE}\n\n'
     f'$body\n'
 )
@@ -125,6 +136,7 @@ def to_sequence_set(sequence_regex):
 
 
 def main():
+    unlikely_characters = set()
     traditional_characters = set()
     simplified_characters = set()
     dual_characters = set()
@@ -137,7 +149,7 @@ def main():
     for line in lines:
         compliant_match = re.fullmatch(
             r'''
-                U[+] (?P<codepoint_hex> [0-9A-F]{4,5} )
+                U[+] (?P<codepoint_hex> [0-9A-F]{4,5} ) (?P<font_support> !?)
                     \t
                 (?P<character> \S ) (?P<character_type> [\^*]? )
                     \t
@@ -152,12 +164,20 @@ def main():
             continue
 
         codepoint_hex = compliant_match.group('codepoint_hex')
+        font_support = compliant_match.group('font_support')
         character = compliant_match.group('character')
         character_type = compliant_match.group('character_type')
         sequence_regex = compliant_match.group('sequence_regex')
 
         if int(codepoint_hex, 16) != ord(character):
-            continue
+            print(
+                f'Error in `{CODEPOINT_CHARACTER_SEQUENCE_FILE_NAME}`: U+{codepoint_hex} is not {character}',
+                file=sys.stderr,
+            )
+            sys.exit(1)
+
+        if font_support == '!':
+            unlikely_characters.add(character)
 
         if character_type == '^':
             traditional_characters.add(character)
@@ -180,6 +200,12 @@ def main():
     with open(SEQUENCE_CHARACTERS_FILE_NAME, 'w', encoding='utf-8') as sequence_characters_file:
         sequence_characters_file.write(SEQUENCE_CHARACTERS_TEMPLATE.substitute(body=sequence_characters_lines))
     print(f'Finished generating `{SEQUENCE_CHARACTERS_FILE_NAME}` ({sequence_count} stroke sequences).')
+
+    unlikely_character_count = len(unlikely_characters)
+    unlikely_character_lines = '\n'.join(sorted(unlikely_characters))
+    with open(CHARACTERS_UNLIKELY_FILE_NAME, 'w', encoding='utf-8') as characters_unlikely_file:
+        characters_unlikely_file.write(CHARACTERS_UNLIKELY_TEMPLATE.substitute(body=unlikely_character_lines))
+    print(f'Finished generating `{CHARACTERS_UNLIKELY_FILE_NAME}` ({unlikely_character_count} characters).')
 
     traditional_character_count = len(traditional_characters)
     traditional_character_lines = '\n'.join(sorted(traditional_characters))

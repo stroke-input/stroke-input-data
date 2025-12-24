@@ -3,6 +3,33 @@
 
 ## [Unreleased]
 
+- **Breaking change:**
+  Allowed inclusion of stroke data for characters with unlikely font support in Android 7.0.
+  These are marked with an exclamation mark `!` in `codepoint-character-sequence.txt`,
+  and are written to `characters-unlikely.txt`.
+- Completed coverage of Unified Ideographs in the Basic Multilingual Plane:
+  - Added stroke data for U+9FD1 鿑 to U+9FFF 鿿
+    (tail end of CJK Unified Ideographs with unlikely font support).
+  - Added stroke data for U+4DB6 䶶 to U+4DBF 䶿
+    (tail end of CJK Unified Ideographs Extension A with unlikely font support).
+- Added stroke data for olden text enthusiasts:
+  - U+20024 𠀤 (unlikely font support)
+  - U+20B9F 𠮟
+- Added stroke data for critical components:
+  - U+20087 𠂇
+  - U+2099D 𠦝
+  - U+21BC2 𡯂
+  - U+24D13 𤴓
+  - U+2626A 𦉪
+  - U+28E0F 𨸏
+- Added stroke data for some triplications:
+  - U+204D7 𠓗
+  - U+204FE 𠓾
+  - U+2307E 𣁾
+  - U+24FA9 𤾩
+- Added stroke data for non-BMP chemical elements:
+  - U+2B7F7 𫟷 (unlikely font support)
+
 
 ## [v1.34.0] 不鏽鋼 (2024-12-29)
 
