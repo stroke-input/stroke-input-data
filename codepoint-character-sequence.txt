@@ -29,8 +29,9 @@ where:
      (b) a caret (^), to indicate that it is traditional-only, or
      (c) an asterisk (*), to indicate that it is simplified-only.
 
-Likely font support on Android 7.0 is strongly correlated with Noto Sans CJK support on Debian 10
-<https://web.archive.org/web/20240621123251/https://packages.debian.org/buster/fonts-noto-cjk>.
+Likely font support on Android 7.0 is strongly correlated with Noto Sans CJK support on Debian 10;
+see <https://web.archive.org/web/20240621123251/https://packages.debian.org/buster/fonts-noto-cjk>
+and <https://snapshot.debian.org/package/fonts-noto-cjk/1%3A20170601%2Brepack1-3%2Bdeb10u1/>.
 Characters unlikely to have font support on Android 7.0 should be added sparingly.
 
 A character shall NOT be marked traditional-only
