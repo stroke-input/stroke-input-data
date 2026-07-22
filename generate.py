@@ -83,6 +83,21 @@ CHARACTERS_SIMPLIFIED_TEMPLATE = Template(
 )
 
 
+def to_rank(codepoint):
+    if 0x3000 <= codepoint <= 0x303F:  # CJK Symbols and Punctuation
+        section = 0
+    elif 0x4E00 <= codepoint <= 0x9FFF:  # CJK Unified Ideographs
+        section = 1
+    elif 0x3400 <= codepoint <= 0x4DBF:  # CJK Unified Ideographs Extension A
+        section = 2
+    elif 0x20000 <= codepoint <= 0x2A6DF:  # CJK Unified Ideographs Extension B
+        section = 3
+    else:
+        section = 4
+
+    return section, codepoint
+
+
 def supplant_capture_group(match, alternatives_storage):
     """
     Replace a capture group match object with a back reference, and store the alternatives.
@@ -136,6 +151,10 @@ def to_sequence_set(sequence_regex):
 
 
 def main():
+    latest_rank = None
+    latest_codepoint_hex = None
+    latest_character = None
+
     unlikely_characters = set()
     traditional_characters = set()
     simplified_characters = set()
@@ -169,12 +188,35 @@ def main():
         character_type = compliant_match.group('character_type')
         sequence_regex = compliant_match.group('sequence_regex')
 
-        if int(codepoint_hex, 16) != ord(character):
+        codepoint = ord(character)
+        rank = to_rank(codepoint)
+
+        if int(codepoint_hex, 16) != codepoint:
             print(
                 f'Error in `{CODEPOINT_CHARACTER_SEQUENCE_FILE_NAME}`: U+{codepoint_hex} is not {character}',
                 file=sys.stderr,
             )
             sys.exit(1)
+
+        if latest_rank is not None:
+            if rank < latest_rank:
+                print(
+                    f'Error in `{CODEPOINT_CHARACTER_SEQUENCE_FILE_NAME}`: '
+                    f'U+{codepoint_hex} {character} should appear before U+{latest_codepoint_hex} {latest_character}',
+                    file=sys.stderr,
+                )
+                sys.exit(1)
+
+            elif rank == latest_rank:
+                print(
+                    f'Error in `{CODEPOINT_CHARACTER_SEQUENCE_FILE_NAME}`: U+{codepoint_hex} {character} is duplicated',
+                    file=sys.stderr,
+                )
+                sys.exit(1)
+
+        latest_rank = rank
+        latest_codepoint_hex = codepoint_hex
+        latest_character = character
 
         if font_support == '!':
             unlikely_characters.add(character)
