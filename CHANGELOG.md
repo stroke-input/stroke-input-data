@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v2.0.1] Line order (2026-07-22)
+
 - Fixed ordering of lines in `codepoint-character-sequence.txt`.
 
 
@@ -327,7 +330,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v2.0.0...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v2.0.1...HEAD
+[v2.0.1]:
+  https://github.com/stroke-input/stroke-input-data/compare/v2.0.0...v2.0.1
 [v2.0.0]:
   https://github.com/stroke-input/stroke-input-data/compare/v1.34.0...v2.0.0
 [v1.34.0]:
