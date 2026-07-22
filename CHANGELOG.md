@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Fixed ordering of lines in `codepoint-character-sequence.txt`.
+
 
 ## [v2.0.0] BMP completeness (2025-12-24)
 
