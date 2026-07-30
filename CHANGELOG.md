@@ -6,6 +6,7 @@
 
 ## [v2.0.1] Line order (2026-07-22)
 
+- Fixed 儕 should be traditional only
 - Fixed ordering of lines in `codepoint-character-sequence.txt`.
 
 
