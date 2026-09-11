@@ -3,6 +3,8 @@
 
 ## [Unreleased]
 
+- Fixed missing 8-stroke form of U+58F3 壳 (which unifies ⿱士冗 and ⿱士⿳冖一几).
+
 
 ## [v2.0.1] Line order (2026-07-22)
 
