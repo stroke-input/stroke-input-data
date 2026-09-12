@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v2.0.2] 八畫壳 (2026-07-22)
+
 - Fixed missing 8-stroke form of U+58F3 壳 (which unifies ⿱士冗 and ⿱士⿳冖一几).
 - Fixed 儕塵嬙摯賾 should be traditional only
 
@@ -333,7 +336,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v2.0.1...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v2.0.2...HEAD
+[v2.0.2]:
+  https://github.com/stroke-input/stroke-input-data/compare/v2.0.1...v2.0.2
 [v2.0.1]:
   https://github.com/stroke-input/stroke-input-data/compare/v2.0.0...v2.0.1
 [v2.0.0]:
