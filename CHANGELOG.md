@@ -3,10 +3,12 @@
 
 ## [Unreleased]
 
+- Added stroke data for U+30EDE 𰻞 and U+30EDD 𰻝 (biangbiang noodles)
+
 
 ## [v2.0.2] 八畫壳 (2026-09-12)
 
-- Fixed missing 8-stroke form of U+58F3 壳 (which unifies ⿱士冗 and ⿱士⿳冖一几).
+- Fixed missing 8-stroke form of U+58F3 壳 (which unifies ⿱士冗 and ⿱士⿳冖一几)
 - Fixed 儕塵嬙摯賾 should be traditional only
 
 
