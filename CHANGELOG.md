@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+
+## [v2.1.0] Biangbiang noodles (2026-09-25)
+
 - Added stroke data for U+30EDE 𰻞 and U+30EDD 𰻝 (biangbiang noodles)
 
 
@@ -338,7 +341,9 @@
 
 
 [Unreleased]:
-  https://github.com/stroke-input/stroke-input-data/compare/v2.0.2...HEAD
+  https://github.com/stroke-input/stroke-input-data/compare/v2.1.0...HEAD
+[v2.1.0]:
+  https://github.com/stroke-input/stroke-input-data/compare/v2.0.2...v2.1.0
 [v2.0.2]:
   https://github.com/stroke-input/stroke-input-data/compare/v2.0.1...v2.0.2
 [v2.0.1]:
