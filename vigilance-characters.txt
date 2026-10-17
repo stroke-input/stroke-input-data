@@ -1,0 +1,10 @@
+# # vigilance-characters.txt
+
+# Part of 'Conway Stroke Data',
+# see <https://github.com/stroke-input/stroke-input-data>.
+
+# Released into the public domain,
+# see <https://creativecommons.org/publicdomain/zero/1.0/>.
+
+# Contains selected vigilance data.
+

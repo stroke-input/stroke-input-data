@@ -19,6 +19,7 @@ from string import Template
 
 CODEPOINT_CHARACTER_SEQUENCE_FILE_NAME = 'codepoint-character-sequence.txt'
 SEQUENCE_CHARACTERS_FILE_NAME = 'sequence-characters.txt'
+VIGILANCE_CHARACTERS_FILE_NAME = 'vigilance-characters.txt'
 CHARACTERS_UNLIKELY_FILE_NAME = 'characters-unlikely.txt'
 CHARACTERS_TRADITIONAL_FILE_NAME = 'characters-traditional.txt'
 CHARACTERS_SIMPLIFIED_FILE_NAME = 'characters-simplified.txt'
@@ -53,6 +54,13 @@ SEQUENCE_CHARACTERS_TEMPLATE = Template(
     f'# Contains tab-separated (stroke sequence, characters) pairs.\n\n'
     f'{AUTOMATIC_GENERATION_NOTICE}\n\n'
     f'$body\n'
+)
+
+VIGILANCE_CHARACTERS_TEMPLATE = Template(
+    f'# # {VIGILANCE_CHARACTERS_FILE_NAME}\n\n'
+    f'{STROKE_DATA_NOTICE}\n\n'
+    f'{PUBLIC_DOMAIN_NOTICE}\n\n'
+    f'# Contains selected vigilance data.\n\n'
 )
 
 CHARACTERS_UNLIKELY_TEMPLATE = Template(
@@ -242,6 +250,10 @@ def main():
     with open(SEQUENCE_CHARACTERS_FILE_NAME, 'w', encoding='utf-8') as sequence_characters_file:
         sequence_characters_file.write(SEQUENCE_CHARACTERS_TEMPLATE.substitute(body=sequence_characters_lines))
     print(f'Finished generating `{SEQUENCE_CHARACTERS_FILE_NAME}` ({sequence_count} stroke sequences).')
+
+    with open(VIGILANCE_CHARACTERS_FILE_NAME, 'w', encoding='utf-8') as vigilance_characters_file:
+        vigilance_characters_file.write(VIGILANCE_CHARACTERS_TEMPLATE.substitute())
+    print(f'Finished generating `{VIGILANCE_CHARACTERS_FILE_NAME}`')
 
     unlikely_character_count = len(unlikely_characters)
     unlikely_character_lines = '\n'.join(sorted(unlikely_characters))
