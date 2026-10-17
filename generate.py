@@ -3,7 +3,7 @@
 """
 # generate.py
 
-Parse `codepoint-character-sequence.txt`, generating `sequence-characters.txt`.
+Parse `codepoint-character-sequence.txt`, generating `sequence-characters.txt` etc.
 
 Licensed under "MIT No Attribution" (MIT-0),
 see <https://spdx.org/licenses/MIT-0>.
