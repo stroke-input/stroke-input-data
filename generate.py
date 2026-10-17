@@ -123,7 +123,7 @@ PATTERN_FROM_VIGILANCE = {
     '[晉晋]': '1(2243|5454)12511',
     '[朮术]': '(1234|1235)4',
     '[朵朶]': '(35|53)1234',
-    '[林𣏟]': r'(1234|1235)\1',
+    '[林𣏟]': r'(1234|1235)\.',
     '[止]': '(215|2121)',
     '[正]': '(1215|12121)',
     '[毀毁]': '3215111213554',
@@ -153,7 +153,7 @@ PATTERN_FROM_VIGILANCE = {
     '[靑青]': '1121(2511|2521|3511)',
     '[𩙿飠]': '(51154|511211)',
     '[高-above]': '41251(25|45)251',
-    '[麼麽]': r'413(1234|1235)\1(354|554)',
+    '[麼麽]': r'413(1234|1235)\.(354|554)',
     '[黃黄]': '122(|1)12512134',
     '[叉㕚]': '544(|4)',
     '[昷𥁕]': '(2511|25341)25221',
@@ -326,8 +326,12 @@ def main():
             characters_from_sequence[sequence].append(character)
 
         for vigilance, pattern in PATTERN_FROM_VIGILANCE.items():
-            if pattern in sequence_regex:
-                characters_from_vigilance[vigilance].append(character)
+            if '\\' in pattern:
+                if re.search(re.escape(pattern).replace(r'\.', '.'), sequence_regex):
+                    characters_from_vigilance[vigilance].append(character)
+            else:
+                if pattern in sequence_regex:
+                    characters_from_vigilance[vigilance].append(character)
 
     character_count = len({*traditional_characters, *simplified_characters, *dual_characters})
     print(f'Finished parsing `{CODEPOINT_CHARACTER_SEQUENCE_FILE_NAME}` ({character_count} characters).')
