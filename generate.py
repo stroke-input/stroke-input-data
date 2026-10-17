@@ -326,12 +326,13 @@ def main():
             characters_from_sequence[sequence].append(character)
 
         for vigilance, pattern in PATTERN_FROM_VIGILANCE.items():
-            if '\\' in pattern:
-                if re.search(re.escape(pattern).replace(r'\.', '.'), sequence_regex):
-                    characters_from_vigilance[vigilance].append(character)
-            else:
-                if pattern in sequence_regex:
-                    characters_from_vigilance[vigilance].append(character)
+            if (
+                pattern in sequence_regex or (
+                    '\\' in pattern
+                    and re.search(re.escape(pattern).replace(r'\.', '.'), sequence_regex)
+                )
+            ):
+                characters_from_vigilance[vigilance].append(character)
 
     character_count = len({*traditional_characters, *simplified_characters, *dual_characters})
     print(f'Finished parsing `{CODEPOINT_CHARACTER_SEQUENCE_FILE_NAME}` ({character_count} characters).')
