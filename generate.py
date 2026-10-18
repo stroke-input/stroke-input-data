@@ -19,7 +19,6 @@ from string import Template
 
 CODEPOINT_CHARACTER_SEQUENCE_FILE_NAME = 'codepoint-character-sequence.txt'
 SEQUENCE_CHARACTERS_FILE_NAME = 'sequence-characters.txt'
-VIGILANCE_CHARACTERS_FILE_NAME = 'vigilance-characters.txt'
 CHARACTERS_UNLIKELY_FILE_NAME = 'characters-unlikely.txt'
 CHARACTERS_TRADITIONAL_FILE_NAME = 'characters-traditional.txt'
 CHARACTERS_SIMPLIFIED_FILE_NAME = 'characters-simplified.txt'
@@ -56,14 +55,6 @@ SEQUENCE_CHARACTERS_TEMPLATE = Template(
     f'$body\n'
 )
 
-VIGILANCE_CHARACTERS_TEMPLATE = Template(
-    f'# # {VIGILANCE_CHARACTERS_FILE_NAME}\n\n'
-    f'{STROKE_DATA_NOTICE}\n\n'
-    f'{PUBLIC_DOMAIN_NOTICE}\n\n'
-    f'# Contains selected vigilance data.\n\n'
-    f'$body\n'
-)
-
 CHARACTERS_UNLIKELY_TEMPLATE = Template(
     f'# # {CHARACTERS_UNLIKELY_FILE_NAME}\n\n'
     f'{STROKE_DATA_NOTICE}\n\n'
@@ -90,88 +81,6 @@ CHARACTERS_SIMPLIFIED_TEMPLATE = Template(
     f'{AUTOMATIC_GENERATION_NOTICE}\n\n'
     f'$body\n'
 )
-
-PATTERN_FROM_VIGILANCE = {
-    '[丟丢]': '(1|3)12154',
-    '[丯丰]': '(1112|3112|3332)',
-    '[兌兑]': '(34|43)25135',
-    '[兖兗]': '4134(54|251)35',
-    '[俞兪]': '341(2|3)5(1122|1155|4455)',
-    '[兹茲]': '(431|1212|2112)554554',
-    '[冊册]': '(25122|25221|25251|35351)',
-    '[別别]': '251(35|53)22',
-    '[勻匀]': '35(11|41)',
-    '[卉𠦄]': '12(132|1312)',
-    '[即卽]': '(51154|3251111|3251115|3251135|3251153)52',
-    '[义叉]': '(344|434|544)',
-    '[吿告]': '3(112|121)251',
-    '[囪囱]': '325(334|354)1',
-    '[奥奧]': '325(|3)431234134',
-    '[尓尔]': '3(1|5)234',
-    '[尙尚]': '(234|243)25251',
-    '[屏屛]': '513(431132|31133112)',
-    '[开幵]': '(1132|113112)',
-    '[并幷]': '(431132|31133112)',
-    '[強强]': '515(54|251)251214',
-    '[彔录]': '(511|551)',
-    '[彥彦]': '41(34|43)13333',
-    '[戯戱]': '21531522(43|521)1(1534|1543)',
-    '[敎教]': '(1213|3413)5213134',
-    '[夐敻]': '35253425111(354|3134)',
-    '[既旣]': '(51154|3251111|3251115|3251135|3251153)1535',
-    '[晉晋]': '1(2243|5454)12511',
-    '[朮术]': '(1234|1235)4',
-    '[朵朶]': '(35|53)1234',
-    '[林𣏟]': r'(1234|1235)\.',
-    '[止]': '(215|2121)',
-    '[正]': '(1215|12121)',
-    '[毀毁]': '3215111213554',
-    '[毋母]': '55(13|31|414|441)',
-    '[沒没]': '4413554',
-    '[為爲]': '(4|3344|3443)35554444',
-    '[争爭]': '(35|3344|3443)5112',
-    '[產産]': '41(34|43)1331121',
-    '[眞真]': '(12251111|13251111|15251115|35251115|53251115)34',
-    '[示礻]': '(4524|11234)',
-    '[禿秃]': '3123435',
-    '[粤粵]': '325(|3)431234115',
-    '[羡羨]': '431121(11|41|441)3534',
-    '[卧臥]': '125125(24|34)',
-    '[㬰臾]': '(2511|321511|3211511)34',
-    '[舃舄]': '321511(15|35)4444',
-    '[良(郎郞)]': '45115(4|34)',
-    '[衛衞]': '332521251(152|1252)112',
-    '[衮袞]': '41(3454|34251|35251)3534',
-    '[象𧰼]': '3525(1|21|34)353334',
-    '[郷鄉鄕]': '553(51154|451154|3251111|3251115|3251135|3251153)(52|552)',
-    '[靑青]': '1121(2511|2521|3511)',
-    '[𩙿飠]': '(51154|511211)',
-    '[麼麽]': r'413(1234|1235)\.(354|554)',
-    '[黃黄]': '122(|1)12512134',
-    '[叉㕚]': '544(|4)',
-    '[昷𥁕]': '(2511|25341)25221',
-    '[𦣝𦣞(煕熙)]': '(125125|151225|1225125)',
-    '[臼𦥑]': '321(|1)511',
-    '[賣𧶠]': '121(25221|25351)2511134',
-    '[隙𨻶]': '(52|552)234(|3)2511234',
-    '[㔾巳]': '(55|515)',
-    '[㡭]': '554554(1|5)5545545',
-    '[䍃(謠謡)]': '(3443|3541|3544)311252',
-    '[亟]': '(15|52|125)251541',
-    '[函]': '(15|52)413452',
-    '[咎]': '354(24|34)251',
-    '[垔]': '(125221|125351)121',
-    '[甾𱰭(菑葘)]': '555(|1)25121',
-    '[直(値值)]': '1(2|3)25111(1|5)',
-    '[者]': '12132511(|4)',
-    '[聚]': '1221115432(3334|3434)',
-    '[致]': '154121(354|3134)',
-    '[興]': '(2512513211|3211251251)511',
-    '[色(絶絕)]': '(35|53)5215',
-    '[負]': '(35|53)2511134',
-    '[賁]': '12(122|1212)2511134',
-    '[𠫓]': '(|4)154',
-}
 
 
 def to_rank(codepoint):
@@ -252,7 +161,6 @@ def main():
     dual_characters = set()
 
     characters_from_sequence = defaultdict(list)
-    characters_from_vigilance = defaultdict(list)
 
     with open(CODEPOINT_CHARACTER_SEQUENCE_FILE_NAME, 'r', encoding='utf-8') as codepoint_character_sequence_file:
         lines = codepoint_character_sequence_file.readlines()
@@ -323,15 +231,6 @@ def main():
         for sequence in to_sequence_set(sequence_regex):
             characters_from_sequence[sequence].append(character)
 
-        for vigilance, pattern in PATTERN_FROM_VIGILANCE.items():
-            if (
-                pattern in sequence_regex or (
-                    '\\' in pattern
-                    and re.search(re.escape(pattern).replace(r'\.', '.'), sequence_regex)
-                )
-            ):
-                characters_from_vigilance[vigilance].append(character)
-
     character_count = len({*traditional_characters, *simplified_characters, *dual_characters})
     print(f'Finished parsing `{CODEPOINT_CHARACTER_SEQUENCE_FILE_NAME}` ({character_count} characters).')
 
@@ -343,15 +242,6 @@ def main():
     with open(SEQUENCE_CHARACTERS_FILE_NAME, 'w', encoding='utf-8') as sequence_characters_file:
         sequence_characters_file.write(SEQUENCE_CHARACTERS_TEMPLATE.substitute(body=sequence_characters_lines))
     print(f'Finished generating `{SEQUENCE_CHARACTERS_FILE_NAME}` ({sequence_count} stroke sequences).')
-
-    vigilance_count = len(characters_from_vigilance)
-    vigilance_characters_lines = '\n'.join(
-        f'{character}\t{"".join(characters_from_vigilance[character])}'
-        for character in sorted(characters_from_vigilance.keys())
-    )
-    with open(VIGILANCE_CHARACTERS_FILE_NAME, 'w', encoding='utf-8') as vigilance_characters_file:
-        vigilance_characters_file.write(VIGILANCE_CHARACTERS_TEMPLATE.substitute(body=vigilance_characters_lines))
-    print(f'Finished generating `{VIGILANCE_CHARACTERS_FILE_NAME}` ({vigilance_count} vigilances).)')
 
     unlikely_character_count = len(unlikely_characters)
     unlikely_character_lines = '\n'.join(sorted(unlikely_characters))
